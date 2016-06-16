@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="631.0" prefWidth="1099.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Mycontroller">
+   <children>
+      <Pane layoutX="12.0" layoutY="43.0" prefHeight="570.0" prefWidth="1073.0">
+         <children>
+            <TextField fx:id="url" layoutX="220.0" layoutY="19.0" prefHeight="27.0" prefWidth="489.0" />
+            <TextArea fx:id="wordsFromWeb" layoutX="21.0" layoutY="114.0" prefHeight="445.0" prefWidth="312.0" />
+            <Button fx:id="fetchButton" layoutX="985.0" layoutY="22.0" mnemonicParsing="false" onAction="#parse" prefHeight="68.0" prefWidth="70.0" text="Fetch" />
+            <Label layoutX="14.0" layoutY="22.0" text="Enter URL" />
+            <TextArea fx:id="wordsNotInJSON" layoutX="347.0" layoutY="114.0" prefHeight="445.0" prefWidth="638.0" />
+            <Label layoutX="14.0" layoutY="91.0" text="Words From the Web" />
+            <Label layoutX="353.0" layoutY="91.0" text="Words Not in JSON" />
+            <TextField fx:id="dirLocation" layoutX="220.0" layoutY="56.0" prefHeight="27.0" prefWidth="489.0" />
+            <Label layoutX="12.0" layoutY="59.0" text="Enter JSON directory Location" />
+            <TextField fx:id="userName" layoutX="734.0" layoutY="19.0" prefHeight="27.0" prefWidth="234.0" promptText="User Name" />
+            <TextField fx:id="password" layoutX="734.0" layoutY="56.0" prefHeight="27.0" prefWidth="234.0" promptText="Password" />
+         </children>
+      </Pane>
+      <ProgressBar fx:id="progressBar" layoutX="230.0" layoutY="24.0" prefHeight="20.0" prefWidth="791.0" progress="0.0" />
+      <ProgressIndicator fx:id="progressIndicator" layoutX="1033.0" layoutY="11.0" progress="0.0" />
+      <Label fx:id="status" layoutX="27.0" layoutY="26.0" prefHeight="17.0" prefWidth="199.0" text="Status" textFill="#3829e1" />
+   </children>
+</AnchorPane>
