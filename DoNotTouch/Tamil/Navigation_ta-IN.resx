@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AssignmentEntry" xml:space="preserve">
+    <value>ஒதுக்கீட்டுப் பதிவு</value>
+  </data>
+  <data name="Auctions" xml:space="preserve">
+    <value>ஏலங்கள்</value>
+  </data>
+  <data name="AuctionsCalendar" xml:space="preserve">
+    <value>ஏலங்களுக்கான நாள்காட்டி</value>
+  </data>
+  <data name="AuctionsToday" xml:space="preserve">
+    <value>இன்றைய ஏலங்கள்</value>
+  </data>
+  <data name="AuctionsUpcoming" xml:space="preserve">
+    <value>இன்றைக்குப் பிறகு வரும் ஏலங்கள்</value>
+  </data>
+  <data name="BidApproval" xml:space="preserve">
+    <value>விலைக்குறிப்பு அனுமதி</value>
+  </data>
+  <data name="Brokers" xml:space="preserve">
+    <value>தரகர்கள் மற்றும்\n சந்தையை உருவாக்குபவர்கள்</value>
+  </data>
+  <data name="Brokers_Subtitle" xml:space="preserve">
+    <value>வாங்குவதற்கு உதவி பெறுங்கள்.</value>
+  </data>
+  <data name="BusinessAnalytics" xml:space="preserve">
+    <value>வணிக அனாலிடிக்ஸ்</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>நாள்காட்டி</value>
+  </data>
+  <data name="Clearance" xml:space="preserve">
+    <value>தீர்வு</value>
+  </data>
+  <data name="ClearForPickup" xml:space="preserve">
+    <value>இயக்குவதற்கான தடைகளை நீக்கவும்</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>எங்களைத் தொடர்புகொள்க</value>
+  </data>
+  <data name="CounterBidReport" xml:space="preserve">
+    <value>எதிர் விலைக்குறிப்பு அறிக்கை</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>டேஷ்போர்டு</value>
+  </data>
+  <data name="EaseOfLicensing" xml:space="preserve">
+    <value>உரிமம் பெறுவதில் எளிமை</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>அடிக்கடி கேட்கப்படும் கேள்விகள்</value>
+  </data>
+  <data name="FirewallInfo" xml:space="preserve">
+    <value>ஃபயர்வால் தகவல்</value>
+  </data>
+  <data name="ForBusinesses" xml:space="preserve">
+    <value>வணிகங்களுக்கு</value>
+  </data>
+  <data name="ForIndividuals" xml:space="preserve">
+    <value>தனிநபர்களுக்கு</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>முகப்புப் பக்கம்</value>
+  </data>
+  <data name="HowToBuy" xml:space="preserve">
+    <value>எவ்வாறு வாங்குவது</value>
+  </data>
+  <data name="HowVB2Works" xml:space="preserve">
+    <value>VB3 எவ்வாறு செயல்படுகிறது</value>
+  </data>
+  <data name="IndustryLinks" xml:space="preserve">
+    <value>தொழில்துறை இணைப்புகள்</value>
+  </data>
+  <data name="IndustryLinks_Subtitle" xml:space="preserve">
+    <value>போக்குவரத்து, தொழில்துறை மற்றும் சேவை பற்றிய தகவல்கள்.</value>
+  </data>
+  <data name="Inspectors" xml:space="preserve">
+    <value>ஆய்வாளர்கள்</value>
+  </data>
+  <data name="Inspectors_Subtitle" xml:space="preserve">
+    <value>உங்களுடைய திருப்திக்காக ஒரு ஆய்வாளரைக் கண்டுபிடிக்கவும்.</value>
+  </data>
+  <data name="Locations" xml:space="preserve">
+    <value>இடங்கள்</value>
+  </data>
+  <data name="LotSearch" xml:space="preserve">
+    <value>லாட் தேடல்</value>
+  </data>
+  <data name="MarketMakers" xml:space="preserve">
+    <value>சந்தை உருவாக்குநர்கள்</value>
+  </data>
+  <data name="MarketMakers_Subtitle" xml:space="preserve">
+    <value>வாங்குதலுக்குக் கூடுதல் உதவி பெறுவதற்காக ஒரு இடத்தை பார்வையிடவும்.</value>
+  </data>
+  <data name="MemberProtectionPledge" xml:space="preserve">
+    <value>உறுப்பினர் பாதுகாப்பு உறுதிமொழி</value>
+  </data>
+  <data name="MyAccount" xml:space="preserve">
+    <value>எனது கணக்கு</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>செய்திகள்</value>
+  </data>
+  <data name="OnSaleNow" xml:space="preserve">
+    <value>இப்பொழுது விற்பனையில்</value>
+  </data>
+  <data name="OnTheBlock" xml:space="preserve">
+    <value>தொகுதியில்</value>
+  </data>
+  <data name="OurLocations" xml:space="preserve">
+    <value>எங்களது இடங்கள்</value>
+  </data>
+  <data name="PreClearance" xml:space="preserve">
+    <value>முன் தீர்வு</value>
+  </data>
+  <data name="ProQuote" xml:space="preserve">
+    <value>புரோகோட்</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>அறிக்கைகள்</value>
+  </data>
+  <data name="SaleMap" xml:space="preserve">
+    <value>விற்பனை வரைபடம்</value>
+  </data>
+  <data name="SavedSearches" xml:space="preserve">
+    <value>சேமிக்கப்பட்ட தேடல்கள்</value>
+  </data>
+  <data name="SellerProfile" xml:space="preserve">
+    <value>விற்பவர் விவரம்</value>
+  </data>
+  <data name="SellerSnapshot" xml:space="preserve">
+    <value>விற்பவர் கண்ணோட்டம்</value>
+  </data>
+  <data name="SellVehicle" xml:space="preserve">
+    <value>ஒரு வாகனத்தை விற்கவும்</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>சேவைகள்</value>
+  </data>
+  <data name="SoldLast30Days" xml:space="preserve">
+    <value>கடைசி 30 நாட்களில் விற்கப்பட்டது</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>ஆதரவு</value>
+  </data>
+  <data name="Transporters" xml:space="preserve">
+    <value>சரக்கேற்றிச் செல்பவர்கள்</value>
+  </data>
+  <data name="Transporters_Subtitle" xml:space="preserve">
+    <value>சரக்கு வாகனம் வைத்திருக்கிறீர்களா? சரக்கேற்றிச் செல்பவராகுங்கள்.</value>
+  </data>
+  <data name="UserMaintenance" xml:space="preserve">
+    <value>பயனர் பராமரிப்பு</value>
+  </data>
+  <data name="VehicleFinder" xml:space="preserve">
+    <value>வாகனம் கண்டுபிடிப்பான்</value>
+  </data>
+  <data name="Watchlist" xml:space="preserve">
+    <value>கண்காணிப்புப் பட்டியல்</value>
+  </data>
+  <data name="FindAVehicle" xml:space="preserve">
+    <value>ஒரு வாகனத்தைக் கண்டுபிடிக்கவும்</value>
+  </data>
+  <data name="AccountInformation" xml:space="preserve">
+    <value>கணக்குத் தகவல்</value>
+  </data>
+  <data name="BrokerProfile" xml:space="preserve">
+    <value>தரகர் விவரம்</value>
+  </data>
+  <data name="ManageBidders" xml:space="preserve">
+    <value>விலை குறிப்பவர்களை நிர்வகி</value>
+  </data>
+  <data name="ManageCounterman" xml:space="preserve">
+    <value>கவுன்ட்டர்மேனை நிர்வகிக்கவும்</value>
+  </data>
+  <data name="LotsLost" xml:space="preserve">
+    <value>லாட்கள் இழக்கப்பட்டன</value>
+  </data>
+  <data name="LotsLost_Subtitle" xml:space="preserve">
+    <value>நீங்கள் வெற்றி பெறாத பொருட்களைப் பார்க்கவும்.</value>
+  </data>
+  <data name="LotsWon" xml:space="preserve">
+    <value>வெற்றி பெற்ற லாட்கள்</value>
+  </data>
+  <data name="LotsWon_Subtitle" xml:space="preserve">
+    <value>நீங்கள் என்ன பொருட்களை வென்றுள்ளீர்கள் எனப் பார்க்கவும்.</value>
+  </data>
+  <data name="MyBids" xml:space="preserve">
+    <value>எனது விலைக்குறிப்புகள்</value>
+  </data>
+  <data name="MyBids_Subtitle" xml:space="preserve">
+    <value>உங்களுடைய விலைக்குறிப்புகளின் நிலையைப் பார்க்கவும்.</value>
+  </data>
+  <data name="Payments" xml:space="preserve">
+    <value>செலுத்துதல்கள்</value>
+  </data>
+  <data name="PaymentsDue" xml:space="preserve">
+    <value>செலுத்துதல்கள் நிலுவை</value>
+  </data>
+  <data name="PaymentsDue_Subtitle" xml:space="preserve">
+    <value>பணம் செலுத்த வேண்டிய அனைத்துப் பொருட்களையும் பார்க்கவும்.</value>
+  </data>
+  <data name="PaymentsHistory" xml:space="preserve">
+    <value>செலுத்துதல் வரலாறு</value>
+  </data>
+  <data name="PaymentsHistory_Subtitle" xml:space="preserve">
+    <value>உங்களுடைய செலுத்துதல்கள் அனைத்தையும் பார்க்கவும்.</value>
+  </data>
+  <data name="WatchASale" xml:space="preserve">
+    <value>ஒரு விற்பனையைப் பார்க்கவும்</value>
+  </data>
+  <data name="SavedSearchesOverview" xml:space="preserve">
+    <value>சேமிக்கப்பட்ட தேடல்கள் குறித்த கண்ணோட்டம்</value>
+  </data>
+  <data name="WatchListOverview" xml:space="preserve">
+    <value>கண்காணிப்புப் பட்டியல் குறித்த கண்ணோட்டம்</value>
+  </data>
+  <data name="DownloadSalesData" xml:space="preserve">
+    <value>விற்பனைத் தரவை தரவிறக்கம் செய்யவும்</value>
+  </data>
+  <data name="DownloadSalesData_Subtitle" xml:space="preserve">
+    <value>விற்பனைக்காக திட்டமிடப்பட்ட லாட்களைப் பார்க்கவும்.</value>
+  </data>
+  <data name="MyCopart" xml:space="preserve">
+    <value>எனது கோபார்ட்</value>
+  </data>
+  <data name="BidStatus" xml:space="preserve">
+    <value>விலைக்குறிப்பு நிலை</value>
+  </data>
+  <data name="SavedSearches_Subtitle" xml:space="preserve">
+    <value>சேமிக்கப்பட்ட தேடல்கள் மூலம் தேடல்களை விரைவாக இயக்கவும்.</value>
+  </data>
+  <data name="VehicleFinder_Subtitle" xml:space="preserve">
+    <value>விரைவான மற்றும் மேம்பட்ட தேடல் விருப்பத்தேர்வுகள்.</value>
+  </data>
+  <data name="SalesList_Subtitle" xml:space="preserve">
+    <value>அமைவிடம் வாரியாக எங்களது விற்பனைகள் பட்டியலைப் பார்க்கவும்.</value>
+  </data>
+  <data name="Watchlist_Subtitle" xml:space="preserve">
+    <value>குறிப்பிட்ட வாகனங்களைக் கண்காணிக்கவும்.</value>
+  </data>
+  <data name="PayOnline" xml:space="preserve">
+    <value>ஆன்லைன் வாயிலாக செலுத்தவும்</value>
+  </data>
+  <data name="PayOnline_Subtitle" xml:space="preserve">
+    <value>உங்களுடைய கிரெடிட் அல்லது டெபிட் கார்டு மூலம் செலுத்தவும்</value>
+  </data>
+  <data name="CopartFinder" xml:space="preserve">
+    <value>கோபார்ட் கண்டுபிடிப்பான்</value>
+  </data>
+  <data name="FindAPart" xml:space="preserve">
+    <value>ஒரு பாகத்தைக் கண்டறியவும்</value>
+  </data>
+  <data name="SearchYourInventory" xml:space="preserve">
+    <value>உங்களுடைய சரக்கைத் தேடவும்</value>
+  </data>
+  <data name="AuctionsDashboard" xml:space="preserve">
+    <value>ஏல டேஷ்போர்டு</value>
+  </data>
+  <data name="Catb" xml:space="preserve">
+    <value>Cat B-க்களை வாங்குதல்</value>
+  </data>
+  <data name="Catb_Subtitle" xml:space="preserve">
+    <value>CAT B உரிமம் வைத்திருப்பவர்களுக்கான வாகனங்கள்.</value>
+  </data>
+  <data name="Deliveries" xml:space="preserve">
+    <value>விநியோகங்கள்</value>
+  </data>
+  <data name="Deliveries_Subtitle" xml:space="preserve">
+    <value>உங்களுடைய வாகனத்தை நீங்கள் பெறுவதற்கு உதவுங்கள்.</value>
+  </data>
+  <data name="ViewingandLoading" xml:space="preserve">
+    <value>பார்க்கிறது மற்றும் ஏற்றுகிறது</value>
+  </data>
+  <data name="ViewingandLoading_Subtitle" xml:space="preserve">
+    <value>  ஏலத்துக்கு முந்தைய செயல்பாட்டைப் பார்க்கிறது.\n ஏலத்துக்குப் பிந்தைய செயல்பாட்டை ஏற்றுகிறது.</value>
+  </data>
+  <data name="PaymentOptions" xml:space="preserve">
+    <value>பணம் செலுத்துவதற்கான விருப்பத்தேர்வுகள்</value>
+  </data>
+  <data name="PaymentOptions_Subtitle" xml:space="preserve">
+    <value>நீங்கள் வாங்கியவற்றுக்கு எவ்வாறு பணம் செலுத்துவது என்பதைக் கண்டறியுங்கள்.</value>
+  </data>
+  <data name="DepositsUpgrades" xml:space="preserve">
+    <value>வைப்புகள் மற்றும் தரமுயர்த்தல்கள்</value>
+  </data>
+  <data name="ForDealers" xml:space="preserve">
+    <value>டீலர்களுக்கு</value>
+  </data>
+  <data name="BuyingOverview" xml:space="preserve">
+    <value>வாங்குதல் குறித்த கண்ணோட்டம்</value>
+  </data>
+  <data name="BuyingOverview_Subtitle" xml:space="preserve">
+    <value>வாகனம் வாங்குதல் குறித்த படிப்படியான செயல்முறை.</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>வீடியோக்கள்</value>
+  </data>
+  <data name="Videos_Subtitle" xml:space="preserve">
+    <value>இடம் பெற்றுள்ள பயிற்சிகள், சான்றாவணங்கள் மற்றும் பல.</value>
+  </data>
+  <data name="HowVB3Works" xml:space="preserve">
+    <value>VB3 எவ்வாறு செயல்படுகிறது</value>
+  </data>
+  <data name="HowVB3Works_Subtitle" xml:space="preserve">
+    <value>ஒரு வலுவான ஏல தொழில்நுட்பம்.</value>
+  </data>
+  <data name="HelpWithLicensing" xml:space="preserve">
+    <value>உரிமம் பெற உதவுகிறது</value>
+  </data>
+  <data name="FAQS" xml:space="preserve">
+    <value>அடிக்கடி கேட்கப்படும் கேள்விகள்</value>
+  </data>
+  <data name="VehicleAlert" xml:space="preserve">
+    <value>வாகன விழிப்பூட்டல்கள்</value>
+  </data>
+  <data name="VehicleAlertsMember" xml:space="preserve">
+    <value>வாகன விழிப்பூட்டல்கள்</value>
+  </data>
+  <data name="VehicleAlertsMember_Subtitle" xml:space="preserve">
+    <value>வாகனங்கள் கிடைக்கும்போது மின்னஞ்சல்கள் பெறுங்கள்.</value>
+  </data>
+  <data name="VehicleAlertsPublicNav" xml:space="preserve">
+    <value>வாகன விழிப்பூட்டல்கள்</value>
+  </data>
+  <data name="Videos_UK" xml:space="preserve">
+    <value>வீடியோக்கள்</value>
+  </data>
+  <data name="Videos_UK_Subtitle" xml:space="preserve">
+    <value>இடம் பெற்றுள்ள வாகனங்கள், பயிற்சிகள் மற்றும் இதர பல.</value>
+  </data>
+  <data name="SalesList" xml:space="preserve">
+    <value>விற்பனைப் பட்டியல்</value>
+  </data>
+  <data name="SiteMap" xml:space="preserve">
+    <value>தள வரைபடம்</value>
+  </data>
+</root>

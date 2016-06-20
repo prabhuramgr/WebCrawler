@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Details_BuyerServices" xml:space="preserve">
+    <value>ख़रीदार सेवाएँ</value>
+  </data>
+  <data name="Details_LocationDeliveryTitle" xml:space="preserve">
+    <value>स्थान व डिलीवरी</value>
+  </data>
+  <data name="Details_BackTo" xml:space="preserve">
+    <value>विवरण पर वापस</value>
+  </data>
+  <data name="Details_LotDetailsHeader" xml:space="preserve">
+    <value>लॉट #{LotNumber} का विवरण</value>
+  </data>
+  <data name="Details_LotPhotosHeader" xml:space="preserve">
+    <value>लॉट #{LotNumber} के लिए फ़ोटो</value>
+  </data>
+  <data name="Details_MileLabel" xml:space="preserve">
+    <value>mi.</value>
+  </data>
+  <data name="Details_OdometerActualLabel" xml:space="preserve">
+    <value>वास्तविक</value>
+  </data>
+  <data name="Details_SaleInformationTitle" xml:space="preserve">
+    <value>बिक्री जानकारी</value>
+  </data>
+  <data name="Details_TimeLeftFormat" xml:space="preserve">
+    <value>{0:%d} दिन, {0:%h} घंटे {0:mm} मिनट</value>
+  </data>
+  <data name="Details_TitleTypeLabel" xml:space="preserve">
+    <value>टाइटल का प्रकार:</value>
+  </data>
+  <data name="Details_ViewAllPhotos" xml:space="preserve">
+    <value>सभी फ़ोटो देखें</value>
+  </data>
+  <data name="Details_Offsite" xml:space="preserve">
+    <value>पूर्वावलोकन घंटे</value>
+  </data>
+  <data name="Details_AsIs" xml:space="preserve">
+    <value>यह वाहन &quot;जैसा है - वैसा&quot; के रूप में बेचा जा रहा है सभी बोलियाँ बाध्यकारी हैं और सभी बिक्री अंतिम हैं।</value>
+  </data>
+  <data name="Details_Calendar" xml:space="preserve">
+    <value>कैलेंडर में जोड़ें</value>
+  </data>
+  <data name="Details_Deliver" xml:space="preserve">
+    <value>इसे डिलीवर करें</value>
+  </data>
+  <data name="Details_Downloads" xml:space="preserve">
+    <value>डाउनलोड</value>
+  </data>
+  <data name="Details_Estimate" xml:space="preserve">
+    <value>आकलन</value>
+  </data>
+  <data name="Details_Highlights" xml:space="preserve">
+    <value>हाइलाइट्स</value>
+  </data>
+  <data name="Details_Item" xml:space="preserve">
+    <value>आइटम</value>
+  </data>
+  <data name="Details_Lane" xml:space="preserve">
+    <value>लेन</value>
+  </data>
+  <data name="Details_LaneItem" xml:space="preserve">
+    <value>लेन / आइटम / ग्रिड / पंक्ति</value>
+  </data>
+  <data name="Details_Live" xml:space="preserve">
+    <value>लाइव नीलामी</value>
+  </data>
+  <data name="Time_Left" xml:space="preserve">
+    <value>शेष समय</value>
+  </data>
+  <data name="Details_Notes" xml:space="preserve">
+    <value>नोट्स</value>
+  </data>
+  <data name="Details_Photos" xml:space="preserve">
+    <value>फ़ोटो उपलब्ध हैं</value>
+  </data>
+  <data name="Details_SaleDate" xml:space="preserve">
+    <value>बिक्री की तिथि</value>
+  </data>
+  <data name="Details_Seller" xml:space="preserve">
+    <value>विक्रेता</value>
+  </data>
+  <data name="Details_Starts" xml:space="preserve">
+    <value>आरंभ हो रहा है:</value>
+  </data>
+  <data name="Details_Watch" xml:space="preserve">
+    <value>देखें</value>
+  </data>
+  <data name="Offsite_Close" xml:space="preserve">
+    <value>बंद करें</value>
+  </data>
+  <data name="Offsite_Friday" xml:space="preserve">
+    <value>शुक्रवार</value>
+  </data>
+  <data name="Offsite_Location" xml:space="preserve">
+    <value>स्थान</value>
+  </data>
+  <data name="Offsite_Monday" xml:space="preserve">
+    <value>सोमवार</value>
+  </data>
+  <data name="Offsite_NotAvailable" xml:space="preserve">
+    <value>उपलब्ध नहीं है</value>
+  </data>
+  <data name="Offsite_Preview" xml:space="preserve">
+    <value>पूर्वावलोकन</value>
+  </data>
+  <data name="Offsite_PreviewTitle" xml:space="preserve">
+    <value>पूर्वावलोकन स्थान और घंटे</value>
+  </data>
+  <data name="Offsite_Saturday" xml:space="preserve">
+    <value>शनिवार</value>
+  </data>
+  <data name="Offsite_Sunday" xml:space="preserve">
+    <value>रविवार</value>
+  </data>
+  <data name="Offsite_Thursday" xml:space="preserve">
+    <value>गुरुवार</value>
+  </data>
+  <data name="Offsite_Tuesday" xml:space="preserve">
+    <value>मंगलवार</value>
+  </data>
+  <data name="Offsite_Wednesday" xml:space="preserve">
+    <value>बुधवार</value>
+  </data>
+  <data name="BidInformation_BidNowbtn" xml:space="preserve">
+    <value>अभी बोली लगाएँ</value>
+  </data>
+  <data name="Bidinformation_BidNowLabel" xml:space="preserve">
+    <value>अभी बोली लगाएँ</value>
+  </data>
+  <data name="BidInformation_BidStatus" xml:space="preserve">
+    <value>बोली की स्थिति</value>
+  </data>
+  <data name="BidInformation_BuyItNowBtn" xml:space="preserve">
+    <value>इसे अभी ख़रीदें</value>
+  </data>
+  <data name="BidInformation_CurrentBid" xml:space="preserve">
+    <value>मौजूदा बोली</value>
+  </data>
+  <data name="BidInformation_Header" xml:space="preserve">
+    <value>बोली की जानकारी</value>
+  </data>
+  <data name="BidInformation_NewMaxBid" xml:space="preserve">
+    <value>आपकी नई अधिकतम बोली</value>
+  </data>
+  <data name="BidInformation_SellerReserveNotMet" xml:space="preserve">
+    <value>विक्रेता रिज़र्व अभी पूरा नहीं हुआ</value>
+  </data>
+  <data name="Details_BackToSearchResults" xml:space="preserve">
+    <value>वापस खोज परिणामों पर</value>
+  </data>
+  <data name="Details_Calculate" xml:space="preserve">
+    <value>गणना करें</value>
+  </data>
+  <data name="Details_NextLot" xml:space="preserve">
+    <value>अगला लॉट</value>
+  </data>
+  <data name="Details_PreviousLot" xml:space="preserve">
+    <value>पिछला लॉट</value>
+  </data>
+  <data name="SalesInformation_LocationLabel" xml:space="preserve">
+    <value>स्थान</value>
+  </data>
+  <data name="BidConfirmation_AcceptOfferTerms" xml:space="preserve">
+    <value>यह प्रस्ताव करके, आप सहमत हैं कि आप अगले दिन के कारोबार की समाप्ति तक
+					इस बोली के लिए प्रतिबद्ध हैं। अगर विक्रेता आपका प्रस्ताव स्वीकार करता है और आप इस ट्रांजेक्शन को पूरा करने में विफल रहते हैं, तो आप किसी और सभी लागू पुनः सूची फ़ीस के अधीन होंगे।</value>
+  </data>
+  <data name="BidConfirmation_Cancel" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="BidConfirmation_ContactInfoMsg" xml:space="preserve">
+    <value>कृपया पुष्टि करें की आपका नीचे दिखाया गया ईमेल पता और फ़ोन नंबर सही हैं क्योंकि
+						विक्रेता द्वारा आपका प्रस्ताव स्वीकार करने पर आपसे यह ट्रांजेक्शन पूरी करने के लिए संपर्क किया
+						 जाएगा।</value>
+  </data>
+  <data name="BidConfirmation_Edit" xml:space="preserve">
+    <value>संपादन करें</value>
+  </data>
+  <data name="BidConfirmation_EmailLabel" xml:space="preserve">
+    <value>ईमेल</value>
+  </data>
+  <data name="BidConfirmation_ImportantNotice" xml:space="preserve">
+    <value>महत्वपूर्ण सूचना</value>
+  </data>
+  <data name="BidConfirmation_PhoneNumber" xml:space="preserve">
+    <value>फ़ोन नंबर</value>
+  </data>
+  <data name="BidConfirmation_SubmitOfferBtn" xml:space="preserve">
+    <value>प्रस्ताव प्रस्तुत करें</value>
+  </data>
+  <data name="BidConfirmation_YourContactInfo" xml:space="preserve">
+    <value>आपकी संपर्क जानकारी</value>
+  </data>
+  <data name="BidConfirmation_YourOfferLabel" xml:space="preserve">
+    <value>आपके प्रस्ताव</value>
+  </data>
+  <data name="PhotoModal_CurrentBid" xml:space="preserve">
+    <value>मौजूदा बोली</value>
+  </data>
+  <data name="PhotoModal_LiveAuctionStartsIn" xml:space="preserve">
+    <value>लाइव नीलामी शुरू होती है</value>
+  </data>
+  <data name="BidInformation_IncreaseBid" xml:space="preserve">
+    <value>बोली बढ़ाएँ</value>
+  </data>
+  <data name="LocationDelivery_EnterZipCode_Placeholder" xml:space="preserve">
+    <value>पिन कोड दर्ज करे</value>
+  </data>
+  <data name="BidInformation_SellerReserveMet" xml:space="preserve">
+    <value>विक्रेता रिज़र्व पार हो गया है</value>
+  </data>
+  <data name="BidInformation_SellerReserveToolTip" xml:space="preserve">
+    <value>विक्रेता रिज़र्व|विक्रेता ने लॉट पर रिज़र्व मूल्य रखा है। अगर लाइव नीलामी के दौरान न्यूनतम बोली पार नहीं होती, तो विक्रेता के पास बिक्री के बाद बोली स्वीकार करने के लिए 5:00 बजे तक एक कार्य-दिवस होता है (परिसर में स्थानीय समय)।</value>
+  </data>
+  <data name="BidInformation_BidSuccess" xml:space="preserve">
+    <value>सफल! आपका बोली पंजीकृत हो गई है</value>
+  </data>
+  <data name="BidInformation_BidSuccessDescription" xml:space="preserve">
+    <value>अगर आपकी बोली उच्च प्री-बिड है, तो इसे लाइव नीलामी में प्रतिनिधित्व दिया जाएगा। जब प्री-बिड और लाइव बोली राशि समान होती है, तो लाइव नीलामी के दौरान लगाई गई बोली को विजेता माना जाता है।</value>
+  </data>
+  <data name="Details_ExpectedModalLabel" xml:space="preserve">
+    <value>अपेक्षित बिक्री तिथि के बारे में</value>
+  </data>
+  <data name="Details_Expected" xml:space="preserve">
+    <value>अपेक्षित</value>
+  </data>
+  <data name="LotDetailsSpecialNote" xml:space="preserve">
+    <value>नीलामी पर बोली के लिए तैयार हैं?</value>
+  </data>
+  <data name="TBDText" xml:space="preserve">
+    <value>TBD</value>
+  </data>
+  <data name="CodeHeader" xml:space="preserve">
+    <value>कोड</value>
+  </data>
+  <data name="DescriptionHeader" xml:space="preserve">
+    <value>विवरण</value>
+  </data>
+  <data name="MileageTypesLabel" xml:space="preserve">
+    <value>माइलेज प्रकार</value>
+  </data>
+  <data name="MarketGuide_1stDMG" xml:space="preserve">
+    <value>1लहा नुक़सान</value>
+  </data>
+  <data name="MarketGuide_2ndDmg" xml:space="preserve">
+    <value>2सरा नुक़सान</value>
+  </data>
+  <data name="MarketGuide_AutoCheckFullReport" xml:space="preserve">
+    <value>AutoCheck पूर्ण रिपोर्ट</value>
+  </data>
+  <data name="MarketGuide_AverageTrade" xml:space="preserve">
+    <value>औसत व्यापार</value>
+  </data>
+  <data name="MarketGuide_BodyStyle" xml:space="preserve">
+    <value>बॉडी स्टाइल</value>
+  </data>
+  <data name="MarketGuide_ComparableSales" xml:space="preserve">
+    <value>तुलनीय बिक्री</value>
+  </data>
+  <data name="MarketGuide_Copyright" xml:space="preserve">
+    <value>मालिकाना और गोपनीय - कॉपीराइट © Copart Inc. 2013. सर्वाधिकार सुरक्षित</value>
+  </data>
+  <data name="MarketGuide_Cylinder" xml:space="preserve">
+    <value>सिलेंडर</value>
+  </data>
+  <data name="MarketGuide_Disclaimer" xml:space="preserve">
+    <value>Copart बाज़ार गाइड में शामिल किसी जानकारी के इस्तेमाल या उस पर निर्भरता से उत्पन्न होने वाले
+						किसी नुक़सान या ख़र्च के लिए ज़िम्मेदार नहीं है। AutoCheck - वाहन इतिहास रिपोर्ट (अगर शामिल है) में जानकारी Experian द्वारा प्रदान की जाती है और वाहन इतिहास रिपोर्ट सामग्री के लिए एकमात्र रूप से Experian ज़िम्मेदार है। Copart वाहन इतिहास रिपोर्ट में जानकारी की सटीकता की गारंटी नहीं देती।ProQuote आँकड़े वह मूल्य रेंज अनुमान होते हैं जिसमें यह वाहन नीलामी में बिक सकता है। इन आँकड़ों की गणना Copart द्वारा ऐतिहासिक और मौजूदा बिक्री के आँकड़ों के आधार पर स्वामित्व के फ़ार्मूले के माध्यम से अनुरोध के समय की जाती है और ये किसी भी समय बदलाव के अधीन हैं। ProQuote आँकड़े मूल्यांकन नहीं हैं, और न ही बोली गतिविधि की गारंटी है, और बोली लगाते समय इस तरह के आँकड़ों पर आपकी निर्भरता आपके अपने जोखिम पर होती है। बाज़ार गाइड में कुछ सामग्री की आपूर्ति तृतीय पक्ष द्वारा की जाती है। Copart ऐसी किसी तृतीय पक्ष के जानकारी का स्वतंत्र रूप से सत्यापन नहीं करती और इसकी सटीकता या पूर्णता की गारंटी नहीं देती। Copart बाज़ार गाइड में शामिल किसी जानकारी के इस्तेमाल या उस पर निर्भरता से उत्पन्न होने वाले किसी हानि, ख़र्च, दावे या नुक़सान के लिए ज़िम्मेदार नहीं है और किसी दायित्व का अस्वीकरण करती है।</value>
+  </data>
+  <data name="MarketGuide_EngineSize" xml:space="preserve">
+    <value>इंजन का आकार</value>
+  </data>
+  <data name="MarketGuide_EstimatedValues" xml:space="preserve">
+    <value>अनुमानित मूल्य</value>
+  </data>
+  <data name="MarketGuide_Fuel" xml:space="preserve">
+    <value>ईंधन</value>
+  </data>
+  <data name="MarketGuide_HideThumbnails" xml:space="preserve">
+    <value>थंबनेल छिपाएँ</value>
+  </data>
+  <data name="MarketGuide_HighQuote" xml:space="preserve">
+    <value>उच्च कोटेशन</value>
+  </data>
+  <data name="MarketGuide_Image" xml:space="preserve">
+    <value>छवि</value>
+  </data>
+  <data name="MarketGuide_Keys" xml:space="preserve">
+    <value>कुंजियाँ</value>
+  </data>
+  <data name="MarketGuide_Lot" xml:space="preserve">
+    <value>लॉट</value>
+  </data>
+  <data name="MarketGuide_LowQuote" xml:space="preserve">
+    <value>न्यून कोटेशन</value>
+  </data>
+  <data name="MarketGuide_Make" xml:space="preserve">
+    <value>मेक</value>
+  </data>
+  <data name="MarketGuide_Model" xml:space="preserve">
+    <value>मॉडल</value>
+  </data>
+  <data name="MarketGuide_NotificationError" xml:space="preserve">
+    <value>NADA मूल्य प्राप्त करना विफल</value>
+  </data>
+  <data name="MarketGuide_Odometer" xml:space="preserve">
+    <value>ओडोमीटर</value>
+  </data>
+  <data name="MarketGuide_PhotosAvailable" xml:space="preserve">
+    <value>{Count} फ़ोटो उपलब्ध हैं</value>
+  </data>
+  <data name="MarketGuide_Proquote" xml:space="preserve">
+    <value>ProQuote</value>
+  </data>
+  <data name="MarketGuide_ProQuoteTableHeader" xml:space="preserve">
+    <value>ProQuote</value>
+  </data>
+  <data name="MarketGuide_Retail" xml:space="preserve">
+    <value>खुदरा</value>
+  </data>
+  <data name="MarketGuide_Rough" xml:space="preserve">
+    <value>ख़ुरदुरा</value>
+  </data>
+  <data name="MarketGuide_RunsDrives" xml:space="preserve">
+    <value>RunsDrives</value>
+  </data>
+  <data name="MarketGuide_SalePrice" xml:space="preserve">
+    <value>बिक्री मूल्य</value>
+  </data>
+  <data name="MarketGuide_Title" xml:space="preserve">
+    <value>Copart बाज़ार गाइड</value>
+  </data>
+  <data name="MarketGuide_TitleTableHeader" xml:space="preserve">
+    <value>टाइटल</value>
+  </data>
+  <data name="MarketGuide_Trade" xml:space="preserve">
+    <value>व्यापार</value>
+  </data>
+  <data name="MarketGuide_Transmission" xml:space="preserve">
+    <value>ट्रांसमिशन</value>
+  </data>
+  <data name="MarketGuide_VehicleInfo" xml:space="preserve">
+    <value>वाहन जानकारी</value>
+  </data>
+  <data name="MarketGuide_Vehicles" xml:space="preserve">
+    <value>वाहन</value>
+  </data>
+  <data name="MarketGuide_VIN" xml:space="preserve">
+    <value>VIN</value>
+  </data>
+  <data name="MarketGuide_VinDecode" xml:space="preserve">
+    <value>VIN डिकोड - मान्य</value>
+  </data>
+  <data name="MarketGuide_Year" xml:space="preserve">
+    <value>वर्ष</value>
+  </data>
+  <data name="LotDetails_AutoCheck" xml:space="preserve">
+    <value>AutoCheck</value>
+  </data>
+  <data name="LotDetails_CondtionReport" xml:space="preserve">
+    <value>स्थिति रिपोर्ट</value>
+  </data>
+  <data name="InvalidUSZipCode" xml:space="preserve">
+    <value>ज़िप कोड मान्य यूएस ज़िप कोड होना चाहिए।  डिलीवरी के लिए, कृपया हमारे {0} देखें।</value>
+  </data>
+  <data name="TransportationPage" xml:space="preserve">
+    <value>परिवहन पृष्ठ</value>
+  </data>
+  <data name="MisTypedBid_ConfirmBid" xml:space="preserve">
+    <value>बोली की पुष्टि करें</value>
+  </data>
+  <data name="MisTypedBid_CurrentBid" xml:space="preserve">
+    <value>मौजूदा बोली</value>
+  </data>
+  <data name="MisTypedBid_Disclaimer1" xml:space="preserve">
+    <value>अगर आप अपनी अधिकतम बोली ग़लत टाइप कर दी है, तो नई अधिकतम बोली दर्ज करें और बोली की पुष्टि करें पर क्लिक करें। आपकी नई बोली, मौजूदा बोली से कम नहीं हो सकती। हम आपकी अधिकतम बोली को दर्ज किए गए मूल्य या मौजूदा बोली तक कम कर देंगे, जो भी अधिक होगा</value>
+  </data>
+  <data name="MisTypedBid_Disclaimer2" xml:space="preserve">
+    <value>अगर आप अपनी मौजूदा अधिकतम बोली रखना या बढ़ाना चाहते हैं, तो यह विंडो बंद करने के लिए नीचे दिए गए रद्द करें बटन पर क्लिक करें</value>
+  </data>
+  <data name="MisTypedBid_Lot" xml:space="preserve">
+    <value>लॉट</value>
+  </data>
+  <data name="MisTypedBid_MistypedBid" xml:space="preserve">
+    <value>ग़लत टाइप की गई बोली</value>
+  </data>
+  <data name="MisTypedBid_YourMaximumBid" xml:space="preserve">
+    <value>आपकी अधिकतम बोली</value>
+  </data>
+  <data name="MisTypedBid_YourNewMaxBid" xml:space="preserve">
+    <value>आपकी नई अधिकतम बोली</value>
+  </data>
+  <data name="MisTypedBid_MistypedBidButtonText" xml:space="preserve">
+    <value>ग़लत टाइप की गई बोली</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage" xml:space="preserve">
+    <value>क्षमा करें, कुछ ग़लत हो गया</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessageMustBeNumeric" xml:space="preserve">
+    <value>अधिकतम बोली राशि रिक्त नहीं होनी चाहिए।</value>
+  </data>
+  <data name="MisTypeBid_Loading" xml:space="preserve">
+    <value>लोड हो रहा है...</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_ApplicationError" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_BidIncrements" xml:space="preserve">
+    <value>आपका बोली मूल्य, बोली वृद्धि के भीतर नहीं है।</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_BuyerNumberRequired" xml:space="preserve">
+    <value>अमान्य सदस्य नंबर</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_BuyerOutbid" xml:space="preserve">
+    <value>क्षमा करें, आप पहले ही आउटबिड हो चुके हैं।  मौजूदा उच्च बोलीदाता की अधिकतम बोली आपकी बोली की तुलना में उच्चतर है।</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_LotNotInCorrectStage" xml:space="preserve">
+    <value>लॉट सही चरण में नहीं है</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_LotNumberRequired" xml:space="preserve">
+    <value>लॉट नहीं मिला</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_NewMaxLessThanOldMax" xml:space="preserve">
+    <value>कृपया वह बोली दर्ज करें जो मौजूदा अधिकतम बोली से कम हो।</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_NotHighBidder" xml:space="preserve">
+    <value>क्षमा करें, आप पहले ही आउटबिड हो चुके हैं।  मौजूदा उच्च बोलीदाता की अधिकतम बोली आपकी बोली की तुलना में उच्चतर है</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_NotVixLots" xml:space="preserve">
+    <value>VIX लॉट के लिए नहीं है</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_PrelimnaryBiddingEnded" xml:space="preserve">
+    <value>प्राथमिक बोली समाप्त हो गई है</value>
+  </data>
+  <data name="MisTypeBid_ErrorBidIncrementsValues" xml:space="preserve">
+    <value>आपकी अधिकतम बोली, बोली वृद्धि के भीतर नहीं है। मान्य बोलियों में ${0} और ${1} शामिल होते हैं</value>
+  </data>
+  <data name="AjaxErrorMessage" xml:space="preserve">
+    <value>त्रुटि अनुरोध पृष्ठ:</value>
+  </data>
+  <data name="DataTruncationError" xml:space="preserve">
+    <value>डेटा ट्रंकेशन</value>
+  </data>
+  <data name="MarketGuide_NADA_Header" xml:space="preserve">
+    <value>NADA मूल्य</value>
+  </data>
+  <data name="Market_Guide_Proquote_Not_Available" xml:space="preserve">
+    <value>इस लॉट के लिए प्रोकोट की गणना नहीं हो सकती</value>
+  </data>
+  <data name="MarketGuide_VinDecode_Invalid" xml:space="preserve">
+    <value>VIN डिकोड - अमान्य</value>
+  </data>
+  <data name="SalesInformation_AfterSalePickUp" xml:space="preserve">
+    <value>बिक्री के बाद पिक अप</value>
+  </data>
+  <data name="SalesInformation_LocationAndHours" xml:space="preserve">
+    <value>स्थान/घंटे</value>
+  </data>
+  <data name="SalesInformation_OffsiteSalesOnly" xml:space="preserve">
+    <value>(केवल ऑफ़साइट बिक्री)</value>
+  </data>
+  <data name="SalesInformation_Preview" xml:space="preserve">
+    <value>पूर्वावलोकन</value>
+  </data>
+  <data name="Not_Applicable" xml:space="preserve">
+    <value>लागू नहीं</value>
+  </data>
+  <data name="AboutSealedBid" xml:space="preserve">
+    <value>मोहरबंद बोली के बारे में</value>
+  </data>
+  <data name="SealedBidDescription" xml:space="preserve">
+    <value>पूरी प्रक्रिया के दौरान आपकी बोली गोपनीय रहेगी और यह अन्य बोलीदाता को दिखाई नहीं देगी। इसलिए आपको वह अधिकतम बोली लगानी चाहिए जो आपके विचार से लॉट जीतने के लिए ज़रूरी है। नीलामी के दौरान आप किसी भी समय उच्चतर बोली सबमिट कर सकते हैं जो आपकी पिछली बोली से अग्रता ले लेगी। बिक्री बंद होने के बाद, हमारा स्वचालित सिस्टम सबसे ऊँची बोली निर्धारित करेगा और लॉट उस बोलीदाता को दे देगा।</value>
+  </data>
+  <data name="SealedBidTitle" xml:space="preserve">
+    <value>मोहरबंद बोली</value>
+  </data>
+  <data name="AdditionalInfo" xml:space="preserve">
+    <value>अतिरिक्त जानकारी</value>
+  </data>
+  <data name="V5Notes" xml:space="preserve">
+    <value>V5 नोट्स</value>
+  </data>
+  <data name="VATAddedToSale" xml:space="preserve">
+    <value>मूल्य-वर्धित कर पात्र</value>
+  </data>
+  <data name="VATAddedNo" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="VATAddedYes" xml:space="preserve">
+    <value>हाँ</value>
+  </data>
+  <data name="ContactsForDeliveryUnavilable" xml:space="preserve">
+    <value>अधिक विवरण के लिए &lt;a href={MemberServices}&gt;सदस्य सेवाएँ&lt;/a&gt; से संपर्क करें</value>
+  </data>
+  <data name="DeliveryUnavailableSorryNote" xml:space="preserve">
+    <value>हमें खेद है। हम ज़िप कोड डिलीवर करने में असमर्थ हैं </value>
+  </data>
+  <data name="ThrirdPartyServiceAdviceForDeliveryUnavailable" xml:space="preserve">
+    <value>कृपया अपनी पसंद के किसी तृतीय पक्ष प्रदाता के माध्यम से परिवहन की व्यवस्था करें।</value>
+  </data>
+  <data name="OdometerCode_Actual" xml:space="preserve">
+    <value>ऐसा माना जाता है कि ओडोमीटर रीडिंग लॉट की सही और वास्तविक माइलेज है।</value>
+  </data>
+  <data name="OdometerCode_ExceedsMechanicalLmt" xml:space="preserve">
+    <value>लॉट की वास्तविक माइलेज व्यक्त नहीं की जा सकती क्योंकि यह ओडोमीटर की इसे मापने की क्षमता पार कर गई है।</value>
+  </data>
+  <data name="OdometerCode_Exempt" xml:space="preserve">
+    <value>संघीय कानून के अनुसार, इस लॉट के लिए कोई ओडोमीटर कोड प्रदर्शित करना ज़रूरी नहीं है।</value>
+  </data>
+  <data name="OdometerCode_NotActual" xml:space="preserve">
+    <value>ओडोमीटर रीडिंग लॉट की माइलेज सही ढंग से प्रतिबिंबित नहीं करती या इसे जाना नहीं जा सकता।</value>
+  </data>
+  <data name="TypeHeader" xml:space="preserve">
+    <value>प्रकार</value>
+  </data>
+  <data name="MarketGuide_HideAllThumbnails" xml:space="preserve">
+    <value>सभी थंबनेल छिपाएँ</value>
+  </data>
+  <data name="Details_DeliveryCostText" xml:space="preserve">
+    <value>डिलीवरी लागत</value>
+  </data>
+  <data name="Details_EstimatedDeliveryCostLabel" xml:space="preserve">
+    <value>अनुमानित डिलीवरी लागत</value>
+  </data>
+  <data name="DecimalsNotAllowed" xml:space="preserve">
+    <value>दशमलव की अनुमति नहीं है। कृपया अपनी बोली की समीक्षा करें।</value>
+  </data>
+  <data name="NoBlanksForBidAmounts" xml:space="preserve">
+    <value>राशि रिक्त नहीं होनी चाहिए।</value>
+  </data>
+  <data name="ShouldBeNumeric" xml:space="preserve">
+    <value>राशि संख्यात्मक होनी चाहिए।</value>
+  </data>
+  <data name="MisTyped_ErrorMessage_EnterOnlyDigits" xml:space="preserve">
+    <value>अमान्य बोली राशि। केवल अंक (0-9) दर्ज करें।</value>
+  </data>
+  <data name="VINDetails_DisclaimerNote1" xml:space="preserve">
+    <value>Copart स्पष्ट रूप से किसी वाहन पहचान नंबर (VIN) की सटीकता को अस्वीकार करती है। बोली के प्रयोजनों या किसी अन्य कारण के लिए इस तरह की सूचना का इस्तेमाल या इन पर भरोसा नहीं किया जा सकता।</value>
+  </data>
+  <data name="VINDetails_Disclaimer_Note2" xml:space="preserve">
+    <value>सभी वाहन जैसे हैं - जहाँ हैं के रूप में बेचे जाते हैं। देखें </value>
+  </data>
+  <data name="VINDetails_DisclaimerNote3" xml:space="preserve">
+    <value>वाहन अस्वीकरण।</value>
+  </data>
+  <data name="BidIncrementCheckBox_Label" xml:space="preserve">
+    <value>एक और वृद्धि की बोली लगाने के लिए बॉक्स को चेक करें</value>
+  </data>
+  <data name="BidGuidelines_Link" xml:space="preserve">
+    <value>वृद्धिशील बोली के लिए दिशा-निर्देश</value>
+  </data>
+  <data name="BiddingGuidelines_Header" xml:space="preserve">
+    <value>वृद्धि बोली के लिए दिशा-निर्देश</value>
+  </data>
+  <data name="BiddingGuidelines_NotesOne" xml:space="preserve">
+    <value>वृद्धि बोली स्वीकार करने से पहले कृपया यह दस्तावेज़ ध्यान से पढ़ें।</value>
+  </data>
+  <data name="BiddingGuidelines_NotesThree" xml:space="preserve">
+    <value>उदाहरण 1: आपने वृद्धि बोली बॉक्स चेक किया है और {CurrencySymbol}15,000 की बोली लगाई है। लाइव नीलामी बोली फ़िलहाल {CurrencySymbol}15,000 पर है (आपकी बोली के साथ टाई - दुर्भाग्य से, ऐसा होता है)। आपकी इंटरनेट बोली {CurrencySymbol}15,000 के आगे रखी गई है (क्योंकि आपने वृद्धि बोली बॉक्स चेक किया है)। आपको कार {CurrencySymbol}15,000 या लाइव नीलामी बोलीदाता को {CurrencySymbol}15,200 या उससे अधिक से अधिक पर नहीं बेची जाती।</value>
+  </data>
+  <data name="BiddingGuidelines_NotesTwo" xml:space="preserve">
+    <value>वृद्धि बोली Copart को आपके द्वारा दर्ज की गई बोली को उस स्थिति में एक और केवल एक वृद्धि से बढ़ाने की अनुमति देती है जब आपके द्वारा दर्ज की गई बोली लाइव वर्चुअल बोलीदाता द्वारा से टाई हो जाती है। अगर अपनी बोली उच्चतम बोली है, तो आपकी बोली नहीं बढ़ाई जाएगी। हमारी वृद्धि निम्नलिखित तालिका पर आधारित होती हैं।</value>
+  </data>
+  <data name="BidInc_Range1" xml:space="preserve">
+    <value>0 - 10</value>
+  </data>
+  <data name="BidInc_Range1_IncValue" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BidInc_Range2" xml:space="preserve">
+    <value>10 - 100</value>
+  </data>
+  <data name="BidInc_Range2_IncValue" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="BidInc_Range3" xml:space="preserve">
+    <value>100 - 1,000</value>
+  </data>
+  <data name="BidInc_Range3_IncValue" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="BidInc_Range4" xml:space="preserve">
+    <value>1,000 - 5,000</value>
+  </data>
+  <data name="BidInc_Range4_IncValue" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="BidInc_Range5" xml:space="preserve">
+    <value>5,000 - 99,99,999.99</value>
+  </data>
+  <data name="BidInc_Range5_IncValue" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Bid_range_TableHeader" xml:space="preserve">
+    <value>बोली रेंज ({CurrencySymbol})</value>
+  </data>
+  <data name="Increment_TableHeader" xml:space="preserve">
+    <value>वृद्धि ({CurrencySymbol})</value>
+  </data>
+  <data name="BidGuideline_Disclaimer1" xml:space="preserve">
+    <value>वृद्धि बोली Copart को आपके द्वारा दर्ज की गई बोली को उस स्थिति में एक और केवल एक वृद्धि से बढ़ाने की अनुमति देती है जब आपके द्वारा दर्ज की गई बोली लाइव वर्चुअल बोलीदाता द्वारा से टाई हो जाती है। अगर अपनी बोली उच्चतम बोली है, तो आपकी बोली नहीं बढ़ाई जाएगी।</value>
+  </data>
+  <data name="BidGuideline_PleaseReview" xml:space="preserve">
+    <value>आपका बोली वृद्धि के भीतर होनी चाहिए। कृपया नीचे दी गई तालिका की समीक्षा करें। इसके बाद अपनी बोली की फिर से कोशिश करें।</value>
+  </data>
+  <data name="BidGuide_BidRange_TableHeader" xml:space="preserve">
+    <value>बोली रेंज ($)</value>
+  </data>
+  <data name="BidGuide_Increment_TableHeader" xml:space="preserve">
+    <value>वृद्धि ($)</value>
+  </data>
+  <data name="RetryOrContactsMemberServices" xml:space="preserve">
+    <value>सहायता के लिए &lt;a href={MemberServices}&gt;सदस्य सेवाएँ&lt;/a&gt; से संपर्क करें</value>
+  </data>
+  <data name="DeliveryQuote_InValidZip" xml:space="preserve">
+    <value>आपके द्वारा दर्ज किया गया पिन कोड अमान्य है। कृपया फिर कोशिश करें या </value>
+  </data>
+  <data name="LotGlossaryTerms" xml:space="preserve">
+    <value>शब्दावली</value>
+  </data>
+  <data name="Offsite_LocationAndPreview" xml:space="preserve">
+    <value>पूर्वावलोकन स्थान और घंटे</value>
+  </data>
+  <data name="Offsite_PreviewHours" xml:space="preserve">
+    <value>पूर्वावलोकन घंटे:</value>
+  </data>
+  <data name="Offsite_PreviewLocation" xml:space="preserve">
+    <value>पूर्वावलोकन स्थान:</value>
+  </data>
+  <data name="LotDetails_OdometerReading_Unrecorded" xml:space="preserve">
+    <value>रिकॉर्ड न किया गया</value>
+  </data>
+  <data name="DeliveryUnavailableSorryNote2" xml:space="preserve">
+    <value>इस समय</value>
+  </data>
+  <data name="ShippingLocation" xml:space="preserve">
+    <value>शिपिंग केवल महाद्वीपीय यू.एस. के भीतर उपलब्ध है।</value>
+  </data>
+  <data name="Offsite_NoPreviewAvailable" xml:space="preserve">
+    <value>किसी पूर्वावलोकन की अनुमति नहीं है</value>
+  </data>
+  <data name="Details_KilometersLabel" xml:space="preserve">
+    <value>किमी।</value>
+  </data>
+  <data name="Sold_BidInfoText" xml:space="preserve">
+    <value>हमारी इसकी मौजूदा इन्वेंटरी ब्राउज़ करें</value>
+  </data>
+  <data name="Sold_Inventory" xml:space="preserve">
+    <value>सूची देखें</value>
+  </data>
+  <data name="Note_text" xml:space="preserve">
+    <value>नोट</value>
+  </data>
+  <data name="Details_CrashedToys_Video" xml:space="preserve">
+    <value>वीडियो</value>
+  </data>
+  <data name="PhotoList_BackTo" xml:space="preserve">
+    <value>वापस</value>
+  </data>
+  <data name="BackTo_ResultsPage" xml:space="preserve">
+    <value>वापस {PageName} पर</value>
+  </data>
+  <data name="Offsite_LocationAndPostSale" xml:space="preserve">
+    <value>बिक्री के बाद पिक अप स्थान और घंटे</value>
+  </data>
+  <data name="LotNotesModal_Title" xml:space="preserve">
+    <value>लॉट# के लिए नोट्स {LotNumber}</value>
+  </data>
+  <data name="Offsite_AfterSaleHours" xml:space="preserve">
+    <value>बिक्री के बाद पिक अप के घंटे:</value>
+  </data>
+  <data name="Offsite_AfterSaleLocation" xml:space="preserve">
+    <value>बिक्री के बाद पिक अप स्थान:</value>
+  </data>
+  <data name="BidInformation_SaleEnded" xml:space="preserve">
+    <value>यह बिक्री समाप्त हो गई है।</value>
+  </data>
+  <data name="CubicCapacityUOM" xml:space="preserve">
+    <value>अनुलिपि</value>
+  </data>
+  <data name="BidInformation_SaleStatusMinimumBidToolTip" xml:space="preserve">
+    <value>विक्रेता रिज़र्व|विक्रेता ने लॉट पर रिज़र्व मूल्य रखा है। अगर वर्चुअल नीलामी के दौरान न्यूनतम बोली पार नहीं होती, तो विक्रेता के पास बिक्री के बाद बोली स्वीकार करने के लिए 17:00 IST तक एक कार्य-दिवस होता है।</value>
+  </data>
+  <data name="BidInformation_SaleStatusOnApprovalToolTip" xml:space="preserve">
+    <value>कोई रिज़र्व नहीं|&quot;कोई रिज़र्व नहीं&quot; पर बेचे गए वाहन सदस्यों को तब तक जारी नहीं किए जाएँगे जब तक विक्रेता Copart को उच्च बोली की अपनी स्वीकृति की सूचना नहीं देता। कुछ मामलों में, विक्रेता को Copart को उच्च बोली की स्वीकृति की सूचना देने में तीन कार्य-दिवस तक लग सकते हैं, जिसमें बिक्री का दिन शामिल है।</value>
+  </data>
+  <data name="BidInformation_SaleStatusPureSaleToolTip" xml:space="preserve">
+    <value>कोई रिज़र्व नहीं|कोई न्यूनतम बोली या रिज़र्व मूल्य नहीं है। वाहन वर्चुअल नीलामी के दौरान बोली लगाने की समाप्ति पर उच्चतम बोली लगाने वाले को दे दिया जाएगा।</value>
+  </data>
+  <data name="BidInformation_SellerReserveMet1" xml:space="preserve">
+    <value>विक्रेता रिज़र्व पार हो गया है</value>
+  </data>
+  <data name="BidInformation_SellerReserveNotMet1" xml:space="preserve">
+    <value>विक्रेता रिज़र्व अभी पूरा नहीं हुआ</value>
+  </data>
+  <data name="BidInformation_SellerReserveToolTip1" xml:space="preserve">
+    <value>विक्रेता रिज़र्व|विक्रेता ने लॉट पर रिज़र्व मूल्य रखा है। अगर लाइव नीलामी के दौरान न्यूनतम बोली पार नहीं होती, तो विक्रेता के पास बिक्री के बाद बोली स्वीकार करने के लिए 5:00 बजे तक एक कार्य-दिवस होता है (परिसर में स्थानीय समय)।</value>
+  </data>
+  <data name="Details_AsIs_what" xml:space="preserve">
+    <value>इसका क्या मतलब है</value>
+  </data>
+  <data name="Details_AsIs_Modal_Label" xml:space="preserve">
+    <value>&quot;जैसी हैं - जहाँ हैं&quot; - सभी बोलियाँ अंतिम हैं</value>
+  </data>
+  <data name="DownloadPdf" xml:space="preserve">
+    <value>PDF डाउनलोड करें</value>
+  </data>
+  <data name="Euronorm" xml:space="preserve">
+    <value>Euronorm</value>
+  </data>
+  <data name="C02Emission" xml:space="preserve">
+    <value>CO2 उत्सर्जन</value>
+  </data>
+  <data name="DownloadPDF_Type" xml:space="preserve">
+    <value>लॉट का विवरण</value>
+  </data>
+  <data name="VINHeader" xml:space="preserve">
+    <value>VIN का विवरण</value>
+  </data>
+  <data name="LotDetailsLabel" xml:space="preserve">
+    <value>लॉट का विवरण</value>
+  </data>
+  <data name="EngineOutput" xml:space="preserve">
+    <value>इंजन आउटपुट</value>
+  </data>
+</root>

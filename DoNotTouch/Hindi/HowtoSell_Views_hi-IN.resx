@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SellVehicle_ApproxMiles" xml:space="preserve">
+    <value>लगभग मील</value>
+  </data>
+  <data name="SellVehicle_EmailLabel" xml:space="preserve">
+    <value>ईमेल</value>
+  </data>
+  <data name="SellVehicle_FailedMessage" xml:space="preserve">
+    <value>वाहन बेचने के प्रयास में त्रुटि हुई है।</value>
+  </data>
+  <data name="SellVehicle_FASTContent" xml:space="preserve">
+    <value>तेज़!</value>
+  </data>
+  <data name="SellVehicle_FirstNameLabel" xml:space="preserve">
+    <value>प्रथम नाम</value>
+  </data>
+  <data name="SellVehicle_GetaQuoteHeader" xml:space="preserve">
+    <value>नि:शुल्क कोटेशन प्राप्त करें</value>
+  </data>
+  <data name="SellVehicle_GetCashContent" xml:space="preserve">
+    <value>अपनी कार के लिए नकद प्राप्त करें</value>
+  </data>
+  <data name="SellVehicle_GetYourFreeQuoteButtonLabel" xml:space="preserve">
+    <value>अपनी नि:शुल्क कोटेशन प्राप्त करें!</value>
+  </data>
+  <data name="SellVehicle_IsThereaLoanLabel" xml:space="preserve">
+    <value>वहाँ वाहन पर ऋण है?</value>
+  </data>
+  <data name="SellVehicle_LastNameLabel" xml:space="preserve">
+    <value>अंतिम नाम</value>
+  </data>
+  <data name="SellVehicle_MakeLabel" xml:space="preserve">
+    <value>मेक</value>
+  </data>
+  <data name="SellVehicle_ModelLabel" xml:space="preserve">
+    <value>मॉडल</value>
+  </data>
+  <data name="SellVehicle_OptionalLabel" xml:space="preserve">
+    <value>ऐच्छिक</value>
+  </data>
+  <data name="SellVehicle_PhoneLabel" xml:space="preserve">
+    <value>फ़ोन</value>
+  </data>
+  <data name="SellVehicle_ReferralCodeLabel" xml:space="preserve">
+    <value>रैफ़रल कोड</value>
+  </data>
+  <data name="SellVehicle_SellYourCarParagraphContent" xml:space="preserve">
+    <value>अपनी कार बेचें और तेज़ी से नगदी प्राप्त करें! आप पेशेवरों के साथ काम कर रहे हैं: Copart सार्वजनिक रूप कारोबार वाली कंपनी है; NASDAQ स्टॉक मार्केट पर सूचीबद्ध। हम प्रति वर्ष 1.25 मिलियन से अधिक वाहन बेचते हैं और आपकी कार अगली हो सकती है! निःशुल्क, कोई दायित्व नहीं प्रस्ताव के लिए अनुरोध करें और अपनी कार आज ही नकदी प्राप्त करें!</value>
+  </data>
+  <data name="SellVehicle_TellUsaboutVehicleHeader" xml:space="preserve">
+    <value>हमें अपने वाहन के बारे में बताएँ</value>
+  </data>
+  <data name="SellVehicle_TellUsAboutYouLabel" xml:space="preserve">
+    <value>हमें अपने बारे में बताएँ</value>
+  </data>
+  <data name="SellVehicle_VehicleWorthLabel" xml:space="preserve">
+    <value>* आपके वाहन की मूल्यवत्ता क्या है?</value>
+  </data>
+  <data name="SellVehicle_YearLabel" xml:space="preserve">
+    <value>वर्ष</value>
+  </data>
+  <data name="SellVehicle_YearOptionLabel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SellVehicle_CityLabel" xml:space="preserve">
+    <value>शहर</value>
+  </data>
+  <data name="SellVehicle_CompanyNameLabel" xml:space="preserve">
+    <value>कंपनी का नाम</value>
+  </data>
+  <data name="SellVehicle_StateLabel" xml:space="preserve">
+    <value>राज्य/प्रांत</value>
+  </data>
+  <data name="SellVehicle_StreetAddressLabel" xml:space="preserve">
+    <value>सड़क का पता</value>
+  </data>
+  <data name="SellVehicle_TellUsAboutBusinessHeader" xml:space="preserve">
+    <value>हमें अपने व्यापार के बारे में बताएँ</value>
+  </data>
+  <data name="SellVehicle_SendLabel" xml:space="preserve">
+    <value>भेजें</value>
+  </data>
+  <data name="SellVehicle_JunkVehicleLabel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SellVehicle_BusinessNameLabel" xml:space="preserve">
+    <value>व्यापार नाम</value>
+  </data>
+  <data name="SellVehicle_StateOnlyLabel" xml:space="preserve">
+    <value>राज्य:</value>
+  </data>
+  <data name="SellVehicle_ZipCodeLbl" xml:space="preserve">
+    <value>पिन कोड</value>
+  </data>
+  <data name="SellVehicle_No" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="SellVehicle_SelectOne" xml:space="preserve">
+    <value>एक चुनें</value>
+  </data>
+  <data name="SellVehicle_Yes" xml:space="preserve">
+    <value>हाँ</value>
+  </data>
+  <data name="SellVehicle_IsYourVehicle2000Newer" xml:space="preserve">
+    <value>क्या आपका वाहन 2000 का है या नया?</value>
+  </data>
+  <data name="SellVehicle_PleaseUseOurStandard" xml:space="preserve">
+    <value>कृपया यहाँ हमारे मानक वाहन फ़ॉर्म का इस्तेमाल करें</value>
+  </data>
+  <data name="SellVehicle_JunkEG50000" xml:space="preserve">
+    <value>जैसे 50,000</value>
+  </data>
+  <data name="SellVehicle_CountryLbl" xml:space="preserve">
+    <value>देश</value>
+  </data>
+  <data name="SellVehicle_PostCodeLbl" xml:space="preserve">
+    <value>पिन कोड</value>
+  </data>
+  <data name="SellVehicle_TownLbl" xml:space="preserve">
+    <value>नगर</value>
+  </data>
+  <data name="SellVehicle_PostalCode" xml:space="preserve">
+    <value>पोस्टल कोड</value>
+  </data>
+  <data name="SellVehicle_VehicleZipcodeLabel" xml:space="preserve">
+    <value>वाहन ज़िप कोड</value>
+  </data>
+  <data name="SellVehicle_ZipCodeLabel" xml:space="preserve">
+    <value>ज़िप</value>
+  </data>
+  <data name="SellVehicle_ApproxKilometers" xml:space="preserve">
+    <value>लगभग किमी</value>
+  </data>
+  <data name="For_Business_PageTitle" xml:space="preserve">
+    <value>Copart विक्रेता बनें</value>
+  </data>
+  <data name="For_Individual_PageTitle" xml:space="preserve">
+    <value>अपनी कार के लिए आज ही नकदी का प्रस्ताव प्राप्त करें</value>
+  </data>
+  <data name="Individual_ThankYou_Title" xml:space="preserve">
+    <value>Copart में आपकी रुचि के लिए धन्यवाद!</value>
+  </data>
+  <data name="Business_Thankyou_Title" xml:space="preserve">
+    <value>Copart में साझेदारी में आपकी रुचि के लिए धन्यवाद!</value>
+  </data>
+  <data name="SellVehicle_SelectMake" xml:space="preserve">
+    <value>मेक चुनें</value>
+  </data>
+  <data name="SellVehicle_SelectModel" xml:space="preserve">
+    <value>मॉडल चुनें</value>
+  </data>
+  <data name="SellVehicle_SelectYear" xml:space="preserve">
+    <value>वर्ष चुनें</value>
+  </data>
+  <data name="For_Dealer_PageTitle" xml:space="preserve">
+    <value>डीलर के लाभ</value>
+  </data>
+</root>

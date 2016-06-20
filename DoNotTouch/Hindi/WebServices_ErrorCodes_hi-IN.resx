@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CONTACT_EMAIL_EXISTS" xml:space="preserve">
+    <value>ई-मेल पता पहले ही मौजूद है</value>
+  </data>
+  <data name="CPS0001" xml:space="preserve">
+    <value>मौजूदा पासवर्ड ज़रूरी है।</value>
+  </data>
+  <data name="CPS0002" xml:space="preserve">
+    <value>मौजूदा पासवर्ड मिलान में नही है</value>
+  </data>
+  <data name="CPS0003" xml:space="preserve">
+    <value>नया पासवर्ड रिक्त है</value>
+  </data>
+  <data name="CPS0004" xml:space="preserve">
+    <value>नया पासवर्ड पैटर्न बेमेल है</value>
+  </data>
+  <data name="CPS0005" xml:space="preserve">
+    <value>पासवर्ड की पुष्टि करें और नया पासवर्ड मिलान में होना चाहिए</value>
+  </data>
+  <data name="CPS0006" xml:space="preserve">
+    <value>नया पासवर्ड मौजूदा पासवर्ड समान नहीं हो सकता</value>
+  </data>
+  <data name="CPS0007" xml:space="preserve">
+    <value>नया पासवर्ड पिछले 5 पासवर्ड के मिलान में नहीं होना चाहिए</value>
+  </data>
+  <data name="CPS0008" xml:space="preserve">
+    <value>अमान्य सदस्य</value>
+  </data>
+  <data name="CPS0009" xml:space="preserve">
+    <value>अमान्य अनुरोध पैरामीटर</value>
+  </data>
+  <data name="CPS0010" xml:space="preserve">
+    <value>UID ज़रूरी है</value>
+  </data>
+  <data name="CPS0011" xml:space="preserve">
+    <value>ईमेल ज़रूरी है</value>
+  </data>
+  <data name="CPS0012" xml:space="preserve">
+    <value>ईमेल अमान्य है</value>
+  </data>
+  <data name="CPS0013" xml:space="preserve">
+    <value>आपका टोकन अमान्य है या समाप्त हो गया है। नए टोकन का अनुरोध करने के लिए कृपया पासवर्ड भूल गए पर क्लिक करें।</value>
+  </data>
+  <data name="ERROR_BAD_CREDENTIALS" xml:space="preserve">
+    <value>अमान्य क्रेडेंशियल्स</value>
+  </data>
+  <data name="ERROR_LOGIN_NOT_ALLOWED" xml:space="preserve">
+    <value>आपका खाता अक्षम कर दिया गया है। कृपया अपने स्थानीय परिसर से संपर्क करें।</value>
+  </data>
+  <data name="GEN0001" xml:space="preserve">
+    <value>अनुरोध वस्तु रिक्त है</value>
+  </data>
+  <data name="GEN0002" xml:space="preserve">
+    <value>आपका टोकन अमान्य है या समाप्त हो गया है। नए टोकन का अनुरोध करने के लिए कृपया पासवर्ड भूल गए पर क्लिक करें।</value>
+  </data>
+  <data name="MAILING_ADDRESS_STATE_REQ" xml:space="preserve">
+    <value>डाक पता राज्य ज़रूरी है</value>
+  </data>
+  <data name="MAILING_ADDRESS_ZIP_REQ" xml:space="preserve">
+    <value>डाक पता ज़िप ज़रूरी है</value>
+  </data>
+  <data name="MEM_LOT_DROOL_ELGI01" xml:space="preserve">
+    <value>Your current Account Status does not allow bidding. Please contact Copart for additional details.</value>
+  </data>
+  <data name="MEM_LOT_DROOL_ELGI02" xml:space="preserve">
+    <value>You do not have the necessary document(s) on file with Copart to bid on this item. Please contact Copart for additional details.</value>
+  </data>
+  <data name="MEM_LOT_DROOL_ELGI03" xml:space="preserve">
+    <value>सदस्य कर पहचान अमान्य है</value>
+  </data>
+  <data name="MEM_LOT_DROOL_ELGI04" xml:space="preserve">
+    <value>स्वामित्व दस्तावेज़ प्रकार और स्वामित्व दस्तावेज देश अमान्य है</value>
+  </data>
+  <data name="MEM_LOT_DROOL_ELGI05" xml:space="preserve">
+    <value>You do not have the necessary document(s) on file with Copart to bid on this item. Please contact Copart for additional details.</value>
+  </data>
+  <data name="MEM_LOT_DROOL_ELGI06" xml:space="preserve">
+    <value>लॉट डेटाबेस में नहीं मिला</value>
+  </data>
+  <data name="MR0001" xml:space="preserve">
+    <value>प्रकार ज़रूरी है</value>
+  </data>
+  <data name="MR0002" xml:space="preserve">
+    <value>प्रथम नाम ज़रूरी है</value>
+  </data>
+  <data name="MR0003" xml:space="preserve">
+    <value>अंतिम नाम ज़रूरी है</value>
+  </data>
+  <data name="MR0004" xml:space="preserve">
+    <value>कंपनी नाम ज़रूरी है</value>
+  </data>
+  <data name="MR0005" xml:space="preserve">
+    <value>भौतिक पता ज़रूरी है</value>
+  </data>
+  <data name="MR0006" xml:space="preserve">
+    <value>डाक का पता ज़रूरी है</value>
+  </data>
+  <data name="MR0007" xml:space="preserve">
+    <value>संपर्क ज़रूरी है</value>
+  </data>
+  <data name="MR0008" xml:space="preserve">
+    <value>कर id ज़रूरी है</value>
+  </data>
+  <data name="MR0009" xml:space="preserve">
+    <value>सदस्य की साइट तक पहुँच नहीं है।</value>
+  </data>
+  <data name="MR0010" xml:space="preserve">
+    <value>सदस्य FirstName की लंबाई 2 से 50 वर्णों के बीच में होनी चाहिए।</value>
+  </data>
+  <data name="MR0011" xml:space="preserve">
+    <value>सदस्य LastName की लंबाई 2 से 50 वर्णों के बीच में होनी चाहिए।</value>
+  </data>
+  <data name="MR0012" xml:space="preserve">
+    <value>भुगतान की गई फ़ीस की तिथि वर्तमान तिथि से बड़ी नहीं हो सकती</value>
+  </data>
+  <data name="MR0013" xml:space="preserve">
+    <value>Company Name exceeds maximum character length</value>
+  </data>
+  <data name="MR1001" xml:space="preserve">
+    <value>डाक पता line1 ज़रूरी है</value>
+  </data>
+  <data name="MR1002" xml:space="preserve">
+    <value>डाक पता line2 ज़रूरी है</value>
+  </data>
+  <data name="MR1003" xml:space="preserve">
+    <value>डाक पता line2 ज़रूरी है</value>
+  </data>
+  <data name="MR1004" xml:space="preserve">
+    <value>डाक पता शहर ज़रूरी है</value>
+  </data>
+  <data name="MR1005" xml:space="preserve">
+    <value>डाक पता राज्य ज़रूरी है</value>
+  </data>
+  <data name="MR1006" xml:space="preserve">
+    <value>डाक पता देश ज़रूरी है</value>
+  </data>
+  <data name="MR1007" xml:space="preserve">
+    <value>डाक पता ज़िप ज़रूरी है</value>
+  </data>
+  <data name="MR1008" xml:space="preserve">
+    <value>डाक पता line1 की लंबाई 3 से 60 वर्णों के बीच में होनी चाहिए।</value>
+  </data>
+  <data name="MR1009" xml:space="preserve">
+    <value>डाक पता line2 की लंबाई 2 से 40 वर्णों के बीच में होनी चाहिए।</value>
+  </data>
+  <data name="MR1010" xml:space="preserve">
+    <value>डाक पता शहर की लंबाई 2 से 50 वर्णों के बीच में होनी चाहिए।</value>
+  </data>
+  <data name="MR1011" xml:space="preserve">
+    <value>डाक पता zip1 की लंबाई 2 से 10 वर्णों के बीच में होनी चाहिए।</value>
+  </data>
+  <data name="MR2001_MAILING" xml:space="preserve">
+    <value>डाक पता line1 ज़रूरी है</value>
+  </data>
+  <data name="MR2001_PHYSICAL" xml:space="preserve">
+    <value>भौतिक पता line1 ज़रूरी है</value>
+  </data>
+  <data name="MR2002_MAILING" xml:space="preserve">
+    <value>डाक पता line2 ज़रूरी है</value>
+  </data>
+  <data name="MR2002_PHYSICAL" xml:space="preserve">
+    <value>भौतिक पता line2 ज़रूरी है</value>
+  </data>
+  <data name="MR2003_MAILING" xml:space="preserve">
+    <value>डाक पता line3 ज़रूरी है</value>
+  </data>
+  <data name="MR2003_PHYSICAL" xml:space="preserve">
+    <value>भौतिक पता line3 ज़रूरी है</value>
+  </data>
+  <data name="MR2004_MAILING" xml:space="preserve">
+    <value>डाक पता शहर ज़रूरी है</value>
+  </data>
+  <data name="MR2004_PHYSICAL" xml:space="preserve">
+    <value>भौतिक पता शहर ज़रूरी है</value>
+  </data>
+  <data name="MR2005_MAILING" xml:space="preserve">
+    <value>डाक पता राज्य ज़रूरी है</value>
+  </data>
+  <data name="MR2005_PHYSICAL" xml:space="preserve">
+    <value>भौतिक पता राज्य ज़रूरी है</value>
+  </data>
+  <data name="MR2006_MAILING" xml:space="preserve">
+    <value>डाक पता देश ज़रूरी है</value>
+  </data>
+  <data name="MR2006_PHYSICAL" xml:space="preserve">
+    <value>भौतिक पता देश ज़रूरी है</value>
+  </data>
+  <data name="MR2007_MAILING" xml:space="preserve">
+    <value>डाक पता ज़िप ज़रूरी है</value>
+  </data>
+  <data name="MR2007_PHYSICAL" xml:space="preserve">
+    <value>भौतिक पता ज़िप ज़रूरी है</value>
+  </data>
+  <data name="MR2008_MAILING" xml:space="preserve">
+    <value>डाक पता line1 की लंबाई 3 से 60 वर्णों के बीच में होनी चाहिए।</value>
+  </data>
+  <data name="MR2008_PHYSICAL" xml:space="preserve">
+    <value>भौतिक पता line1 की लंबाई 3 से 60 वर्णों के बीच में होनी चाहिए।</value>
+  </data>
+  <data name="MR2009_MAILING" xml:space="preserve">
+    <value>डाक पता line2 की लंबाई 2 से 40 वर्णों के बीच में होनी चाहिए।</value>
+  </data>
+  <data name="MR2009_PHYSICAL" xml:space="preserve">
+    <value>भौतिक पता line2 की लंबाई 2 से 40 वर्णों के बीच में होनी चाहिए।</value>
+  </data>
+  <data name="MR2010_MAILING" xml:space="preserve">
+    <value>डाक पता शहर की लंबाई 2 से 50 वर्णों के बीच में होनी चाहिए।</value>
+  </data>
+  <data name="MR2010_PHYSICAL" xml:space="preserve">
+    <value>भौतिक पता शहर की लंबाई 2 से 50 वर्णों के बीच में होनी चाहिए।</value>
+  </data>
+  <data name="MR2011_MAILING" xml:space="preserve">
+    <value>डाक पता zip1 की लंबाई 2 से 10 वर्णों के बीच में होनी चाहिए।</value>
+  </data>
+  <data name="MR2011_PHYSICAL" xml:space="preserve">
+    <value>भौतिक पता zip1 की लंबाई 2 से 10 वर्णों के बीच में होनी चाहिए।</value>
+  </data>
+  <data name="MR2012_MAILING" xml:space="preserve">
+    <value>डाक पता zip1 लंबाई {0} वर्ण की होनी चाहिए</value>
+  </data>
+  <data name="MR2012_PHYSICAL" xml:space="preserve">
+    <value>भौतिक पता zip1 लंबाई {0} वर्ण की होनी चाहिए</value>
+  </data>
+  <data name="MR2013_MAILING" xml:space="preserve">
+    <value>डाक पता देश कोड या तो अमान्य है या समर्थित नहीं है।</value>
+  </data>
+  <data name="MR2013_PHYSICAL" xml:space="preserve">
+    <value>भौतिक पता देश कोड या तो अमान्य है या समर्थित नहीं है।</value>
+  </data>
+  <data name="MR3001" xml:space="preserve">
+    <value>ईमेल ज़रूरी है</value>
+  </data>
+  <data name="MR3002" xml:space="preserve">
+    <value>फ़ोन ज़रूरी है</value>
+  </data>
+  <data name="MR3003" xml:space="preserve">
+    <value>ईमेल पहले ही मौजूद है</value>
+  </data>
+  <data name="MR3004" xml:space="preserve">
+    <value>साइट नाम मान्य नहीं है</value>
+  </data>
+  <data name="MR3005" xml:space="preserve">
+    <value>अमान्य ईमेल पैटर्न</value>
+  </data>
+  <data name="MR3006" xml:space="preserve">
+    <value>ईमेल भेजने में त्रुटि</value>
+  </data>
+  <data name="MR3007" xml:space="preserve">
+    <value>फ़ोन नंबर की लंबाई अधिकतम अनुमति मान से अधिक है</value>
+  </data>
+  <data name="MR3008" xml:space="preserve">
+    <value>द्वितीयक फ़ोन नंबर की लंबाई अधिकतम अनुमति मान से अधिक है</value>
+  </data>
+  <data name="MR4001" xml:space="preserve">
+    <value>सदस्य Id अमान्य है</value>
+  </data>
+  <data name="MR4002" xml:space="preserve">
+    <value>संबंधित साइट के लिए सदस्य रिकॉर्ड पहले ही मौजूद है।</value>
+  </data>
+  <data name="MR5001" xml:space="preserve">
+    <value>जंक सदस्य यार्ड नाम ज़रूरी है</value>
+  </data>
+  <data name="MR5002" xml:space="preserve">
+    <value>जंक सदस्य वाहन प्रकार ज़रूरी है</value>
+  </data>
+  <data name="MR5003" xml:space="preserve">
+    <value>जंक सदस्य न्यूनतम बोली राशि ज़रूरी है</value>
+  </data>
+  <data name="MR5004" xml:space="preserve">
+    <value>जंक सदस्य अधिकतम बोली राशि ज़रूरी है</value>
+  </data>
+  <data name="MR5005" xml:space="preserve">
+    <value>जंक सदस्य एसोसिएशन पहले ही मौजूद है</value>
+  </data>
+  <data name="MR5006" xml:space="preserve">
+    <value>अनुरोध में डुप्लिकेट जंक सदस्य एसोसिएशन मौजूद है</value>
+  </data>
+  <data name="MR6001" xml:space="preserve">
+    <value>प्रारंभिक बोली गणना ज़रूरी है</value>
+  </data>
+  <data name="MR6002" xml:space="preserve">
+    <value>प्रारंभिक बोली की राशि ज़रूरी है</value>
+  </data>
+  <data name="MR6003" xml:space="preserve">
+    <value>पुरस्कार गणना ज़रूरी है</value>
+  </data>
+  <data name="MR6004" xml:space="preserve">
+    <value>पुरस्कार राशि ज़रूरी है</value>
+  </data>
+  <data name="MR6005" xml:space="preserve">
+    <value>बोली सीमा देश ज़रूरी है</value>
+  </data>
+  <data name="MR7001" xml:space="preserve">
+    <value>सदस्य DocumentId अमान्य है।</value>
+  </data>
+  <data name="MR7002" xml:space="preserve">
+    <value>प्रस्तुत सदस्य दस्तावेज़ रिक्त है।</value>
+  </data>
+  <data name="MR7003" xml:space="preserve">
+    <value>सदस्य दस्तावेज़ प्रकार रिक्त है।</value>
+  </data>
+  <data name="MR7004" xml:space="preserve">
+    <value>MemberDocument के अंतर्गत प्रदान किया गया देश कोड अमान्य है।</value>
+  </data>
+  <data name="MR7005" xml:space="preserve">
+    <value>MemberDocument के अंतर्गत प्रदान किया गया राज्य कोड अमान्य है।</value>
+  </data>
+  <data name="MR7006" xml:space="preserve">
+    <value>सदस्य दस्तावेज़ प्रकार कोड ज़रूरी है।</value>
+  </data>
+  <data name="MR7007" xml:space="preserve">
+    <value>सदस्य दस्तावेज़ नंबर ज़रूरी है।</value>
+  </data>
+  <data name="MR8001" xml:space="preserve">
+    <value>कर देश ज़रूरी है</value>
+  </data>
+  <data name="MR8002" xml:space="preserve">
+    <value>कर id ज़रूरी है</value>
+  </data>
+  <data name="MR8003" xml:space="preserve">
+    <value>कर id पहले ही मौजूद है</value>
+  </data>
+  <data name="MR8004" xml:space="preserve">
+    <value>Your VAT ID Issuing Country must match your Physical Address Country</value>
+  </data>
+  <data name="MR8005" xml:space="preserve">
+    <value>अमान्य पहचान नंबर, सही फ़ॉरमेट {1} है</value>
+  </data>
+  <data name="PHYSICAL_ADDRESS_STATE_REQ" xml:space="preserve">
+    <value>भौतिक पता राज्य ज़रूरी है</value>
+  </data>
+  <data name="PHYSICAL_ADDRESS_ZIP_REQ" xml:space="preserve">
+    <value>भौतिक पता ज़िप ज़रूरी है</value>
+  </data>
+  <data name="SS09" xml:space="preserve">
+    <value>आप बीस से अधिक खोज नहीं सहेज सकते।  नई खोज को सहेजने के लिए, कृपया मौजूदा सहेजी गई खोज हटाएँ।</value>
+  </data>
+  <data name="UNAUTHORIZED" xml:space="preserve">
+    <value>आपके द्वारा दर्ज किया पासवर्ड अमान्य है। कृपया मान्य पासवर्ड दर्ज करें या आपको प्राप्त ईमेल का इस्तेमाल करके मान्य पासवर्ड बनाएँ।</value>
+  </data>
+  <data name="VAT_ID_NUM_EXISTS" xml:space="preserve">
+    <value>VAT पहले ही मौजूद है</value>
+  </data>
+</root>

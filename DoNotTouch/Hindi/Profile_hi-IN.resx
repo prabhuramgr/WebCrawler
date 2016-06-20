@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="View_AccountInformation_PageTitle" xml:space="preserve">
+    <value>खाता जानकारी</value>
+  </data>
+  <data name="View_AccountInformation_SideSubnav_ContactInformation" xml:space="preserve">
+    <value>संपर्क जानकारी</value>
+  </data>
+  <data name="View_AccountInformation_SideSubnav_MyPreferences" xml:space="preserve">
+    <value>मेरी वरीयताएँ</value>
+  </data>
+  <data name="View_AccountInformation_SideSubnav_ChangePassword" xml:space="preserve">
+    <value>पासवर्ड बदलें</value>
+  </data>
+  <data name="View_AccountInformation_SideSubnav_Financing" xml:space="preserve">
+    <value>वित्त-पोषण</value>
+  </data>
+  <data name="View_AccountInformation_SideSubnav_DepositRefund" xml:space="preserve">
+    <value>जमा की वापसी</value>
+  </data>
+  <data name="View_AccountInformation_SideSubnav_Licenses" xml:space="preserve">
+    <value>लाइसेंस</value>
+  </data>
+  <data name="View_AccountInformation_SideSubnav_Forms" xml:space="preserve">
+    <value>फ़ॉर्म</value>
+  </data>
+  <data name="View_AccountInformation_EditContactInformation" xml:space="preserve">
+    <value>संपर्क जानकारी संपादित करें</value>
+  </data>
+  <data name="View_AccountInformation_CopartAccount" xml:space="preserve">
+    <value>Copart खाता</value>
+  </data>
+  <data name="View_AccountInformation_FirstName" xml:space="preserve">
+    <value>प्रथम नाम</value>
+  </data>
+  <data name="View_AccountInformation_LastName" xml:space="preserve">
+    <value>अंतिम नाम</value>
+  </data>
+  <data name="View_AccountInformation_Company" xml:space="preserve">
+    <value>कंपनी का नाम</value>
+  </data>
+  <data name="View_AccountInformation_PhysicalAddress" xml:space="preserve">
+    <value>भौतिक पता</value>
+  </data>
+  <data name="View_AccountInformation_Country" xml:space="preserve">
+    <value>देश</value>
+  </data>
+  <data name="View_AccountInformation_City" xml:space="preserve">
+    <value>शहर</value>
+  </data>
+  <data name="View_AccountInformation_StateProvince" xml:space="preserve">
+    <value>राज्य</value>
+  </data>
+  <data name="View_AccountInformation_ZipCodePostalCode" xml:space="preserve">
+    <value>पिन कोड / पोस्टल कोड</value>
+  </data>
+  <data name="View_AccountInformation_MailingAddress" xml:space="preserve">
+    <value>डाक का पता</value>
+  </data>
+  <data name="View_AccountInformation_PrimaryPhone" xml:space="preserve">
+    <value>फ़ोन</value>
+  </data>
+  <data name="View_AccountInformation_AlternatePhone" xml:space="preserve">
+    <value>वैकल्पिक फ़ोन</value>
+  </data>
+  <data name="View_AccountInformation_CurrentEmailAddress" xml:space="preserve">
+    <value>मौजूदा ईमेल पता</value>
+  </data>
+  <data name="ChangeEmail_View_PageTitle" xml:space="preserve">
+    <value>ईमेल बदलें</value>
+  </data>
+  <data name="View_AccountInformation_MemberInformation" xml:space="preserve">
+    <value>सदस्य जानकारी</value>
+  </data>
+  <data name="View_AccountInformation_MemberNumber" xml:space="preserve">
+    <value>सदस्य नंबर</value>
+  </data>
+  <data name="View_AccountInformation_UpgradeMembership" xml:space="preserve">
+    <value>सदस्यता अपग्रेड करें</value>
+  </data>
+  <data name="View_BrokerProfile_AccountInformation" xml:space="preserve">
+    <value>खाता जानकारी</value>
+  </data>
+  <data name="View_BrokerProfile_PleaseNote" xml:space="preserve">
+    <value>कृपया ध्यान देंः</value>
+  </data>
+  <data name="View_BrokerProfile_Contact" xml:space="preserve">
+    <value>Copart प्रतिनिधि से संपर्क करें</value>
+  </data>
+  <data name="View_BrokerProfile_AccountOverview" xml:space="preserve">
+    <value>खाता सिंहावलोकन</value>
+  </data>
+  <data name="View_BrokerProfile_AccountStatus" xml:space="preserve">
+    <value>खाते की स्थिति</value>
+  </data>
+  <data name="View_BrokerProfile_CreatedOnDate" xml:space="preserve">
+    <value>रचना की गई:</value>
+  </data>
+  <data name="View_BrokerProfile_Bidding" xml:space="preserve">
+    <value>बोली लगाना</value>
+  </data>
+  <data name="View_BrokerProfile_MaximumBidders" xml:space="preserve">
+    <value>अधिकतम बोलीदाता</value>
+  </data>
+  <data name="View_BrokerProfile_CurrentBidders" xml:space="preserve">
+    <value>मौजूदा बोलीदाता</value>
+  </data>
+  <data name="View_BrokerProfile_Available" xml:space="preserve">
+    <value>उपलब्ध</value>
+  </data>
+  <data name="View_BrokerProfile_RequestBidderSeatIncrease" xml:space="preserve">
+    <value>बोलीदाता सीट बढ़ाने का अनुरोध करें</value>
+  </data>
+  <data name="View_BrokerProfile_BusinessInformation" xml:space="preserve">
+    <value>व्यापार की जानकारी</value>
+  </data>
+  <data name="View_BrokerProfile_Phone" xml:space="preserve">
+    <value>फ़ोन</value>
+  </data>
+  <data name="View_BrokerProfile_Address" xml:space="preserve">
+    <value>पता</value>
+  </data>
+  <data name="View_BrokerProfile_Website" xml:space="preserve">
+    <value>वेबसाइट</value>
+  </data>
+  <data name="View_BrokerProfile_Email" xml:space="preserve">
+    <value>ईमेल</value>
+  </data>
+  <data name="View_BrokerProfile_AboutUs" xml:space="preserve">
+    <value>हमारे बारे में</value>
+  </data>
+  <data name="View_BrokerProfile_ServicesAndInformation" xml:space="preserve">
+    <value>सर्विस व जानकारी</value>
+  </data>
+  <data name="View_BrokerProfile_ServicesProvided" xml:space="preserve">
+    <value>सर्विस दी गई</value>
+  </data>
+  <data name="View_BrokerProfile_AdditionalInformation" xml:space="preserve">
+    <value>अतिरिक्त जानकारी</value>
+  </data>
+  <data name="View_BrokerProfile_EditAdditionalInformation" xml:space="preserve">
+    <value>संपादित करें</value>
+  </data>
+  <data name="View_BrokerProfile_FeesAndPayments" xml:space="preserve">
+    <value>शुल्क व भुगतान</value>
+  </data>
+  <data name="View_BrokerProfile_BrokerFees" xml:space="preserve">
+    <value>ब्रोकर की फ़ीस</value>
+  </data>
+  <data name="View_BrokerProfile_RegistrationFees" xml:space="preserve">
+    <value>पंजीकरण की फ़ीस</value>
+  </data>
+  <data name="View_BrokerProfile_SecurityDeposit" xml:space="preserve">
+    <value>सुरक्षा जमा</value>
+  </data>
+  <data name="View_BrokerProfile_TransactionFee" xml:space="preserve">
+    <value>ट्रांजेक्शन फ़ीस</value>
+  </data>
+  <data name="View_BrokerProfile_PaymentMethods" xml:space="preserve">
+    <value>भुगतान के तरीके</value>
+  </data>
+  <data name="View_BrokerProfile_Note" xml:space="preserve">
+    <value>अपनी पूरी ब्रोकर जानकारी संपादित करने के लिए, आपको होना चाहिए</value>
+  </data>
+  <data name="View_BidderProfile_PageTitle" xml:space="preserve">
+    <value>बोलीदाता #{BuyerNumber}</value>
+  </data>
+  <data name="View_BidderProfile_AccountInformation" xml:space="preserve">
+    <value>खाता जानकारी</value>
+  </data>
+  <data name="View_BidderProfile_Status" xml:space="preserve">
+    <value>स्थिति</value>
+  </data>
+  <data name="View_BidderProfile_BidLimitAllocations" xml:space="preserve">
+    <value>बोली सीमा आबंटन</value>
+  </data>
+  <data name="View_BidderProfile_Counts" xml:space="preserve">
+    <value>गणना</value>
+  </data>
+  <data name="View_BidderProfile_CountAllocation" xml:space="preserve">
+    <value>गणना आबंटन</value>
+  </data>
+  <data name="View_BidderProfile_CountsUsed" xml:space="preserve">
+    <value>प्रयुक्त गणना</value>
+  </data>
+  <data name="View_BidderProfile_CountsAvailable" xml:space="preserve">
+    <value>उपलब्ध गणना</value>
+  </data>
+  <data name="View_BidderProfile_Amounts" xml:space="preserve">
+    <value>राशि</value>
+  </data>
+  <data name="View_BidderProfile_AmountAllocation" xml:space="preserve">
+    <value>राशि आबंटन</value>
+  </data>
+  <data name="View_BidderProfile_AmountUsed" xml:space="preserve">
+    <value>राशि प्रयुक्त</value>
+  </data>
+  <data name="View_BidderProfile_AmountAvailable" xml:space="preserve">
+    <value>उपलब्ध राशि</value>
+  </data>
+  <data name="View_BidderProfile_AccountHistory" xml:space="preserve">
+    <value>खाता इतिहास</value>
+  </data>
+  <data name="View_BidderProfile_ActiveOn" xml:space="preserve">
+    <value>सक्रिय चालू</value>
+  </data>
+  <data name="View_BidderProfile_AccountAge" xml:space="preserve">
+    <value>खाते की उम्र</value>
+  </data>
+  <data name="View_BidderProfile_LastSignedIn" xml:space="preserve">
+    <value>पिछली बार साइन इन किया</value>
+  </data>
+  <data name="View_BidderProfile_BidStatus" xml:space="preserve">
+    <value>बोली की स्थिति</value>
+  </data>
+  <data name="View_BidderProfile_LastChance" xml:space="preserve">
+    <value>अंतिम मौका</value>
+  </data>
+  <data name="View_BidderProfile_CurrentBids" xml:space="preserve">
+    <value>मौजूदा बोली</value>
+  </data>
+  <data name="View_BidderProfile_LotsWon" xml:space="preserve">
+    <value>जीते गए लॉट</value>
+  </data>
+  <data name="View_BidderProfile_EmailAndPassword" xml:space="preserve">
+    <value>ईमेल व पासवर्ड</value>
+  </data>
+  <data name="View_BidderProfile_Password" xml:space="preserve">
+    <value>पासवर्ड</value>
+  </data>
+  <data name="View_BidderProfile_ConfirmPassword" xml:space="preserve">
+    <value>पासवर्ड की पुष्टि करें</value>
+  </data>
+  <data name="View_BidderProfile_SendNotification" xml:space="preserve">
+    <value>अधिसूचना भेजें</value>
+  </data>
+  <data name="View_BidderProfile_Email" xml:space="preserve">
+    <value>ईमेल</value>
+  </data>
+  <data name="View_BidderProfile_PasswordNote" xml:space="preserve">
+    <value>सभी पासवर्ड में 8-12 वर्ण होने चाहिए।</value>
+  </data>
+  <data name="View_BidderProfile_Selector_SendNotification" xml:space="preserve">
+    <value>बोलीदाता|सदस्य|सभी</value>
+  </data>
+  <data name="View_MemberPreferences_MyPreferences" xml:space="preserve">
+    <value>मेरी वरीयताएँ</value>
+  </data>
+  <data name="View_MemberPreferences_EditMyPreferences" xml:space="preserve">
+    <value>मेरी वरीयताएँ संपादित करें</value>
+  </data>
+  <data name="View_MemberPreferences_DefaultPaymentType" xml:space="preserve">
+    <value>डिफ़ॉल्ट भुगतान प्रकार</value>
+  </data>
+  <data name="View_MemberPreferences_PowerOfAttorney" xml:space="preserve">
+    <value>फ़ाइल पर पॉवर ऑफ़ अटॉर्नी</value>
+  </data>
+  <data name="View_MemberPreferences_GetPOAForm" xml:space="preserve">
+    <value>POA फ़ॉर्म</value>
+  </data>
+  <data name="View_MemberPreferences_ShippingService" xml:space="preserve">
+    <value>शिपिंग सेवा</value>
+  </data>
+  <data name="View_MemberPreferences_ShippingAccountNumber" xml:space="preserve">
+    <value>शिपिंग खाता नंबर</value>
+  </data>
+  <data name="View_MemberPreferences_ReportSalesToMexicanCustoms" xml:space="preserve">
+    <value>मैक्सिकन सीमा शुल्क को बिक्री की रिपोर्ट करें</value>
+  </data>
+  <data name="View_MemberPreferences_AutomaticallyMailTitle" xml:space="preserve">
+    <value>टाइटल दस्तावेज़ स्वचालित रूप से मेल करें</value>
+  </data>
+  <data name="View_MemberPreferences_TitleDelivery" xml:space="preserve">
+    <value>टाइटल डिलीवरी जानकारी</value>
+  </data>
+  <data name="View_MemberPreferencesSelect_Yes_No" xml:space="preserve">
+    <value>हाँ|नहीं</value>
+  </data>
+  <data name="View_Financing_PageTitle" xml:space="preserve">
+    <value>वित्त-पोषण</value>
+  </data>
+  <data name="View_Financing_PageNote" xml:space="preserve">
+    <value>&lt;p&gt;Copart अब आपको तृतीय पक्ष वित्त-पोषण कंपनी के माध्यम से अपनी ख़रीद का वित्त-पोषण करने की क्षमता प्रदान करती है। अगर आपके पास नीचे सूचीबद्ध प्रदाता के साथ मौजूदा खाता है, तो आप अपने खाते के साथ लिंक स्थापित करने के लिए &amp;quot;खाता सत्यापित करें&amp;quot; बटन पर क्लिक कर सकते हैं। अगर आप इनमें से किसी प्रदाता के साथ खाते के लिए आवेदन करना चाहते हैं, तो उस प्रदाता की वेबसाइट पर पुनः निर्देशित किए जाने के लिए &amp;quot;आवेदन करें&amp;quot; बटन पर क्लिक करें जहाँ आप आवेदन कर सकते हैं।&lt;/p&gt;&lt;p&gt;Copart ये लिंक आपकी सुविधा के लिए प्रदान करती है, लेकिन कृपया ध्यान दें कि अगर आप इनमें से किसी प्रदाता के साथ वित्त-पोषण अनुबंध करते हैं तो Copart उसमें पक्ष नहीं होगी और उससे स्वतंत्र रहेगी।&lt;/p&gt;</value>
+  </data>
+  <data name="View_Financing_PageNote2" xml:space="preserve">
+    <value>Copart ये लिंक आपकी सुविधा के लिए प्रदान करती है, लेकिन कृपया ध्यान दें कि अगर आप इनमें से किसी प्रदाता के साथ वित्त-पोषण अनुबंध करते हैं तो Copart उसमें पक्ष नहीं होगी और उससे स्वतंत्र रहेगी।</value>
+  </data>
+  <data name="View_Financing_YourFinanciers" xml:space="preserve">
+    <value>आपके वित्त-पोषक</value>
+  </data>
+  <data name="View_Financing_FinancingSpecialist" xml:space="preserve">
+    <value>वित्त-पोषण विशेषज्ञ</value>
+  </data>
+  <data name="View_Financing_UpdateAccountBalance" xml:space="preserve">
+    <value>शेष देखें</value>
+  </data>
+  <data name="View_Financing_Location" xml:space="preserve">
+    <value>स्थान</value>
+  </data>
+  <data name="View_Financing_Phone" xml:space="preserve">
+    <value>फ़ोन</value>
+  </data>
+  <data name="View_Financing_Status" xml:space="preserve">
+    <value>स्थिति</value>
+  </data>
+  <data name="View_Financing_AvailableFinancing" xml:space="preserve">
+    <value>उपलब्ध वित्त-पोषण</value>
+  </data>
+  <data name="View_Financing_Apply" xml:space="preserve">
+    <value>लागू करें</value>
+  </data>
+  <data name="View_Financing_VerifyAccount" xml:space="preserve">
+    <value>खाता सत्यापित करें</value>
+  </data>
+  <data name="View_Financing_Dealer" xml:space="preserve">
+    <value>डीलर</value>
+  </data>
+  <data name="View_Financing_NotVerified" xml:space="preserve">
+    <value>खाता सत्यापित नहीं किया गया</value>
+  </data>
+  <data name="View_Forms_PageTitle" xml:space="preserve">
+    <value>फ़ॉर्म</value>
+  </data>
+  <data name="View_Forms_Title" xml:space="preserve">
+    <value>टाइटल</value>
+  </data>
+  <data name="View_Forms_Description" xml:space="preserve">
+    <value>विवरण</value>
+  </data>
+  <data name="View_Forms_Type" xml:space="preserve">
+    <value>प्रकार</value>
+  </data>
+  <data name="View_Forms_RevisionDate" xml:space="preserve">
+    <value>संशोधन तिथि</value>
+  </data>
+  <data name="View_Licenses_PageTitle" xml:space="preserve">
+    <value>लाइसेंस</value>
+  </data>
+  <data name="View_Licenses_Type" xml:space="preserve">
+    <value>प्रकार</value>
+  </data>
+  <data name="View_Licenses_Number" xml:space="preserve">
+    <value>नंबर</value>
+  </data>
+  <data name="View_Licenses_Country" xml:space="preserve">
+    <value>देश</value>
+  </data>
+  <data name="View_Licenses_StateOrProvidence" xml:space="preserve">
+    <value>राज्य/प्रांत</value>
+  </data>
+  <data name="View_Licenses_LearnMoreAboutAddingLicenses" xml:space="preserve">
+    <value>लाइसेंस जोड़ने के बारे में और जानें</value>
+  </data>
+  <data name="View_ChangePassword_ChangePassword" xml:space="preserve">
+    <value>पासवर्ड बदलें</value>
+  </data>
+  <data name="View_ChangePassword_CurrentPassword" xml:space="preserve">
+    <value>मौजूदा पासवर्ड</value>
+  </data>
+  <data name="View_ChangePassword_NewPassword" xml:space="preserve">
+    <value>नया पासवर्ड</value>
+  </data>
+  <data name="View_ChangePassword_ConfirmNewPassword" xml:space="preserve">
+    <value>नए पासवर्ड की पुष्टि करें</value>
+  </data>
+  <data name="View_ChangePassword_Cancel" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="View_ChangePassword_Save" xml:space="preserve">
+    <value>सहेजें</value>
+  </data>
+  <data name="View_ChangePassword_PasswordValidationNote" xml:space="preserve">
+    <value>नोट: आपके नए पासवर्ड में 8-12 वर्ण होने चाहिए</value>
+  </data>
+  <data name="View_BidderProfile_EditProfile" xml:space="preserve">
+    <value>प्रोफ़ाइल संपादित करें</value>
+  </data>
+  <data name="View_BidderProfile_Cancel" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="View_BidderProfile_SaveChanges" xml:space="preserve">
+    <value>बदलाव सहेजें</value>
+  </data>
+  <data name="View_FinancingVerifyAccountDialog_VerifyYour" xml:space="preserve">
+    <value>अपना खाता सत्यापित करें </value>
+  </data>
+  <data name="View_EnterDetails" xml:space="preserve">
+    <value>इसके साथ अपना खाता सत्यापित करने के लिए विवरण दर्ज करें </value>
+  </data>
+  <data name="View_FinancingVerifyAccountDialog_DealerID" xml:space="preserve">
+    <value> डीलर ID</value>
+  </data>
+  <data name="View_FinancingVerifyAccountDialog_Cancel" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="View_FinancingVerifyAccountDialog_VerifyAccount" xml:space="preserve">
+    <value>खाता सत्यापित करें</value>
+  </data>
+  <data name="View_FinancingVerifyAccountDialog_Submit" xml:space="preserve">
+    <value>जमा करें</value>
+  </data>
+  <data name="View_Period" xml:space="preserve">
+    <value>।</value>
+  </data>
+  <data name="View_IncreaseBidderSeatsModal_Title" xml:space="preserve">
+    <value>बोलीदाता सीट अनुरोध बढ़ाएँ</value>
+  </data>
+  <data name="View_IncreaseBidderSeatsModal_BidderSeatAmountNote" xml:space="preserve">
+    <value>अपनी बोलीदाता सीटें बढ़ाने के लिए, कृपया नई बोलीदाता सीट राशि निर्दिष्ट करें।</value>
+  </data>
+  <data name="View_IncreaseBidderSeatsModal_CurrentSeats" xml:space="preserve">
+    <value>मौजूदा सीटें</value>
+  </data>
+  <data name="View_IncreaseBidderSeatsModal_AmountToIncrease" xml:space="preserve">
+    <value>बढ़ाने के लिए राशि</value>
+  </data>
+  <data name="View_IncreaseBidderSeatsModal_TotalSeatsRequested" xml:space="preserve">
+    <value>अनुरोध की गईं कुल सीटें</value>
+  </data>
+  <data name="View_IncreaseBidderSeatsModal_Cancel" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="View_IncreaseBidderSeatsModal_SubmitIncreaseRequest" xml:space="preserve">
+    <value>बढ़ाने का अनुरोध जमा करें</value>
+  </data>
+  <data name="View_SeatIncreaseConfirmation_Title" xml:space="preserve">
+    <value>सफल! अनुरोध जमा किया गया</value>
+  </data>
+  <data name="View_SeatIncreaseConfirmation_Description" xml:space="preserve">
+    <value>					अपनी बोलीदाता सीट सीमा बढ़ाने के लिए आपका अनुरोध जमा हो गया है। Copart प्रतिनिधि ईमेल
+					के माध्यम से शीघ्र ही आपके अनुरोध का जवाब देंगे।</value>
+  </data>
+  <data name="View_SeatIncreaseConfirmation_Ok" xml:space="preserve">
+    <value>ठीक</value>
+  </data>
+  <data name="View_ContactInformationEdit_UpgradeMembership" xml:space="preserve">
+    <value>सदस्यता अपग्रेड करें</value>
+  </data>
+  <data name="View_ContactInformationEdit_MailingAddressLine1" xml:space="preserve">
+    <value>डाक का पता 1</value>
+  </data>
+  <data name="View_ContactInformationEdit_MailingAddressLine2" xml:space="preserve">
+    <value>डाक का पता 2</value>
+  </data>
+  <data name="View_ContactInformationEdit_SameAsBillingAddress" xml:space="preserve">
+    <value>भौतिक पते के समान</value>
+  </data>
+  <data name="View_ContactInformationEdit_Cancel" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="View_ContactInformationEdit_Save" xml:space="preserve">
+    <value>सहेजें</value>
+  </data>
+  <data name="View_ContactInformation_PleaseWait" xml:space="preserve">
+    <value>कृपया प्रतीक्षा करें...</value>
+  </data>
+  <data name="View_ContactInformationRead_InformationSaved" xml:space="preserve">
+    <value>आपकी जानकारी सहेज ली गई है।</value>
+  </data>
+  <data name="View_AccountInformation_InvalidEmailMessage" xml:space="preserve">
+    <value>कृपया मान्य नया ईमेल पता दर्ज करें।</value>
+  </data>
+  <data name="Controller_CouldNotUpdateContactInfo" xml:space="preserve">
+    <value>संपर्क जानकारी अद्यतित नहीं हो सकती</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_Cancel" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_Save" xml:space="preserve">
+    <value>सहेजें</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_TheDeliveryInformation" xml:space="preserve">
+    <value>टाइटल डिलीवरी जानकारी</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_Disclosure" xml:space="preserve">
+    <value>यह बॉक्स क्लिक करके, मैं Copart को मेरे द्वारा Copart के माध्यम से ख़रीदे गए सभी वाहनों के लिए मेक्सिको के वित्त और सार्वजनिक क्रेडिट सचिवालय (Secretaría de Hacienda Y Credito Público) को मेरा नाम, Copart ख़रीदार नंबर, पता, शहर, राज्य, डाक कोड, Copart वाहन लॉट नंबर, उच्च बोली, वाहन पहचान नंबर, मेक, मॉडल, वाहन प्रकार, और मॉडल वर्ष जमा करने के लिए अधिकृत करता हूँ। मैं समझता हूँ कि यह सेवा Copart के इसके अधीन है </value>
+  </data>
+  <data name="View_MemberPreferencesEdit_MailingAddressLine1" xml:space="preserve">
+    <value>*डाक का पता लाइन 1</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_MailingAddressLine2" xml:space="preserve">
+    <value>*डाक का पता लाइन 2</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_Country" xml:space="preserve">
+    <value>*देश</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_StateProvince" xml:space="preserve">
+    <value>*राज्य/प्रांत</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_City" xml:space="preserve">
+    <value>*शहर</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_ZipCode" xml:space="preserve">
+    <value>*पिन कोड / पोस्टल कोड</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_PrimaryPhone" xml:space="preserve">
+    <value>प्राथमिक फ़ोन</value>
+  </data>
+  <data name="View_Bidders_NoBidders" xml:space="preserve">
+    <value>आपके पास कोई बोलीदाता नहीं है</value>
+  </data>
+  <data name="Controller_ChangePassword_There_was_a_problem_with_your_request" xml:space="preserve">
+    <value>आपके अनुरोध के साथ समस्या थी</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_Selector_DefaultPaymentMethod" xml:space="preserve">
+    <value>नगद|वित्त-पोषण प्रकार|कंपनी चेक|मनी ऑर्डर|ePay भुगतान|क्रेडिट कार्ड|उपलब्ध निधियाँ लागू करें|वायर ट्रांसफ़र|कैशियर्स चेक</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_Selector_DefaultPaymentMethod_Values" xml:space="preserve">
+    <value>C|F|K|M|O|P|U|W|X</value>
+  </data>
+  <data name="Controller_CouldNotUpdateMemberPreferences" xml:space="preserve">
+    <value>सदस्य वरीयताएँ अद्यतित नहीं हो सकीं</value>
+  </data>
+  <data name="View_BrokerProfile_Cancel" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="View_BrokerProfile_SaveChanges" xml:space="preserve">
+    <value>बदलाव सहेजें</value>
+  </data>
+  <data name="ViewModel_ContactInformation_Validation_PrimaryPhone" xml:space="preserve">
+    <value>प्राथमिक फ़ोन नंबर ज़रूरी है</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_Selector_ShippingServices" xml:space="preserve">
+    <value>CALOV|COPAR|DHL|FEDEX|UPS|USPS</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_Selector_ShippingServices_Values" xml:space="preserve">
+    <value>CALOV|COPAR|DHL|FEDEX|UPS|USPS</value>
+  </data>
+  <data name="View_ContactInformationEdit_Selector_PhoneTypes" xml:space="preserve">
+    <value>सेल|कार्य|घर|फ़ैक्स</value>
+  </data>
+  <data name="View_ContactInformationEdit_Selector_PhoneTypes_Values" xml:space="preserve">
+    <value>C|W|H|F</value>
+  </data>
+  <data name="View_AccountInformation_ConfirmEmailAddress" xml:space="preserve">
+    <value>ईमेल पते की पुष्टि करें</value>
+  </data>
+  <data name="View_ContactInformationEdit_AlternatePhoneType" xml:space="preserve">
+    <value>वैकल्पिक फ़ोन प्रकार</value>
+  </data>
+  <data name="View_ContactInformationEdit_PrimaryPhoneType" xml:space="preserve">
+    <value>प्राथमिक फ़ोन प्रकार</value>
+  </data>
+  <data name="ViewModel_ContactInformation_Validation_ConfirmEmailAddress" xml:space="preserve">
+    <value>आपके द्वारा दर्ज किए गए ईमेल पते मिलान में नहीं हैं।</value>
+  </data>
+  <data name="ViewModel_ContactInformation_Validation_ConfirmNewPassword" xml:space="preserve">
+    <value>नया पासवर्ड मिलान में नहीं है।</value>
+  </data>
+  <data name="ViewModel_ContactInformation_Validation_NewPassword" xml:space="preserve">
+    <value>नया पासवर्ड की आवश्यकता है।</value>
+  </data>
+  <data name="ViewModel_ContactInformation_Validation_NewPassword_RegExpr" xml:space="preserve">
+    <value>मान्य पासवर्ड दर्ज करें।</value>
+  </data>
+  <data name="ViewModel_ContactInformation_Validation_OriginalPassword" xml:space="preserve">
+    <value>मौजूदा पासवर्ड की आवश्यकता है।</value>
+  </data>
+  <data name="View_MemberPreferences_CreditCardOnFileLabel" xml:space="preserve">
+    <value>मेरे क्रेडिट कार्ड</value>
+  </data>
+  <data name="View_MemberPreferences_EditMyCreditCards" xml:space="preserve">
+    <value>संपादित करें</value>
+  </data>
+  <data name="View_MemberPreferences_HasCreditCards" xml:space="preserve">
+    <value>फाइल पर</value>
+  </data>
+  <data name="View_MemberPreferences_NoCreditCards" xml:space="preserve">
+    <value>फाइल पर कोई नहीं</value>
+  </data>
+  <data name="Controller_Financing_ErrorFunderCodeNotSupported" xml:space="preserve">
+    <value>फ़िलहाल हम आपके द्वारा दर्ज की गई डीलर ID का समर्थन नहीं करते। कृपया फिर से कोशिश करें या (972) 391-5400 या member.services@copart.com पर सदस्य सेवाएँ से संपर्क करें।</value>
+  </data>
+  <data name="Controller_Financing_ErrorBalanceGeneric" xml:space="preserve">
+    <value>खाता शेष जाँच विफल</value>
+  </data>
+  <data name="View_Financing_AsOf" xml:space="preserve">
+    <value>इसकी स्थिति के अनुसार </value>
+  </data>
+  <data name="View_Financing_CreditAvailable" xml:space="preserve">
+    <value> उपलब्ध क्रेडिट</value>
+  </data>
+  <data name="View_AccountInformation_ExplanationText" xml:space="preserve">
+    <value>अपना प्राथमिक पता बदलने के लिए आपको सदस्य लाइसेंसिंग विभाग से buyer.licensing@copart.com या (972) 391-5400 पर करना होगा</value>
+  </data>
+  <data name="Controller_Financing_ErrorFunderNotActive" xml:space="preserve">
+    <value>फ़िलहाल हम आपके द्वारा दर्ज की गई डीलर ID का समर्थन नहीं करते। कृपया फिर से कोशिश करें या (972) 391-5400 या member.services@copart.com पर सदस्य सेवाएँ से संपर्क करें।</value>
+  </data>
+  <data name="Controller_Financing_ErrorInvalidDealerId" xml:space="preserve">
+    <value>आपके द्वारा दर्ज की गई डीलर ID अमान्य है। कृपया फिर से कोशिश करें या (972) 391-5400 या member.services@copart.com पर सदस्य सेवाएँ से संपर्क करें।</value>
+  </data>
+  <data name="Controller_Financing_ErrorInvalidFunderCode" xml:space="preserve">
+    <value>आपके द्वारा दर्ज की गई डीलर ID अमान्य है। कृपया फिर से कोशिश करें या (972) 391-5400 या member.services@copart.com पर सदस्य सेवाएँ से संपर्क करें।</value>
+  </data>
+  <data name="Controller_Financing_ErrorRequiredParameter" xml:space="preserve">
+    <value>कृपया सत्यापित करें कि सभी जानकारी दर्ज कर दी गई है। फिर से कोशिश करें या (972) 391-5400 या member.services@copart.com पर सदस्य सेवाएँ से संपर्क करें।</value>
+  </data>
+  <data name="Controller_Financing_ErrorVerifyGeneric" xml:space="preserve">
+    <value>खाता सत्यापित करने में असमर्थ। कृपया फिर से कोशिश करें या (972) 391-5400 या member.services@copart.com पर सदस्य सेवाएँ से संपर्क करें</value>
+  </data>
+  <data name="Views_Financing_VerifyAccountSuccess" xml:space="preserve">
+    <value>सफल! आपका नया खाता सत्यापित हो गया है।</value>
+  </data>
+  <data name="View_FinancingVerifyAccountDialog_Account" xml:space="preserve">
+    <value> खाता</value>
+  </data>
+  <data name="EditContactInfo_Call707" xml:space="preserve">
+    <value>या यह जानकारी बदलने के लिए 972-391-5400 पर कॉल करें।</value>
+  </data>
+  <data name="EditContactInfo_MemberLicenseDepartment" xml:space="preserve">
+    <value>सदस्य लाइसेंस विभाग</value>
+  </data>
+  <data name="EditContactInfo_PleaseContact" xml:space="preserve">
+    <value>अगर आप अपना भौतिक पता संपादित करना चाहते हैं, कृपया संपर्क करें </value>
+  </data>
+  <data name="EditContactInfo_ToChangeThisInfo" xml:space="preserve">
+    <value>यह जानकारी बदलने के लिए।</value>
+  </data>
+  <data name="ChangePasswordPasswordChanged" xml:space="preserve">
+    <value>पासवर्ड बदला गया!</value>
+  </data>
+  <data name="FinancingVerifyAccountDealerIDRequired" xml:space="preserve">
+    <value>डीलर ID फ़ील्ड ज़रूरी है।</value>
+  </data>
+  <data name="View_DepositRefund_Continue" xml:space="preserve">
+    <value>जारी रखें</value>
+  </data>
+  <data name="View_DepositRefund_CreditCardNumber" xml:space="preserve">
+    <value>क्रेडिट कार्ड नंबर</value>
+  </data>
+  <data name="View_DepositRefund_ExpirationDate" xml:space="preserve">
+    <value>अवधि समाप्ति तिथि</value>
+  </data>
+  <data name="View_DepositRefund_NameOnCard" xml:space="preserve">
+    <value>कार्ड पर नाम</value>
+  </data>
+  <data name="View_DepositRefund_Note" xml:space="preserve">
+    <value>आपकी बोली गतिविधि के कारण उपलब्ध धन-वापसी बदल सकती है</value>
+  </data>
+  <data name="View_DepositRefund_Note1" xml:space="preserve">
+    <value>आपकी बोली गतिविधि के कारण उपलब्ध धन-वापसी बदल सकती है</value>
+  </data>
+  <data name="View_DepositRefund_TotalRefundAvailable" xml:space="preserve">
+    <value>कुल उपलब्ध धन-वापसी</value>
+  </data>
+  <data name="DepositRefundReviewNote_AvailableRefunds" xml:space="preserve">
+    <value>आपकी बोली गतिविधि के कारण उपलब्ध धन-वापसी बदल सकती है।</value>
+  </data>
+  <data name="DepositRefundReviewNote_DependingOnRefund" xml:space="preserve">
+    <value>धन-वापसी की उपलब्धता के आधार पर, आप केवल इस कार्ड पर रखी गई कुल जमा राशि तक धन-वापसी के लिए अनुरोध कर सकते हैं</value>
+  </data>
+  <data name="DepositRefundReview_Amount" xml:space="preserve">
+    <value>राशि</value>
+  </data>
+  <data name="DepositRefundReview_Date" xml:space="preserve">
+    <value>तिथि</value>
+  </data>
+  <data name="DepositRefundReview_DepositCurrentlyAvailable" xml:space="preserve">
+    <value>फ़िलहाल धन-वापसी के लिए उपलब्ध जमा</value>
+  </data>
+  <data name="DepositRefundReview_Hide" xml:space="preserve">
+    <value>छिपाएँ</value>
+  </data>
+  <data name="DepositRefundReview_NoRefundTransactions" xml:space="preserve">
+    <value>किसी धन-वापसी ट्रांजेक्शन पर प्रक्रिया नहीं की गई।</value>
+  </data>
+  <data name="DepositRefundReview_Refund" xml:space="preserve">
+    <value>धन-वापसी</value>
+  </data>
+  <data name="DepositRefundReview_RefundTransactionHistory" xml:space="preserve">
+    <value>धन-वापसी ट्रांजेक्शन इतिहास</value>
+  </data>
+  <data name="DepositRefundReview_ReviewAndSubmit" xml:space="preserve">
+    <value>समीक्षा करें और जमा करें</value>
+  </data>
+  <data name="DepositRefundReview_InvalidAmount" xml:space="preserve">
+    <value>कृपया ऐसी राशि दर्ज करें जो फ़िलहाल धन-वापसी के लिए उपलब्ध जमा के बराबर या उससे कम है।</value>
+  </data>
+  <data name="DepositRefundReview_TotalRefundsIssued" xml:space="preserve">
+    <value>इस कार्ड के लिए जारी कुल धन-वापसी</value>
+  </data>
+  <data name="View_DepositRefundReviewTitle" xml:space="preserve">
+    <value>जमा धन-वापसी समीक्षा</value>
+  </data>
+  <data name="View_SubmitButtonText" xml:space="preserve">
+    <value>जमा करें</value>
+  </data>
+  <data name="View_BidderProfile_Save" xml:space="preserve">
+    <value>सहेजें</value>
+  </data>
+  <data name="GenericCancelText" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="GenericPrintText" xml:space="preserve">
+    <value>प्रिंट करें</value>
+  </data>
+  <data name="View_DepositRefundConfirm_Deposit" xml:space="preserve">
+    <value>जमा</value>
+  </data>
+  <data name="View_DepositRefundConfirm_RefundConfirmation" xml:space="preserve">
+    <value>धन-वापसी की पुष्टि</value>
+  </data>
+  <data name="View_DepositRefundConfirm_Status" xml:space="preserve">
+    <value>स्थिति</value>
+  </data>
+  <data name="View_DepositRefundConfirm_ThankYou" xml:space="preserve">
+    <value>धन्यवाद! आपकी जमा वापस कर दी गई है</value>
+  </data>
+  <data name="View_DepositRefundConfirm_TotalRefund" xml:space="preserve">
+    <value>कुल धन-वापसी</value>
+  </data>
+  <data name="View_DepositRefundConfirm_Transaction" xml:space="preserve">
+    <value>ट्रांजेक्शन</value>
+  </data>
+  <data name="Profile_GenericFailureMessage" xml:space="preserve">
+    <value>विफलता</value>
+  </data>
+  <data name="Profile_GenericSuccessMessage" xml:space="preserve">
+    <value>सफलता</value>
+  </data>
+  <data name="View_ChangeEmail_BackToBuyerProfile" xml:space="preserve">
+    <value>ख़रीदार प्रोफ़ाइल पर वापस</value>
+  </data>
+  <data name="View_ChangeEmail_HeaderText" xml:space="preserve">
+    <value>ईमेल बदलें</value>
+  </data>
+  <data name="View_ChangeEmail_OperationCompleted" xml:space="preserve">
+    <value>संचालन पूरा किया गया।</value>
+  </data>
+  <data name="View_ChangeEmail_Save" xml:space="preserve">
+    <value>सहेजें</value>
+  </data>
+  <data name="Views_Profile_ChangePasswordModel" xml:space="preserve">
+    <value>ChangePasswordModel</value>
+  </data>
+  <data name="View_ChangePassowrd_BackToList" xml:space="preserve">
+    <value>सूची पर वापस</value>
+  </data>
+  <data name="ViewBidderIncreaseModal_SpecifyNumberToIncrease" xml:space="preserve">
+    <value>आपको बढ़ाने के लिए सीटों का नंबर, 0 से बड़ा निर्दिष्ट करने की ज़रूरत है।</value>
+  </data>
+  <data name="View_DepositRefund_NoCardsAvailable" xml:space="preserve">
+    <value>धन-वापसी के लिए कोई क्रेडिट कार्ड उपलब्ध नहीं हैं।</value>
+  </data>
+  <data name="Controller_DepositRefund_NoDepositLeftToRefundForTheGivenCard" xml:space="preserve">
+    <value>संबंधित कार्ड के लिए धन-वापसी के लिए कोई जमा नहीं बचा।</value>
+  </data>
+  <data name="Controller_DepositRefund_RefundAmountCannotBeZero" xml:space="preserve">
+    <value>धन-वापसी राशि शून्य नहीं हो सकती।</value>
+  </data>
+  <data name="Controller_DepositRefund_RequestedAmountExceedsDepositAvailableForRefund" xml:space="preserve">
+    <value>अनुरोध की गई राशि धन-वापसी के लिए उपलब्ध जमा से अधिक है।</value>
+  </data>
+  <data name="Controller_DepositRefund_RequestedAmountExceedsDepositOnHandForTheGivenCard" xml:space="preserve">
+    <value>अनुरोध की गई राशि संबंधित कार्ड के लिए उपलब्ध जमा से अधिक है।</value>
+  </data>
+  <data name="Controller_DepositRefund_RequestedAmountNotCompletelyRefunded" xml:space="preserve">
+    <value>अनुरोध की गई राशि पूरी तरह से वापस नहीं हुई।</value>
+  </data>
+  <data name="Controller_DepositRefund_AnUnknownErrorOccurred" xml:space="preserve">
+    <value>अज्ञात त्रुटि हुई है</value>
+  </data>
+  <data name="View_DepositRefund_ErrorPleaseSelectACreditCard" xml:space="preserve">
+    <value>कृपया क्रेडिट कार्ड चुनें।</value>
+  </data>
+  <data name="Controller_ChangePassword_CantUseCopartError" xml:space="preserve">
+    <value>निम्नलिखित पासवर्ड मान्य नहीं हैं: ख़रीदार नंबर, &quot;Copart&quot; व &quot;पासवर्ड&quot;। कृपया नया पासवर्ड दर्ज करें।</value>
+  </data>
+  <data name="View_AccountInformation_NewEmail" xml:space="preserve">
+    <value>नई ईमेल</value>
+  </data>
+  <data name="View_BidderProfile_Selector_Status" xml:space="preserve">
+    <value>सक्रिय | निष्क्रिय | निलंबित | स्थान-भ्रष्ट | रिक्त | खाता रीसेट करें</value>
+  </data>
+  <data name="View_BidderProfile_Selector_Status_VacantStatus" xml:space="preserve">
+    <value>रिक्त|खाता रीसेट करें</value>
+  </data>
+  <data name="Profile_ChangeEmailRequired" xml:space="preserve">
+    <value>ईमेल पता ज़रूरी है।</value>
+  </data>
+  <data name="View_Bidders_DataTableInfo" xml:space="preserve">
+    <value>_TOTAL_ बोलीदाता दिखा रहा है</value>
+  </data>
+  <data name="View_Bidders_DataTableInfoFiltered" xml:space="preserve">
+    <value>(_MAX_ बोलीदाताओं से फ़िल्टर किए गए)</value>
+  </data>
+  <data name="View_Bidders_NoBiddersMatchingFilter" xml:space="preserve">
+    <value>खोज मापदंड से मिलान का कोई बोलीदाता नहीं मिला।</value>
+  </data>
+  <data name="View_BidderProfile_PasswordNote2" xml:space="preserve">
+    <value>बोलीदाता पासवर्ड, आपके खाते के पासवर्ड से अलग होना चाहिए, क्योंकि इसका इस्तेमाल कर्मचारी द्वारा किया जाएगा।</value>
+  </data>
+  <data name="View_AccountInformation_VAT" xml:space="preserve">
+    <value>पहचान नंबर</value>
+  </data>
+  <data name="Views_MemberPreferencesEdit_Termsofservice" xml:space="preserve">
+    <value>सेवा की शर्तें।</value>
+  </data>
+  <data name="View_MemberPreferencesRead_InformationSaved" xml:space="preserve">
+    <value>जानकारी सहेजी गई</value>
+  </data>
+  <data name="Validation_Required" xml:space="preserve">
+    <value> {0} ज़रूरी है</value>
+  </data>
+  <data name="View_MemberPreference_Disclosure" xml:space="preserve">
+    <value>आगे बढ़ने से पहले कृपया सेवा की शर्तें स्वीकार करें।</value>
+  </data>
+  <data name="Views_Profile_MemberPreferencesEdit_Shipping" xml:space="preserve">
+    <value>लागू नहीं</value>
+  </data>
+  <data name="View_BidderProfile_WhatAreAmounts" xml:space="preserve">
+    <value>यह क्या है?</value>
+  </data>
+  <data name="View_BidderProfile_WhatAreCounts" xml:space="preserve">
+    <value>यह क्या है?</value>
+  </data>
+  <data name="View_BidderProfileEdit_PageTitle" xml:space="preserve">
+    <value>बोलीदाता #{BuyerNumber}</value>
+  </data>
+  <data name="Views_Profile_MemberPreferencesEdit_ReportSalesToMexicanCustoms" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="View_BidderProfileEdit_Current" xml:space="preserve">
+    <value>मौजूदा</value>
+  </data>
+  <data name="View_BidderProfileEdit_New" xml:space="preserve">
+    <value>नया</value>
+  </data>
+  <data name="View_BidderProfileEdit_Success" xml:space="preserve">
+    <value>आपकी बोली सफलतापूर्वक अद्यतित हो गई है।</value>
+  </data>
+  <data name="View_ContactInformation_PhysicalAddressLine1" xml:space="preserve">
+    <value>भौतिक पता 1</value>
+  </data>
+  <data name="View_ContactInformation_PhysicalAddressLine2" xml:space="preserve">
+    <value>भौतिक पता 2</value>
+  </data>
+  <data name="View_ContactInformation_PostalCode" xml:space="preserve">
+    <value>पोस्टल कोड</value>
+  </data>
+  <data name="View_ContactInformation_EmailMySavedSearches" xml:space="preserve">
+    <value>मेरी सहेजी गई खोजें ईमेल करें</value>
+  </data>
+  <data name="Controller_BidderProfile_There_was_a_problem_with_your_request" xml:space="preserve">
+    <value>आपके अनुरोध के साथ समस्या थी। कृपया मान्य पासवर्ड दर्ज करें।</value>
+  </data>
+  <data name="View_ContactInformation_Success" xml:space="preserve">
+    <value>आपकी सहेजी गई खोज अद्यतित कर दी गई है।</value>
+  </data>
+  <data name="View_BidderProfile_Password_Validation" xml:space="preserve">
+    <value>कृपया 8-12 वर्णों के बीच मान्य अल्फ़ान्यूमेरिक पासवर्ड दर्ज करें।</value>
+  </data>
+  <data name="View_BidderProfile_Selector_Status_MasterBuyer" xml:space="preserve">
+    <value>सभी|निष्क्रिय</value>
+  </data>
+  <data name="View_BrokerProfile_Status_Active" xml:space="preserve">
+    <value>सक्रिय</value>
+  </data>
+  <data name="View_BrokerProfile_Status_Inactive" xml:space="preserve">
+    <value>निष्क्रिय</value>
+  </data>
+  <data name="View_BrokerProfile_Status_Suspended" xml:space="preserve">
+    <value>स्थगित किया गया</value>
+  </data>
+  <data name="View_BrokerProfile_Status_Void" xml:space="preserve">
+    <value>शून्य</value>
+  </data>
+  <data name="Validation" xml:space="preserve">
+    <value>आगे बढ़ने से पहले कृपया सेवा की शर्तें स्वीकार करें।</value>
+  </data>
+  <data name="View_AccountInformation_ALTPhoneNumber" xml:space="preserve">
+    <value>वैकल्पिक फोन नंबर</value>
+  </data>
+  <data name="View_AccountInformation_PrimaryPhoneNumber" xml:space="preserve">
+    <value>प्राथमिक फोन नंबर</value>
+  </data>
+  <data name="View_ContactInformation_PostalCode_UK" xml:space="preserve">
+    <value>पिनकोड</value>
+  </data>
+  <data name="View_BrokerProfile_NoDataTitle" xml:space="preserve">
+    <value>ब्रोकर प्रोफ़ाइल</value>
+  </data>
+  <data name="View_AccountInformation_PrimaryExtPhoneNumber" xml:space="preserve">
+    <value>प्राथमिक फोन एक्सटेंशन</value>
+  </data>
+  <data name="EditContactInfo_Call707_UK" xml:space="preserve">
+    <value>या यह जानकारी बदलने के लिए 0844 875 8837 पर कॉल करें।</value>
+  </data>
+  <data name="EditContactInfo_MemberLicenseDepartment_UK" xml:space="preserve">
+    <value>सदस्य सेवाएँ</value>
+  </data>
+  <data name="View_Bidders_DataTableInfo_NewText" xml:space="preserve">
+    <value>_START_ to _END_ of _TOTAL_ बोलीदाता दिखा रहा है</value>
+  </data>
+  <data name="View_Bidders_DataTable_showingtotal" xml:space="preserve">
+    <value>(_MAX_ कुल बोलीदाताओं से फ़िल्टर किए गए)</value>
+  </data>
+  <data name="View_Bidders_DataTable_sInfoEmpty" xml:space="preserve">
+    <value>0 के 0 से 0 तक बोलीदाता दिखा रहा है</value>
+  </data>
+  <data name="View_Bidders_NoBidder_MatchFilterText" xml:space="preserve">
+    <value>खोज मापदंड से मिलान का कोई बोलीदाता नहीं मिला।</value>
+  </data>
+  <data name="EditContactInfo_PleaseContact_Uk" xml:space="preserve">
+    <value>अगर आप अपना भौतिक पता संपादित करना चाहते हैं, कृपया संपर्क करें</value>
+  </data>
+  <data name="Profile_PhoneRequired" xml:space="preserve">
+    <value>प्राथमिक फ़ोन ज़रूरी है।</value>
+  </data>
+  <data name="View_MemberPreferences_ShowNetLoanFundingOffers" xml:space="preserve">
+    <value>netLoan वित्त-पोषण प्रस्ताव दिखाएँ</value>
+  </data>
+  <data name="View_AccountInformation_InvalidConfirmEmailMessage" xml:space="preserve">
+    <value>आपके द्वारा दर्ज किए गए ईमेल पते मिलान में नहीं हैं।</value>
+  </data>
+  <data name="View_AccountInformation_AlternateExtPhoneNumber" xml:space="preserve">
+    <value>वैकल्पिक फोन एक्सटेंशन</value>
+  </data>
+  <data name="Controller_Password_Password_doesnot_match" xml:space="preserve">
+    <value>मौजूदा पासवर्ड मिलान में नही है</value>
+  </data>
+  <data name="Controller_Password_Password_Error" xml:space="preserve">
+    <value>आपके अनुरोध के साथ समस्या थी। कृपया पुष्टि करें कि आपने सही पासवर्ड दर्ज किया है और फिर से कोशिश करें। अगर आपको समस्याओं का अनुभव होता रहता है, तो (972) 391-5400 या member.services@copart.com पर सदस्य सेवाएँ से संपर्क करें।</value>
+  </data>
+  <data name="View_AccountInformation_City_UK" xml:space="preserve">
+    <value>नगर/शहर</value>
+  </data>
+  <data name="Controller_Password_Password_Invalid" xml:space="preserve">
+    <value>नया पासवर्ड अमान्य है।</value>
+  </data>
+  <data name="View_Contact_Alternate_Phone_Ext" xml:space="preserve">
+    <value>वैकल्पिक फ़ोन एक्सटेंशन में केवल अल्फ़ा न्यूमेरिक वर्ण हो सकते हैं</value>
+  </data>
+  <data name="View_Contact_Alternate_Phone_Format" xml:space="preserve">
+    <value>दर्ज किया गया वैकल्पिक फ़ोन फ़ॉरमेट मान्य नहीं है</value>
+  </data>
+  <data name="View_Contact_Primary_Phone_Ext" xml:space="preserve">
+    <value>प्राथमिक फ़ोन एक्सटेंशन में केवल अल्फ़ा न्यूमेरिक वर्ण हो सकते हैं</value>
+  </data>
+  <data name="View_Contact_Primary_Phone_Format" xml:space="preserve">
+    <value>दर्ज किया गया प्राथमिक फ़ोन फ़ॉरमेट मान्य नहीं है</value>
+  </data>
+  <data name="Views_Bidders_TotalNoofBidders" xml:space="preserve">
+    <value>बोलीदाताओं की कुल संख्या:</value>
+  </data>
+  <data name="View_BidderProfile_Days" xml:space="preserve">
+    <value>दिन</value>
+  </data>
+  <data name="Controller_MemberPreferences_InvalidAddress" xml:space="preserve">
+    <value>शहर, राज्य और ज़िप संयोजन अमान्य है।</value>
+  </data>
+  <data name="Controller_MemberPreferences_C219507" xml:space="preserve">
+    <value>अगर मेल टाइटल डॉक्स हाँ है तो शिपिंग सेवा दर्ज होनी चाहिए।</value>
+  </data>
+  <data name="Controller_MemberPreferences_C219508" xml:space="preserve">
+    <value>अगर खाता नंबर रिक्त नहीं है तो शिपिंग सेवा दर्ज होनी चाहिए।</value>
+  </data>
+  <data name="Controller_MemberPreferences_C219509" xml:space="preserve">
+    <value>अगर पता रिक्त नहीं है तो शिपिंग सेवा दर्ज होनी चाहिए।</value>
+  </data>
+  <data name="Controller_MemberPreferences_C219510" xml:space="preserve">
+    <value>या तो शिपिंग खाता या पता दर्ज होना चाहिए।</value>
+  </data>
+  <data name="Controller_MemberPreferences_C219511" xml:space="preserve">
+    <value>शिपिंग सेवा नहीं मिली।</value>
+  </data>
+  <data name="Controller_MemberPreferences_C219512" xml:space="preserve">
+    <value>शिपिंग सेवा सक्रिय नहीं है।</value>
+  </data>
+  <data name="Controller_MemberPreferences_C219514" xml:space="preserve">
+    <value>अन्य आइटम रिक्त नहीं हैं, तो शिपिंग पता रिक्त नहीं हो सकता।</value>
+  </data>
+  <data name="Controller_MemberPreferences_C219515" xml:space="preserve">
+    <value>शहर, राज्य और ज़िप संयोजन अमान्य है।</value>
+  </data>
+  <data name="Views_Profile_POAFormMessage" xml:space="preserve">
+    <value>मेल टाइटल डॉक्स के लिए ज़रूरी है</value>
+  </data>
+  <data name="Controller_Password_Invalid" xml:space="preserve">
+    <value>नया पासवर्ड अमान्य है।</value>
+  </data>
+  <data name="View_MemberPreferences_Message" xml:space="preserve">
+    <value>यह जानकारी देखने/बदलने के लिए संपादित करें पर क्लिक करें</value>
+  </data>
+  <data name="View_MemberPreferences_ViewPDF" xml:space="preserve">
+    <value>PDF देखें</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_ShippingService" xml:space="preserve">
+    <value>*शिपिंग सेवा</value>
+  </data>
+  <data name="View_ContactInformation_Zipcode" xml:space="preserve">
+    <value>पिनकोड की ज़रूरी है।</value>
+  </data>
+  <data name="View_ContactInformation_Zipcode2" xml:space="preserve">
+    <value>Postalcode2 ज़रूरी है।</value>
+  </data>
+  <data name="View_Licenses_ExpirationDate" xml:space="preserve">
+    <value>अवधि समाप्ति तिथि</value>
+  </data>
+  <data name="Controller_MemberPreferences_C219519" xml:space="preserve">
+    <value>अमान्य फ़ोन नंबर</value>
+  </data>
+  <data name="Views_EmailAddressText" xml:space="preserve">
+    <value>ईमेल पता</value>
+  </data>
+  <data name="View_ContactInformation_PostalCode_IGS" xml:space="preserve">
+    <value>पिनकोड</value>
+  </data>
+  <data name="View_AccountInformation_Email" xml:space="preserve">
+    <value>ईमेल</value>
+  </data>
+  <data name="Controller_PreviouslyUsedPassword" xml:space="preserve">
+    <value>आपने पहले से इस्तेमाल किया गया पासवर्ड दर्ज किया है। कृपया पुनः प्रयास करें</value>
+  </data>
+  <data name="ViewModel_ContactInformation_Validation_MinLength" xml:space="preserve">
+    <value>नया पासवर्ड कम-से-कम 8 वर्णों का होना चाहिए।</value>
+  </data>
+  <data name="ViewModel_ContactInformation_Validation_NewPasswordSameAsOldPassword" xml:space="preserve">
+    <value>नया पासवर्ड मौजूदा पासवर्ड के समान नहीं होना चाहिए</value>
+  </data>
+  <data name="View_CreatePassword_Email" xml:space="preserve">
+    <value>ईमेल ID</value>
+  </data>
+  <data name="View_CreatePassword_Disclaimer" xml:space="preserve">
+    <value>नोट: आपके नए पासवर्ड में 8-12 वर्ण होने चाहिए। इसकी अत्यधिक सिफ़ारिश की जाती है कि आप ऐसा पासवर्ड चुनें जिसमें वर्ण, संख्यात्मक और विशेष वर्ण शामिल हों।</value>
+  </data>
+  <data name="CreatePasswordSuccessMessage" xml:space="preserve">
+    <value>पासवर्ड बनाया गया!</value>
+  </data>
+  <data name="View_AccountInformation_VATCountry" xml:space="preserve">
+    <value>जारी करने वाला देश</value>
+  </data>
+</root>

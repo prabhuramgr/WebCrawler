@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PageTitle" xml:space="preserve">
+    <value>எங்களது இடங்கள்</value>
+  </data>
+  <data name="SelectRegion_LabelText" xml:space="preserve">
+    <value>பிரதேசத்தைத் தேர்வுசெய்க: </value>
+  </data>
+  <data name="SelectRegion_MoreInfoLabel" xml:space="preserve">
+    <value>கூடுதல் தகவல்களுக்கு:</value>
+  </data>
+  <data name="SelectRegion_ViewBtnText" xml:space="preserve">
+    <value>விரிவான பட்டியலைப் பார்க்கவும்</value>
+  </data>
+  <data name="LocationDetails_CareersatCopart" xml:space="preserve">
+    <value>கோபார்ட்டில் தொழில் வாய்ப்புகள்</value>
+  </data>
+  <data name="LocationDetails_InventoryBtnText" xml:space="preserve">
+    <value>இருப்பு பட்டியல்</value>
+  </data>
+  <data name="LocationDetails_InventoryUKBtnText" xml:space="preserve">
+    <value>இருப்பு</value>
+  </data>
+  <data name="LocationDetails_LocalAnnouncements" xml:space="preserve">
+    <value>உள்ளூர் அறிவிப்புகள்</value>
+  </data>
+  <data name="LocationDetails_LocationInformation" xml:space="preserve">
+    <value>அமைவிடத் தகவல்</value>
+  </data>
+  <data name="LocationDetails_SearchBtnText" xml:space="preserve">
+    <value>தேடல்</value>
+  </data>
+  <data name="LocationDetails_TitlePartial" xml:space="preserve">
+    <value>அமைவிட விவரங்கள் </value>
+  </data>
+  <data name="LocationInformation_At" xml:space="preserve">
+    <value>இல்</value>
+  </data>
+  <data name="LocationInformation_PhysicalAddress" xml:space="preserve">
+    <value>ஃபிஸிக்கல் முகவரி</value>
+  </data>
+  <data name="LocationInformation_MailingAddress" xml:space="preserve">
+    <value>அஞ்சல் முகவரி</value>
+  </data>
+  <data name="LocationInformation_Directions" xml:space="preserve">
+    <value>வழிகாட்டுதல்கள்</value>
+  </data>
+  <data name="LocationInformation_Header" xml:space="preserve">
+    <value>அமைவிட விவரங்கள்</value>
+  </data>
+  <data name="LocationInformation_Hours" xml:space="preserve">
+    <value>மணிநேரங்கள்</value>
+  </data>
+  <data name="LocationInformationUK_Hours" xml:space="preserve">
+    <value>நேரம்:</value>
+  </data>
+  <data name="LocationInformation_Message" xml:space="preserve">
+    <value>விற்பனை நடத்தப்படுகிறது </value>
+  </data>
+  <data name="VehicleFinder_Header" xml:space="preserve">
+    <value>வாகனம் கண்டுபிடிப்பான்</value>
+  </data>
+  <data name="VehicleFinder_Make" xml:space="preserve">
+    <value>தயாரிப்பு:</value>
+  </data>
+  <data name="VehicleFinder_Model" xml:space="preserve">
+    <value>மாடல்:</value>
+  </data>
+  <data name="VehicleFinder_SearchBtnText" xml:space="preserve">
+    <value>தேடல்</value>
+  </data>
+  <data name="VehicleFinder_Type" xml:space="preserve">
+    <value>வகை:</value>
+  </data>
+  <data name="VehicleFinder_Year" xml:space="preserve">
+    <value>ஆண்டு:</value>
+  </data>
+  <data name="VehicleFinder_YearTo" xml:space="preserve">
+    <value>க்கு</value>
+  </data>
+  <data name="Locations_Message" xml:space="preserve">
+    <value>இடங்கள்</value>
+  </data>
+  <data name="Locations_Message_150" xml:space="preserve">
+    <value>உலகளவில் 150க்கு மேல்</value>
+  </data>
+  <data name="VehicleFinder_SelectModel_Dropdown" xml:space="preserve">
+    <value>ஒரு மாடலைத் தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="rwar" xml:space="preserve">
+    <value>rwsa</value>
+  </data>
+  <data name="FacilityListHeader_Address" xml:space="preserve">
+    <value>முகவரி</value>
+  </data>
+  <data name="FacilityListHeader_City" xml:space="preserve">
+    <value>மாநகரம்</value>
+  </data>
+  <data name="FacilityListHeader_Fax" xml:space="preserve">
+    <value>தொலைநகல்</value>
+  </data>
+  <data name="FacilityHeader_FAX" xml:space="preserve">
+    <value>தொலைநகல்</value>
+  </data>
+  <data name="FacilityListHeader_Phone" xml:space="preserve">
+    <value>தொலைபேசி</value>
+  </data>
+  <data name="FacilityHeader_PHONE" xml:space="preserve">
+    <value>தொலைபேசி</value>
+  </data>
+  <data name="FacilityListHeader_State" xml:space="preserve">
+    <value>மாநிலம்</value>
+  </data>
+  <data name="FacilityListHeader_WIFI" xml:space="preserve">
+    <value>WI-FI</value>
+  </data>
+  <data name="FacilityListHeader_Yard" xml:space="preserve">
+    <value>யார்டு</value>
+  </data>
+  <data name="FacilityListHeader_Zip" xml:space="preserve">
+    <value>ஜிப்</value>
+  </data>
+  <data name="LocationDetails_FreeWifi" xml:space="preserve">
+    <value>இலவசம்</value>
+  </data>
+  <data name="LocationDetailsUK_FreeWifi" xml:space="preserve">
+    <value>இலவச Wi-Fi</value>
+  </data>
+  <data name="LocationDetails_LiveAuction" xml:space="preserve">
+    <value>நேரடி ஏலம் நடைபெற்றுக் கொண்டிருக்கிறது!</value>
+  </data>
+  <data name="LocationRegion_Europe" xml:space="preserve">
+    <value>ஐரோப்பா</value>
+  </data>
+  <data name="LocationRegion_NorthAmerica" xml:space="preserve">
+    <value>வட அமெரிக்கா</value>
+  </data>
+  <data name="LocationsOurLocations" xml:space="preserve">
+    <value>எங்களது அமைவிடங்களின் விரிவான பட்டியல்</value>
+  </data>
+  <data name="VehicleFinder_Location" xml:space="preserve">
+    <value>அமைவிடம்</value>
+  </data>
+  <data name="LaneDescriptionsAssignmentsModal" xml:space="preserve">
+    <value>லேன் விளக்கங்கள் மற்றும் ஒதுக்கீடுகள்</value>
+  </data>
+  <data name="Location_Copart" xml:space="preserve">
+    <value>கோபார்ட்</value>
+  </data>
+  <data name="LocationRegion_MiddleEast" xml:space="preserve">
+    <value>மத்திய கிழக்கு</value>
+  </data>
+  <data name="LocationConfirmMessage" xml:space="preserve">
+    <value>{Region}-க்கு வெளியில் உள்ள ஒரு அமைவிடத்தை நீங்கள் தேர்ந்தெடுத்துள்ளீர்கள். இப்பொழுது நீங்கள் வெளியேற்றப்பட்டு, உள்நுழைவதற்காக எங்களது {SourceRegion}-க்கு திருப்பிவிடப்பட்டுள்ளீர்கள்.</value>
+  </data>
+  <data name="LocationOkButton" xml:space="preserve">
+    <value>சரி</value>
+  </data>
+  <data name="LocationRegion_SouthAmerica" xml:space="preserve">
+    <value>தென் அமெரிக்கா</value>
+  </data>
+  <data name="VehicleFinder_Header_Location" xml:space="preserve">
+    <value>இந்த அமைவிடத்தில் ஒரு வாகனத்தைக் கண்டுபிடிக்கவும்</value>
+  </data>
+  <data name="MontrealConfirmMessage" xml:space="preserve">
+    <value>இப்பொழுது நீங்கள் Copart.com–லிருந்து வெளியேறி விட்டீர்கள்</value>
+  </data>
+  <data name="MontrealContinueText" xml:space="preserve">
+    <value>தொடர்க</value>
+  </data>
+  <data name="MontrealModalMessage1" xml:space="preserve">
+    <value>நீங்கள் மாண்ட்ரீல் நகரில் அமைந்துள்ள பெர்பா ஆட்டோ ஆக்‌ஷன், இன்க். நிறுவனத்துக்கு திருப்பிவிடப்படுவீர்கள். </value>
+  </data>
+  <data name="MontrealModalMessage2" xml:space="preserve">
+    <value>பெர்பா, இன்க். நிறுவனம் கோபார்ட்டின் ஒரு பிரிவு ஆகும்.</value>
+  </data>
+  <data name="LocationInformation_GM" xml:space="preserve">
+    <value>பொது மேலாளர்</value>
+  </data>
+  <data name="LocationInformation_RM" xml:space="preserve">
+    <value>மண்டல மேலாளர்</value>
+  </data>
+  <data name="Region_Asia" xml:space="preserve">
+    <value>தெற்கு மற்றும் கிழக்கு ஆசியா</value>
+  </data>
+  <data name="Region_Europe" xml:space="preserve">
+    <value>ஐரோப்பா</value>
+  </data>
+  <data name="Region_MiddleEast" xml:space="preserve">
+    <value>மத்திய கிழக்கு மற்றும் ஆப்பிரிக்கா</value>
+  </data>
+  <data name="Region_NorthAmerica" xml:space="preserve">
+    <value>வட அமெரிக்கா</value>
+  </data>
+  <data name="Region_SouthAmerica" xml:space="preserve">
+    <value>தென் அமெரிக்கா</value>
+  </data>
+  <data name="Locations_Brazil" xml:space="preserve">
+    <value>பிரேசில்</value>
+  </data>
+  <data name="Locations_China" xml:space="preserve">
+    <value>சீனா</value>
+  </data>
+  <data name="Locations_Dubai_Oman_and_Bahrain" xml:space="preserve">
+    <value>துபாய், ஓமன், மற்றும் பெஹ்ரைன்</value>
+  </data>
+  <data name="Locations_Germany" xml:space="preserve">
+    <value>ஜெர்மனி</value>
+  </data>
+  <data name="Locations_India" xml:space="preserve">
+    <value>இந்தியா</value>
+  </data>
+  <data name="Locations_Spain" xml:space="preserve">
+    <value>ஸ்பெயின்</value>
+  </data>
+  <data name="Locations_United_Kingdom" xml:space="preserve">
+    <value>ஐக்கியப் பேரரசு</value>
+  </data>
+  <data name="Locations_United_States_and_Canada" xml:space="preserve">
+    <value>அமெரிக்கா மற்றும் கனடா</value>
+  </data>
+</root>

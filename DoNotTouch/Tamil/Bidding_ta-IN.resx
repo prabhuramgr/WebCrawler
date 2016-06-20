@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="View_Bidders_PageTitle" xml:space="preserve">
+    <value>ஏலம் கேட்பவர்கள்</value>
+  </data>
+  <data name="View_Bidders_AccountStatus" xml:space="preserve">
+    <value>கணக்கின் நிலை</value>
+  </data>
+  <data name="View_Bidders_SearchBy" xml:space="preserve">
+    <value>இதன் மூலம் தேடவும்</value>
+  </data>
+  <data name="View_Bidders_Selector_AccountStatus" xml:space="preserve">
+    <value>அனைத்தும்|செயல்படுபவை|செயலற்றவை|இடைநீக்கம் செய்யப்பட்டவை|நெறிபிறழ்ந்தவை|காலி</value>
+  </data>
+  <data name="View_Bidders_Selector_SearchBy" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் எண்|மின்னஞ்சல்|தற்போதைய விலைக்குறிப்புகள்|விலைக்குறிப்பு வரம்புகள்|கடைசி செயல்பாடு</value>
+  </data>
+  <data name="View_Bidders_Search" xml:space="preserve">
+    <value>தேடல்</value>
+  </data>
+  <data name="View_Bidders_BidderNumber" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் #</value>
+  </data>
+  <data name="View_Bidders_Email" xml:space="preserve">
+    <value>மின்னஞ்சல்</value>
+  </data>
+  <data name="View_Bidders_Status" xml:space="preserve">
+    <value>நிலை</value>
+  </data>
+  <data name="View_Bidders_CurrentBids" xml:space="preserve">
+    <value>தற்போதைய விலைக்குறிப்புகள்</value>
+  </data>
+  <data name="View_Bidders_BidLimits" xml:space="preserve">
+    <value>விலைக்குறிப்பு வரம்புகள்</value>
+  </data>
+  <data name="View_Bidders_LastActive" xml:space="preserve">
+    <value>கடைசி செயல்பாடு</value>
+  </data>
+  <data name="View_Bidders_Whatisthis" xml:space="preserve">
+    <value>இது என்ன?</value>
+  </data>
+  <data name="View_Bidders_Selector_Master_AccountStatus" xml:space="preserve">
+    <value>அனைத்தும்|செயல்படுபவை|செயலற்றவை</value>
+  </data>
+  <data name="View_Bidders_LastActions" xml:space="preserve">
+    <value>கடைசி செயல்பாடுகள்</value>
+  </data>
+  <data name="View_Bidders_ActiveDescription" xml:space="preserve">
+    <value>செயல்படும் கணக்குகளைக் கொண்டுள்ள உறுப்பினர்கள் வாகனங்களைத் தேடலாம், பொருள் இருப்பைப் பார்க்கலாம், விலை குறிக்கலாம் மற்றும் வாங்கலாம். விலைக்குறிப்பது மற்றும் வாங்குவதற்கான அவர்களுடைய திறன் அவர்களுடைய தனித்துவமான உறுப்பினர் கணக்குக்குப் பிரத்யேகமான பொருந்தக்கூடிய தகுதி, வாங்கும் ஆற்றல் மற்றும் பணம் செலுத்தும் விதிகள் ஆகியவற்றுக்கு உட்பட்டதாகும்.</value>
+  </data>
+  <data name="View_Bidders_ActiveType" xml:space="preserve">
+    <value>செயல்படுபவை</value>
+  </data>
+  <data name="View_Bidders_Col1Header" xml:space="preserve">
+    <value>வகை</value>
+  </data>
+  <data name="View_Bidders_Col2Header" xml:space="preserve">
+    <value>விளக்கம்</value>
+  </data>
+  <data name="View_Bidders_InactiveDescription" xml:space="preserve">
+    <value>செயலற்ற கணக்கைக் கொண்டுள்ள உறுப்பினர்கள் வாகனங்களைத் தேடலாம் மற்றும் பொருள் இருப்பைப் பார்க்கலாம், ஆனால் அவர்கள் விலைக்குறிப்பைச் சமர்ப்பிக்கவோ அல்லது பொருள் வாங்கவோ முடியாது.</value>
+  </data>
+  <data name="View_Bidders_InactiveType" xml:space="preserve">
+    <value>செயலற்றவை</value>
+  </data>
+  <data name="View_Bidders_StatusTypesTitle" xml:space="preserve">
+    <value>நிலை வகைகள்</value>
+  </data>
+  <data name="View_Bidders_SuspendedDescription" xml:space="preserve">
+    <value>இடைநீக்கம் செய்யப்பட்ட கணக்குகளைக் கொண்ட உறுப்பினர்கள் விலை குறிப்பதற்கான அல்லது வாங்குவதற்கான அணுகலைப் பெற முடியாது, ஆனால் அவர்களுடைய அணுகலை பின்னொரு தேதியில் மீட்டெடுக்க முடியும்.</value>
+  </data>
+  <data name="View_Bidders_SuspendedType" xml:space="preserve">
+    <value>இடைநீக்கம் செய்யப்பட்டது</value>
+  </data>
+  <data name="View_Bidders_VoidDescription" xml:space="preserve">
+    <value>வெற்றுக் கணக்குகளைக் கொண்டுள்ள உறுப்பினர்களின் நிரந்தரக் கணக்கு தற்காலிகமாக நிறுத்தி வைக்கப்பட்டிருக்கும் அல்லது முடிக்கப்பட்டிருக்கும்.</value>
+  </data>
+  <data name="View_Bidders_VoidType" xml:space="preserve">
+    <value>வெற்று</value>
+  </data>
+</root>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddressModel_City" xml:space="preserve">
+    <value>மாநகரம்</value>
+  </data>
+  <data name="AddressModel_Country" xml:space="preserve">
+    <value>நாடு</value>
+  </data>
+  <data name="AddressModel_PostalCode" xml:space="preserve">
+    <value>அஞ்சல் குறியீடு</value>
+  </data>
+  <data name="AddressModel_State" xml:space="preserve">
+    <value>மாநிலம் / மாகாணம்</value>
+  </data>
+  <data name="AddressModel_StreetAddress1" xml:space="preserve">
+    <value>முகவரி வரி 1</value>
+  </data>
+  <data name="AddressModel_StreetAddress2" xml:space="preserve">
+    <value>முகவரி வரி 2</value>
+  </data>
+  <data name="EmailInUseText" xml:space="preserve">
+    <value>மின்னஞ்சல் முகவரி ஏற்கனவே உள்ளது</value>
+  </data>
+  <data name="Error_EmailAlreadyTaken" xml:space="preserve">
+    <value>இந்த மின்னஞ்சல் ஏற்கனவே மற்றொரு பயனரால் தேர்ந்தெடுக்கப்பட்டுள்ளது.</value>
+  </data>
+  <data name="RegistrationFormHeader" xml:space="preserve">
+    <value>கோபார்ட்டுக்கு புதியவரா? இங்கே பதிவுசெய்க!</value>
+  </data>
+  <data name="RegistrationModel_CaptchaVerificationCode" xml:space="preserve">
+    <value>சரிபார்த்தல் குறியீடு</value>
+  </data>
+  <data name="RegistrationModel_Company" xml:space="preserve">
+    <value>நிறுவனத்தின் பெயர்</value>
+  </data>
+  <data name="RegistrationModel_ConfirmEmail" xml:space="preserve">
+    <value>மின்னஞ்சலை உறுதிப்படுத்தவும்</value>
+  </data>
+  <data name="RegistrationModel_ConfirmEmailRequired" xml:space="preserve">
+    <value>உறுதிப்படுத்தல் மின்னஞ்சல் முகவரி தேவைப்படுகிறது</value>
+  </data>
+  <data name="RegistrationModel_ConfirmPassword" xml:space="preserve">
+    <value>கடவுச்சொல்லை உறுதிபடுத்துக</value>
+  </data>
+  <data name="RegistrationModel_EmailAddress" xml:space="preserve">
+    <value>மின்னஞ்சல்</value>
+  </data>
+  <data name="RegistrationModel_EmailAddressRequired" xml:space="preserve">
+    <value>மின்னஞ்சல் முகவரி தேவைப்படுகிறது</value>
+  </data>
+  <data name="RegistrationModel_FirstName" xml:space="preserve">
+    <value>முதற்பெயர்</value>
+  </data>
+  <data name="RegistrationModel_HowHeardAboutUs" xml:space="preserve">
+    <value>நீங்கள் எங்களைப் பற்றி எவ்வாறு கேள்விப்பட்டீர்கள்?</value>
+  </data>
+  <data name="RegistrationModel_Is18OrOver" xml:space="preserve">
+    <value>இந்தப் பெட்டியை கிளிக் செய்வதன் மூலம், நான் குறைந்தபட்சம் 18 வயதுடையவர் என்பதையும் மற்றும் கோபார்ட்டின் [உறுப்பினர் விதிமுறைகள் &amp; நிபந்தனைகள்], இணையதளத்தின் [சேவை விதிமுறைகள்] மற்றும் [தனியுரிமைக் கொள்கையை] படித்துப் பார்த்து ஒப்புக்கொண்டுள்ளேன் என்பதையும் ஒப்புக்கொள்கிறேன்</value>
+  </data>
+  <data name="RegistrationModel_LastName" xml:space="preserve">
+    <value>கடைசி பெயர்</value>
+  </data>
+  <data name="RegistrationModel_MailingAddressRequired" xml:space="preserve">
+    <value>அஞ்சல் முகவரி தேவைப்படுகிறது</value>
+  </data>
+  <data name="RegistrationModel_MailingCityRequired" xml:space="preserve">
+    <value>அஞ்சல் நகரம் தேவைப்படுகிறது</value>
+  </data>
+  <data name="RegistrationModel_MailingPostCodeInvalid" xml:space="preserve">
+    <value>அஞ்சல் முகவரிக்கான அஞ்சல் குறியீடு செல்லத்தக்கதல்ல</value>
+  </data>
+  <data name="RegistrationModel_MailingPostCodeRequired" xml:space="preserve">
+    <value>அஞ்சல் முகவரிக்கு முழுமையான அஞ்சல் குறியீடு தேவைப்படுகிறது</value>
+  </data>
+  <data name="RegistrationModel_Password" xml:space="preserve">
+    <value>கடவுச்சொல்</value>
+  </data>
+  <data name="RegistrationModel_Phone2Type" xml:space="preserve">
+    <value>வகை</value>
+  </data>
+  <data name="RegistrationModel_Phone2Type_Cellular" xml:space="preserve">
+    <value>செல்லுலார்</value>
+  </data>
+  <data name="RegistrationModel_Phone2Type_Fax" xml:space="preserve">
+    <value>தொலைநகல்</value>
+  </data>
+  <data name="RegistrationModel_Phone2Type_Home" xml:space="preserve">
+    <value>முகப்புப் பக்கம்</value>
+  </data>
+  <data name="RegistrationModel_Phone2Type_Work" xml:space="preserve">
+    <value>வேலை</value>
+  </data>
+  <data name="RegistrationModel_PhoneExt" xml:space="preserve">
+    <value>விரிவு</value>
+  </data>
+  <data name="RegistrationModel_PhoneNumber" xml:space="preserve">
+    <value>தொலைபேசி</value>
+  </data>
+  <data name="RegistrationModel_PhoneNumber2" xml:space="preserve">
+    <value>மாற்றுத் தொலைபேசி</value>
+  </data>
+  <data name="RegistrationModel_PhonenumberNotValid" xml:space="preserve">
+    <value>தொலைபேசி எண் செல்லத்தக்கதல்ல</value>
+  </data>
+  <data name="RegistrationModel_PhoneNumberRequired" xml:space="preserve">
+    <value>தொலைபேசி எண் தேவைப்படுகிறது</value>
+  </data>
+  <data name="RegistrationModel_PhysicalAddressRequired" xml:space="preserve">
+    <value>ஃபிஸிக்கல் முகவரி தேவைப்படுகிறது</value>
+  </data>
+  <data name="RegistrationModel_PhysicalCityRequired" xml:space="preserve">
+    <value>ஃபிஸிக்கல் நகரம் தேவைப்படுகிறது</value>
+  </data>
+  <data name="RegistrationModel_PhysicalPostCodeInvalid" xml:space="preserve">
+    <value>ஃபிஸிக்கல் முகவரிக்கான அஞ்சல் குறியீடு செல்லத்தக்கதல்ல</value>
+  </data>
+  <data name="RegistrationModel_PhysicalPostCodeRequired" xml:space="preserve">
+    <value>ஃபிஸிக்கல் முகவரிக்கு முழுமையான அஞ்சல் குறியீடு தேவைப்படுகிறது</value>
+  </data>
+  <data name="RegistrationModel_PostalCode" xml:space="preserve">
+    <value>ஜிப்/அஞ்சல் குறியீடு</value>
+  </data>
+  <data name="RegistrationModel_PromoCode" xml:space="preserve">
+    <value>விளம்பரக் குறியீடு</value>
+  </data>
+  <data name="RegistrationModel_SelectType" xml:space="preserve">
+    <value>வகையைத் தேர்வுசெய்க...</value>
+  </data>
+  <data name="RegistrationModel_StateProvince" xml:space="preserve">
+    <value>மாநிலம் / மாகாணம்</value>
+  </data>
+  <data name="RegistrationModel_StreetAddress1" xml:space="preserve">
+    <value>தெரு முகவரி</value>
+  </data>
+  <data name="RegistrationModel_StreetAddress2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UK_AddressModel_City" xml:space="preserve">
+    <value>நகரம்</value>
+  </data>
+  <data name="UK_AddressModel_PostalCode" xml:space="preserve">
+    <value>அஞ்சல் குறியீடு</value>
+  </data>
+  <data name="UK_AddressModel_PostalCode_Alt" xml:space="preserve">
+    <value>அஞ்சல் குறியீடு</value>
+  </data>
+  <data name="UK_RegistrationModel_ALTPhoneNumber" xml:space="preserve">
+    <value>மாற்றுத் தொலைபேசி</value>
+  </data>
+  <data name="UK_RegistrationModel_MailingAddressSameAsPhysical" xml:space="preserve">
+    <value>அஞ்சல் முகவரி ஃபிஸிக்கல் முகவரி போன்றதே</value>
+  </data>
+  <data name="UK_RegistrationModel_PhoneNumber" xml:space="preserve">
+    <value>தொலைபேசி</value>
+  </data>
+  <data name="UK_RegistrationModel_StreetAddress1" xml:space="preserve">
+    <value>தெரு பெயர் &amp; எண்</value>
+  </data>
+  <data name="VATFieldText" xml:space="preserve">
+    <value>VAT</value>
+  </data>
+  <data name="VATinUseText" xml:space="preserve">
+    <value>VAT ஏற்கனவே உள்ளது</value>
+  </data>
+  <data name="RegistrationModel_ALTPhoneNumber" xml:space="preserve">
+    <value>மாற்றுத் தொலைபேசி</value>
+  </data>
+  <data name="RegistrationModel_MailingAddressSameAsPhysical" xml:space="preserve">
+    <value>அஞ்சல் முகவரி ஃபிஸிக்கல் முகவரி போன்றதே</value>
+  </data>
+  <data name="AddressModel_PostalCode_Alt" xml:space="preserve">
+    <value>அஞ்சல் குறியீடு</value>
+  </data>
+  <data name="RegistrationModel_MailingStateRequired" xml:space="preserve">
+    <value>அஞ்சல் மாநிலம் தேவைப்படுகிறது</value>
+  </data>
+  <data name="RegistrationModel_PhysicalStateRequired" xml:space="preserve">
+    <value>ஃபிஸிக்கல் மாநிலம் தேவைப்படுகிறது</value>
+  </data>
+  <data name="RegistrationModel_PhoneNumberMinLength" xml:space="preserve">
+    <value>தொலைபேசி எண் குறைந்தபட்சம் 7 இலக்கங்களைக் கொண்டதாக இருக்க வேண்டும்</value>
+  </data>
+  <data name="RegistrationModel_VAT" xml:space="preserve">
+    <value>அடையாள எண்</value>
+  </data>
+  <data name="RegistrationModel_VATCountry" xml:space="preserve">
+    <value>வழங்கும் நாடு</value>
+  </data>
+  <data name="RegistrationModel_VATField" xml:space="preserve">
+    <value>VAT/வரி தகவல்</value>
+  </data>
+</root>

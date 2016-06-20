@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="View_AccountInformation_PageTitle" xml:space="preserve">
+    <value>கணக்குத் தகவல்</value>
+  </data>
+  <data name="View_AccountInformation_SideSubnav_ContactInformation" xml:space="preserve">
+    <value>தொடர்புநபர் தகவல்</value>
+  </data>
+  <data name="View_AccountInformation_SideSubnav_MyPreferences" xml:space="preserve">
+    <value>எனது முன்னுரிமைகள்</value>
+  </data>
+  <data name="View_AccountInformation_SideSubnav_ChangePassword" xml:space="preserve">
+    <value>கடவுச்சொல்லை மாற்றவும்</value>
+  </data>
+  <data name="View_AccountInformation_SideSubnav_Financing" xml:space="preserve">
+    <value>நிதியுதவி</value>
+  </data>
+  <data name="View_AccountInformation_SideSubnav_DepositRefund" xml:space="preserve">
+    <value>வைப்புத்தொகை திருப்பித் தருதல்</value>
+  </data>
+  <data name="View_AccountInformation_SideSubnav_Licenses" xml:space="preserve">
+    <value>உரிமங்கள்</value>
+  </data>
+  <data name="View_AccountInformation_SideSubnav_Forms" xml:space="preserve">
+    <value>படிவங்கள்</value>
+  </data>
+  <data name="View_AccountInformation_EditContactInformation" xml:space="preserve">
+    <value>தொடர்புநபர் தகவல்களைத் திருத்தவும்</value>
+  </data>
+  <data name="View_AccountInformation_CopartAccount" xml:space="preserve">
+    <value>கோபார்ட் கணக்கு</value>
+  </data>
+  <data name="View_AccountInformation_FirstName" xml:space="preserve">
+    <value>முதற்பெயர்</value>
+  </data>
+  <data name="View_AccountInformation_LastName" xml:space="preserve">
+    <value>கடைசி பெயர்</value>
+  </data>
+  <data name="View_AccountInformation_Company" xml:space="preserve">
+    <value>நிறுவனத்தின் பெயர்</value>
+  </data>
+  <data name="View_AccountInformation_PhysicalAddress" xml:space="preserve">
+    <value>ஃபிஸிக்கல் முகவரி</value>
+  </data>
+  <data name="View_AccountInformation_Country" xml:space="preserve">
+    <value>நாடு</value>
+  </data>
+  <data name="View_AccountInformation_City" xml:space="preserve">
+    <value>மாநகரம்</value>
+  </data>
+  <data name="View_AccountInformation_StateProvince" xml:space="preserve">
+    <value>மாநிலம்</value>
+  </data>
+  <data name="View_AccountInformation_ZipCodePostalCode" xml:space="preserve">
+    <value>ஜிப் குறியீடு / அஞ்சல் குறியீடு</value>
+  </data>
+  <data name="View_AccountInformation_MailingAddress" xml:space="preserve">
+    <value>அஞ்சல் முகவரி</value>
+  </data>
+  <data name="View_AccountInformation_PrimaryPhone" xml:space="preserve">
+    <value>தொலைபேசி</value>
+  </data>
+  <data name="View_AccountInformation_AlternatePhone" xml:space="preserve">
+    <value>மாற்றுத் தொலைபேசி</value>
+  </data>
+  <data name="View_AccountInformation_CurrentEmailAddress" xml:space="preserve">
+    <value>தற்போதைய மின்னஞ்சல் முகவரி</value>
+  </data>
+  <data name="ChangeEmail_View_PageTitle" xml:space="preserve">
+    <value>மின்னஞ்சலை மாற்றவும்</value>
+  </data>
+  <data name="View_AccountInformation_MemberInformation" xml:space="preserve">
+    <value>உறுப்பினர் தகவல்</value>
+  </data>
+  <data name="View_AccountInformation_MemberNumber" xml:space="preserve">
+    <value>உறுப்பினர் எண்</value>
+  </data>
+  <data name="View_AccountInformation_UpgradeMembership" xml:space="preserve">
+    <value>உறுப்பினர் நிலையை தரமுயர்த்தவும்</value>
+  </data>
+  <data name="View_BrokerProfile_AccountInformation" xml:space="preserve">
+    <value>கணக்குத் தகவல்</value>
+  </data>
+  <data name="View_BrokerProfile_PleaseNote" xml:space="preserve">
+    <value>தயவுசெய்து கவனிக்கவும்:</value>
+  </data>
+  <data name="View_BrokerProfile_Contact" xml:space="preserve">
+    <value>ஒரு கோபார்ட் பிரதிநிதியைத் தொடர்புகொள்ளவும்</value>
+  </data>
+  <data name="View_BrokerProfile_AccountOverview" xml:space="preserve">
+    <value>கணக்கு பற்றிய சுருக்கமான பார்வை</value>
+  </data>
+  <data name="View_BrokerProfile_AccountStatus" xml:space="preserve">
+    <value>கணக்கின் நிலை</value>
+  </data>
+  <data name="View_BrokerProfile_CreatedOnDate" xml:space="preserve">
+    <value>தொடங்கிய தேதி</value>
+  </data>
+  <data name="View_BrokerProfile_Bidding" xml:space="preserve">
+    <value>விலை குறித்தல்</value>
+  </data>
+  <data name="View_BrokerProfile_MaximumBidders" xml:space="preserve">
+    <value>அதிகபட்ச ஏலம் கேட்பவர்கள்</value>
+  </data>
+  <data name="View_BrokerProfile_CurrentBidders" xml:space="preserve">
+    <value>தற்போதைய ஏலம் கேட்பவர்கள்</value>
+  </data>
+  <data name="View_BrokerProfile_Available" xml:space="preserve">
+    <value>கிடைக்கின்றது</value>
+  </data>
+  <data name="View_BrokerProfile_RequestBidderSeatIncrease" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் இருக்கை அதிகரிப்பை கோரவும்</value>
+  </data>
+  <data name="View_BrokerProfile_BusinessInformation" xml:space="preserve">
+    <value>வணிகத் தகவல்</value>
+  </data>
+  <data name="View_BrokerProfile_Phone" xml:space="preserve">
+    <value>தொலைபேசி</value>
+  </data>
+  <data name="View_BrokerProfile_Address" xml:space="preserve">
+    <value>முகவரி</value>
+  </data>
+  <data name="View_BrokerProfile_Website" xml:space="preserve">
+    <value>இணையதளம்</value>
+  </data>
+  <data name="View_BrokerProfile_Email" xml:space="preserve">
+    <value>மின்னஞ்சல்</value>
+  </data>
+  <data name="View_BrokerProfile_AboutUs" xml:space="preserve">
+    <value>எங்களைப் பற்றி</value>
+  </data>
+  <data name="View_BrokerProfile_ServicesAndInformation" xml:space="preserve">
+    <value>சேவைகள் மற்றும் தகவல்</value>
+  </data>
+  <data name="View_BrokerProfile_ServicesProvided" xml:space="preserve">
+    <value>வழங்கப்பட்ட சேவைகள்</value>
+  </data>
+  <data name="View_BrokerProfile_AdditionalInformation" xml:space="preserve">
+    <value>கூடுதல் தகவல்</value>
+  </data>
+  <data name="View_BrokerProfile_EditAdditionalInformation" xml:space="preserve">
+    <value>திருத்துக</value>
+  </data>
+  <data name="View_BrokerProfile_FeesAndPayments" xml:space="preserve">
+    <value>கட்டணம் மற்றும் செலுத்துதல்கள்</value>
+  </data>
+  <data name="View_BrokerProfile_BrokerFees" xml:space="preserve">
+    <value>தரகர் கட்டணம்</value>
+  </data>
+  <data name="View_BrokerProfile_RegistrationFees" xml:space="preserve">
+    <value>பதிவுக் கட்டணம்</value>
+  </data>
+  <data name="View_BrokerProfile_SecurityDeposit" xml:space="preserve">
+    <value>பாதுகாப்பு வைப்புத் தொகை</value>
+  </data>
+  <data name="View_BrokerProfile_TransactionFee" xml:space="preserve">
+    <value>பரிவர்த்தனைக் கட்டணம்</value>
+  </data>
+  <data name="View_BrokerProfile_PaymentMethods" xml:space="preserve">
+    <value>செலுத்துதல் முறைகள்</value>
+  </data>
+  <data name="View_BrokerProfile_Note" xml:space="preserve">
+    <value>உங்களுடைய முழுமையான தரகர் தகவலைத் திருத்துவதற்கு, நீங்கள்</value>
+  </data>
+  <data name="View_BidderProfile_PageTitle" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் #{BuyerNumber}</value>
+  </data>
+  <data name="View_BidderProfile_AccountInformation" xml:space="preserve">
+    <value>கணக்குத் தகவல்</value>
+  </data>
+  <data name="View_BidderProfile_Status" xml:space="preserve">
+    <value>நிலை</value>
+  </data>
+  <data name="View_BidderProfile_BidLimitAllocations" xml:space="preserve">
+    <value>விலைக்குறிப்பு வரம்பு ஒதுக்கீடுகள்</value>
+  </data>
+  <data name="View_BidderProfile_Counts" xml:space="preserve">
+    <value>எண்ணிக்கைகள்</value>
+  </data>
+  <data name="View_BidderProfile_CountAllocation" xml:space="preserve">
+    <value>எண்ணிக்கை ஒதுக்கீடு</value>
+  </data>
+  <data name="View_BidderProfile_CountsUsed" xml:space="preserve">
+    <value>பயன்படுத்தப்பட்ட எண்ணிக்கைகள்</value>
+  </data>
+  <data name="View_BidderProfile_CountsAvailable" xml:space="preserve">
+    <value>இருக்கின்ற எண்ணிக்கைகள்</value>
+  </data>
+  <data name="View_BidderProfile_Amounts" xml:space="preserve">
+    <value>தொகை</value>
+  </data>
+  <data name="View_BidderProfile_AmountAllocation" xml:space="preserve">
+    <value>தொகை ஒதுக்கீடு</value>
+  </data>
+  <data name="View_BidderProfile_AmountUsed" xml:space="preserve">
+    <value>பயன்படுத்தப்பட்ட தொகை</value>
+  </data>
+  <data name="View_BidderProfile_AmountAvailable" xml:space="preserve">
+    <value>இருக்கின்ற தொகை</value>
+  </data>
+  <data name="View_BidderProfile_AccountHistory" xml:space="preserve">
+    <value>கணக்கு வரலாறு</value>
+  </data>
+  <data name="View_BidderProfile_ActiveOn" xml:space="preserve">
+    <value>செயல்படும் தேதி</value>
+  </data>
+  <data name="View_BidderProfile_AccountAge" xml:space="preserve">
+    <value>கணக்கின் வயது</value>
+  </data>
+  <data name="View_BidderProfile_LastSignedIn" xml:space="preserve">
+    <value>கடைசியாக உள்நுழைந்தது</value>
+  </data>
+  <data name="View_BidderProfile_BidStatus" xml:space="preserve">
+    <value>விலைக்குறிப்பு நிலை</value>
+  </data>
+  <data name="View_BidderProfile_LastChance" xml:space="preserve">
+    <value>இறுதி வாய்ப்பு</value>
+  </data>
+  <data name="View_BidderProfile_CurrentBids" xml:space="preserve">
+    <value>தற்போதைய விலைக்குறிப்புகள்</value>
+  </data>
+  <data name="View_BidderProfile_LotsWon" xml:space="preserve">
+    <value>வெற்றி பெற்ற லாட்கள்</value>
+  </data>
+  <data name="View_BidderProfile_EmailAndPassword" xml:space="preserve">
+    <value>மின்னஞ்சல் மற்றும் கடவுச்சொல்</value>
+  </data>
+  <data name="View_BidderProfile_Password" xml:space="preserve">
+    <value>கடவுச்சொல்</value>
+  </data>
+  <data name="View_BidderProfile_ConfirmPassword" xml:space="preserve">
+    <value>கடவுச்சொல்லை உறுதிபடுத்துக</value>
+  </data>
+  <data name="View_BidderProfile_SendNotification" xml:space="preserve">
+    <value>கடவுச்சொல்லை உறுதிப்படுத்தவும்</value>
+  </data>
+  <data name="View_BidderProfile_Email" xml:space="preserve">
+    <value>மின்னஞ்சல்</value>
+  </data>
+  <data name="View_BidderProfile_PasswordNote" xml:space="preserve">
+    <value>அனைத்து கடவுச்சொற்களும் 8-12 எழுத்துருக்களைக் கொண்டிருக்க வேண்டும்.</value>
+  </data>
+  <data name="View_BidderProfile_Selector_SendNotification" xml:space="preserve">
+    <value>ஏலம் கேட்பவர்|உறுப்பினர்|அனைவரும்</value>
+  </data>
+  <data name="View_MemberPreferences_MyPreferences" xml:space="preserve">
+    <value>எனது முன்னுரிமைகள்</value>
+  </data>
+  <data name="View_MemberPreferences_EditMyPreferences" xml:space="preserve">
+    <value>எனது முன்னுரிமைகளைத் திருத்தவும்</value>
+  </data>
+  <data name="View_MemberPreferences_DefaultPaymentType" xml:space="preserve">
+    <value>இயல்பான செலுத்துதல் வகை</value>
+  </data>
+  <data name="View_MemberPreferences_PowerOfAttorney" xml:space="preserve">
+    <value>கோப்பின் மீது அதிகார ஆவணம்</value>
+  </data>
+  <data name="View_MemberPreferences_GetPOAForm" xml:space="preserve">
+    <value>POA படிவம்</value>
+  </data>
+  <data name="View_MemberPreferences_ShippingService" xml:space="preserve">
+    <value>ஷிப்பிங் சேவை</value>
+  </data>
+  <data name="View_MemberPreferences_ShippingAccountNumber" xml:space="preserve">
+    <value>ஷிப்பிங் கணக்கு எண்</value>
+  </data>
+  <data name="View_MemberPreferences_ReportSalesToMexicanCustoms" xml:space="preserve">
+    <value>மெக்ஸிகன் சுங்கத்துறைக்கு விற்பனை குறித்துத் தெரிவிக்கவும்</value>
+  </data>
+  <data name="View_MemberPreferences_AutomaticallyMailTitle" xml:space="preserve">
+    <value>தலைப்பு ஆவணங்களை தானாகவே மின்னஞ்சல் அனுப்பவும்</value>
+  </data>
+  <data name="View_MemberPreferences_TitleDelivery" xml:space="preserve">
+    <value>தலைப்பு விநியோகத் தகவல்</value>
+  </data>
+  <data name="View_MemberPreferencesSelect_Yes_No" xml:space="preserve">
+    <value>ஆம்|இல்லை</value>
+  </data>
+  <data name="View_Financing_PageTitle" xml:space="preserve">
+    <value>நிதியுதவி</value>
+  </data>
+  <data name="View_Financing_PageNote" xml:space="preserve">
+    <value>&lt;p&gt;கோபார்ட் இப்பொழுது நீங்கள் வாங்கும் வாகனத்துக்கு உங்களுக்கு மூன்றாம் தரப்பு நிதி நிறுவனம் வாயிலாக நிதி பெறுவதற்கான திறனை வழங்குகிறது. நீங்கள் கீழே பட்டியலிடப்பட்ட வழங்குநர்களில் ஒருவரிடம் தற்போது கணக்கு வைத்திருந்தால், உங்களுடைய கணக்குடன் ஒரு இணைப்பை ஏற்படுத்துவதற்கு &amp;quot;கணக்கைச் சரிபார்க்கவும்&amp;quot; என்ற பட்டனை நீங்கள் கிளிக் செய்ய முடியும். இந்த வழங்குநர்களில் ஒருவருடன் நீங்கள் கணக்குத் தொடங்குவதற்கு விண்ணப்பிக்க விரும்பினால், நீங்கள் விண்ணப்பிப்பதற்கு வழங்குநரின் இணையதளத்துக்கு உங்களுக்கு வழிகாட்டுவதற்கு &amp;quot;விண்ணப்பிக்கவும்&amp;quot; பட்டனை கிளிக் செய்யவும்.&lt;/p&gt;&lt;p&gt;கோபார்ட் இந்த இணைப்புகளை உங்களுடைய வசதிக்காக வழங்குகிறது, ஆனால் கோபார்ட் இதை வழங்குவதில்லை என்பதையும், இந்த வழங்குநர்களில் யாராவது ஒருவருடன் நீங்கள் மேற்கொள்ளும் நிதி ஒப்பந்தங்கள் எதற்கும் பொறுப்பாகாது என்பதையும் தயவுசெய்து கவனத்தில் கொள்ளவும்.&lt;/p&gt;</value>
+  </data>
+  <data name="View_Financing_PageNote2" xml:space="preserve">
+    <value>கோபார்ட் இந்த இணைப்புகளை உங்களுடைய வசதிக்காக வழங்குகிறது, ஆனால் கோபார்ட் இதை வழங்குவதில்லை என்பதையும், இந்த வழங்குநர்களில் யாராவது ஒருவருடன் நீங்கள் மேற்கொள்ளும் நிதி ஒப்பந்தங்கள் எதற்கும் பொறுப்பாகாது என்பதையும் தயவுசெய்து கவனத்தில் கொள்ளவும்.</value>
+  </data>
+  <data name="View_Financing_YourFinanciers" xml:space="preserve">
+    <value>உங்களுக்கு நிதியளிப்பவர்கள்</value>
+  </data>
+  <data name="View_Financing_FinancingSpecialist" xml:space="preserve">
+    <value>நிதியுதவி வல்லுநர்</value>
+  </data>
+  <data name="View_Financing_UpdateAccountBalance" xml:space="preserve">
+    <value>இருப்பை பார்க்கவும்</value>
+  </data>
+  <data name="View_Financing_Location" xml:space="preserve">
+    <value>அமைவிடம்</value>
+  </data>
+  <data name="View_Financing_Phone" xml:space="preserve">
+    <value>தொலைபேசி</value>
+  </data>
+  <data name="View_Financing_Status" xml:space="preserve">
+    <value>நிலை</value>
+  </data>
+  <data name="View_Financing_AvailableFinancing" xml:space="preserve">
+    <value>கிடைக்கும் நிதியுதவி</value>
+  </data>
+  <data name="View_Financing_Apply" xml:space="preserve">
+    <value>விண்ணப்பிக்கவும்</value>
+  </data>
+  <data name="View_Financing_VerifyAccount" xml:space="preserve">
+    <value>கணக்கைச் சரிபார்க்கவும்</value>
+  </data>
+  <data name="View_Financing_Dealer" xml:space="preserve">
+    <value>டீலர்</value>
+  </data>
+  <data name="View_Financing_NotVerified" xml:space="preserve">
+    <value>கணக்கு சரிபார்க்கப்படவில்லை</value>
+  </data>
+  <data name="View_Forms_PageTitle" xml:space="preserve">
+    <value>படிவங்கள்</value>
+  </data>
+  <data name="View_Forms_Title" xml:space="preserve">
+    <value>தலைப்பு</value>
+  </data>
+  <data name="View_Forms_Description" xml:space="preserve">
+    <value>விளக்கம்</value>
+  </data>
+  <data name="View_Forms_Type" xml:space="preserve">
+    <value>வகை</value>
+  </data>
+  <data name="View_Forms_RevisionDate" xml:space="preserve">
+    <value>திருப்புதல் தேதி</value>
+  </data>
+  <data name="View_Licenses_PageTitle" xml:space="preserve">
+    <value>உரிமங்கள்</value>
+  </data>
+  <data name="View_Licenses_Type" xml:space="preserve">
+    <value>வகை</value>
+  </data>
+  <data name="View_Licenses_Number" xml:space="preserve">
+    <value>எண்</value>
+  </data>
+  <data name="View_Licenses_Country" xml:space="preserve">
+    <value>நாடு</value>
+  </data>
+  <data name="View_Licenses_StateOrProvidence" xml:space="preserve">
+    <value>மாநிலம் / மாகாணம்</value>
+  </data>
+  <data name="View_Licenses_LearnMoreAboutAddingLicenses" xml:space="preserve">
+    <value>உரிமங்களைச் சேர்ப்பதைப் பற்றி மேலும் கற்றுக்கொள்க</value>
+  </data>
+  <data name="View_ChangePassword_ChangePassword" xml:space="preserve">
+    <value>கடவுச்சொல்லை மாற்றவும்</value>
+  </data>
+  <data name="View_ChangePassword_CurrentPassword" xml:space="preserve">
+    <value>தற்போதைய கடவுச்சொல்</value>
+  </data>
+  <data name="View_ChangePassword_NewPassword" xml:space="preserve">
+    <value>புதிய கடவுச்சொல்</value>
+  </data>
+  <data name="View_ChangePassword_ConfirmNewPassword" xml:space="preserve">
+    <value>புதிய கடவுச்சொல்லை உறுதிப்படுத்தவும்</value>
+  </data>
+  <data name="View_ChangePassword_Cancel" xml:space="preserve">
+    <value>ரத்து செய்க</value>
+  </data>
+  <data name="View_ChangePassword_Save" xml:space="preserve">
+    <value>சேமி</value>
+  </data>
+  <data name="View_ChangePassword_PasswordValidationNote" xml:space="preserve">
+    <value>குறிப்பு: உங்களுடைய புதிய கடவுச்சொல் 8-12 எழுத்துருக்களைக் கொண்டிருக்க வேண்டும்.</value>
+  </data>
+  <data name="View_BidderProfile_EditProfile" xml:space="preserve">
+    <value>சுயவிவரத்தைத் திருத்துக</value>
+  </data>
+  <data name="View_BidderProfile_Cancel" xml:space="preserve">
+    <value>ரத்து செய்க</value>
+  </data>
+  <data name="View_BidderProfile_SaveChanges" xml:space="preserve">
+    <value>மாற்றங்களைச் சேமிக்கவும்</value>
+  </data>
+  <data name="View_FinancingVerifyAccountDialog_VerifyYour" xml:space="preserve">
+    <value>உங்களுடைய கணக்கைச் சரிபார்க்கவும் </value>
+  </data>
+  <data name="View_EnterDetails" xml:space="preserve">
+    <value>உங்களுடைய கணக்கைச் சரிபார்ப்பதற்கான விவரங்களை உள்ளிடவும் </value>
+  </data>
+  <data name="View_FinancingVerifyAccountDialog_DealerID" xml:space="preserve">
+    <value> டீலர் ஐடி</value>
+  </data>
+  <data name="View_FinancingVerifyAccountDialog_Cancel" xml:space="preserve">
+    <value>ரத்து செய்க</value>
+  </data>
+  <data name="View_FinancingVerifyAccountDialog_VerifyAccount" xml:space="preserve">
+    <value>கணக்கைச் சரிபார்க்கவும்</value>
+  </data>
+  <data name="View_FinancingVerifyAccountDialog_Submit" xml:space="preserve">
+    <value>சமர்ப்பிக்கவும்</value>
+  </data>
+  <data name="View_Period" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="View_IncreaseBidderSeatsModal_Title" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் இருக்கைகளுக்கான கோரிக்கையை அதிகரிக்கவும்</value>
+  </data>
+  <data name="View_IncreaseBidderSeatsModal_BidderSeatAmountNote" xml:space="preserve">
+    <value>உங்களுடைய ஏலம் கேட்பவர் இருக்கைகளை அதிகரிப்பதற்கு, தயவுசெய்து ஒரு புதிய ஏலம் கேட்பவர் இருக்கைத் தொகையை குறிப்பிடவும்.</value>
+  </data>
+  <data name="View_IncreaseBidderSeatsModal_CurrentSeats" xml:space="preserve">
+    <value>தற்போதைய இருக்கைகள்</value>
+  </data>
+  <data name="View_IncreaseBidderSeatsModal_AmountToIncrease" xml:space="preserve">
+    <value>அதிகரிக்க வேண்டிய தொகை</value>
+  </data>
+  <data name="View_IncreaseBidderSeatsModal_TotalSeatsRequested" xml:space="preserve">
+    <value>கோரப்படும் மொத்த இருக்கைகள்</value>
+  </data>
+  <data name="View_IncreaseBidderSeatsModal_Cancel" xml:space="preserve">
+    <value>ரத்து செய்க</value>
+  </data>
+  <data name="View_IncreaseBidderSeatsModal_SubmitIncreaseRequest" xml:space="preserve">
+    <value>அதிகரிப்பதற்கான கோரிக்கையைச் சமர்ப்பிக்கவும்</value>
+  </data>
+  <data name="View_SeatIncreaseConfirmation_Title" xml:space="preserve">
+    <value>வெற்றிபெற்றது! கோரிக்கை சமர்ப்பிக்கப்பட்டது</value>
+  </data>
+  <data name="View_SeatIncreaseConfirmation_Description" xml:space="preserve">
+    <value>					உங்களுடைய ஏலம் கேட்பவர் இருக்கை வரம்பை அதிகரிப்பதற்கான கோரிக்கை சமர்ப்பிக்கப்பட்டுள்ளது. ஒரு கோபார்ட் பிரதிநிதி விரைவில் மின்னஞ்சல் வாயிலாக உங்கள் கோரிக்கைக்கு பதிலளிப்பார்.</value>
+  </data>
+  <data name="View_SeatIncreaseConfirmation_Ok" xml:space="preserve">
+    <value>சரி</value>
+  </data>
+  <data name="View_ContactInformationEdit_UpgradeMembership" xml:space="preserve">
+    <value>உறுப்பினர் நிலையை தரமுயர்த்தவும்</value>
+  </data>
+  <data name="View_ContactInformationEdit_MailingAddressLine1" xml:space="preserve">
+    <value>அஞ்சல் முகவரி 1</value>
+  </data>
+  <data name="View_ContactInformationEdit_MailingAddressLine2" xml:space="preserve">
+    <value>அஞ்சல் முகவரி 2</value>
+  </data>
+  <data name="View_ContactInformationEdit_SameAsBillingAddress" xml:space="preserve">
+    <value>ஃபிஸிக்கல் முகவரி போன்றதே</value>
+  </data>
+  <data name="View_ContactInformationEdit_Cancel" xml:space="preserve">
+    <value>ரத்து செய்க</value>
+  </data>
+  <data name="View_ContactInformationEdit_Save" xml:space="preserve">
+    <value>சேமி</value>
+  </data>
+  <data name="View_ContactInformation_PleaseWait" xml:space="preserve">
+    <value>தயவுசெய்து காத்திருக்கவும் …</value>
+  </data>
+  <data name="View_ContactInformationRead_InformationSaved" xml:space="preserve">
+    <value>உங்களுடைய தகவல் சேமிக்கப்பட்டுள்ளது.</value>
+  </data>
+  <data name="View_AccountInformation_InvalidEmailMessage" xml:space="preserve">
+    <value>தயவுசெய்து ஒரு செல்லத்தக்க புதிய மின்னஞ்சல் முகவரியை உள்ளிடவும்.</value>
+  </data>
+  <data name="Controller_CouldNotUpdateContactInfo" xml:space="preserve">
+    <value>தற்போதைய தகவலை புதுப்பிக்க முடியவில்லை</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_Cancel" xml:space="preserve">
+    <value>ரத்து செய்க</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_Save" xml:space="preserve">
+    <value>சேமி</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_TheDeliveryInformation" xml:space="preserve">
+    <value>தலைப்பு விநியோகத் தகவல்</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_Disclosure" xml:space="preserve">
+    <value>இந்தப் பெட்டியில் கிளிக் செய்வதன் மூலம், மெக்ஸிகோவின் நிதி மற்றும் பொதுக் கடன் செயலகத்துக்கு (Secretaría de Hacienda y Crédito Público) எனது பெயர், கோபார்ட் வாங்குநர் எண், முகவரி, நகரம், மாநிலம், அஞ்சல் குறியீடு, கோபார்ட் வாகன லாட் எண், அதிக விலைக்குறிப்பு, வாகனத்தின் அடையாள எண், தயாரிப்பு, மாடல், வாகன வகை மற்றும் கோபார்ட் வாயிலாக என்னால் வாங்கப்பட்ட அனைத்து வாகனங்களுக்கான மாடல் ஆண்டு ஆகியவற்றைச் சமர்ப்பிப்பதற்கு நான் அதிகாரமளிக்கிறேன். இந்தச் சேவை கோபார்ட்டுக்கு உட்பட்டது என்பதை நான் புரிந்துகொள்கிறேன் </value>
+  </data>
+  <data name="View_MemberPreferencesEdit_MailingAddressLine1" xml:space="preserve">
+    <value>*அஞ்சல் முகவரி வரி 1</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_MailingAddressLine2" xml:space="preserve">
+    <value>*அஞ்சல் முகவரி வரி 2</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_Country" xml:space="preserve">
+    <value>*நாடு</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_StateProvince" xml:space="preserve">
+    <value>*மாநிலம் / மாகாணம்</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_City" xml:space="preserve">
+    <value>*நகரம்</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_ZipCode" xml:space="preserve">
+    <value>*ஜிப் குறியீடு / அஞ்சல் குறியீடு</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_PrimaryPhone" xml:space="preserve">
+    <value>முதன்மைத் தொலைபேசி எண்</value>
+  </data>
+  <data name="View_Bidders_NoBidders" xml:space="preserve">
+    <value>ஏலம் கேட்பவர்கள் எவரையும் நீங்கள் பெற்றிருக்கவில்லை</value>
+  </data>
+  <data name="Controller_ChangePassword_There_was_a_problem_with_your_request" xml:space="preserve">
+    <value>உங்களுடைய கோரிக்கையில் ஒரு பிரச்சனை ஏற்பட்டது</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_Selector_DefaultPaymentMethod" xml:space="preserve">
+    <value>ரொக்கம்|நிதியளிப்பு வகை|நிறுவனத்தின் காசோலை|மணி ஆர்டர்|இ-பே மூலம் செலுத்துதல் |கிரெடிட் கார்டு|கிடைக்கின்ற நிதிகளை பயன்படுத்தவும்|வயர் பரிமாற்றம் |காசாளரின் காசோலை</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_Selector_DefaultPaymentMethod_Values" xml:space="preserve">
+    <value>C|F|K|M|O|P|U|W|X</value>
+  </data>
+  <data name="Controller_CouldNotUpdateMemberPreferences" xml:space="preserve">
+    <value>உறுப்பினர் முன்னுரிமைகளைப் புதுப்பிக்க முடியவில்லை</value>
+  </data>
+  <data name="View_BrokerProfile_Cancel" xml:space="preserve">
+    <value>ரத்து செய்க</value>
+  </data>
+  <data name="View_BrokerProfile_SaveChanges" xml:space="preserve">
+    <value>மாற்றங்களைச் சேமிக்கவும்</value>
+  </data>
+  <data name="ViewModel_ContactInformation_Validation_PrimaryPhone" xml:space="preserve">
+    <value>முதன்மைத் தொலைபேசி எண் தேவைப்படுகிறது</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_Selector_ShippingServices" xml:space="preserve">
+    <value>CALOV|COPAR|DHL|FEDEX|UPS|USPS</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_Selector_ShippingServices_Values" xml:space="preserve">
+    <value>CALOV|COPAR|DHL|FEDEX|UPS|USPS</value>
+  </data>
+  <data name="View_ContactInformationEdit_Selector_PhoneTypes" xml:space="preserve">
+    <value>செல்|அலுவலகம்|வீடு|தொலைநகல்</value>
+  </data>
+  <data name="View_ContactInformationEdit_Selector_PhoneTypes_Values" xml:space="preserve">
+    <value>C|W|H|F</value>
+  </data>
+  <data name="View_AccountInformation_ConfirmEmailAddress" xml:space="preserve">
+    <value>மின்னஞ்சல் முகவரியை உறுதிப்படுத்தவும்</value>
+  </data>
+  <data name="View_ContactInformationEdit_AlternatePhoneType" xml:space="preserve">
+    <value>மாற்றுத் தொலைபேசி வகை</value>
+  </data>
+  <data name="View_ContactInformationEdit_PrimaryPhoneType" xml:space="preserve">
+    <value>முதன்மைத் தொலைபேசி வகை</value>
+  </data>
+  <data name="ViewModel_ContactInformation_Validation_ConfirmEmailAddress" xml:space="preserve">
+    <value>நீங்கள் உள்ளிட்ட மின்னஞ்சல் முகவரிகள் பொருந்தவில்லை.</value>
+  </data>
+  <data name="ViewModel_ContactInformation_Validation_ConfirmNewPassword" xml:space="preserve">
+    <value>புதிய கடவுச்சொல் பொருந்தவில்லை.</value>
+  </data>
+  <data name="ViewModel_ContactInformation_Validation_NewPassword" xml:space="preserve">
+    <value>புதிய கடவுச்சொல் தேவைப்படுகிறது.</value>
+  </data>
+  <data name="ViewModel_ContactInformation_Validation_NewPassword_RegExpr" xml:space="preserve">
+    <value>தயவுசெய்து ஒரு செல்லத்தக்க கடவுச்சொல்லை உள்ளிடவும்.</value>
+  </data>
+  <data name="ViewModel_ContactInformation_Validation_OriginalPassword" xml:space="preserve">
+    <value>தற்போதைய கடவுச்சொல் தேவைப்படுகிறது.</value>
+  </data>
+  <data name="View_MemberPreferences_CreditCardOnFileLabel" xml:space="preserve">
+    <value>எனது கடன் அட்டைகள்</value>
+  </data>
+  <data name="View_MemberPreferences_EditMyCreditCards" xml:space="preserve">
+    <value>திருத்துக</value>
+  </data>
+  <data name="View_MemberPreferences_HasCreditCards" xml:space="preserve">
+    <value>கோப்பில்</value>
+  </data>
+  <data name="View_MemberPreferences_NoCreditCards" xml:space="preserve">
+    <value>கோப்பில் ஒன்றுமில்லை</value>
+  </data>
+  <data name="Controller_Financing_ErrorFunderCodeNotSupported" xml:space="preserve">
+    <value>நீங்கள் உள்ளிட்ட டீலர் ஐடி-யை நாங்கள் தற்சமயம் ஆதரிக்கவில்லை. தயவுசெய்து மீண்டும் முயற்சிக்கவும் அல்லது (972) 391-5400 அல்லது member.services@copart.com–இல் உறுப்பினர் சேவைகளைத் தொடர்புகொள்ளவும்.</value>
+  </data>
+  <data name="Controller_Financing_ErrorBalanceGeneric" xml:space="preserve">
+    <value>கணக்கு இருப்பு சரிபார்த்தல் தோல்வியடைந்தது</value>
+  </data>
+  <data name="View_Financing_AsOf" xml:space="preserve">
+    <value>தேதியில் உள்ளவாறு </value>
+  </data>
+  <data name="View_Financing_CreditAvailable" xml:space="preserve">
+    <value> இருக்கும் வரவு</value>
+  </data>
+  <data name="View_AccountInformation_ExplanationText" xml:space="preserve">
+    <value>உங்களுடைய முதன்மை முகவரியை மாற்றுவதற்கு buyer.licensing@copart.com அல்லது (972) 391-5400–இல் உறுப்பினர் உரிமம் வழங்கும் துறையை நீங்கள் தொடர்புகொள்ள வேண்டும்</value>
+  </data>
+  <data name="Controller_Financing_ErrorFunderNotActive" xml:space="preserve">
+    <value>நீங்கள் உள்ளிட்ட டீலர் ஐடி-யை நாங்கள் தற்சமயம் ஆதரிக்கவில்லை. தயவுசெய்து மீண்டும் முயற்சிக்கவும் அல்லது (972) 391-5400 அல்லது member.services@copart.com–இல் உறுப்பினர் சேவைகளைத் தொடர்புகொள்ளவும்.</value>
+  </data>
+  <data name="Controller_Financing_ErrorInvalidDealerId" xml:space="preserve">
+    <value>நீங்கள் உள்ளிட்டுள்ள டீலர் ஐடி செல்லத்தக்கதல்ல. தயவுசெய்து மீண்டும் முயற்சிக்கவும் அல்லது (972) 391-5400 அல்லது member.services@copart.com–இல் உறுப்பினர் சேவைகளைத் தொடர்புகொள்ளவும்.</value>
+  </data>
+  <data name="Controller_Financing_ErrorInvalidFunderCode" xml:space="preserve">
+    <value>நீங்கள் உள்ளிட்டுள்ள டீலர் ஐடி செல்லத்தக்கதல்ல. தயவுசெய்து மீண்டும் முயற்சிக்கவும் அல்லது (972) 391-5400 அல்லது member.services@copart.com–இல் உறுப்பினர் சேவைகளைத் தொடர்புகொள்ளவும்.</value>
+  </data>
+  <data name="Controller_Financing_ErrorRequiredParameter" xml:space="preserve">
+    <value>தயவுசெய்து, தகவல்கள் அனைத்தும் உள்ளிடப்பட்டுள்ளனவா என்பதைச் சரிபார்க்கவும். மீண்டும் முயற்சிக்கவும் அல்லது (972) 391-5400 அல்லது member.services@copart.com–இல் உறுப்பினர் சேவைகளைத் தொடர்புகொள்ளவும்.</value>
+  </data>
+  <data name="Controller_Financing_ErrorVerifyGeneric" xml:space="preserve">
+    <value>கணக்கைச் சரிபார்க்க இயலவில்லை. தயவுசெய்து மீண்டும் முயற்சிக்கவும் அல்லது (972) 391-5400 அல்லது member.services@copart.com–இல் உறுப்பினர் சேவைகளைத் தொடர்புகொள்ளவும்</value>
+  </data>
+  <data name="Views_Financing_VerifyAccountSuccess" xml:space="preserve">
+    <value>வெற்றிபெற்றது! உங்களுடைய புதிய கணக்கு சரிபார்க்கப்பட்டுள்ளது.</value>
+  </data>
+  <data name="View_FinancingVerifyAccountDialog_Account" xml:space="preserve">
+    <value> கணக்கு</value>
+  </data>
+  <data name="EditContactInfo_Call707" xml:space="preserve">
+    <value>அல்லது இந்தத் தகவல்களை மாற்றுவதற்கு 972-391-5400 என்ற எண்ணில் அழைக்கவும்.</value>
+  </data>
+  <data name="EditContactInfo_MemberLicenseDepartment" xml:space="preserve">
+    <value>உறுப்பினர் உரிமம் வழங்கும் துறை</value>
+  </data>
+  <data name="EditContactInfo_PleaseContact" xml:space="preserve">
+    <value>நீங்கள் உங்கள் ஃபிஸிக்கல் முகவரியைத் திருத்த விரும்பினால், தயவுசெய்து இந்தத் </value>
+  </data>
+  <data name="EditContactInfo_ToChangeThisInfo" xml:space="preserve">
+    <value>தகவலை மாற்றுவதற்கு தொடர்புகொள்ளவும்.</value>
+  </data>
+  <data name="ChangePasswordPasswordChanged" xml:space="preserve">
+    <value>கடவுச்சொல் மாற்றப்பட்டது!</value>
+  </data>
+  <data name="FinancingVerifyAccountDealerIDRequired" xml:space="preserve">
+    <value>டீலர் ஐடி கட்டம் நிரப்பப்பட வேண்டும்.</value>
+  </data>
+  <data name="View_DepositRefund_Continue" xml:space="preserve">
+    <value>தொடர்க</value>
+  </data>
+  <data name="View_DepositRefund_CreditCardNumber" xml:space="preserve">
+    <value>கிரெடிட் கார்டு எண்</value>
+  </data>
+  <data name="View_DepositRefund_ExpirationDate" xml:space="preserve">
+    <value>காலாவதி தேதி</value>
+  </data>
+  <data name="View_DepositRefund_NameOnCard" xml:space="preserve">
+    <value>கார்டில் உள்ள பெயர்</value>
+  </data>
+  <data name="View_DepositRefund_Note" xml:space="preserve">
+    <value>உங்களுடைய விலைக்குறித்தல் நடவடிக்கையின் காரணமாக கிடைக்கும் ரீஃபண்ட்கள் மாறக்கூடும்</value>
+  </data>
+  <data name="View_DepositRefund_Note1" xml:space="preserve">
+    <value>உங்களுடைய விலைக்குறித்தல் நடவடிக்கையின் காரணமாக கிடைக்கும் ரீஃபண்ட்கள் மாறக்கூடும்</value>
+  </data>
+  <data name="View_DepositRefund_TotalRefundAvailable" xml:space="preserve">
+    <value>கிடைக்கும் மொத்த ரீஃபண்ட்</value>
+  </data>
+  <data name="DepositRefundReviewNote_AvailableRefunds" xml:space="preserve">
+    <value>உங்களுடைய விலைக்குறித்தல் நடவடிக்கையின் காரணமாக கிடைக்கும் ரீஃபண்ட்கள் மாறக்கூடும்.</value>
+  </data>
+  <data name="DepositRefundReviewNote_DependingOnRefund" xml:space="preserve">
+    <value>ரீஃபண்ட் கிடைக்கும் தன்மையைப் பொறுத்து இந்த கார்டு மூலம் இடம்பெறச் செய்யப்பட்ட மொத்த வைப்புத் தொகை வரையிலான ரீஃபண்ட் மட்டுமே நீங்கள் கோர முடியும்</value>
+  </data>
+  <data name="DepositRefundReview_Amount" xml:space="preserve">
+    <value>தொகை</value>
+  </data>
+  <data name="DepositRefundReview_Date" xml:space="preserve">
+    <value>தேதி</value>
+  </data>
+  <data name="DepositRefundReview_DepositCurrentlyAvailable" xml:space="preserve">
+    <value>ரீஃபண்டுக்காக தற்சமயம் கிடைக்கும் வைப்புத்தொகை</value>
+  </data>
+  <data name="DepositRefundReview_Hide" xml:space="preserve">
+    <value>மறைக்கவும்</value>
+  </data>
+  <data name="DepositRefundReview_NoRefundTransactions" xml:space="preserve">
+    <value>ரீஃபண்ட் பரிவர்த்தனைகள் எதுவும் செயலாக்கம் செய்யப்படவில்லை.</value>
+  </data>
+  <data name="DepositRefundReview_Refund" xml:space="preserve">
+    <value>ரீஃபண்ட்</value>
+  </data>
+  <data name="DepositRefundReview_RefundTransactionHistory" xml:space="preserve">
+    <value>ரீஃபண்ட் பரிவர்த்தனை வரலாறு</value>
+  </data>
+  <data name="DepositRefundReview_ReviewAndSubmit" xml:space="preserve">
+    <value>மதிப்பாய்வு செய்து சமர்ப்பிக்கவும்</value>
+  </data>
+  <data name="DepositRefundReview_InvalidAmount" xml:space="preserve">
+    <value>தயவுசெய்து, தற்சமயம் ரீஃபண்டுக்காக கிடைக்கும் தொகைக்குச் சமமான அல்லது அதற்குக் குறைவான தொகையை உள்ளிடவும்.</value>
+  </data>
+  <data name="DepositRefundReview_TotalRefundsIssued" xml:space="preserve">
+    <value>இந்த கார்டுக்காக வழங்கப்பட்ட மொத்த ரீஃபண்ட்கள்</value>
+  </data>
+  <data name="View_DepositRefundReviewTitle" xml:space="preserve">
+    <value>வைப்புத்தொகை ரீஃபண்ட் குறித்த மதிப்பாய்வு</value>
+  </data>
+  <data name="View_SubmitButtonText" xml:space="preserve">
+    <value>சமர்ப்பிக்கவும்</value>
+  </data>
+  <data name="View_BidderProfile_Save" xml:space="preserve">
+    <value>சேமி</value>
+  </data>
+  <data name="GenericCancelText" xml:space="preserve">
+    <value>ரத்து செய்க</value>
+  </data>
+  <data name="GenericPrintText" xml:space="preserve">
+    <value>அச்சிடுக</value>
+  </data>
+  <data name="View_DepositRefundConfirm_Deposit" xml:space="preserve">
+    <value>வைப்புத்தொகை</value>
+  </data>
+  <data name="View_DepositRefundConfirm_RefundConfirmation" xml:space="preserve">
+    <value>ரீஃபண்ட் உறுதிப்படுத்தல்</value>
+  </data>
+  <data name="View_DepositRefundConfirm_Status" xml:space="preserve">
+    <value>நிலை</value>
+  </data>
+  <data name="View_DepositRefundConfirm_ThankYou" xml:space="preserve">
+    <value>நன்றி! உங்களுடைய வைப்புத்தொகை ரீஃபண்ட் செய்யப்பட்டுள்ளது</value>
+  </data>
+  <data name="View_DepositRefundConfirm_TotalRefund" xml:space="preserve">
+    <value>மொத்த ரீஃபண்ட்</value>
+  </data>
+  <data name="View_DepositRefundConfirm_Transaction" xml:space="preserve">
+    <value>பரிவர்த்தனை</value>
+  </data>
+  <data name="Profile_GenericFailureMessage" xml:space="preserve">
+    <value>தோல்வியுற்றது</value>
+  </data>
+  <data name="Profile_GenericSuccessMessage" xml:space="preserve">
+    <value>வெற்றிபெற்றது</value>
+  </data>
+  <data name="View_ChangeEmail_BackToBuyerProfile" xml:space="preserve">
+    <value>வாங்குநர் விவரத்துக்கு திரும்பச் செல்க</value>
+  </data>
+  <data name="View_ChangeEmail_HeaderText" xml:space="preserve">
+    <value>மின்னஞ்சலை மாற்றவும்</value>
+  </data>
+  <data name="View_ChangeEmail_OperationCompleted" xml:space="preserve">
+    <value>செயல்பாடு முடிந்தது.</value>
+  </data>
+  <data name="View_ChangeEmail_Save" xml:space="preserve">
+    <value>சேமி</value>
+  </data>
+  <data name="Views_Profile_ChangePasswordModel" xml:space="preserve">
+    <value>கடவுச்சொல்லை மாற்றுவதற்கான மாதிரி</value>
+  </data>
+  <data name="View_ChangePassowrd_BackToList" xml:space="preserve">
+    <value>மீண்டும் பட்டியலுக்குச் செல்லவும்</value>
+  </data>
+  <data name="ViewBidderIncreaseModal_SpecifyNumberToIncrease" xml:space="preserve">
+    <value>அதிகரிக்க வேண்டிய இருக்கைகளின் எண்ணிக்கையை நீங்கள் குறிப்பிட வேண்டும், அது 0-வை விட பெரிதாக இருக்க வேண்டும்.</value>
+  </data>
+  <data name="View_DepositRefund_NoCardsAvailable" xml:space="preserve">
+    <value>ரீஃபண்ட் செய்வதற்கான கிரெடிட் கார்டுகள் எதுவும் இல்லை.</value>
+  </data>
+  <data name="Controller_DepositRefund_NoDepositLeftToRefundForTheGivenCard" xml:space="preserve">
+    <value>கொடுக்கப்பட்ட கார்டுக்கு ரீஃபண்ட் செய்வதற்கான வைப்புத்தொகை ஏதும் இல்லை.</value>
+  </data>
+  <data name="Controller_DepositRefund_RefundAmountCannotBeZero" xml:space="preserve">
+    <value>ரீஃபண்ட் தொகை பூச்சியமாக இருக்க முடியாது.</value>
+  </data>
+  <data name="Controller_DepositRefund_RequestedAmountExceedsDepositAvailableForRefund" xml:space="preserve">
+    <value>கோரப்படும் தொகை ரீஃபண்டுக்காக இருக்கும் தொகையை விட மீறுகிறது.</value>
+  </data>
+  <data name="Controller_DepositRefund_RequestedAmountExceedsDepositOnHandForTheGivenCard" xml:space="preserve">
+    <value>கோரப்படும் தொகை கொடுக்கப்பட்ட அட்டைக்காக கைவசம் இருக்கும் வைப்புத்தொகையை விட மீறுகிறது.</value>
+  </data>
+  <data name="Controller_DepositRefund_RequestedAmountNotCompletelyRefunded" xml:space="preserve">
+    <value>கோரப்படும் தொகை முழுமையாக ரீஃபண்ட் செய்யப்படவில்லை.</value>
+  </data>
+  <data name="Controller_DepositRefund_AnUnknownErrorOccurred" xml:space="preserve">
+    <value>தெரியாத பிழை ஏற்பட்டது</value>
+  </data>
+  <data name="View_DepositRefund_ErrorPleaseSelectACreditCard" xml:space="preserve">
+    <value>தயவுசெய்து ஒரு கிரெடிட் கார்டை தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="Controller_ChangePassword_CantUseCopartError" xml:space="preserve">
+    <value>பின்வரும் கடவுச்சொற்கள் செல்லத்தக்கதல்ல: வாங்குநர் எண்கள், “கோபார்ட்” &amp; “கடவுச்சொல்”. தயவுசெய்து ஒரு புதிய கடவுச்சொல்லை உள்ளிடவும்.</value>
+  </data>
+  <data name="View_AccountInformation_NewEmail" xml:space="preserve">
+    <value>புதிய மின்னஞ்சல்</value>
+  </data>
+  <data name="View_BidderProfile_Selector_Status" xml:space="preserve">
+    <value>செயல்படுபவை|செயலற்றவை|இடைநீக்கம் செய்யப்பட்டவை|நெறிபிறழ்ந்தவை|காலி|கணக்கை மீட்டமைக்கவும்</value>
+  </data>
+  <data name="View_BidderProfile_Selector_Status_VacantStatus" xml:space="preserve">
+    <value>காலி|கணக்கை மீட்டமைக்கவும்</value>
+  </data>
+  <data name="Profile_ChangeEmailRequired" xml:space="preserve">
+    <value>மின்னஞ்சல் தேவைப்படுகிறது.</value>
+  </data>
+  <data name="View_Bidders_DataTableInfo" xml:space="preserve">
+    <value>மொத்த_ஏலம் கேட்பவர்களை_காண்பிக்கிறது</value>
+  </data>
+  <data name="View_Bidders_DataTableInfoFiltered" xml:space="preserve">
+    <value>(அதிகபட்ச_ஏலம் கேட்பவர்களிலிருந்து_வடிகட்டப்பட்டது)</value>
+  </data>
+  <data name="View_Bidders_NoBiddersMatchingFilter" xml:space="preserve">
+    <value>ஏலம் கேட்பவர்கள் எவரும் தேடல் வரன்முறைகளுக்குப் பொருந்துவதாக கண்டறியப்படவில்லை.</value>
+  </data>
+  <data name="View_BidderProfile_PasswordNote2" xml:space="preserve">
+    <value>ஏலம் கேட்பவரின் கடவுச்சொல் உங்கள் கணக்கின் கடவுச்சொல்லிலிருந்து வேறுபட்டதாக இருக்க வேண்டும், ஏனெனில் அது ஒரு பணியாளரால் பயன்படுத்தப்படும்.</value>
+  </data>
+  <data name="View_AccountInformation_VAT" xml:space="preserve">
+    <value>அடையாள எண்</value>
+  </data>
+  <data name="Views_MemberPreferencesEdit_Termsofservice" xml:space="preserve">
+    <value>சேவை விதிமுறைகள்.</value>
+  </data>
+  <data name="View_MemberPreferencesRead_InformationSaved" xml:space="preserve">
+    <value>சேமிக்கப்பட்ட தகவல்</value>
+  </data>
+  <data name="Validation_Required" xml:space="preserve">
+    <value> {0} தேவைப்படுகிறது</value>
+  </data>
+  <data name="View_MemberPreference_Disclosure" xml:space="preserve">
+    <value>தொடர்வதற்கு முன்னர் தயவுசெய்து சேவை விதிமுறைகளை ஏற்கவும்.</value>
+  </data>
+  <data name="Views_Profile_MemberPreferencesEdit_Shipping" xml:space="preserve">
+    <value>பொருந்தாது</value>
+  </data>
+  <data name="View_BidderProfile_WhatAreAmounts" xml:space="preserve">
+    <value>இது என்ன?</value>
+  </data>
+  <data name="View_BidderProfile_WhatAreCounts" xml:space="preserve">
+    <value>இது என்ன?</value>
+  </data>
+  <data name="View_BidderProfileEdit_PageTitle" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் #{BuyerNumber}</value>
+  </data>
+  <data name="Views_Profile_MemberPreferencesEdit_ReportSalesToMexicanCustoms" xml:space="preserve">
+    <value>இல்லை</value>
+  </data>
+  <data name="View_BidderProfileEdit_Current" xml:space="preserve">
+    <value>தற்போதுள்ளது</value>
+  </data>
+  <data name="View_BidderProfileEdit_New" xml:space="preserve">
+    <value>புதியது</value>
+  </data>
+  <data name="View_BidderProfileEdit_Success" xml:space="preserve">
+    <value>உங்களுடைய விலைக்குறிப்பு வெற்றிகரமாக புதுப்பிக்கப்பட்டது.</value>
+  </data>
+  <data name="View_ContactInformation_PhysicalAddressLine1" xml:space="preserve">
+    <value>ஃபிஸிக்கல் முகவரி 1</value>
+  </data>
+  <data name="View_ContactInformation_PhysicalAddressLine2" xml:space="preserve">
+    <value>ஃபிஸிக்கல் முகவரி 2</value>
+  </data>
+  <data name="View_ContactInformation_PostalCode" xml:space="preserve">
+    <value>அஞ்சல் குறியீடு</value>
+  </data>
+  <data name="View_ContactInformation_EmailMySavedSearches" xml:space="preserve">
+    <value>எனது சேமிக்கப்பட்ட தேடல்களை மின்னஞ்சலில் அனுப்பவும்</value>
+  </data>
+  <data name="Controller_BidderProfile_There_was_a_problem_with_your_request" xml:space="preserve">
+    <value>உங்களுடைய கோரிக்கையில் ஒரு பிரச்சனை ஏற்பட்டது. தயவுசெய்து செல்லத்தக்க கடவுச்சொல்லை உள்ளிடவும்.</value>
+  </data>
+  <data name="View_ContactInformation_Success" xml:space="preserve">
+    <value>உங்களுடைய சேமிக்கப்பட்ட தேடல் புதுப்பிக்கப்பட்டுள்ளது.</value>
+  </data>
+  <data name="View_BidderProfile_Password_Validation" xml:space="preserve">
+    <value>தயவுசெய்து 8 முதல் 12 இடைப்பட்ட எழுத்துருக்களைக் கொண்ட செல்லத்தக்க ஆல்பாநியூமரிக் கடவுச்சொல்லை உள்ளிடவும்.</value>
+  </data>
+  <data name="View_BidderProfile_Selector_Status_MasterBuyer" xml:space="preserve">
+    <value>செயல்படுபவை|செயலற்றவை</value>
+  </data>
+  <data name="View_BrokerProfile_Status_Active" xml:space="preserve">
+    <value>செயல்படுபவை</value>
+  </data>
+  <data name="View_BrokerProfile_Status_Inactive" xml:space="preserve">
+    <value>செயலற்றவை</value>
+  </data>
+  <data name="View_BrokerProfile_Status_Suspended" xml:space="preserve">
+    <value>இடைநீக்கம் செய்யப்பட்டது</value>
+  </data>
+  <data name="View_BrokerProfile_Status_Void" xml:space="preserve">
+    <value>வெற்று</value>
+  </data>
+  <data name="Validation" xml:space="preserve">
+    <value>தொடர்வதற்கு முன்னர் தயவுசெய்து சேவை விதிமுறைகளை ஏற்கவும்.</value>
+  </data>
+  <data name="View_AccountInformation_ALTPhoneNumber" xml:space="preserve">
+    <value>மாற்று தொலைபேசி எண்</value>
+  </data>
+  <data name="View_AccountInformation_PrimaryPhoneNumber" xml:space="preserve">
+    <value>முதன்மைத் தொலைபேசி எண்</value>
+  </data>
+  <data name="View_ContactInformation_PostalCode_UK" xml:space="preserve">
+    <value>அஞ்சல் குறியீடு</value>
+  </data>
+  <data name="View_BrokerProfile_NoDataTitle" xml:space="preserve">
+    <value>தரகர் விவரம்</value>
+  </data>
+  <data name="View_AccountInformation_PrimaryExtPhoneNumber" xml:space="preserve">
+    <value>முதன்மைத் தொலைபேசி நீட்டிப்பு</value>
+  </data>
+  <data name="EditContactInfo_Call707_UK" xml:space="preserve">
+    <value>அல்லது இந்தத் தகவல்களை மாற்றுவதற்கு 0844 875 8837 என்ற எண்ணில் அழைக்கவும்.</value>
+  </data>
+  <data name="EditContactInfo_MemberLicenseDepartment_UK" xml:space="preserve">
+    <value>உறுப்பினர் சேவைகள்</value>
+  </data>
+  <data name="View_Bidders_DataTableInfo_NewText" xml:space="preserve">
+    <value>ஏலம் கேட்பவர்கள்_அனைவரையும்_தொடக்கம்_முதல்_இறுதி_வரை_காண்பிக்கவும்</value>
+  </data>
+  <data name="View_Bidders_DataTable_showingtotal" xml:space="preserve">
+    <value>(அதிகபட்ச_ஏலம் கேட்பவர்களிலிருந்து_பிரித்தெடுக்கப்பட்டது)</value>
+  </data>
+  <data name="View_Bidders_DataTable_sInfoEmpty" xml:space="preserve">
+    <value>0 ஏலம் கேட்பவர்களில் 0 வில் 0 வைக் காண்பிக்கிறது</value>
+  </data>
+  <data name="View_Bidders_NoBidder_MatchFilterText" xml:space="preserve">
+    <value>ஏலம் கேட்பவர்கள் எவரும் தேடல் வரன்முறைகளுக்குப் பொருந்துவதாக கண்டறியப்படவில்லை.</value>
+  </data>
+  <data name="EditContactInfo_PleaseContact_Uk" xml:space="preserve">
+    <value>நீங்கள் உங்கள் ஃபிஸிக்கல் முகவரியைத் திருத்த விரும்பினால், தயவுசெய்து இந்தத்</value>
+  </data>
+  <data name="Profile_PhoneRequired" xml:space="preserve">
+    <value>முதன்மைத் தொலைபேசி தேவைப்படுகிறது.</value>
+  </data>
+  <data name="View_MemberPreferences_ShowNetLoanFundingOffers" xml:space="preserve">
+    <value>நிகரக் கடன் நிதியளிப்புக் கோரிக்கைகளைக் காண்பிக்கவும்</value>
+  </data>
+  <data name="View_AccountInformation_InvalidConfirmEmailMessage" xml:space="preserve">
+    <value>நீங்கள் உள்ளிட்ட மின்னஞ்சல் முகவரிகள் பொருந்தவில்லை.</value>
+  </data>
+  <data name="View_AccountInformation_AlternateExtPhoneNumber" xml:space="preserve">
+    <value>மாற்றுத் தொலைபேசி விரிவு</value>
+  </data>
+  <data name="Controller_Password_Password_doesnot_match" xml:space="preserve">
+    <value>தற்போதைய கடவுச்சொல் பொருந்தவில்லை</value>
+  </data>
+  <data name="Controller_Password_Password_Error" xml:space="preserve">
+    <value>உங்களுடைய கோரிக்கையில் ஒரு பிழை ஏற்பட்டது. தயவுசெய்து நீங்கள் சரியான கடவுச்சொல்லை உள்ளிட்டதை உறுதிசெய்த பின்னர் மீண்டும் முயற்சிக்கவும். உங்களுக்கு பிரச்சனைகள் தொடர்ந்து ஏற்பட்டால், உறுப்பினர் சேவைகளை (972) 391-5400 என்ற எண்ணில் அல்லது member.services@copart.com–இல் தொடர்புகொள்ளவும்.</value>
+  </data>
+  <data name="View_AccountInformation_City_UK" xml:space="preserve">
+    <value>நகரம் / மாநகரம்</value>
+  </data>
+  <data name="Controller_Password_Password_Invalid" xml:space="preserve">
+    <value>புதிய கடவுச்சொல் செல்லத்தகாதது.</value>
+  </data>
+  <data name="View_Contact_Alternate_Phone_Ext" xml:space="preserve">
+    <value>மாற்றுத் தொலைபேசி விரிவு ஆல்பா நியூமரிக் எழுத்துருக்களை மட்டுமே கொண்டிருக்க முடியும்</value>
+  </data>
+  <data name="View_Contact_Alternate_Phone_Format" xml:space="preserve">
+    <value>உள்ளிடப்பட்ட மாற்றுத் தொலைபேசி அமைப்பு செல்லத்தக்கதல்ல.</value>
+  </data>
+  <data name="View_Contact_Primary_Phone_Ext" xml:space="preserve">
+    <value>முதன்மைத் தொலைபேசி விரிவு ஆல்பா நியூமரிக் எழுத்துருக்களை மட்டுமே கொண்டிருக்க முடியும்</value>
+  </data>
+  <data name="View_Contact_Primary_Phone_Format" xml:space="preserve">
+    <value>உள்ளிடப்பட்ட முதன்மைத் தொலைபேசி அமைப்பு செல்லத்தக்கதல்ல.</value>
+  </data>
+  <data name="Views_Bidders_TotalNoofBidders" xml:space="preserve">
+    <value>ஏலம் கேட்பவர்களின் மொத்த எண்ணிக்கை:</value>
+  </data>
+  <data name="View_BidderProfile_Days" xml:space="preserve">
+    <value>நாட்கள்</value>
+  </data>
+  <data name="Controller_MemberPreferences_InvalidAddress" xml:space="preserve">
+    <value>நகரம், மாநிலம் மற்றும் ஜிப் குறியீடு ஆகியவற்றின் சேர்க்கை செல்லத்தக்கதல்ல.</value>
+  </data>
+  <data name="Controller_MemberPreferences_C219507" xml:space="preserve">
+    <value>அஞ்சல் தலைப்பு ஆவணங்கள் ஆம் என்றால் ஷிப்பிங் சேவை உள்ளிடப்பட வேண்டும்.</value>
+  </data>
+  <data name="Controller_MemberPreferences_C219508" xml:space="preserve">
+    <value>கணக்கு எண் காலியாக இல்லை எனில் ஷிப்பிங் சேவை உள்ளிடப்பட வேண்டும்.</value>
+  </data>
+  <data name="Controller_MemberPreferences_C219509" xml:space="preserve">
+    <value>முகவரி காலியாக இல்லை எனில் ஷிப்பிங் சேவை உள்ளிடப்பட வேண்டும்.</value>
+  </data>
+  <data name="Controller_MemberPreferences_C219510" xml:space="preserve">
+    <value>ஷிப்பிங் கணக்கு அல்லது முகவரி இவற்றில் ஏதாவது ஒன்று உள்ளிடப்பட வேண்டும்.</value>
+  </data>
+  <data name="Controller_MemberPreferences_C219511" xml:space="preserve">
+    <value>ஷிப்பிங் சேவை காணப்படவில்லை.</value>
+  </data>
+  <data name="Controller_MemberPreferences_C219512" xml:space="preserve">
+    <value>ஷிப்பிங் சேவை செயல்பாட்டில் இல்லை.</value>
+  </data>
+  <data name="Controller_MemberPreferences_C219514" xml:space="preserve">
+    <value>இதர உருப்படிகள் காலியாக இல்லை எனில் ஷிப்பிங் முகவரி காலியாக இருக்க முடியாது.</value>
+  </data>
+  <data name="Controller_MemberPreferences_C219515" xml:space="preserve">
+    <value>நகரம், மாநிலம் மற்றும் ஜிப் குறியீடு ஆகியவற்றின் சேர்க்கை செல்லத்தக்கதல்ல.</value>
+  </data>
+  <data name="Views_Profile_POAFormMessage" xml:space="preserve">
+    <value>அஞ்சல் தலைப்பு ஆவணங்களுக்கு தேவைப்படுகிறது</value>
+  </data>
+  <data name="Controller_Password_Invalid" xml:space="preserve">
+    <value>புதிய கடவுச்சொல் செல்லத்தகாதது.</value>
+  </data>
+  <data name="View_MemberPreferences_Message" xml:space="preserve">
+    <value>இந்தத் தகவலை பார்ப்பதற்கு / மாற்றுவதற்கு திருத்து என்பதை கிளிக் செய்யவும்</value>
+  </data>
+  <data name="View_MemberPreferences_ViewPDF" xml:space="preserve">
+    <value>PDF ஐ பார்க்கவும்</value>
+  </data>
+  <data name="View_MemberPreferencesEdit_ShippingService" xml:space="preserve">
+    <value>*ஷிப்பிங் சேவை</value>
+  </data>
+  <data name="View_ContactInformation_Zipcode" xml:space="preserve">
+    <value>ஜிப் குறியீடு தேவைப்படுகிறது.</value>
+  </data>
+  <data name="View_ContactInformation_Zipcode2" xml:space="preserve">
+    <value>அஞ்சல் குறியீடு 2 தேவைப்படுகிறது.</value>
+  </data>
+  <data name="View_Licenses_ExpirationDate" xml:space="preserve">
+    <value>காலாவதி தேதி</value>
+  </data>
+  <data name="Controller_MemberPreferences_C219519" xml:space="preserve">
+    <value>செல்லத்தகாத தொலைபேசி எண்</value>
+  </data>
+  <data name="Views_EmailAddressText" xml:space="preserve">
+    <value>மின்னஞ்சல் முகவரி</value>
+  </data>
+  <data name="View_ContactInformation_PostalCode_IGS" xml:space="preserve">
+    <value>அஞ்சல் குறியீடு</value>
+  </data>
+  <data name="View_AccountInformation_Email" xml:space="preserve">
+    <value>மின்னஞ்சல்</value>
+  </data>
+  <data name="Controller_PreviouslyUsedPassword" xml:space="preserve">
+    <value>முன்னதாக பயன்படுத்தப்பட்ட ஒரு கடவுச்சொல்லை நீங்கள் உள்ளிட்டுள்ளீர்கள். தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="ViewModel_ContactInformation_Validation_MinLength" xml:space="preserve">
+    <value>புதிய கடவுச்சொல் குறைந்தபட்சம் 8 எழுத்துருக்களைக் கொண்டிருக்க வேண்டும்.</value>
+  </data>
+  <data name="ViewModel_ContactInformation_Validation_NewPasswordSameAsOldPassword" xml:space="preserve">
+    <value>புதிய கடவுச்சொல் தற்போதைய கடவுச்சொல்லை ஒத்திருக்கக் கூடாது</value>
+  </data>
+  <data name="View_CreatePassword_Email" xml:space="preserve">
+    <value>மின்னஞ்சல் முகவரி</value>
+  </data>
+  <data name="View_CreatePassword_Disclaimer" xml:space="preserve">
+    <value>குறிப்பு: உங்களுடைய புதிய கடவுச்சொல் 8 முதல் 12 எழுத்துக்களை கொண்டதாக இருக்க வேண்டும். உங்களுடைய கடவுச்சொல்லில் எழுத்துக்கள், எண்கள் மற்றும் சிறப்புக் குறியீடுகள் இருக்குமாறு தேர்ந்தெடுக்க வேண்டும் என மிகவும் பரிந்துரைக்கப்படுகிறது.</value>
+  </data>
+  <data name="CreatePasswordSuccessMessage" xml:space="preserve">
+    <value>கடவுச்சொல் உருவாக்கப்பட்டது!</value>
+  </data>
+  <data name="View_AccountInformation_VATCountry" xml:space="preserve">
+    <value>வழங்கும் நாடு</value>
+  </data>
+</root>

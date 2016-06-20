@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AuctionsCalendar_Title" xml:space="preserve">
+    <value>ஏலங்களுக்கான நாள்காட்டி</value>
+  </data>
+  <data name="BuyingPower_Header" xml:space="preserve">
+    <value>எனது வாங்கும் ஆற்றல்</value>
+  </data>
+  <data name="CalendarAuctions_ViewAll" xml:space="preserve">
+    <value>அனைத்து ஏலங்களையும் காண்க</value>
+  </data>
+  <data name="CopartLocations_CopartLocations" xml:space="preserve">
+    <value>எனது கோபார்ட் அமைவிடங்கள்</value>
+  </data>
+  <data name="CopartLocations_ViewLocation" xml:space="preserve">
+    <value>இந்த அமைவிடத்தைக் காண்க</value>
+  </data>
+  <data name="Future" xml:space="preserve">
+    <value>எதிர்வரும்</value>
+  </data>
+  <data name="LocationWidget_FromYourLocation" xml:space="preserve">
+    <value>உங்களுடைய அமைவிடத்திலிருந்து</value>
+  </data>
+  <data name="LocationWidget_Inventory" xml:space="preserve">
+    <value>இருப்பு பட்டியல்</value>
+  </data>
+  <data name="LocationWidget_Stock" xml:space="preserve">
+    <value>இருப்பு</value>
+  </data>
+  <data name="Location_Address" xml:space="preserve">
+    <value>முகவரி</value>
+  </data>
+  <data name="Location_Fax" xml:space="preserve">
+    <value>தொலைநகல்</value>
+  </data>
+  <data name="Location_GeneralManager" xml:space="preserve">
+    <value>பொது மேலாளர்</value>
+  </data>
+  <data name="Location_GetDirections" xml:space="preserve">
+    <value>வழிகாட்டுதல்களைப் பெறுக</value>
+  </data>
+  <data name="Location_Hours" xml:space="preserve">
+    <value>மணிநேரங்கள்</value>
+  </data>
+  <data name="Location_Information" xml:space="preserve">
+    <value>அமைவிடத் தகவல்:</value>
+  </data>
+  <data name="Location_MailingAddress" xml:space="preserve">
+    <value>அஞ்சல் முகவரி</value>
+  </data>
+  <data name="Location_MyLocation" xml:space="preserve">
+    <value>எனது அமைவிடம்</value>
+  </data>
+  <data name="Location_NextAuction" xml:space="preserve">
+    <value>அடுத்த ஏலம்</value>
+  </data>
+  <data name="Location_NoWifi" xml:space="preserve">
+    <value>Wifi இல்லை</value>
+  </data>
+  <data name="Location_Phone" xml:space="preserve">
+    <value>தொலைபேசி</value>
+  </data>
+  <data name="Location_RegionalManager" xml:space="preserve">
+    <value>மண்டல மேலாளர்</value>
+  </data>
+  <data name="Location_Search" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Location_SendEmail" xml:space="preserve">
+    <value>மின்னஞ்சல் அனுப்பவும்</value>
+  </data>
+  <data name="Location_ViewAll" xml:space="preserve">
+    <value>அனைத்து கோபார்ட் அமைவிடங்களையும் காண்க</value>
+  </data>
+  <data name="Location_Wifi" xml:space="preserve">
+    <value>இலவச Wifi</value>
+  </data>
+  <data name="LotsLostWidget_NoResultsMsg1" xml:space="preserve">
+    <value>நற்செய்தி: இதுவரை எந்த விலைக்குறிப்புகளையும் நீங்கள் இழக்கவில்லை.  </value>
+  </data>
+  <data name="LotsLostWidget_NoResultsMsg2" xml:space="preserve">
+    <value>தொடர்ந்து தேடுங்கள்</value>
+  </data>
+  <data name="LotsLostWidget_NoResultsMsg3" xml:space="preserve">
+    <value> மற்றும் விலை குறியுங்கள்.</value>
+  </data>
+  <data name="LotsLost_LastBid" xml:space="preserve">
+    <value>கடைசி விலைக்குறிப்பு</value>
+  </data>
+  <data name="LotsLost_MyLotsLost" xml:space="preserve">
+    <value>நான் இழந்த விலைக்குறிப்புகள்</value>
+  </data>
+  <data name="LotsLost_NoResults" xml:space="preserve">
+    <value>இதுவரை நீங்கள் எந்த விலைக்குறிப்பையும் இழக்கவில்லை. வெற்றிபெற ஒரு வாகனத்தைக் கண்டறிக.</value>
+  </data>
+  <data name="LotsLost_ViewAll" xml:space="preserve">
+    <value>இழந்த லாட்கள் அனைத்தையும் காண்க</value>
+  </data>
+  <data name="LotsWonLost_Description" xml:space="preserve">
+    <value>விளக்கம்</value>
+  </data>
+  <data name="LotsWonLost_LotNumber" xml:space="preserve">
+    <value>லாட் #</value>
+  </data>
+  <data name="LotsWonLost_SaleDate" xml:space="preserve">
+    <value>விற்பனைத் தேதி</value>
+  </data>
+  <data name="LotsWonWidget_NoResultMsg1" xml:space="preserve">
+    <value>இதுவரை நீங்கள் எந்த விலைக்குறிப்புகளையும் வெல்லவில்லை. வெற்றி பெறுவதற்கான விலைக்குறிப்பு.</value>
+  </data>
+  <data name="LotsWonWidget_NoResultMsg2" xml:space="preserve">
+    <value>தொடங்குங்கள்.</value>
+  </data>
+  <data name="LotsWon_MyLotsWon" xml:space="preserve">
+    <value>நான் வென்ற லாட்கள்</value>
+  </data>
+  <data name="LotsWon_NoResults" xml:space="preserve">
+    <value>நீங்கள் இதுவரை ஒரு லாட் கூட வெற்றி பெறவில்லை. வெற்றிபெற ஒரு வாகனத்தைக் கண்டறிக.</value>
+  </data>
+  <data name="LotsWon_SalePrice" xml:space="preserve">
+    <value>விற்பனை விலை</value>
+  </data>
+  <data name="LotsWon_ViewAll" xml:space="preserve">
+    <value>வென்ற லாட்கள் அனைத்தையும் காண்க</value>
+  </data>
+  <data name="MemberNews_Title" xml:space="preserve">
+    <value>உறுப்பினர் செய்திகள்</value>
+  </data>
+  <data name="MyBidsWidget_NoResultMsg1" xml:space="preserve">
+    <value>தற்போதைய விலைக்குறிப்புகள் எதையும் நீங்கள் பெற்றிருக்கவில்லை. பின்னர் நீங்கள் எதற்காக காத்திருக்கிறீர்கள்?</value>
+  </data>
+  <data name="MyBidsWidget_NoResultMsg2" xml:space="preserve">
+    <value>வாகனங்களைக் கண்டறிக</value>
+  </data>
+  <data name="MyBidsWidget_NoResultMsg3" xml:space="preserve">
+    <value>விலை குறித்தல் பற்றிக் கற்றுக்கொள்க.</value>
+  </data>
+  <data name="MyBids_AwaitingApproval" xml:space="preserve">
+    <value>அனுமதிக்காக காத்திருக்கிறது</value>
+  </data>
+  <data name="MyBids_AwaitingSellerResponse" xml:space="preserve">
+    <value>விற்பவரின் பதிலுக்காக காத்திருக்கிறது</value>
+  </data>
+  <data name="MyBids_Bid" xml:space="preserve">
+    <value>தற்போதைய விலைக்குறிப்பு</value>
+  </data>
+  <data name="MyBids_IncreaseBid" xml:space="preserve">
+    <value>விலைக்குறிப்பை அதிகரிக்கவும்</value>
+  </data>
+  <data name="MyBids_Item" xml:space="preserve">
+    <value>வாகனம்</value>
+  </data>
+  <data name="MyBids_NoResults" xml:space="preserve">
+    <value>இந்த நேரத்தில் நீங்கள் எந்த லாட்கள் மீதும் ஏலம் கேட்கவில்லை. வெற்றி பெறுவதற்கான ஒரு வாகனத்தைக் கண்டறிக.</value>
+  </data>
+  <data name="MyBids_OutBidText" xml:space="preserve">
+    <value>அதிக தொகைக்கு விலை குறிக்கவும்</value>
+  </data>
+  <data name="MyBids_ReviewOffer" xml:space="preserve">
+    <value>கோரிக்கையை மதிப்பாய்வு செய்க</value>
+  </data>
+  <data name="MyBids_SellerCountered" xml:space="preserve">
+    <value>விற்பவர் விலை குறித்துள்ளார்</value>
+  </data>
+  <data name="MyBids_Status" xml:space="preserve">
+    <value>நிலை</value>
+  </data>
+  <data name="MyBids_Title" xml:space="preserve">
+    <value>எனது விலைக்குறிப்புகள்</value>
+  </data>
+  <data name="MyBids_UndefinedStatus" xml:space="preserve">
+    <value>வரையறுக்கப்படாதது</value>
+  </data>
+  <data name="MyBids_ViewAll" xml:space="preserve">
+    <value>எனது விலைக்குறிப்புகள் அனைத்தையும் காண்க</value>
+  </data>
+  <data name="MyBids_WinningText" xml:space="preserve">
+    <value>வெற்றிபெற்றது</value>
+  </data>
+  <data name="NationalNews_AP" xml:space="preserve">
+    <value>AP-ஐ பார்வையிடுக</value>
+  </data>
+  <data name="NationalNews_Cnn" xml:space="preserve">
+    <value>CNN-ஐ பார்வையிடுக</value>
+  </data>
+  <data name="NationalNews_Reuters" xml:space="preserve">
+    <value>ராய்ட்டர்களைப் பார்வையிடுக</value>
+  </data>
+  <data name="NationalNews_Title" xml:space="preserve">
+    <value>தேசியச் செய்திகள்</value>
+  </data>
+  <data name="NoInformation" xml:space="preserve">
+    <value>தகவல் ஏதுவுமில்லை</value>
+  </data>
+  <data name="PaymentsDue_Due" xml:space="preserve">
+    <value>இப்பொழுது செலுத்த வேண்டியது</value>
+  </data>
+  <data name="PaymentsDue_DueNow" xml:space="preserve">
+    <value>இப்பொழுது செலுத்த வேண்டியது</value>
+  </data>
+  <data name="PaymentsDue_InvoiceAmount" xml:space="preserve">
+    <value>இன்வாய்ஸ் தொகை.</value>
+  </data>
+  <data name="PaymentsDue_Invoiced" xml:space="preserve">
+    <value>இன்வாய்ஸ் உருவாக்கியது:</value>
+  </data>
+  <data name="PaymentsDue_Invoice" xml:space="preserve">
+    <value>இன்வாய்ஸ் தொகை</value>
+  </data>
+  <data name="PaymentsDue_Location" xml:space="preserve">
+    <value>அமைவிடம்</value>
+  </data>
+  <data name="PaymentsDue_Lot" xml:space="preserve">
+    <value>வாகனம்</value>
+  </data>
+  <data name="PaymentsDue_NoResults" xml:space="preserve">
+    <value>உங்களுடைய தடைகள் நீக்கப்பட்டது! இந்த நேரத்தில் உங்களுடைய கட்டணம் எதுவும் நிலுவையில் இல்லை.</value>
+  </data>
+  <data name="PaymentsDue_PayNow" xml:space="preserve">
+    <value>இப்பொழுது செலுத்துக</value>
+  </data>
+  <data name="PaymentsDue_SaleDate" xml:space="preserve">
+    <value>விற்பனைத் தேதி</value>
+  </data>
+  <data name="PaymentsDue_Title" xml:space="preserve">
+    <value>நான் செலுத்தவேண்டிய கட்டணங்கள்</value>
+  </data>
+  <data name="PaymentsDue_ViewAll" xml:space="preserve">
+    <value>செலுத்தவேண்டிய கட்டணங்கள் அனைத்தையும் காண்க</value>
+  </data>
+  <data name="QuickPicks_GetDetails" xml:space="preserve">
+    <value>விவரங்களைப் பெறுக</value>
+  </data>
+  <data name="QuickPicks_Title" xml:space="preserve">
+    <value>விரைவுத் தேர்ந்தெடுப்புகள்</value>
+  </data>
+  <data name="QuickPicks_ViewAll" xml:space="preserve">
+    <value>விரைவுத் தேர்ந்தெடுப்புகள் அனைத்தையும் காண்க</value>
+  </data>
+  <data name="SavedSearch_NoResults" xml:space="preserve">
+    <value>சேமிக்கப்பட்ட தேடல்கள் எதையும் நீங்கள் பெற்றிருக்கவில்லை.</value>
+  </data>
+  <data name="SavedSearch_Title" xml:space="preserve">
+    <value>எனது சேமிக்கப்பட்ட தேடல்கள்</value>
+  </data>
+  <data name="SavedSearch_ViewAll" xml:space="preserve">
+    <value>சேமிக்கப்பட்ட தேடல்கள் அனைத்தையும் காண்க</value>
+  </data>
+  <data name="Saved_Search_No_Records" xml:space="preserve">
+    <value>ஒரு குறிப்பிட்ட வகை, தயாரிப்பு அல்லது மாடலை நீங்கள் அடிக்கடி தேடுகிறீர்களா? அப்படியெனில், உங்களுடைய தேடலைச் சேமியுங்கள். அது இங்கே தோன்றும்.</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>தேடல்</value>
+  </data>
+  <data name="SearchByLot_Label" xml:space="preserve">
+    <value>லாட் #</value>
+  </data>
+  <data name="SearchByLot_Title" xml:space="preserve">
+    <value>லாட் # மூலம் தேடவும்</value>
+  </data>
+  <data name="SearchByVin_Label" xml:space="preserve">
+    <value>VIN </value>
+  </data>
+  <data name="SearchByVin_Title" xml:space="preserve">
+    <value>VIN மூலம் தேடவும்</value>
+  </data>
+  <data name="Search_and_Save" xml:space="preserve">
+    <value> (மற்றும் அதைச் சேமியுங்கள்).</value>
+  </data>
+  <data name="StockWidget_BottomLink" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TodaysAuctions_JoinLiveSale" xml:space="preserve">
+    <value>நேரடி விற்பனையில் சேருங்கள்</value>
+  </data>
+  <data name="TodaysAuctions_Location" xml:space="preserve">
+    <value>அமைவிடம்</value>
+  </data>
+  <data name="TodaysAuctions_NoResults" xml:space="preserve">
+    <value>இன்றைய ஏலங்கள் முடிந்துவிட்டன. எதிர்கால ஏலங்களில் என்ன இடம்பெறப் போகின்றது எனப் பார்ப்பதற்கு &lt;a href=&apos;{ViewUpcomingAuctions}&apos;&gt;எதிர்வரும் ஏலங்களைக் காண்க&lt;/a&gt;.</value>
+  </data>
+  <data name="TodaysAuctions_SaleDate" xml:space="preserve">
+    <value>விற்பனைத் தேதி</value>
+  </data>
+  <data name="TodaysAuctions_SaleTime" xml:space="preserve">
+    <value>விற்பனை நேரம்</value>
+  </data>
+  <data name="TodaysAuctions_TodaysAuctions" xml:space="preserve">
+    <value>இன்றைய ஏலங்கள்</value>
+  </data>
+  <data name="TodaysAuctions_ViewAll" xml:space="preserve">
+    <value>இன்றைய ஏலங்கள் அனைத்தையும் காண்க</value>
+  </data>
+  <data name="TodaysAuctions_ViewLotsforSale" xml:space="preserve">
+    <value>விற்பனைக்கான லாட்களைக் காண்க</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>காண்க</value>
+  </data>
+  <data name="Watchlist_Bid" xml:space="preserve">
+    <value>தற்போதைய விலைக்குறிப்பு</value>
+  </data>
+  <data name="Watchlist_BidNow" xml:space="preserve">
+    <value>இப்பொழுது விலைகுறிக்கவும்</value>
+  </data>
+  <data name="Watchlist_Date" xml:space="preserve">
+    <value>விற்பனைத் தேதி</value>
+  </data>
+  <data name="Watchlist_Description" xml:space="preserve">
+    <value>விளக்கம்</value>
+  </data>
+  <data name="Watchlist_Lot" xml:space="preserve">
+    <value>லாட் #</value>
+  </data>
+  <data name="Watchlist_MyWatch" xml:space="preserve">
+    <value>எனது கண்காணிப்புப் பட்டியல்</value>
+  </data>
+  <data name="Watchlist_NoResults" xml:space="preserve">
+    <value>எந்த வாகனங்களையும் நீங்கள் பார்க்கவில்லை. </value>
+  </data>
+  <data name="Watchlist_NoResultsSearch" xml:space="preserve">
+    <value>வாகனங்களை இப்பொழுது தேடவும்.</value>
+  </data>
+  <data name="Watchlist_ViewAll" xml:space="preserve">
+    <value>கண்காணிப்புப் பட்டியல் உருப்படிகள் அனைத்தையும் காண்க</value>
+  </data>
+  <data name="Weather_Title" xml:space="preserve">
+    <value>எனது வானிலை</value>
+  </data>
+  <data name="Widget_Icon_HoverText" xml:space="preserve">
+    <value>விட்ஜெட்டுடன் சேர்ப்பதற்கு இழுத்து வரவும்</value>
+  </data>
+  <data name="Watchlist_NoResultsSearchInventory" xml:space="preserve">
+    <value>உருப்படிகளை உங்களுடைய கண்காணிப்புப் பட்டியலில் சேர்ப்பது என்பது நீங்கள் மிகவும் விரும்பும் வாகனங்களைக் கண்காணிப்பதற்கு ஒரு எளிமையான வழியாகும். &lt;a href=&apos;{SearchOurInventory}&apos;&gt;தேடவும்&lt;/a&gt; மற்றும் உங்களுடைய கண்காணிப்புப் பட்டியலுடன் சில விஷயங்களைச் சேர்க்கவும்.</value>
+  </data>
+  <data name="MyBids_Sealed" xml:space="preserve">
+    <value>முத்திரையிடப்பட்டது</value>
+  </data>
+  <data name="Widget_LotSearch_Button" xml:space="preserve">
+    <value>லாட் # மூலம் தேடவும்</value>
+  </data>
+  <data name="Widget_VinSearch_Button" xml:space="preserve">
+    <value>VIN மூலம் தேடவும்</value>
+  </data>
+  <data name="MyBids_BidNow" xml:space="preserve">
+    <value>இப்பொழுது விலைகுறிக்கவும்</value>
+  </data>
+  <data name="NationalNews_BBC" xml:space="preserve">
+    <value>BBC. com-ஐ பார்வையிடுக</value>
+  </data>
+  <data name="NationalNews_Copart" xml:space="preserve">
+    <value>ஸ்கை நியூஸ்</value>
+  </data>
+  <data name="StockWidget_Title" xml:space="preserve">
+    <value>ஸ்டார் டிராக்கர்</value>
+  </data>
+  <data name="Stockwidget_ViewAllText" xml:space="preserve">
+    <value>முதலீட்டாளர் தகவல்கள் அனைத்தையும் காண்க</value>
+  </data>
+  <data name="NationalNews_Title_UK" xml:space="preserve">
+    <value>தேசியச் செய்தி மற்றும் புதுப்பிப்புகள்</value>
+  </data>
+  <data name="Location_UKEmailUs" xml:space="preserve">
+    <value>எங்களுக்கு மின்னஞ்சல் அனுப்பவும்</value>
+  </data>
+  <data name="Location_UKGeneralEmail_Text" xml:space="preserve">
+    <value>வாகனம் பற்றிய தகவல் தேவைப்படுகிறதா?</value>
+  </data>
+  <data name="BuyingPower_FooterLink" xml:space="preserve">
+    <value>வாங்கும் ஆற்றல் பற்றி மேலும் அறிந்துகொள்க</value>
+  </data>
+  <data name="CopartNews_Title" xml:space="preserve">
+    <value>கோபார்ட் செய்திகள்</value>
+  </data>
+  <data name="CopartNews_ViewAll" xml:space="preserve">
+    <value>கோபார்ட் செய்திகள் அனைத்தையும் காண்க</value>
+  </data>
+  <data name="VehicleFinder_Title" xml:space="preserve">
+    <value>வாகனம் கண்டுபிடிப்பான்</value>
+  </data>
+  <data name="Location_WiFi_AtThisLocation" xml:space="preserve">
+    <value>இந்த அமைவிடத்தில்</value>
+  </data>
+</root>

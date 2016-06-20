@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BidOffer_AmountShouldbeNumeric" xml:space="preserve">
+    <value>கோரிக்கைத் தொகை எண்ணாக இருக்க வேண்டும்.</value>
+  </data>
+  <data name="BidOffer_ContactInfoConfirmation" xml:space="preserve">
+    <value>தயவுசெய்து, கீழே காண்பிக்கப்பட்டுள்ள உங்கள் மின்னஞ்சல் முகவரி மற்றும் தொலைபேசி எண்(எண்கள்) சரியாக இருக்கின்றதா என்பதை உறுதிப்படுத்தவும், ஏனெனில் விற்பவர் உங்களுடைய கோரிக்கையை ஏற்றுக்கொள்ளும் பட்சத்தில் இந்தப் பரிவர்த்தனையை முடிப்பதற்காக நாங்கள் உங்களைத் தொடர்புகொள்வோம்.</value>
+  </data>
+  <data name="BidOffer_Disclaimer" xml:space="preserve">
+    <value>இந்தக் கோரிக்கையை உருவாக்குவதன் மூலம், அடுத்த வேலை நாள் முடியும் வரை இந்த விலைக்குறிப்புக்கு நீங்கள் பொறுப்பேற்கிறீர்கள் என்பதை நீங்கள் ஒப்புக்கொள்கிறீர்கள். விற்பனையாளர் உங்களுடைய கோரிக்கையை ஏற்று இந்தப் பரிவர்த்தனையை நீங்கள் முடிக்கத் தவறினால், நீங்கள் ஏதாவது அல்லது அனைத்து பொருந்தக்கூடிய மறுபட்டியல் கட்டணத்துக்கு நீங்கள் உட்படுவீர்கள்.</value>
+  </data>
+  <data name="BidOffer_ErrorModalTitle" xml:space="preserve">
+    <value>விலைக்குறிப்பை சமர்ப்பிப்பதில் பிழை</value>
+  </data>
+  <data name="BidOffer_OfferAmount" xml:space="preserve">
+    <value>கோரல் தொகை</value>
+  </data>
+  <data name="BidOffer_OfferAmountValidationRegex" xml:space="preserve">
+    <value>தசம எண்கள் அனுமதிக்கப்படுவதில்லை. தயவுசெய்து உங்களுடைய கோரலை மதிப்பாய்வு செய்க.</value>
+  </data>
+  <data name="BidOffer_OfferAmountValidationRequired" xml:space="preserve">
+    <value>கோரல் தொகை தேவைப்படுகிறது!</value>
+  </data>
+  <data name="BidOffer_SuccessModalNote" xml:space="preserve">
+    <value>இந்தப் பரிவர்த்தனையை முடிப்பதற்கு நீங்கள் கோபார்ட் நிறுவனத்தினரால் தொடர்புகொள்ளப்படுவீர்கள். கோபார்ட் விற்பனையாளரைத் தொடர்புகொள்ளும். அதன் பின், உங்களுடைய தற்போதைய கணக்குத் தொடர்பு விவரங்களைப் பயன்படுத்தி, கூடுதல் தகவல்களுடன் உங்களுக்கு பதிலளிக்கும்.</value>
+  </data>
+  <data name="BidOffer_SuccessModalTitle" xml:space="preserve">
+    <value>வெற்றிபெற்றது! உங்களுடைய கோரல் உருவாக்கப்பட்டுள்ளது!</value>
+  </data>
+  <data name="BuyItNow_AmountDue" xml:space="preserve">
+    <value>தொகை நிலுவை</value>
+  </data>
+  <data name="BuyItNow_ModalError" xml:space="preserve">
+    <value>இப்பொழுது வாங்கு என்பதை உறுதிப்படுத்துவதில் பிழை</value>
+  </data>
+  <data name="BuyItNow_PayNow" xml:space="preserve">
+    <value>இப்பொழுது செலுத்துக</value>
+  </data>
+  <data name="BuyItNow_PickUpCharges" xml:space="preserve">
+    <value>இதரக் கட்டணங்களை பிக் அப் செய்யும் சமயத்தில் செலுத்த வேண்டும்.</value>
+  </data>
+  <data name="BuyItNow_Success" xml:space="preserve">
+    <value>வாங்குதல் வெற்றியடைந்தது!</value>
+  </data>
+  <data name="CounterBid_AcceptReserveButton" xml:space="preserve">
+    <value>ஒதுக்கீட்டை ஏற்கவும்</value>
+  </data>
+  <data name="CounterBid_ConfirmModalCounterBid" xml:space="preserve">
+    <value>உங்களுடைய தற்போதைய விலைக்குறிப்பு:</value>
+  </data>
+  <data name="CounterBid_ConfirmModalIncreasedBid" xml:space="preserve">
+    <value>உங்களுடைய அதிகரித்த விலைக்குறிப்பு</value>
+  </data>
+  <data name="CounterBid_ConfirmModalSellerBid" xml:space="preserve">
+    <value>விற்பனையாளரின் குறைந்தபட்ச விலைக்குறிப்பு</value>
+  </data>
+  <data name="CounterBid_ConfirmModalSubmitButton" xml:space="preserve">
+    <value>உங்களுடைய விலைக்குறிப்பை உறுதிசெய்க</value>
+  </data>
+  <data name="CounterBid_ConfirmModalTitle" xml:space="preserve">
+    <value>உங்களுடைய எதிர் விலைக்குறிப்பை உறுதிசெய்க</value>
+  </data>
+  <data name="CounterBid_ConfirmModalYourBid" xml:space="preserve">
+    <value>உங்களுடைய தற்போதைய விலைக்குறிப்பு</value>
+  </data>
+  <data name="CounterBid_CounterBidInputLabel" xml:space="preserve">
+    <value>எதிர் விலைக்குறிப்பு</value>
+  </data>
+  <data name="CounterBid_CounterBidNow_Button" xml:space="preserve">
+    <value>இப்பொழுது எதிர்விலை குறிக்கவும்</value>
+  </data>
+  <data name="CounterBid_CounterBidValidationRequired" xml:space="preserve">
+    <value>எதிர் விலைக்குறிப்புத் தொகை தேவைப்படுகிறது.</value>
+  </data>
+  <data name="CounterBid_ErrMsg_MustBeNumeric" xml:space="preserve">
+    <value>எதிர் விலைக்குறிப்புத் தொகை எண்ணாக இருக்க வேண்டும்.</value>
+  </data>
+  <data name="CounterBid_ErrMsg_MustNotBeBlank" xml:space="preserve">
+    <value>எதிர் விலைக்குறிப்புத் தொகை காலியாக இருக்கக் கூடாது.</value>
+  </data>
+  <data name="CounterBid_KeepCurrentBidLabel" xml:space="preserve">
+    <value>தற்போதைய விலைக்குறிப்பைத் தக்கவைக்கவும்</value>
+  </data>
+  <data name="CounterBid_NewMaxBid" xml:space="preserve">
+    <value>புதிய அதிகபட்ச விலைக்குறிப்பு</value>
+  </data>
+  <data name="CounterBid_SellersReserveLabel" xml:space="preserve">
+    <value>விற்பனையாளரின் ஒதுக்கீடு</value>
+  </data>
+  <data name="GenericErrorModal_Message" xml:space="preserve">
+    <value>விலை குறிக்க நீங்கள் முயற்சி செய்தபோது ஒரு பிழை ஏற்பட்டது. பிழை பதிவு செய்யப்பட்டுள்ளது, உங்கள் சார்பாக எந்த நடவடிக்கையும் எடுக்கத் தேவையில்லை.</value>
+  </data>
+  <data name="GenericErrorModal_Title" xml:space="preserve">
+    <value>பிழை</value>
+  </data>
+  <data name="LicenseRequired_AddLicense" xml:space="preserve">
+    <value>உங்களுடைய கணக்குக்கு ஒரு உரிமத்தைச் சேர்க்கவும்</value>
+  </data>
+  <data name="LicenseRequired_AddLicenseLabel" xml:space="preserve">
+    <value>வணிக உரிமங்களைச் சமர்ப்பிப்பதன் மூலம் உங்களுடைய வாங்குதல் விருப்பத்தேர்வுகளை விரிவுபடுத்தவும். மேலும் கற்றறிக.</value>
+  </data>
+  <data name="LicenseRequired_FindMarkerMaker" xml:space="preserve">
+    <value>சந்தை உருவாக்குநரைக் கண்டறிக</value>
+  </data>
+  <data name="LicenseRequired_FindMarkerMakerLabel" xml:space="preserve">
+    <value>அனுபவமிக்க சந்தை உருவாக்குநர் உங்களுக்கு உதவக்கூடிய ஒரு இடத்தைப் பார்வையிடுக.</value>
+  </data>
+  <data name="LicenseRequired_Heading" xml:space="preserve">
+    <value>உரிமக் கட்டுப்பாடுகளின் காரணமாக இந்த லாட் மீது நீங்கள் விலை குறிக்க முடியவில்லை. இருப்பினும், உரிமம் பெறாத வாங்குநர்களுக்காக பின்வரும் விருப்பத்தேர்வுகள் கிடைக்கின்றன:</value>
+  </data>
+  <data name="LicenseRequired_HireBroker" xml:space="preserve">
+    <value>ஒரு தரகரை நியமிக்கவும்</value>
+  </data>
+  <data name="LicenseRequired_HireBrokerLabel" xml:space="preserve">
+    <value>வாங்குதல் செயல்முறையில் தரகர்கள் உங்களுக்கு உதவ முடியும். தொடங்குங்கள்.</value>
+  </data>
+  <data name="LicenseRequired_Title" xml:space="preserve">
+    <value>உரிமம் பெற்ற அல்லது பதிவுசெய்த தரகர்கள் தேவைப்படுகிறார்கள்</value>
+  </data>
+  <data name="LotBid_AEDSymbol" xml:space="preserve">
+    <value>د.إ</value>
+  </data>
+  <data name="LotBid_BidIncreaseConfirmButton" xml:space="preserve">
+    <value>உங்களுடைய விலைக்குறிப்பை உறுதிசெய்க</value>
+  </data>
+  <data name="LotBid_BidInformation" xml:space="preserve">
+    <value>விலைக்குறிப்பு தகவல்</value>
+  </data>
+  <data name="LotBid_BuyItNowConfirmButton" xml:space="preserve">
+    <value>வாங்குதலை உறுதிப்படுத்துக</value>
+  </data>
+  <data name="LotBid_BuyItNowConfirm_Title" xml:space="preserve">
+    <value>இப்பொழுது வாங்குக</value>
+  </data>
+  <data name="LotBid_BuyItNowPrice" xml:space="preserve">
+    <value>இப்பொழுது வாங்கு விலை</value>
+  </data>
+  <data name="LotBid_BuyItNowToolTip" xml:space="preserve">
+    <value>&lt;b&gt;இப்பொழுது வாங்கு&lt;/b&gt; என்பது லாட் நேரடி ஏலத்துக்குச் செல்வதற்கு முன்னதாக நிர்ணயிக்கப்பட்ட விலைக்கு வாகனத்தை உடனடியாக வாங்குவதற்கு உங்களுக்கு உதவுகின்றது. பட்டனை கிளிக் செய்வதன் மூலம், உங்களுடைய இப்பொழுது வாங்கு விலைக்குறிப்பை உறுதிப்படுத்துவதற்கு உறுதிப்படுத்தல் பக்கத்துக்கு நீங்கள் அழைத்துச் செல்லப்படுவீர்கள். உறுதிப்படுத்தப்பட்டவுடன், வாகனத்துக்குப் பணம் செலுத்துவதற்கு நீங்கள் வழிகாட்டப்படுவீர்கள்.</value>
+  </data>
+  <data name="LotBid_Cancel" xml:space="preserve">
+    <value>ரத்து செய்க</value>
+  </data>
+  <data name="LotBid_ConfirmMessage" xml:space="preserve">
+    <value>நீங்கள் வெற்றிபெற்ற ஏலம் கேட்பவராக இருந்தால், கீழே கொடுக்கப்பட்டுள்ள “உங்களுடைய விலைக்குறிப்பை உறுதிப்படுத்துக” பட்டனைக் கிளிக் செய்வதன் மூலம் இந்த வாகனத்தை வாங்குவதற்கு நீங்கள் உறுதியளிக்கிறீர்கள். அனைத்து விலைக்குறிப்புகளும் இறுதியானவை.</value>
+  </data>
+  <data name="LotBid_ConfirmPurchase" xml:space="preserve">
+    <value>நீங்கள் வெற்றிபெற்ற ஏலம் கேட்பவராக இருந்தால், கீழே கொடுக்கப்பட்டுள்ள “வாங்குதலை உறுதிப்படுத்துக” பட்டனைக் கிளிக் செய்வதன் மூலம் இந்த வாகனத்தை வாங்குவதற்கு நீங்கள் உறுதியளிக்கிறீர்கள். அனைத்து விலைக்குறிப்புகளும் இறுதியானவை.</value>
+  </data>
+  <data name="LotBid_CongratulationsBanner" xml:space="preserve">
+    <value>வாழ்த்துக்கள்! நீங்கள் லாட்டை வென்றுள்ளீர்கள்! உங்கள் செலுத்துதலை மேற்கொள்வதற்கு உறுப்பினர் சேவைகளை அழைக்கவும் அல்லது யார்டை பார்வையிடுக</value>
+  </data>
+  <data name="LotBid_ErrMsg_MaxBidMustBeGreater" xml:space="preserve">
+    <value>அதிகபட்ச விலைக்குறிப்பு தொடக்க விலைக்குறிப்பை விட அதிகமாக இருக்க வேண்டும்.</value>
+  </data>
+  <data name="LotBid_GBPoundSymbol" xml:space="preserve">
+    <value>£</value>
+  </data>
+  <data name="LotBid_Header" xml:space="preserve">
+    <value>உங்களுடைய விலைக்குறிப்பை உறுதிசெய்க</value>
+  </data>
+  <data name="LotBid_HeaderIncrease" xml:space="preserve">
+    <value>உங்களுடைய விலைக்குறிப்பு அதிகரிப்பை உறுதிப்படுத்துக</value>
+  </data>
+  <data name="LotBid_MakeOffer" xml:space="preserve">
+    <value>கோரலை உருவாக்குக</value>
+  </data>
+  <data name="LotBid_MakeOfferToolTip" xml:space="preserve">
+    <value>&lt;b&gt;கோரலை உருவாக்கு&lt;/b&gt; என்பது லாட் நேரடி ஏலத்துக்குச் செல்வதற்கு முன்னதாக ஒரு வாகனத்தின் மீது கோரிக்கையை உருவாக்குவதற்கு உங்களுக்கு உதவுகின்றது. விற்பவர் உங்களுடைய கோரல் தொகையை மதிப்பாய்வு செய்து அதை தன்னுடைய விருப்பப்படி அனுமதிக்கிறார், எதிர்க்கிறார் அல்லது மறுக்கிறார்.</value>
+  </data>
+  <data name="LotBid_StartingBid" xml:space="preserve">
+    <value>தொடக்க விலைக்குறிப்பு</value>
+  </data>
+  <data name="LotBid_USDollarSymbol" xml:space="preserve">
+    <value>$</value>
+  </data>
+  <data name="LotBid_WantItTodayToolTipTitle" xml:space="preserve">
+    <value>&quot;அதை இன்று விரும்புகிறீர்களா?&quot; என்பது பற்றி</value>
+  </data>
+  <data name="LotBid_YourBid" xml:space="preserve">
+    <value>உங்கள் விலைக்குறிப்பு</value>
+  </data>
+  <data name="LotBid_YourMaxBid" xml:space="preserve">
+    <value>அதிகபட்ச விலைக்குறிப்பு</value>
+  </data>
+</root>

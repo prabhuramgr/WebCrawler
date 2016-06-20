@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Bidding_AllBids" xml:space="preserve">
+    <value>सभी बोलियाँ</value>
+  </data>
+  <data name="Bidding_LastChance" xml:space="preserve">
+    <value>अंतिम मौका</value>
+  </data>
+  <data name="Bidding_NoBids_Generic" xml:space="preserve">
+    <value>आपके पास कोई बोली नहीं है।</value>
+  </data>
+  <data name="Bidding_NoBids_LastChance" xml:space="preserve">
+    <value>आपके पास कोई अंतिम मौके की बोली नहीं है।</value>
+  </data>
+  <data name="Bidding_NoBids_Outbid" xml:space="preserve">
+    <value>आपके पास कोई खो गई बोली नहीं है।</value>
+  </data>
+  <data name="Bidding_NoBids_Winning" xml:space="preserve">
+    <value>आपके पास कोई जीत की बोली नहीं है।</value>
+  </data>
+  <data name="Bidding_NotWinning" xml:space="preserve">
+    <value>जीत नहीं रहे</value>
+  </data>
+  <data name="Bidding_Winning" xml:space="preserve">
+    <value>जीत रहे हैं</value>
+  </data>
+  <data name="BidInformation_BidIncrementError" xml:space="preserve">
+    <value>बोली वृद्धि फ़ील्ड ज़रूरी है।</value>
+  </data>
+  <data name="MyBids_PageTitle" xml:space="preserve">
+    <value>मेरी बोलियाँ</value>
+  </data>
+  <data name="Reverse" xml:space="preserve">
+    <value>उलटा</value>
+  </data>
+  <data name="SortDropDown_CurrentBid" xml:space="preserve">
+    <value>मौजूदा बोली</value>
+  </data>
+  <data name="SortDropDown_Damage" xml:space="preserve">
+    <value>क्षति</value>
+  </data>
+  <data name="SortDropDown_DocType" xml:space="preserve">
+    <value>दस्तावेज़ प्रकार</value>
+  </data>
+  <data name="SortDropDown_Location" xml:space="preserve">
+    <value>स्थान</value>
+  </data>
+  <data name="SortDropDown_LotNumber" xml:space="preserve">
+    <value>लॉट #</value>
+  </data>
+  <data name="SortDropDown_Make" xml:space="preserve">
+    <value>मेक</value>
+  </data>
+  <data name="SortDropDown_Mileage" xml:space="preserve">
+    <value>ओडोमीटर</value>
+  </data>
+  <data name="SortDropDown_Model" xml:space="preserve">
+    <value>मॉडल</value>
+  </data>
+  <data name="SortDropDown_PleaseSelect" xml:space="preserve">
+    <value>कृपया चुनें...</value>
+  </data>
+  <data name="SortDropDown_RetailValue" xml:space="preserve">
+    <value>PAV</value>
+  </data>
+  <data name="SortDropDown_SaleDate" xml:space="preserve">
+    <value>बिक्री की तिथि</value>
+  </data>
+  <data name="SortDropDown_Year" xml:space="preserve">
+    <value>वर्ष</value>
+  </data>
+  <data name="TimeDropDown_RangeOptions" xml:space="preserve">
+    <value>अंतिम 30 दिन|पिछले 60 दिन|पिछले 90 दिन|अंतिम 90 - 180 दिन|पिछले 180 - 365 दिन</value>
+  </data>
+  <data name="TimeDropDown_RangeOther" xml:space="preserve">
+    <value>अन्य...</value>
+  </data>
+  <data name="Bidding_FindSimilarVehicles" xml:space="preserve">
+    <value>समान वाहन ढूँढ़ें</value>
+  </data>
+  <data name="Bidding_MyBidLabel" xml:space="preserve">
+    <value>मेरी बोली</value>
+  </data>
+  <data name="Bidding_LotsLostHeader" xml:space="preserve">
+    <value>खो गए लॉट</value>
+  </data>
+  <data name="Bidding_LotsWonHeader" xml:space="preserve">
+    <value>जीते गए लॉट</value>
+  </data>
+  <data name="Bidding_CancelDelivery" xml:space="preserve">
+    <value>डिलीवरी रद्द करें</value>
+  </data>
+  <data name="Bidding_ChangeAddress" xml:space="preserve">
+    <value>पता बदलें</value>
+  </data>
+  <data name="Bidding_FinalPrice" xml:space="preserve">
+    <value>अंतिम मूल्य</value>
+  </data>
+  <data name="Bidding_OrderNumber" xml:space="preserve">
+    <value>आदेश #</value>
+  </data>
+  <data name="Bidding_PayNow" xml:space="preserve">
+    <value>अभी भुगतान करें</value>
+  </data>
+  <data name="Bidding_PaymentPending" xml:space="preserve">
+    <value>भुगतान लंबित</value>
+  </data>
+  <data name="Bidding_Paid" xml:space="preserve">
+    <value>भुगतान किया गया</value>
+  </data>
+  <data name="Bidding_LotLeftLocation" xml:space="preserve">
+    <value>लॉट छोड़ने का स्थान</value>
+  </data>
+  <data name="Bidding_LotLeftFacilityNo" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="Bidding_LotLeftFacilityYes" xml:space="preserve">
+    <value>हाँ</value>
+  </data>
+  <data name="SortDropDown_ZipCode" xml:space="preserve">
+    <value>ज़िप कोड</value>
+  </data>
+  <data name="BiddingSearchResults" xml:space="preserve">
+    <value>हमें {Count} वाहन मिले हैं</value>
+  </data>
+  <data name="SortDropDown_BidStatus" xml:space="preserve">
+    <value>बोली की स्थिति</value>
+  </data>
+  <data name="SortDropDown_LotLeftLocationDate" xml:space="preserve">
+    <value>लॉट छोड़ने का स्थान</value>
+  </data>
+  <data name="SortDropDown_PaymentStatus" xml:space="preserve">
+    <value>भुगतान की स्थिति</value>
+  </data>
+  <data name="SortDropDown_SalePrice" xml:space="preserve">
+    <value>बिक्री मूल्य</value>
+  </data>
+  <data name="Bidding_NoLotsLost" xml:space="preserve">
+    <value>अभी प्रदर्शित करने के लिए कोई आइटम नहीं है।</value>
+  </data>
+  <data name="Bidding_NoLotsWon" xml:space="preserve">
+    <value>अभी प्रदर्शित करने के लिए कोई आइटम नहीं है।</value>
+  </data>
+  <data name="SortDropDown_MyBid" xml:space="preserve">
+    <value>मेरी बोली</value>
+  </data>
+  <data name="SortDropDown_ItemNumber" xml:space="preserve">
+    <value>आइटम #</value>
+  </data>
+  <data name="Bidding_NoBids_CurrentBids" xml:space="preserve">
+    <value>आपके पास कोई मौजूदा बोली नहीं है।</value>
+  </data>
+  <data name="MyBids_LearnAboutBidding" xml:space="preserve">
+    <value>बोली लगाने के बारे में जानें</value>
+  </data>
+  <data name="MyBids_NoResultsMsg_bidon" xml:space="preserve">
+    <value>इस पर बोली लगाने के लिए।</value>
+  </data>
+  <data name="MyBids_NoResultsMsg_FindVehiclesText" xml:space="preserve">
+    <value>वाहन ढूँढ़ें</value>
+  </data>
+  <data name="MyBids_NoResultsMsg_orText" xml:space="preserve">
+    <value>या </value>
+  </data>
+  <data name="Bidding_PaymentDue" xml:space="preserve">
+    <value>देय भुगतान</value>
+  </data>
+  <data name="LotsWon_CsvDateFormat" xml:space="preserve">
+    <value>yyyy MMMM d</value>
+  </data>
+  <data name="SortDropDown_GridRow" xml:space="preserve">
+    <value>ग्रिड/पंक्ति</value>
+  </data>
+  <data name="SortDropDown_SaleStatus" xml:space="preserve">
+    <value>बिक्री की स्थिति</value>
+  </data>
+  <data name="SortDropDown_VIN" xml:space="preserve">
+    <value>VIN</value>
+  </data>
+  <data name="Bidding_WonPrice" xml:space="preserve">
+    <value>हैमर मूल्य (कोई लागू कर या शुल्क शामिल नहीं हैं)</value>
+  </data>
+  <data name="Bidding_Congratulations" xml:space="preserve">
+    <value>बधाई, आप जीत गए!</value>
+  </data>
+  <data name="Bidding_CurrentAmount" xml:space="preserve">
+    <value>मौजूदा बकाया राशि है</value>
+  </data>
+  <data name="Bidding_OtherCharges" xml:space="preserve">
+    <value>पिकअप के समय अन्य शुल्क लागू हो सकते हैं</value>
+  </data>
+  <data name="TermsandConditions_Accept" xml:space="preserve">
+    <value>स्वीकार करें</value>
+  </data>
+  <data name="TermsandConditions_Decline" xml:space="preserve">
+    <value>अस्वीकार करें</value>
+  </data>
+</root>

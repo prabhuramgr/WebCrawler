@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BackToTopLinkText" xml:space="preserve">
+    <value>शीर्ष पर वापस</value>
+  </data>
+  <data name="BidInformation_BidIncrementError" xml:space="preserve">
+    <value>बोली की राशि ज़रूरी है।</value>
+  </data>
+  <data name="BidInformation_NexMaxBidError" xml:space="preserve">
+    <value>बोली की राशि ज़रूरी है।</value>
+  </data>
+  <data name="Boolean_AsNo" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="Boolean_AsYes" xml:space="preserve">
+    <value>हाँ</value>
+  </data>
+  <data name="Calendar_April" xml:space="preserve">
+    <value>अप्रैल</value>
+  </data>
+  <data name="Calendar_August" xml:space="preserve">
+    <value>अगस्त</value>
+  </data>
+  <data name="Calendar_December" xml:space="preserve">
+    <value>दिसंबर</value>
+  </data>
+  <data name="Calendar_February" xml:space="preserve">
+    <value>फ़रवरी</value>
+  </data>
+  <data name="Calendar_Fri_FullText" xml:space="preserve">
+    <value>शुक्रवार</value>
+  </data>
+  <data name="Calendar_Fri_ShortText" xml:space="preserve">
+    <value>शुक्र</value>
+  </data>
+  <data name="Calendar_January" xml:space="preserve">
+    <value>जनवरी</value>
+  </data>
+  <data name="Calendar_July" xml:space="preserve">
+    <value>जुलाई</value>
+  </data>
+  <data name="Calendar_June" xml:space="preserve">
+    <value>जून</value>
+  </data>
+  <data name="Calendar_March" xml:space="preserve">
+    <value>मार्च</value>
+  </data>
+  <data name="Calendar_May" xml:space="preserve">
+    <value>मई</value>
+  </data>
+  <data name="Calendar_Mon_FullText" xml:space="preserve">
+    <value>सोमवार</value>
+  </data>
+  <data name="Calendar_Mon_ShortText" xml:space="preserve">
+    <value>सोम</value>
+  </data>
+  <data name="Calendar_November" xml:space="preserve">
+    <value>नवंबर</value>
+  </data>
+  <data name="Calendar_October" xml:space="preserve">
+    <value>अक्तूबर</value>
+  </data>
+  <data name="Calendar_Sat_FullText" xml:space="preserve">
+    <value>शनिवार</value>
+  </data>
+  <data name="Calendar_Sat_ShortText" xml:space="preserve">
+    <value>शनि</value>
+  </data>
+  <data name="Calendar_September" xml:space="preserve">
+    <value>सितंबर</value>
+  </data>
+  <data name="Calendar_Sun_FullText" xml:space="preserve">
+    <value>रविवार</value>
+  </data>
+  <data name="Calendar_Sun_ShortText" xml:space="preserve">
+    <value>रवि</value>
+  </data>
+  <data name="Calendar_Thu_FullText" xml:space="preserve">
+    <value>गुरुवार</value>
+  </data>
+  <data name="Calendar_Thu_ShortText" xml:space="preserve">
+    <value>गुरु</value>
+  </data>
+  <data name="Calendar_Tues_FullText" xml:space="preserve">
+    <value>मंगलवार</value>
+  </data>
+  <data name="Calendar_Tues_ShortText" xml:space="preserve">
+    <value>मंगल</value>
+  </data>
+  <data name="Calendar_Wed_FullText" xml:space="preserve">
+    <value>बुधवार</value>
+  </data>
+  <data name="Calendar_Wed_ShortText" xml:space="preserve">
+    <value>बुध</value>
+  </data>
+  <data name="ClickForMore" xml:space="preserve">
+    <value>ज़्यादा जानकारी के लिए क्लिक करें।</value>
+  </data>
+  <data name="CurrencySymbol" xml:space="preserve">
+    <value>$</value>
+  </data>
+  <data name="DateTimeFormat" xml:space="preserve">
+    <value>{0:MM/dd/yy hh:mm tt}</value>
+  </data>
+  <data name="ErrorFigs_Generic" xml:space="preserve">
+    <value>आपके अनुरोध पर प्रक्रिया करने में त्रुटि</value>
+  </data>
+  <data name="ErrorMessage_AppError" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="ErrorModal_Cancel" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="ErrorModal_Close" xml:space="preserve">
+    <value>बंद करें</value>
+  </data>
+  <data name="ErrorModal_ComparePage" xml:space="preserve">
+    <value>2 वाहनों से कम की तुलना नहीं हो सकती।</value>
+  </data>
+  <data name="ErrorModal_ErrorHeader" xml:space="preserve">
+    <value>{ErrorHeader}</value>
+  </data>
+  <data name="ErrorModal_ErrorMessage" xml:space="preserve">
+    <value>{ErrorMessage}</value>
+  </data>
+  <data name="ErrorModal_Ok" xml:space="preserve">
+    <value>ठीक</value>
+  </data>
+  <data name="ErrorModal_OopsTitle" xml:space="preserve">
+    <value>वाहनों की तुलना करें</value>
+  </data>
+  <data name="ErrorModel_SsearchResultsCompare" xml:space="preserve">
+    <value>आप वाहन तुलना सीमा पार कर चुके हैं। हर तुलना में केवल पाँच वाहन शामिल किए जा सकते हैं। कृपया कम आइटम चुनकर फिर से कोशिश करें।</value>
+  </data>
+  <data name="Error_ErrorOccurred" xml:space="preserve">
+    <value>क्षमा करें, आपके अनुरोध पर प्रक्रिया करते समय त्रुटि हुई है।</value>
+  </data>
+  <data name="Error_Message_Zipcode" xml:space="preserve">
+    <value>ज़िप कोड अमान्य है।</value>
+  </data>
+  <data name="Error_Unknown" xml:space="preserve">
+    <value>अज्ञात त्रुटि हुई है। कृपया अपनी प्रविष्टि का सत्यापन करें और पुनः प्रयास करें। अगर समस्या बनी रहती है, तो अपने सिस्टम व्यवस्थापक से संपर्क करें।</value>
+  </data>
+  <data name="Generic_Empty" xml:space="preserve">
+    <value>रिक्त</value>
+  </data>
+  <data name="GlobalPrint" xml:space="preserve">
+    <value>प्रिंट करें</value>
+  </data>
+  <data name="Global_Logo_Text" xml:space="preserve">
+    <value>लोगो</value>
+  </data>
+  <data name="Global_SelectAState" xml:space="preserve">
+    <value>राज्य चुनें...</value>
+  </data>
+  <data name="Global_SelectAStateTitle" xml:space="preserve">
+    <value>राज्य चुनें</value>
+  </data>
+  <data name="Javascript_JoinAuction" xml:space="preserve">
+    <value>नीलामी में शामिल हों</value>
+  </data>
+  <data name="Javascript_Live" xml:space="preserve">
+    <value>लाइव!</value>
+  </data>
+  <data name="Javascript_ViewThumbnails" xml:space="preserve">
+    <value>थंबनेल देखें</value>
+  </data>
+  <data name="MemberServices_Email" xml:space="preserve">
+    <value>member.services@copart.co.uk</value>
+  </data>
+  <data name="MemberServices_PhoneNo" xml:space="preserve">
+    <value>+911244206983</value>
+  </data>
+  <data name="NewUserCreated_Figs" xml:space="preserve">
+    <value>बनाया गया</value>
+  </data>
+  <data name="PhoneNumber_US" xml:space="preserve">
+    <value>फ़ोन नंबर सटीक रूप से 10 अंक का होना चाहिए</value>
+  </data>
+  <data name="SellVehicle_PostCodeLength" xml:space="preserve">
+    <value>{0}, {1} वर्ण लंबा होना चाहिए।</value>
+  </data>
+  <data name="ShortDateFormat" xml:space="preserve">
+    <value>MM/dd/yyyy</value>
+  </data>
+  <data name="ValidationSummary_HeaderText" xml:space="preserve">
+    <value>जारी रखने में असमर्थ।  निम्नलिखित त्रुटि ठीक करने की ज़रूरत है:</value>
+  </data>
+  <data name="Validation_Compare" xml:space="preserve">
+    <value>{0} और {1} मिलान में नहीं हैं।</value>
+  </data>
+  <data name="Validation_ErrorWithSubmission" xml:space="preserve">
+    <value>ऐसा लगता है कि वहाँ आपके सबमिशन में कुछ त्रुटियाँ हैं।</value>
+  </data>
+  <data name="Validation_IsInvalid" xml:space="preserve">
+    <value>{0} अमान्य है।</value>
+  </data>
+  <data name="Validation_OnlyLetters" xml:space="preserve">
+    <value>{0} में केवल वर्ण शामिल हो सकते हैं।</value>
+  </data>
+  <data name="Validation_OnlyNumbers" xml:space="preserve">
+    <value>{0} में केवल नंबर शामिल हो सकते हैं।</value>
+  </data>
+  <data name="Validation_Required" xml:space="preserve">
+    <value>{0} ज़रूरी है।</value>
+  </data>
+  <data name="Validation_Required_Note" xml:space="preserve">
+    <value>* के साथ सभी फ़ील्ड ज़रूरी हैं।</value>
+  </data>
+  <data name="Validation_StringLength_BetweenLength" xml:space="preserve">
+    <value>{0}, {2} और {1} के बीच वर्ण लंबा होना चाहिए।</value>
+  </data>
+  <data name="Validation_StringLength_ExactLength" xml:space="preserve">
+    <value>{0} सटीक रूप से {1} वर्ण लंबा होना चाहिए।</value>
+  </data>
+  <data name="Validation_StringLength_MaxLength" xml:space="preserve">
+    <value>{0}, {1} से कम वर्ण लंबा होना चाहिए। (निश्चित नहीं है कि {{1}}यहाँ सही है)</value>
+  </data>
+  <data name="Validation_StringLength_MinLength" xml:space="preserve">
+    <value>{0} कम-से-कम {1} वर्ण लंबा होना चाहिए।</value>
+  </data>
+  <data name="Validation_StringLength_MinLength_Address" xml:space="preserve">
+    <value>{0} कम-से-कम {2} वर्ण लंबा होना चाहिए।</value>
+  </data>
+</root>

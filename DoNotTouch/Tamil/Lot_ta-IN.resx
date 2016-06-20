@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="View_MarketGuideModal_Title" xml:space="preserve">
+    <value>சந்தை வழிகாட்டியை வாங்க வேண்டியுள்ளது</value>
+  </data>
+  <data name="View_MarketGuideModal_Note" xml:space="preserve">
+    <value>சந்தை வழிகாட்டி என்பது முக்கியமான தகவல்களைக் காண்பிக்கின்ற, பின்வருவதைப் போன்ற வாங்கக்கூடிய மதிப்பீட்டு அறிக்கை ஆகும்:</value>
+  </data>
+  <data name="View_MarketGuideModal_VINDecode" xml:space="preserve">
+    <value>VIN குறிநீக்கம்</value>
+  </data>
+  <data name="View_MarketGuideModal_ProquoteResults" xml:space="preserve">
+    <value>புரோகோட் முடிவுகள்</value>
+  </data>
+  <data name="View_MarketGuideModal_ListOfComparableSales" xml:space="preserve">
+    <value>ஒப்பிடக்கூடிய விற்பனைப் பட்டியல்</value>
+  </data>
+  <data name="View_MarketGuideModal_ViewASampleReport" xml:space="preserve">
+    <value>மாதிரி அறிக்கையைப் பார்க்கவும்</value>
+  </data>
+  <data name="View_MarketGuideModal_PurchaseInformation" xml:space="preserve">
+    <value>வாங்குதல் தகவல்</value>
+  </data>
+  <data name="View_MarketGuideModal_Price" xml:space="preserve">
+    <value>விலை</value>
+  </data>
+  <data name="View_MarketGuideModal_LotNumber" xml:space="preserve">
+    <value>லாட் #</value>
+  </data>
+  <data name="View_MarketGuideModal_Cancel" xml:space="preserve">
+    <value>ரத்து செய்க</value>
+  </data>
+  <data name="View_MarketGuideModal_PurchaseReport" xml:space="preserve">
+    <value>வாங்குதல் அறிக்கை</value>
+  </data>
+  <data name="View_MarketGuideConfirmationModal_TermsAgreement" xml:space="preserve">
+    <value>மேலே குறிப்பிடப்பட்ட விதிமுறைகளை நான் படித்துள்ளேன் மற்றும் ஒப்புக்கொள்கிறேன்.</value>
+  </data>
+  <data name="View_AutoCheck_AcceptTermsAgreement" xml:space="preserve">
+    <value>தொடர்வதற்கு முன்னர் தயவுசெய்து சேவை விதிமுறைகளை ஏற்கவும்.</value>
+  </data>
+  <data name="View_MarketGuideConfirmationModal_Cancel" xml:space="preserve">
+    <value>ரத்து செய்க</value>
+  </data>
+  <data name="View_MarketGuideConfirmationModal_PurchaseReport" xml:space="preserve">
+    <value>வாங்குதல் அறிக்கை</value>
+  </data>
+  <data name="CalendarExport_DescriptionFoot" xml:space="preserve">
+    <value>\n\n-உங்களுடைய கோபார்ட் அணி</value>
+  </data>
+  <data name="CalendarExport_DescriptionHead" xml:space="preserve">
+    <value>பின்வரும் ஏலத்துக்கு தயவுசெய்து எங்களுடன் இணையுங்கள்:\n\n</value>
+  </data>
+  <data name="CalendarExport_Title" xml:space="preserve">
+    <value>வரவிருக்கும் கோபார்ட் ஏலம் - </value>
+  </data>
+  <data name="View_MarketGuideConfirmation_CopartisNotResponsible" xml:space="preserve">
+    <value>சந்தை வழிகாட்டியில் இடம் பெற்றுள்ள ஏதேனும் தகவல்களைப் பயன்படுத்துவதால் அல்லது நம்பியிருப்பதால் ஏற்படுகின்ற இழப்பு அல்லது செலவுக்கு கோபார்ட் நிறுவனம் பொறுப்பேற்காது.</value>
+  </data>
+  <data name="View_MarketGuideConfirmation_ProQuoteNote" xml:space="preserve">
+    <value>சந்தை வழிகாட்டி அறிக்கையில் வழங்கப்பட்டுள்ள புரோகோட் மதிப்புகள் அந்த நேரத்தில் நடைமுறையில் உள்ளவாறு வழங்கப்பட்டுள்ளன, மற்றும் அவை மாறுதலுக்கு உட்பட்டவை என்பதை தயவுசெய்து கவனிக்கவும். இந்த வாகனத்துக்கு ஆட்டோசெக் வாகன வரலாற்று அறிக்கை கிடைக்கின்றது எனில், அது சந்தையின் வாங்குதல் வழிகாட்டியுடன் சேர்க்கப்படும்.</value>
+  </data>
+  <data name="View_MarketGuideModal_NADAValues" xml:space="preserve">
+    <value>NADA மதிப்புகள்</value>
+  </data>
+  <data name="ConfirmBidErrorModalTitle" xml:space="preserve">
+    <value>உங்களுடைய விலைக்குறிப்பில் ஒரு பிழை ஏற்பட்டது</value>
+  </data>
+  <data name="ConfirmBidModalErrorAttemptMessage" xml:space="preserve">
+    <value>விலை குறிக்க நீங்கள் முயற்சி செய்தபோது ஒரு பிழை ஏற்பட்டது. பிழை பதிவு செய்யப்பட்டுள்ளது, உங்கள் சார்பாக எந்த நடவடிக்கையும் எடுக்கத் தேவையில்லை. நீங்கள் மீண்டும் பாதுகாப்பாக விலை குறிக்க முயற்சிக்கலாம்.</value>
+  </data>
+  <data name="ConfirmCounterBidError_CannotHandle" xml:space="preserve">
+    <value>வாங்குநரின் எதிர் விலைக்குறிப்பு வகையைக் கையாள முடியவில்லை: &apos;{0}&apos;</value>
+  </data>
+  <data name="CounterTypeParseSuccess_BindError" xml:space="preserve">
+    <value>எதிர் விலைக்குறிப்பு வகை மீது பிழையை இணைக்கவும்</value>
+  </data>
+  <data name="GenericErrorTitle" xml:space="preserve">
+    <value>பிழை</value>
+  </data>
+  <data name="PhotoModalGenericErrorModalMessage" xml:space="preserve">
+    <value>கோரப்பட்ட லாட் காணப்படவில்லை. இந்தப் பிழை பதிவு செய்யப்பட்டுள்ளது, உங்கள் சார்பாக எந்த நடவடிக்கையும் எடுக்கத் தேவையில்லை.</value>
+  </data>
+  <data name="PhotoModalGenericErrorModalTitle" xml:space="preserve">
+    <value>லாட் காணப்படவில்லை!</value>
+  </data>
+  <data name="View_MarketGuide_MarketGuidePurchased" xml:space="preserve">
+    <value>சந்தை வழிகாட்டி வாங்குதல் வெற்றிபெற்றது!</value>
+  </data>
+  <data name="View_AutocheckSubscriptionRequired" xml:space="preserve">
+    <value>ஆட்டோசெக் சந்தா தேவைப்படுகிறது</value>
+  </data>
+  <data name="View_Autocheck_Cancel" xml:space="preserve">
+    <value>ரத்து செய்க</value>
+  </data>
+  <data name="View_Autocheck_Expiration" xml:space="preserve">
+    <value>காலாவதி</value>
+  </data>
+  <data name="View_Autocheck_GreatValue" xml:space="preserve">
+    <value>மிகச்சிறந்த மதிப்பு</value>
+  </data>
+  <data name="View_Autocheck_MarketGuideIsASubscription" xml:space="preserve">
+    <value>சந்தை வழிகாட்டி என்பது சேதம் ஏதுமில்லாத வாகனங்கள் குறித்த வரலாற்று அறிக்கையை உறுப்பினர்களுக்கு வழங்குகின்ற ஒரு சந்தாச் சேவை ஆகும்</value>
+  </data>
+  <data name="View_Autocheck_Price" xml:space="preserve">
+    <value>விலை</value>
+  </data>
+  <data name="View_Autocheck_PurchaseSubscription" xml:space="preserve">
+    <value>சந்தா வாங்கவும்</value>
+  </data>
+  <data name="View_Autocheck_Reports" xml:space="preserve">
+    <value>அறிக்கைகள்</value>
+  </data>
+  <data name="View_Autocheck_SavesYouTimeMoney" xml:space="preserve">
+    <value>உங்களுடைய நேரம் &amp; பணத்தைச் சேமிக்கிறது</value>
+  </data>
+  <data name="View_Autocheck_UnlimitedReports" xml:space="preserve">
+    <value>கட்டுப்பாடற்ற அறிக்கைகள்</value>
+  </data>
+  <data name="View_Autocheck_ValuableInformation" xml:space="preserve">
+    <value>மதிப்புமிக்க தகவல்</value>
+  </data>
+  <data name="View_Autocheck_ViewASampleReport" xml:space="preserve">
+    <value>மாதிரி அறிக்கையைப் பார்க்கவும்</value>
+  </data>
+  <data name="View_MarketGuideModal_MarketGuideReport" xml:space="preserve">
+    <value>இந்த வாகனத்துக்கான சந்தை வழிகாட்டி அறிக்கையை நீங்கள் காணமுடியும்</value>
+  </data>
+  <data name="View_MarketGuideModal_ViewMarketGuideReport" xml:space="preserve">
+    <value>சந்தை வழிகாட்டி அறிக்கையைக் காண்க</value>
+  </data>
+  <data name="View_Autocheck_AbleToRetrieveVehicleHistoryReports" xml:space="preserve">
+    <value>இப்பொழுது நீங்கள் சேதம் இல்லாத வாகனங்களுக்கான வாகன வரலாறு குறித்த அறிக்கைகளை மீட்டெடுக்க முடியும்</value>
+  </data>
+  <data name="View_AutoCheck_CopartDoesNotGuarantee" xml:space="preserve">
+    <value>வாகன வரலாற்று அறிக்கையில் உள்ள தகவல்களின் துல்லியத்தன்மைக்கு கோபார்ட் உத்தரவாதம் அளிப்பதில்லை</value>
+  </data>
+  <data name="View_AutoCheck_IUnderstandTheInfo" xml:space="preserve">
+    <value>எக்ஸ்பீரியன் மூலம் வழங்கப்படுகின்ற வாகன வரலாற்று அறிக்கையில் உள்ள தகவல்களையும், மற்றும் வாகன வரலாற்று அறிக்கையில் இடம் பெற்றுள்ள உள்ளடக்கங்களுக்கு தனிப்பட்ட முறையில் எக்ஸ்பீரியன் பொறுப்பேற்க வேண்டும் என்பதையும் நான் புரிந்துகொள்கிறேன்</value>
+  </data>
+  <data name="View_Autocheck_OK" xml:space="preserve">
+    <value>சரி</value>
+  </data>
+  <data name="View_Autocheck_Purchased" xml:space="preserve">
+    <value>ஆட்டோசெக் சந்தா வாங்கப்பட்டது</value>
+  </data>
+  <data name="View_Autocheck_ViewVehicleHistoryReport" xml:space="preserve">
+    <value>வாகனத்தின் வரலாற்று அறிக்கையைப் பார்ப்பதற்கு, VIN# என்ற ஹைப்பர்லிங்க் அல்லது ஆட்டோசெக் ஐகான் மீது கிளிக் செய்க</value>
+  </data>
+  <data name="AutocheckDisclaimerError_Message" xml:space="preserve">
+    <value>ஆட்டோசெக் காண்பிக்கப்படுவதற்கு இனிமேல் தகுதி இல்லை.</value>
+  </data>
+  <data name="AutocheckError_Title" xml:space="preserve">
+    <value>ஆட்டோசெக் பிழை</value>
+  </data>
+  <data name="AutocheckFileError_Message" xml:space="preserve">
+    <value>உங்களுடைய ஆட்டோசெக் அறிக்கையைக் காண்பிப்பதில் பிழை ஏற்பட்டது. தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="View_Autocheck_Continue" xml:space="preserve">
+    <value>தொடர்க</value>
+  </data>
+  <data name="View_Autocheck_ImportantInformation" xml:space="preserve">
+    <value>முக்கியத் தகவல்</value>
+  </data>
+  <data name="View_Autocheck_Disclaimer" xml:space="preserve">
+    <value>மறுதலிப்பு</value>
+  </data>
+  <data name="MarketGuidePurchaseError_Message" xml:space="preserve">
+    <value>உங்களுடைய சந்தை வழிகாட்டி அறிக்கையை வாங்குவதில் ஒரு பிழை ஏற்பட்டது. தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="MarketGuidePurchaseError_Title" xml:space="preserve">
+    <value>சந்தை வழிகாட்டி வாங்குதல் பிழை</value>
+  </data>
+  <data name="Validation" xml:space="preserve">
+    <value>தொடர்வதற்கு முன்னர் தயவுசெய்து சேவை விதிமுறைகளை ஏற்கவும்.</value>
+  </data>
+  <data name="TermsAndConditionsChkBoxLabel" xml:space="preserve">
+    <value>மேலே குறிப்பிடப்பட்ட விதிமுறைகளை நான் படித்துள்ளேன் மற்றும் ஒப்புக்கொள்கிறேன்.</value>
+  </data>
+  <data name="Calendar_ContactUs" xml:space="preserve">
+    <value>\n\nஇந்த ஏலம் தொடர்பாக உங்களுக்கு ஏதாவது கேள்விகள் இருந்தால் member.services@copart.com–இல் அல்லது (972) 391-5400 என்ற எண்ணில் எங்களைத் தொடர்புகொள்க.\n</value>
+  </data>
+  <data name="Calendar_coparturl" xml:space="preserve">
+    <value>\nwww.copart.com\n</value>
+  </data>
+  <data name="BiddingErrorTitle" xml:space="preserve">
+    <value>விலைக்குறிப்பு பிழை</value>
+  </data>
+  <data name="BiddingError_Message" xml:space="preserve">
+    <value>உங்களுடைய கோரிக்கையைச் செயலாக்கம் செய்வதில் ஒரு பிரச்சனை ஏற்பட்டது. தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="View_Autocheck_SubscriptionNote" xml:space="preserve">
+    <value>ஆட்டோசெக் என்பது சேதமில்லாத வாகனங்களின் வரலாற்று அறிக்கைகளை உறுப்பினர்களுக்கு வழங்குகின்ற ஒரு சந்தா சேவை ஆகும்</value>
+  </data>
+  <data name="LotBidErrorModalTitle" xml:space="preserve">
+    <value>அறிவிப்பு:</value>
+  </data>
+  <data name="Watchlist_AddError" xml:space="preserve">
+    <value>கண்காணிப்புப் பட்டியலுடன் சேர்க்க முடியவில்லை. தெரியாத பிழை ஒன்று ஏற்பட்டுள்ளது.</value>
+  </data>
+  <data name="BidLimitExceeded_Message" xml:space="preserve">
+    <value>நீங்கள் உங்கள் விலைக்குறிப்பு வரம்பை மீறியுள்ளீர்கள்.  உங்களுடைய தற்போதைய வரம்பை சரிசெய்யக் கோருவதற்கு தயவுசெய்து உறுப்பினர் சேவைகளைத் தொடர்புகொள்க.</value>
+  </data>
+</root>

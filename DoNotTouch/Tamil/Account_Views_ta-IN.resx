@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChangeEmail_Section_Content" xml:space="preserve">
+    <value>&lt;div style=&apos;color:red;&apos;&gt;தயவுசெய்து உங்களுடைய புதிய கடவுச்சொல்லை உறுதிப்படுத்தவும்.&lt;/div&gt;
+&lt;div&gt;தயவுசெய்து உங்களுடைய தற்போதைய மற்றும் புதிய கடவுச்சொல்லை கீழே உறுதிப்படுத்தவும்.&lt;/div&gt;
+&lt;div&gt;குறிப்பு: உங்களுடைய கடவுச்சொல் 8-12 எழுத்துருக்களைக் கொண்டதாக இருக்க வேண்டும்&lt;/div&gt;</value>
+  </data>
+  <data name="ChangeEmail_Section_Head" xml:space="preserve">
+    <value>கடவுச்சொல்லை மாற்றவும்</value>
+  </data>
+  <data name="ChangePasswordSuccess_Message" xml:space="preserve">
+    <value>உங்களுடைய கடவுச்சொல் வெற்றிகரமாக மாற்றப்பட்டுள்ளது.</value>
+  </data>
+  <data name="ChangePassword_AccountInfo" xml:space="preserve">
+    <value>கணக்குத் தகவல்</value>
+  </data>
+  <data name="ChangePassword_Group_AccountInformation" xml:space="preserve">
+    <value>கணக்குத் தகவல்</value>
+  </data>
+  <data name="ChangePassword_PageHead" xml:space="preserve">
+    <value>&lt;p&gt;உங்களுடைய கடவுச்சொல்லை மாற்றுவதற்கு கீழே உள்ள படிவத்தைப் பயன்படுத்தவும்&lt;/p&gt;
+&lt;p&gt;புதிய கடவுச்சொல் குறைந்தபட்சம் {0} எழுத்துருக்களைக் கொண்டதாக இருக்க வேண்டும்.&lt;/p&gt;</value>
+  </data>
+  <data name="ChangePassword_Page_Title" xml:space="preserve">
+    <value>கடவுச்சொல்லை மாற்றவும்</value>
+  </data>
+  <data name="LogOn_AccountInformation" xml:space="preserve">
+    <value>கணக்குத் தகவல்</value>
+  </data>
+  <data name="LogOn_Page_Title" xml:space="preserve">
+    <value>கணக்கு உள்நுழைவு</value>
+  </data>
+  <data name="DefaultPaymentTypeModel_DefaultPaymentType" xml:space="preserve">
+    <value>இயல்பான செலுத்துதல் வகை</value>
+  </data>
+  <data name="UK_RegistrationModel_SomeUKSpecificProperty" xml:space="preserve">
+    <value>UK பிரத்யேக பதிவு மாடல் வாகனத்தின் பெயர்</value>
+  </data>
+  <data name="LogOn_LogOnInstructions" xml:space="preserve">
+    <value>தயவுசெய்து உங்களுடைய பயனர் பெயரையும் கடவுச்சொல்லையும் உள்ளிடவும். உங்களுக்கு ஒரு கணக்கு இல்லையெனில் &lt;a href=&apos;{RegisterLink}&apos;&gt;பதிவு செய்யவும்&lt;/a&gt;. 
+	&lt;br /&gt;&lt;em&gt;(இதுவரை ஒரு ஆதாரக் கோப்பில் இல்லை: நீங்கள் எவ்வாறு ஒரு உரையை அதற்குள் உள்ள ஒரு செயல்பாட்டு இணைப்பின் மூலம் மொழிபெயர்ப்பீர்கள்?)&lt;/em&gt;</value>
+  </data>
+  <data name="LogOn_LogOnButton" xml:space="preserve">
+    <value>உங்களுடைய கணக்குக்குள் நுழையவும்</value>
+  </data>
+  <data name="LogOn_ForgotCredentials" xml:space="preserve">
+    <value>கடவுச்சொல் மறந்துவிட்டதா?</value>
+  </data>
+  <data name="LogOn_Member_Header" xml:space="preserve">
+    <value>உறுப்பினர் கணக்கு</value>
+  </data>
+  <data name="LogOn_AccountTypeLabel" xml:space="preserve">
+    <value>கணக்கு வகை</value>
+  </data>
+  <data name="LogOn_User_Header" xml:space="preserve">
+    <value>தற்போதைய பயனர்கள்</value>
+  </data>
+  <data name="LogOn_ChangeButton_Text" xml:space="preserve">
+    <value>மாற்றுக</value>
+    <comment>Change Button</comment>
+  </data>
+  <data name="LogOn_MemberType_Options" xml:space="preserve">
+    <value>உறுப்பினர்</value>
+  </data>
+  <data name="ForgotPassword_Cancel" xml:space="preserve">
+    <value>ரத்து செய்க</value>
+  </data>
+  <data name="ForgotPassword_Explanation" xml:space="preserve">
+    <value>உங்களுடைய உள்நுழைவு சான்றாவணங்களை மீட்டுப்பெறுவதற்கு, தயவுசெய்து உங்கள் கணக்குடன் தொடர்புடைய மின்னஞ்சல் முகவரியை உள்ளிடவும்.</value>
+  </data>
+  <data name="ForgotPassword_CounterManExplanation" xml:space="preserve">
+    <value>உங்களுடைய பயனர் பெயர் மற்றும் கடவுச்சொல்லை மீட்டுப்பெறுவதற்கு, தயவுசெய்து கூடுதலான உதவியைப் பெறுவதற்கு உங்களுடைய முதன்மைக் கணக்கு வைத்திருப்பவரைத் தொடர்புகொள்ளவும்.</value>
+  </data>
+  <data name="ForgotPassword_CounterManAccessLabel" xml:space="preserve">
+    <value>எதிர்க்கோரிக்கையாளர் அணுகல்</value>
+  </data>
+  <data name="ForgotPassword_IdLabel" xml:space="preserve">
+    <value>மின்னஞ்சல் முகவரி</value>
+  </data>
+  <data name="ForgotPassword_Retrieve" xml:space="preserve">
+    <value>மீட்டுப்பெறுக</value>
+  </data>
+  <data name="ForgotPassword_Title" xml:space="preserve">
+    <value>கடவுச்சொல் மறந்துவிட்டது</value>
+  </data>
+  <data name="ForgotPassword_Success" xml:space="preserve">
+    <value>உங்களுடைய கடவுச்சொல்லை எவ்வாறு புதுப்பிப்பது என்பது குறித்த வழிகாட்டுதல்களைக் கொண்ட ஒரு மின்னஞ்சல் உங்களுக்கு அனுப்பப்பட்டுள்ளது. இந்த வழிகாட்டுதல்கள் அடுத்த 24 மணிநேரத்துக்கு செல்லத்தக்கதாகும்.</value>
+  </data>
+  <data name="ForgotPassword_Close" xml:space="preserve">
+    <value>மூடவும்</value>
+  </data>
+  <data name="ForgotPassword_ConfirmationTitle" xml:space="preserve">
+    <value>வெற்றிபெற்றது!</value>
+  </data>
+  <data name="ForgotPassword_Failure" xml:space="preserve">
+    <value>தயவுசெய்து ஒரு செல்லத்தக்க மின்னஞ்சல் முகவரியை உள்ளிடவும்</value>
+  </data>
+  <data name="ForgotPassword_FailureTitle" xml:space="preserve">
+    <value>மின்னஞ்சல் வெற்றி பெறவில்லை</value>
+  </data>
+  <data name="LogOn_CountermanAccount_Label" xml:space="preserve">
+    <value>எதிர்க்கோரிக்கையாளர் கணக்கு</value>
+  </data>
+  <data name="LogOn_HeaderMember" xml:space="preserve">
+    <value>உறுப்பினர் கணக்குகள்</value>
+    <comment>deprecated</comment>
+  </data>
+  <data name="LogOn_MemberAccount_Label" xml:space="preserve">
+    <value>உறுப்பினர் கணக்கு</value>
+  </data>
+  <data name="LogOn_SellerAccount_Label" xml:space="preserve">
+    <value>விற்பவர் கணக்கு</value>
+  </data>
+  <data name="UK_LogOn_MemberType_Options" xml:space="preserve">
+    <value>- கணக்கு வகையைத் தேர்ந்தெடுக்கவும் -|உறுப்பினர்|விற்பவர்</value>
+  </data>
+  <data name="LogOn_Seller_C2_Redirect" xml:space="preserve">
+    <value>விற்பவர் அணுகலை ஏற்கனவே அமைத்துவிட்டீர்களா?</value>
+  </data>
+  <data name="LogOn_Seller_C2_Redirect_URL" xml:space="preserve">
+    <value>https://seller.copart.com/c2/login.html</value>
+  </data>
+  <data name="LogOn_Seller_Copart_Button" xml:space="preserve">
+    <value>உங்களுடைய கணக்குக்குள் நுழையவும்</value>
+  </data>
+  <data name="Invalid_Characters_Password" xml:space="preserve">
+    <value>கடவுச்சொல்லில் சிறப்புக் குறியீடுகள் அனுமதிக்கப்படுவதில்லை.</value>
+  </data>
+  <data name="Invalid_Characters_UserId" xml:space="preserve">
+    <value>பயனர் ஐடி-யில் சிறப்புக் குறியீடுகள் அனுமதிக்கப்படுவதில்லை.</value>
+  </data>
+  <data name="BrokerProfile_MemberNumber" xml:space="preserve">
+    <value>உறுப்பினர் எண்</value>
+  </data>
+  <data name="Logon_Select_Account_Type_Message" xml:space="preserve">
+    <value>தயவுசெய்து உங்களுடைய கணக்கு வகையைத் தேர்ந்தெடுத்து அதில் உள்நுழையவும்.</value>
+  </data>
+  <data name="Logon_Select_Account_Type_Message1" xml:space="preserve">
+    <value>அல்லது இலவச உறுப்பினராகச் சேர்வதற்கு இன்று &lt;a href=&apos;{RegisterLink}&apos;&gt;பதிவு செய்யவும்&lt;/a&gt;.</value>
+  </data>
+  <data name="Logon_Select_Account_Type_Message_UK" xml:space="preserve">
+    <value>தயவுசெய்து உங்களுடைய கணக்கு வகையைத் தேர்ந்தெடுத்து அதில் உள்நுழையவும்.</value>
+  </data>
+  <data name="Logon_Select_Account_Type_Message_UK1" xml:space="preserve">
+    <value>அல்லது உறுப்பினராகச் சேர்வதற்கு இன்று &lt;a href=&apos;{RegisterLink}&apos;&gt;பதிவு செய்யவும்&lt;/a&gt;.</value>
+  </data>
+  <data name="LogOn_Seller_UK_C2_Redirect_URL" xml:space="preserve">
+    <value>https://seller.copart.co.uk/c2/login.html</value>
+  </data>
+  <data name="RequiredPasswordUpdate_Page_Title" xml:space="preserve">
+    <value>கடவுச்சொல் புதுப்பிப்பு தேவைப்படுகின்றது</value>
+  </data>
+  <data name="CreatePassword_Page_Title" xml:space="preserve">
+    <value>கடவுச்சொல்லை உருவாக்கவும்</value>
+  </data>
+</root>

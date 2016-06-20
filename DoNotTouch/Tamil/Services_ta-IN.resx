@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="View_Brokers_PageSubtitle" xml:space="preserve">
+    <value>ஒரு தரகரின் சேவைகள் தேவைப்படுகின்ற தனிநபர்களுக்கும் வணிகங்களுக்கும் மதிப்புக் கூட்டப்பட்ட சேவைகளை வழங்குவதன் மூலம் கோபார்ட் தரகர்கள் வருமானம் ஈட்டுகின்றனர்.</value>
+  </data>
+  <data name="View_Brokers_PageTitle" xml:space="preserve">
+    <value>தரகர்கள் மற்றும் சந்தை உருவாக்குநர்கள்</value>
+  </data>
+  <data name="View_Brokers_ViewBroker" xml:space="preserve">
+    <value>தரகரைப் பார்க்கவும்</value>
+  </data>
+  <data name="View_Brokers_Phone" xml:space="preserve">
+    <value>தொலைபேசி:</value>
+  </data>
+  <data name="View_Brokers_Address" xml:space="preserve">
+    <value>முகவரி:</value>
+  </data>
+  <data name="View_Brokers_Website" xml:space="preserve">
+    <value>இணையதளம்:</value>
+  </data>
+  <data name="View_Brokers_BrokerFees" xml:space="preserve">
+    <value>தரகர் கட்டணம்:</value>
+  </data>
+  <data name="View_Brokers_RegistrationFees" xml:space="preserve">
+    <value>பதிவுக் கட்டணம்</value>
+  </data>
+  <data name="View_Brokers_SecurityDeposit" xml:space="preserve">
+    <value>பாதுகாப்பு வைப்புத் தொகை</value>
+  </data>
+  <data name="View_Brokers_TransactionFee" xml:space="preserve">
+    <value>பரிவர்த்தனைக் கட்டணம்</value>
+  </data>
+  <data name="View_Brokers_BackToTop" xml:space="preserve">
+    <value>மீண்டும் மேலே செல்க</value>
+  </data>
+  <data name="View_BrokerDetail_BackToAllBrokers" xml:space="preserve">
+    <value>அனைத்துத் தரகர்களுக்கு பின்செல்க</value>
+  </data>
+  <data name="View_BrokerDetail_BusinessInformation" xml:space="preserve">
+    <value>வணிகத் தகவல்</value>
+  </data>
+  <data name="View_BrokerDetail_Email" xml:space="preserve">
+    <value>மின்னஞ்சல்:</value>
+  </data>
+  <data name="View_BrokerDetail_AboutUs" xml:space="preserve">
+    <value>எங்களைப் பற்றி</value>
+  </data>
+  <data name="View_BrokerDetail_ServicesAndInformation" xml:space="preserve">
+    <value>சேவைகள் மற்றும் தகவல்</value>
+  </data>
+  <data name="View_BrokerDetail_ServicesProvided" xml:space="preserve">
+    <value>வழங்கப்பட்ட சேவைகள்:</value>
+  </data>
+  <data name="View_BrokerDetail_AdditionalInformation" xml:space="preserve">
+    <value>கூடுதல் தகவல்:</value>
+  </data>
+  <data name="View_BrokerDetail_PaymentMethods" xml:space="preserve">
+    <value>செலுத்துதல் முறைகள்</value>
+  </data>
+  <data name="View_BrokerDetail_FeesAndPayments" xml:space="preserve">
+    <value>கட்டணம் மற்றும் செலுத்துதல்கள்</value>
+  </data>
+  <data name="View_BrokersLotInfo_LotInformation" xml:space="preserve">
+    <value>#{LotNumber}-க்கான லாட் தகவல்</value>
+  </data>
+  <data name="View_BrokersLotInfo_PhotosCount" xml:space="preserve">
+    <value>{Count} புகைப்படங்கள்</value>
+  </data>
+  <data name="View_BrokersLotInfo_LotNumber" xml:space="preserve">
+    <value>லாட் #</value>
+  </data>
+  <data name="View_BrokersLotInfo_EstRetailValue" xml:space="preserve">
+    <value>கணக்கிடப்பட்ட சில்லறை விற்பனை மதிப்பு</value>
+  </data>
+  <data name="View_BrokersLotInfo_RepairEstimate" xml:space="preserve">
+    <value>பழுதுபார்ப்பு மதிப்பு</value>
+  </data>
+  <data name="View_BrokersLotInfo_PrimaryDmg" xml:space="preserve">
+    <value>முதன்மைச் சேதம்</value>
+  </data>
+  <data name="View_BrokersLotInfo_DocType" xml:space="preserve">
+    <value>ஆவண வகை</value>
+  </data>
+  <data name="View_BrokersLotInfo_SaleDate" xml:space="preserve">
+    <value>விற்பனைத் தேதி</value>
+  </data>
+  <data name="View_BrokersLotInfo_TimeLeft" xml:space="preserve">
+    <value>மீதமுள்ள நேரம் </value>
+  </data>
+  <data name="View_BrokersLotInfo_Location" xml:space="preserve">
+    <value>அமைவிடம்</value>
+  </data>
+  <data name="View_BrokersLotInfo_Cylinders" xml:space="preserve">
+    <value>சிலிண்டர்கள்</value>
+  </data>
+  <data name="View_BrokersLotInfo_Engine" xml:space="preserve">
+    <value>எஞ்சின்</value>
+  </data>
+  <data name="View_BrokersLotInfo_Miles" xml:space="preserve">
+    <value>மைல்கள்</value>
+  </data>
+  <data name="View_Transporters_PageTitle" xml:space="preserve">
+    <value>சரக்கேற்றிச் செல்பவர்கள்</value>
+  </data>
+  <data name="View_Transporters_DomesticLink" xml:space="preserve">
+    <value>உள்நாடு</value>
+  </data>
+  <data name="View_Transporters_InternationalLink" xml:space="preserve">
+    <value>சர்வதேச</value>
+  </data>
+  <data name="View_Transporters_SelectStateDefault" xml:space="preserve">
+    <value>ஒரு மாநிலத்தைத் தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="View_Transporters_StatesServed" xml:space="preserve">
+    <value>சேவை புரிந்த மாநிலங்கள்</value>
+  </data>
+  <data name="View_TransportersInt_SelectLocation" xml:space="preserve">
+    <value>அமைவிடத்தைத் தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="View_Transporters_AboutUs" xml:space="preserve">
+    <value>எங்களைப் பற்றி</value>
+  </data>
+  <data name="View_Transporters_Location" xml:space="preserve">
+    <value>அமைவிடம்</value>
+  </data>
+  <data name="View_Transporters_Phone" xml:space="preserve">
+    <value>தொலைபேசி</value>
+  </data>
+  <data name="View_Error500Message" xml:space="preserve">
+    <value>உங்களுடைய கோரிக்கையைச் செயலாக்கம் செய்வதில் ஒரு பிழை ஏற்பட்டது.</value>
+  </data>
+  <data name="View_Error500Content1" xml:space="preserve">
+    <value>தயவுசெய்து இந்தப் பக்கத்தைப் புதுப்பிக்கவும், அல்லது முந்தைய பக்கத்தை மீண்டும் ஏற்றுவதற்கு உங்கள் பிரவுசரில் “பின்செல்” என்பதை கிளிக் செய்யவும்.</value>
+  </data>
+  <data name="View_Error500Content2" xml:space="preserve">
+    <value>அதன் பின்னர் உங்களுடைய நடவடிக்கையை மீண்டும் முயற்சி செய்யவும்.</value>
+  </data>
+  <data name="View_Error500Content3" xml:space="preserve">
+    <value>உங்களுக்கு உதவி தேவைப்பட்டால், தயவுசெய்து தொடர்புகொள்ளவும் </value>
+  </data>
+  <data name="View_Error500Content4" xml:space="preserve">
+    <value>உறுப்பினர் சேவைகள்.</value>
+  </data>
+  <data name="View_Transporters_Website" xml:space="preserve">
+    <value>இணையதளம்</value>
+  </data>
+  <data name="View_Transporters_Button_CanadaButton" xml:space="preserve">
+    <value>கனடா எக்ஸ்போர்ட் ஷிப்பிங்</value>
+  </data>
+  <data name="View_Transporters_Header3" xml:space="preserve">
+    <value>நாங்கள் ஷிப்பிங்கையும் சேர்த்துப் பெற்றுள்ளோம்</value>
+  </data>
+  <data name="View_Transporters_Header5_1" xml:space="preserve">
+    <value>உங்களுடைய வாகனத்தை நீங்கள் ஷிப்பிங் செய்ய வேண்டுமா? பிரச்சனை ஏதுமில்லை! அமெரிக்கக் கண்டத்தின் எந்தப் பகுதியிலிருந்தும், உங்களுடைய ஷிப்பிங்</value>
+  </data>
+  <data name="View_Transporters_Header5_2" xml:space="preserve">
+    <value>தேவைகள் அனைத்தையும் கோபார்ட் கவனித்துக்கொள்ளும்.</value>
+  </data>
+  <data name="View_Transporters_Header6" xml:space="preserve">
+    <value>கனடாவாக இருந்தால் என்ன செய்வது?</value>
+  </data>
+  <data name="View_Transporters_Header_Sub1" xml:space="preserve">
+    <value>துரதிருஷ்டவசமாக, கோபார்ட் உள்நாட்டு ஷிப்பிங் கனடா வரை நீட்டிக்கப்படவில்லை, ஏற்றுமதி ஷிப்பிங் சர்வீஸ்</value>
+  </data>
+  <data name="View_Transporters_Header_Sub2" xml:space="preserve">
+    <value>தேவைப்படுகிறது. ஆனால் கவலைப்பட வேண்டாம், அதற்கும் நாங்கள் ஏற்பாடு செய்துள்ளோம்.</value>
+  </data>
+  <data name="View_TransportersInt_HeadTitle" xml:space="preserve">
+    <value>அமெரிக்காவிலிருந்து சர்வதேச நாடுகளுக்கு ஷிப்பிங்</value>
+  </data>
+  <data name="View_TransportersInt_ResetForm" xml:space="preserve">
+    <value>படிவத்தை மீட்டமை</value>
+  </data>
+  <data name="View_TransportersInt_TopMessage1" xml:space="preserve">
+    <value>உங்களுடைய வாகனம் எங்கு இருந்தாலும், உங்களுக்கான சர்வதேச ஷிப்பிங் தேவைகளைக்</value>
+  </data>
+  <data name="View_TransportersInt_TopMessage2" xml:space="preserve">
+    <value>கண்டுபிடிக்க கோபார்ட் உங்களுக்கு உதவுகிறது.</value>
+  </data>
+  <data name="View_TransportersInt_VehicleLoc" xml:space="preserve">
+    <value>வாகனம் எங்கு உள்ளது?</value>
+  </data>
+  <data name="View_Brokers_SendEmail" xml:space="preserve">
+    <value>மின்னஞ்சல் அனுப்பவும்</value>
+  </data>
+  <data name="View_Brokers_ViewWebSite" xml:space="preserve">
+    <value>இணையதளத்தைப் பார்க்கவும்</value>
+  </data>
+  <data name="View_BrokerDetail_BackToBroker" xml:space="preserve">
+    <value>தரகர்களுக்கு திரும்பச் செல்க</value>
+  </data>
+  <data name="View_BrokerDetail_NextBroker" xml:space="preserve">
+    <value>அடுத்த தரகர்</value>
+  </data>
+  <data name="View_BrokerDetail_PreviousBroker" xml:space="preserve">
+    <value>முந்தைய தரகர்</value>
+  </data>
+  <data name="View_TransportersInternational_MoreInfo" xml:space="preserve">
+    <value>கூடுதல் தகவல்</value>
+  </data>
+  <data name="View_Transporters_CountriesServed" xml:space="preserve">
+    <value>சேவை செய்யும் நாடுகள்</value>
+  </data>
+  <data name="View_Transporters_DeliveryRange" xml:space="preserve">
+    <value>விநியோக வரம்பு</value>
+  </data>
+  <data name="View_Transporters_NationWide" xml:space="preserve">
+    <value>தேசிய அளவிலானது</value>
+  </data>
+  <data name="View_Transporters_RightSideMBoxHeader" xml:space="preserve">
+    <value />
+  </data>
+  <data name="View_Transporters_ServiceAreas" xml:space="preserve">
+    <value>சேவைப் பகுதிகள்</value>
+  </data>
+  <data name="View_Transporters_VisitWebSite" xml:space="preserve">
+    <value>இணையதளத்தைப் பார்வையிடவும்</value>
+  </data>
+  <data name="View_TranspotersDomestic_Title" xml:space="preserve">
+    <value>உள்நாட்டுப் போக்குவரத்து</value>
+  </data>
+  <data name="View_TranspotersInternational_Title" xml:space="preserve">
+    <value>சர்வதேச போக்குவரத்து</value>
+  </data>
+  <data name="View_Transporters_BackToTransporters" xml:space="preserve">
+    <value>அனைத்து போக்குவரத்து நிறுவனங்களுக்கு பின்செல்க</value>
+  </data>
+  <data name="View_BrokersDetail_PageTitle" xml:space="preserve">
+    <value>தரகர் விவரம்</value>
+  </data>
+  <data name="View_BrokerDetail_BrokerInformation" xml:space="preserve">
+    <value>தரகர் தகவல்</value>
+  </data>
+  <data name="View_HireABroker_AutoBidMaster" xml:space="preserve">
+    <value>சுய விலைக்குறிப்பு மாஸ்டர்</value>
+  </data>
+  <data name="View_HireABroker_BrokerFees" xml:space="preserve">
+    <value>தரகர் கட்டணம்</value>
+  </data>
+  <data name="View_HireABroker_MoreInfo" xml:space="preserve">
+    <value>கூடுதல் தகவல்</value>
+  </data>
+  <data name="View_HireABroker_Phone" xml:space="preserve">
+    <value>தொலைபேசி</value>
+  </data>
+  <data name="View_HireABroker_PhotosCount" xml:space="preserve">
+    <value>{Count} புகைப்படங்கள்</value>
+  </data>
+  <data name="View_HireABroker_Title" xml:space="preserve">
+    <value>ஒரு தரகரைக் கண்டுபிடிக்கவும்</value>
+  </data>
+  <data name="View_HireABroker_Watch" xml:space="preserve">
+    <value>பார்க்கவும்</value>
+  </data>
+  <data name="View_HireSpecificBrokeDetail" xml:space="preserve">
+    <value>குறிப்பிட்ட தரகர் விவரங்களை நியமித்தல்</value>
+  </data>
+  <data name="HireABroker_Extension" xml:space="preserve">
+    <value>நீட்டிப்பு {Count}</value>
+  </data>
+  <data name="View_Transporters_submit" xml:space="preserve">
+    <value>தகவல்களை அனுப்பவும்</value>
+  </data>
+  <data name="View_Transporters_send" xml:space="preserve">
+    <value>அனுப்பவும்</value>
+  </data>
+  <data name="View_Transporters_Transportation" xml:space="preserve">
+    <value>எங்களுடைய போக்குவரத்துத் திட்டத்தில் சேருங்கள்</value>
+  </data>
+  <data name="View_Transporters_Business" xml:space="preserve">
+    <value>உங்கள் வணிகத்தைப் பற்றி எங்களுக்குச் சொல்லுங்கள்</value>
+  </data>
+  <data name="View_Transporters_TellusaboutYourself" xml:space="preserve">
+    <value>எங்களைப் பற்றிச் சொல்லுங்கள் </value>
+  </data>
+  <data name="View_Transpoters_Close" xml:space="preserve">
+    <value>சரி</value>
+  </data>
+  <data name="View_Transpoters_CloseButton" xml:space="preserve">
+    <value>மூடவும்</value>
+  </data>
+  <data name="View_Transpoters_ContactUs" xml:space="preserve">
+    <value>கோபார்ட்டைத் தொடர்புகொண்டதற்கு நன்றி.</value>
+  </data>
+  <data name="View_Transpoters_validation_City" xml:space="preserve">
+    <value>தயவுசெய்து ஒரு செல்லத்தக்க நகரத்தை உள்ளிடவும்</value>
+  </data>
+  <data name="View_Transpoters_validation_Company" xml:space="preserve">
+    <value>தயவுசெய்து ஒரு செல்லத்தக்க நிறுவனத்தின் பெயரை உள்ளிடவும்</value>
+  </data>
+  <data name="View_Transpoters_validation_Contact" xml:space="preserve">
+    <value>தயவுசெய்து ஒரு செல்லத்தக்க தொடர்புநபர் பெயரை உள்ளிடவும்</value>
+  </data>
+  <data name="View_Transpoters_validation_Email" xml:space="preserve">
+    <value>தயவுசெய்து ஒரு செல்லத்தக்க மின்னஞ்சல் முகவரியை உள்ளிடவும்</value>
+  </data>
+  <data name="View_Transpoters_validation_Phone" xml:space="preserve">
+    <value>தயவுசெய்து ஒரு செல்லத்தக்க தொலைபேசி எண்ணை உள்ளிடவும்</value>
+  </data>
+  <data name="View_Transporters_GetStartedNow" xml:space="preserve">
+    <value>இப்பொழுது தொடங்குங்கள்!</value>
+  </data>
+  <data name="View_Transporters_Join" xml:space="preserve">
+    <value>கோபார்ட் அணியில் எவ்வாறு இணைவது என்பதைப் பற்றி நீங்கள் கூடுதல் தகவல்களைப் பெற விரும்பினால், கீழே உள்ள பட்டனை கிளிக் செய்வதன் மூலம் எங்களுக்கு மின்னஞ்சல் அனுப்பவும்</value>
+  </data>
+  <data name="View_Transporters_LabelText" xml:space="preserve">
+    <value>அனைத்து வசதிகள்</value>
+  </data>
+  <data name="View_Transporters_NearestCopartLocation" xml:space="preserve">
+    <value>அருகிலுள்ள கோபார்ட் அமைவிடம்</value>
+  </data>
+  <data name="View_Transporters_SelectaLocation" xml:space="preserve">
+    <value>ஒரு அமைவிடத்தைத் தேர்வுசெய்க</value>
+  </data>
+  <data name="View_Transporters_Selectastate" xml:space="preserve">
+    <value>ஒரு மாநிலத்தைத் தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="View_Transpoters_validation_State" xml:space="preserve">
+    <value>தயவுசெய்து ஒரு மாநிலத்தை உள்ளிடவும்</value>
+  </data>
+  <data name="View_BrokerDetail_AboutUsText" xml:space="preserve">
+    <value>எங்களைப் பற்றி</value>
+  </data>
+  <data name="View_BrokerDetail_MoreInformation" xml:space="preserve">
+    <value>கூடுதல் தகவல்</value>
+  </data>
+  <data name="View_BrokerDetail_MoreInformation_pdf" xml:space="preserve">
+    <value>(PDF)</value>
+  </data>
+  <data name="View_Transporters_CompanyNameText" xml:space="preserve">
+    <value>நிறுவனத்தின் பெயர்</value>
+  </data>
+  <data name="View_Transporters_ContactNameText" xml:space="preserve">
+    <value>தொடர்புநபரின் பெயர்</value>
+  </data>
+  <data name="View_Transporters_EmailAddressText" xml:space="preserve">
+    <value>மின்னஞ்சல் முகவரி</value>
+  </data>
+  <data name="View_Transporters_PhoneText" xml:space="preserve">
+    <value>தொலைபேசி எண்</value>
+  </data>
+  <data name="View_Transporters_Yourself" xml:space="preserve">
+    <value>உங்களுடையது</value>
+  </data>
+  <data name="View_Brokers_PageSubtitleText" xml:space="preserve">
+    <value>உரிமம் பெறாமல் உங்களுக்குப் பிடித்தமான வாகனங்களை வாங்குவதற்கு நீங்கள் தடை ஏற்படுத்திக்கொள்ள வேண்டாம். நீங்கள் வாகனங்கள் வாங்குவதை எளிமையாக்க உதவுவதற்கு தரகரை அல்லது சந்தை உருவாக்குநரைத் தொடர்புகொள்ளவும்.</value>
+  </data>
+  <data name="View_Transpoters_Request_Representative" xml:space="preserve">
+    <value>மற்றும் ஒரு கோபார்ட் போக்குவரத்துப் பிரதிநிதி விரைவில்</value>
+  </data>
+  <data name="View_Transpoters_Request_Shortly" xml:space="preserve">
+    <value> உங்களைத் தொடர்புகொள்வார்.</value>
+  </data>
+  <data name="View_Transpoters_Request_Submission" xml:space="preserve">
+    <value>உங்களுடைய கோரிக்கை சமர்ப்பிக்கப்படுள்ளது </value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="View_TermsandConditions" xml:space="preserve">
+    <value>விதிமுறைகள் மற்றும் நிபந்தனைகள்</value>
+  </data>
+  <data name="View_Brokers_SeeWebsiteFormattedText" xml:space="preserve">
+    <value>இணையதளத்தைப் பார்க்கவும்</value>
+  </data>
+  <data name="View_Brokers_SeeWebsitePlainText" xml:space="preserve">
+    <value>இணையதளத்தைப் பார்க்கவும்</value>
+  </data>
+  <data name="View_ExtensionText" xml:space="preserve">
+    <value>நீட்டிப்பு</value>
+  </data>
+  <data name="View_Brokers_ServicesOfferedText" xml:space="preserve">
+    <value>வழங்கப்படும் சேவைகள்:</value>
+  </data>
+  <data name="View_Error500Content5" xml:space="preserve">
+    <value>எங்களுடைய UK உறுப்பினர்களுக்கு, தயவுசெய்து தொடர்புகொள்ளவும் </value>
+  </data>
+  <data name="View_Error500Content6" xml:space="preserve">
+    <value>UK உறுப்பினர் சேவைகள்.</value>
+  </data>
+  <data name="View_Error404Content1" xml:space="preserve">
+    <value>முகவரி தவறாக உள்ளிடப்பட்டிருக்கலாம், அல்லது பக்கம் இனிமேல் இல்லாமல் போகலாம்.</value>
+  </data>
+  <data name="View_Error404Content2" xml:space="preserve">
+    <value>பின்வருவனவற்றில் ஏதாவது ஒன்றை நீங்கள் தேடுகிறீர்களா?</value>
+  </data>
+  <data name="View_Error404Content3" xml:space="preserve">
+    <value>ஒரு வாகனத்தைக் கண்டுபிடிக்கவும்</value>
+  </data>
+  <data name="View_Error404Content4" xml:space="preserve">
+    <value>ஒரு ஏலத்தில் சேருங்கள்</value>
+  </data>
+  <data name="View_Error404Content5" xml:space="preserve">
+    <value>ஒரு வாகனத்தை விற்பனை செய்யுங்கள்</value>
+  </data>
+  <data name="View_Error404Content6" xml:space="preserve">
+    <value>கோபார்ட் அமைவிடத்தைப் பார்க்கவும்</value>
+  </data>
+  <data name="View_Error404Content7" xml:space="preserve">
+    <value>முகப்புப் பக்கத்துக்குத் திரும்பிச் செல்க</value>
+  </data>
+  <data name="View_Error404Message" xml:space="preserve">
+    <value>மன்னிக்கவும், நீங்கள் தேடுகின்ற பக்கம் கிடைக்கவில்லை.</value>
+  </data>
+  <data name="View_Transporters_City" xml:space="preserve">
+    <value>மாநகரம்</value>
+  </data>
+  <data name="View_Transporters_State" xml:space="preserve">
+    <value>மாநிலம்</value>
+  </data>
+  <data name="View_Brokers_MarketMakerMsg" xml:space="preserve">
+    <value>சந்தை உருவாக்குநரைத் தொடர்புகொள்ளவும்</value>
+  </data>
+  <data name="View_Brokers_BrokersNavLink" xml:space="preserve">
+    <value>தரகர்கள்</value>
+  </data>
+  <data name="View_Brokers_MarketMakersNavLink" xml:space="preserve">
+    <value>சந்தை உருவாக்குநர்கள்</value>
+  </data>
+  <data name="View_BrokerDetail_BackToAllMarketMakers" xml:space="preserve">
+    <value>அனைத்து சந்தை உருவாக்குநர்களுக்கு திரும்பச் செல்க</value>
+  </data>
+  <data name="View_Brokers_ViewMarketMaker" xml:space="preserve">
+    <value>சந்தை உருவாக்குநரைப் பார்க்கவும்</value>
+  </data>
+  <data name="View_Brokers_MarketMakerFees" xml:space="preserve">
+    <value>சந்தை உருவாக்குநர் கட்டணம்:</value>
+  </data>
+  <data name="View_ErrorMessage1" xml:space="preserve">
+    <value>மன்னிக்கவும்! இந்தப் பக்கத்தில் ஏதோ ஒன்று தவறாகி விட்டது.</value>
+  </data>
+  <data name="View_ErrorMessage2" xml:space="preserve">
+    <value>இந்தப் பிழை தொடர்பாக எங்களுடைய தொழில்நுட்ப அணிக்கு ஒரு மின்னஞ்சல் அனுப்பப்பட்டுள்ளது. நாங்கள் கடினமாக உழைத்துக்கொண்டிருக்கிறோம், அதை கூடிய விரைவில் சரிசெய்துவிடுவோம்.</value>
+  </data>
+  <data name="View_ErrorMessage3" xml:space="preserve">
+    <value>நீங்கள் என்ன செய்ய முடியும்?</value>
+  </data>
+  <data name="View_ErrorMessage4" xml:space="preserve">
+    <value>பார்வையிடுவதன் மூலம் எங்களுடைய செயல்படும் பக்கங்களைப் பரிசோதிக்கவும்</value>
+  </data>
+  <data name="View_ErrorMessage5" xml:space="preserve">
+    <value>அல்லது உங்கள் பிரவுசரின் முகவரிப் பட்டியை நீங்கள் பரிசோதிக்க முடியும், நீங்கள் எதிர்பாராத விதமாக தவறான URL–ஐ உள்ளிட்டிருக்கலாம்.</value>
+  </data>
+  <data name="View_ErrorMessage6" xml:space="preserve">
+    <value>தள வரைபடம்</value>
+  </data>
+  <data name="View_ErrorMessage" xml:space="preserve">
+    <value>&lt;h1&gt;மன்னிக்கவும்! இந்தப் பக்கத்தில் ஏதோ ஒன்று தவறாகி விட்டது.&lt;/h1&gt;&lt;br /&gt;&lt;p class={0}&gt;தொடர்பாக எங்களுடைய தொழில்நுட்ப அணிக்கு ஒரு மின்னஞ்சல் அனுப்பப்பட்டுள்ளது. நாங்கள் கடினமாக உழைத்துக்கொண்டிருக்கிறோம், அதை கூடிய விரைவில் சரிசெய்துவிடுவோம்.&lt;/p&gt;&lt;br /&gt;&lt;h3&gt;நீங்கள் என்ன செய்ய முடியும்?&lt;/h3&gt;&lt;br /&gt;&lt;p class={0}&gt;&lt;a href={1}&gt;தள வரைபடத்தை பார்வையிடுவதன் மூலம் எங்களுடைய செயல்படும் பக்கங்களைப் பரிசோதிக்கவும்.&lt;/a&gt;&lt;/p&gt;&lt;br /&gt;&lt;p class={0}&gt;அல்லது உங்கள் பிரவுசரின் முகவரிப் பட்டியை நீங்கள் பரிசோதிக்க முடியும், நீங்கள் எதிர்பாராத விதமாக தவறான URL–ஐ உள்ளிட்டிருக்கலாம்.&lt;/p&gt;</value>
+  </data>
+</root>

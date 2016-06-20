@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StaticHeaderText1" xml:space="preserve">
+    <value>கோபார்ட் தனது செயல்பாடுகளை பிரேசிலுக்கு விரிவுபடுத்துகிறது</value>
+  </data>
+  <data name="StaticHeaderText2" xml:space="preserve">
+    <value>கோபார்ட் பற்றி</value>
+  </data>
+  <data name="StaticPageText1" xml:space="preserve">
+    <value>ஒரு சர்வதேச நேரடி இணையதள வாகன ஏல நிறுவனமாகிய DALLAS, TX (நவம்பர் 5, 2012) – கோபார்ட், இன்க். (NASDAQ: CPRT), இன்று பிரேசிலின் சாவோ பாலோ நகரில் அமைந்துள்ள சென்ட்ரல் டி லீலோயஸ் LTDA நிறுவனத்தை கையகப்படுத்தியதாக அறிவித்துள்ளது. முன்னணி காப்பு வாகன ஏல நிறுவனமாகிய சென்ட்ரல் தற்சமயம் பிரேசிலில் உள்ள முன்னணி வாகனக் காப்பீட்டு நிறுவனங்கள் பலவற்றுக்கு சேவைகளை வழங்கி வருகிறது. சென்ட்ரல் நிறுவனம் பிரேசிலின் சாவோ பாலோ மாகாணத்தில் அமைந்துள்ள ஐந்து அலுவலகங்கள் வாயிலாக பிரேசில் சந்தைக்குச் சேவை செய்து வருகின்றது. இந்த கையகப்படுத்தல் மூலம் நிறுவனம் முதல் முறையாக தென் அமெரிக்காவில் தன்னுடைய ஃபிஸிக்கல் இருப்பைப் பதிவு செய்துள்ளது.&lt;br/&gt;&lt;br/&gt;&amp;quot;சென்ட்ரல் டி லீலோயஸின் அந்தஸ்து மற்றும் வரலாற்றைக் கொண்ட ஒரு நிறுவனத்தைக் கையகப்படுத்தியதன் வாயிலாக பிரேசில் சந்தைக்குள் நுழைவதற்கு நாங்கள் மகிழ்ச்சியடைகிறோம்,&amp;quot; என்றார் கோபார்ட் நிறுவனத்தின் CEO, ஜே அடைர் (Jay Adair). &amp;quot;பொருளாதாரம் தொடர்ந்து விரிவடைந்துவரும் வேளையில் பிரேசில் வாகனக் காப்பீட்டுச் சந்தை ஒரு வலுவான விகிதத்தில் வளர்ந்து வருகிறது. அமெரிக்கா, கனடா, ஐக்கியப் பேரரசு மற்றும் ஐக்கிய அரபு எமிரேட்ஸ் ஆகிய நாடுகளில் நாங்கள் செய்துள்ளதைப் போன்றே பிரேசில் நாட்டிலும் எங்களுடைய சேவைகளை அறிமுகப்படுத்துவதிலும் தற்போதைய சேவை நிலைகளை மேம்படுத்துவதிலும் நாங்கள் மகிழ்ச்சியடைகிறோம்.&amp;quot;&lt;br/&gt;&lt;br /&gt; திரு. அடைர் தொடர்ந்து கூறும்போது, &amp;quot;நாங்கள் வழங்குகின்ற தனித்துவமிக்க மதிப்பின் மூலம் பலனடையக்கூடிய காப்பீட்டு நிறுவனங்கள் உலகம் முழுவதும் இருப்பதாக நாங்கள் நம்புகிறோம்,&amp;quot; என்றார். &amp;quot;அவர்களுக்குச் சேவை செய்வதற்கான வாய்ப்பை நாங்கள் தொடர்ந்து நாடிச் செல்வோம்.&amp;quot;</value>
+  </data>
+  <data name="StaticPageText2" xml:space="preserve">
+    <value>எங்களுடைய உரிமம் பெற்ற இரண்டு-கட்ட விற்பனைத் தொழில்நுட்பமாகிய VB2 வாயிலாக ஒவ்வொரு ஆண்டும் ஒரு மில்லியனுக்கும் மேற்பட்ட வாகனங்களை கோபார்ட் நிறுவனம் விற்பனை செய்கிறது.&lt;br/&gt;&lt;br/&gt;ஒவ்வொரு நாளும் 50,000 க்கும் மேற்பட்ட வாகனங்களை விலை குறிப்பதற்காக வழங்குகின்ற எங்களுடைய விரிவான இருப்புப் பட்டியல் மூலம் உலகம் முழுவதும் உள்ள உறுப்பினர்கள் கோபார்ட் நிறுவனத்தை நாடுகின்றனர். கிளாசிக்ஸ், பழைய அல்லது புதிய மாடல் கார்கள், டிரக்குகள், SUV-க்கள், இருசக்கர வாகனங்கள், படகுகள், ஸ்நோமொபைல்கள், ஜெட் ஸ்கைஸ், பொழுதுபோக்கு வாகனங்கள் ஆகியவற்றிலிருந்து தேர்ந்தெடுக்க முடியும். ஒரு கோபார்ட் உறுப்பினராவதற்கு, எவ்வாறு வாங்குவது என்பது குறித்த எங்களுடைய பக்கத்தைப் பார்க்கவும்.&lt;br/&gt;&lt;br/&gt;கோபார்ட் நிறுவனம் நிதி நிறுவனங்கள், வங்கிகள், டீலர்கள், ஃப்ளீட்கள், வாடகைக் கார் நிறுவனங்கள் மற்றும் காப்பீட்டுத் தொழில்துறை ஆகியவை உள்ளிட்ட பல்வேறு சரக்கனுப்புநர்களுக்கு வாகனங்களை விற்பனை செய்கிறது. கோபார்ட் நிறுவனமானது கோபார்ட் டைரக்ட் எனப்படுகின்ற தனது விரைவான, எளிதான சேவை வாயிலாக பொதுமக்களுக்கும், தனது கோபார்ட் டீலர் சர்வீசஸ் (CDS) பிரிவு வாயிலாக தனியுரிமை பெற்ற மற்றும் சுதந்திரமான வாகன விற்பனையாளர்களுக்கும் வாகனங்களை விற்பனை செய்கிறது. அமெரிக்கா, கனடா மற்றும் ஐக்கியப் பேரரசு முழுவதும் 140க்கும் மேற்பட்ட அலுவலகங்கள் எங்களிடம் உள்ளன, அவற்றின் வாயிலாக எங்களது உறுப்பினர்களுடனும் விற்பனையாளர்களுடனும் நாங்கள் நெருக்கமாகப் பணியாற்றி வருகிறோம். வாகனங்களை ஐரோப்பாவில் மறுசந்தைப்படுத்துவதற்கு ஒரு UK வலைத்தளத்தை நாங்கள் பயன்படுத்துகிறோம்.&lt;br/&gt;&lt;br/&gt;கோபார்ட் நிறுவனம் அதன் CEO வில்லிஸ் ஜே. ஜான்சன் என்பவரால் 1982-இல் தொடங்கப்பட்டது, இது உண்மையான அமெரிக்கரின் வெற்றிக் கதை ஆகும். ஜான்சன் தனது தந்தையிடமிருந்து வணிகத்தைக் கற்றுக்கொண்டார். அவரது தந்தை ஒரு தொழில்முனைவோர் ஆவார், அவர் பால் பண்ணைத் தொழில் முதல் உணவகங்கள் நடத்துவது மற்றும் வீடு கட்டுவது வரை அனைத்திலும் ஈடுபாடு கொண்டவராக இருந்தார். ஜான்சன் அவரிடமிருந்து தொழில்முனைவோருக்கான அந்த உணர்வையும், அத்துடன் வலுவான பணி நெறிமுறை மற்றும் மாற்றத்துக்கான ஆர்வத்தையும் கற்றுக்கொண்டு, கலிபோர்னியாவில் ஒரே ஒரு அழிவுக்காப்பு யார்டுடன் கோபார்ட் நிறுவனத்தைத் தொடங்கினார். 1994-இல், அவர் கோபார்ட்டை பொது நிறுவனமாக்கினார் (NASDAQ: &amp;quot;CPRT&amp;quot;), அமெரிக்கா முழுவதும் நிறுவனத்தை விரிவுபடுத்துவதற்குத் தேவையான பணத்தைத் திரட்டினார். VB2 ஆனது கோபார்ட்டை அழிவிலிருந்து காப்பாற்றப்பட்ட வாகனங்களுக்கான ஏல நிறுவனம் என்ற நிலையிலிருந்து உலகம் முழுவதிலும் உள்ள வாங்குபவர்களையும் விற்பவர்களையும் இணைக்கின்ற ஒரு சர்வதேச மறுசந்தைப்படுத்தல் களத்தை வழங்குகின்ற ஒரு தொழில்நுட்ப நிறுவனமாக மாற்றியுள்ளது.&lt;br/&gt;&lt;br/&gt;ஜான்சனின் தொலைநோக்கு, கார்களை வாங்குவது அல்லது விற்பதற்குச் சிரமமான அல்லது நேரம் செலவாகின்ற தடைகளை உடைப்பதற்கு கோபார்ட் நிறுவனத்துக்கு உதவியுள்ளது. மேலும் கோபார்ட் நிறுவனம் நமது வாடிக்கையாளர்கள் &amp;quot;பிரமாதம்! அவர்கள் எப்படி அதைச் செய்தார்கள்?&amp;quot; என்று சொல்லக்கூடிய சேவையாகிய &amp;quot;சரித்திர சேவை&amp;quot; என அழைக்கப்படுகின்ற ஒன்றையும் அளித்துள்ளனர். &lt;br/&gt;&lt;br/&gt;கோபார்ட்டின் வெற்றி ஃபோர்ப்ஸ் &amp;quot;200 மிகச் சிறந்த சிறு நிறுவனங்கள்&amp;quot; பட்டியலில் தொடர்ச்சியாக ஒன்பது ஆண்டுகள் எங்களை இடம் பெறச் செய்துள்ளது. மேலும் கோபார்ட் தொலைக்காட்சி நிகழ்ச்சியிலும் &amp;quot;உலகின் மிகச் சிறந்த மறுவிற்பனை நிறுவனம்&amp;quot; என்ற முறையில் உலகிலேயே மிகச் சிறந்த நிறுவனமாக தேர்ந்தெடுக்கப்பட்டுள்ளது.&lt;br/&gt;&lt;br/&gt; Copart.com–க்கு வந்ததன் மூலம் நீங்கள் மிகச் சிறந்ததைத் தேர்ந்தெடுத்துள்ளீர்கள். சாந்தமாக அமர்ந்து கோபார்ட் மற்றும் VB2 என்ன வழங்குகிறது என்பதைப் பார்ப்பதற்கு சிறிது நேரம் எடுத்துக்கொள்வீர்கள் என நாங்கள் நம்புகிறோம். எங்களுடனான உங்களுடைய அனுபவத்தை &amp;quot;எஞ்சியவற்றுக்கு மேல் ஒரு விலைக்குறிப்பு!&amp;quot; என்பதாக உணர்வீர்கள் என நாங்கள் நினைக்கிறோம்.</value>
+  </data>
+</root>

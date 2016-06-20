@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Bidding_AllBids" xml:space="preserve">
+    <value>அனைத்து விலைக்குறிப்புகள்</value>
+  </data>
+  <data name="Bidding_LastChance" xml:space="preserve">
+    <value>இறுதி வாய்ப்பு</value>
+  </data>
+  <data name="Bidding_NoBids_Generic" xml:space="preserve">
+    <value>நீங்கள் எந்த விலைக்குறிப்பையும் பெற்றிருக்கவில்லை.</value>
+  </data>
+  <data name="Bidding_NoBids_LastChance" xml:space="preserve">
+    <value>விலைக்குறிப்புக்கான கடைசி வாய்ப்பு எதையும் நீங்கள் பெற்றிருக்கவில்லை.</value>
+  </data>
+  <data name="Bidding_NoBids_Outbid" xml:space="preserve">
+    <value>தோல்வியுறும் விலைக்குறிப்பு எதையும் நீங்கள் பெற்றிருக்கவில்லை.</value>
+  </data>
+  <data name="Bidding_NoBids_Winning" xml:space="preserve">
+    <value>வெற்றிபெறும் விலைக்குறிப்பு எதையும் நீங்கள் பெற்றிருக்கவில்லை.</value>
+  </data>
+  <data name="Bidding_NotWinning" xml:space="preserve">
+    <value>வெற்றிபெறுவது இல்லை</value>
+  </data>
+  <data name="Bidding_Winning" xml:space="preserve">
+    <value>வெற்றிபெற்றது</value>
+  </data>
+  <data name="BidInformation_BidIncrementError" xml:space="preserve">
+    <value>விலைக்குறிப்பு அதிகரிப்பு புலம் தேவைப்படுகிறது.</value>
+  </data>
+  <data name="MyBids_PageTitle" xml:space="preserve">
+    <value>எனது விலைக்குறிப்புகள்</value>
+  </data>
+  <data name="Reverse" xml:space="preserve">
+    <value>பின்செல்க</value>
+  </data>
+  <data name="SortDropDown_CurrentBid" xml:space="preserve">
+    <value>தற்போதைய விலைக்குறிப்பு</value>
+  </data>
+  <data name="SortDropDown_Damage" xml:space="preserve">
+    <value>சேதம்</value>
+  </data>
+  <data name="SortDropDown_DocType" xml:space="preserve">
+    <value>ஆவண வகை</value>
+  </data>
+  <data name="SortDropDown_Location" xml:space="preserve">
+    <value>அமைவிடம்</value>
+  </data>
+  <data name="SortDropDown_LotNumber" xml:space="preserve">
+    <value>லாட் #</value>
+  </data>
+  <data name="SortDropDown_Make" xml:space="preserve">
+    <value>தயாரிப்பு</value>
+  </data>
+  <data name="SortDropDown_Mileage" xml:space="preserve">
+    <value>ஓடோமீட்டர்</value>
+  </data>
+  <data name="SortDropDown_Model" xml:space="preserve">
+    <value>மாடல்</value>
+  </data>
+  <data name="SortDropDown_PleaseSelect" xml:space="preserve">
+    <value>தயவுசெய்து தேர்ந்தெடுக்கவும்...</value>
+  </data>
+  <data name="SortDropDown_RetailValue" xml:space="preserve">
+    <value>PAV</value>
+  </data>
+  <data name="SortDropDown_SaleDate" xml:space="preserve">
+    <value>விற்பனைத் தேதி</value>
+  </data>
+  <data name="SortDropDown_Year" xml:space="preserve">
+    <value>ஆண்டு</value>
+  </data>
+  <data name="TimeDropDown_RangeOptions" xml:space="preserve">
+    <value>கடைசி 30 நாட்கள்|கடைசி 60 நாட்கள்|கடைசி 90 நாட்கள்|கடைசி 90 - 180 நாட்கள்|கடைசி 180 - 365 நாட்கள்</value>
+  </data>
+  <data name="TimeDropDown_RangeOther" xml:space="preserve">
+    <value>மற்றவை...</value>
+  </data>
+  <data name="Bidding_FindSimilarVehicles" xml:space="preserve">
+    <value>இதே போன்ற வாகனங்களை கண்டுபிடிக்கவும்</value>
+  </data>
+  <data name="Bidding_MyBidLabel" xml:space="preserve">
+    <value>எனது விலைக்குறிப்பு</value>
+  </data>
+  <data name="Bidding_LotsLostHeader" xml:space="preserve">
+    <value>லாட்கள் இழக்கப்பட்டன</value>
+  </data>
+  <data name="Bidding_LotsWonHeader" xml:space="preserve">
+    <value>வெற்றி பெற்ற லாட்கள்</value>
+  </data>
+  <data name="Bidding_CancelDelivery" xml:space="preserve">
+    <value>விநியோகத்தை இரத்து செய்க</value>
+  </data>
+  <data name="Bidding_ChangeAddress" xml:space="preserve">
+    <value>முகவரியை மாற்றுக</value>
+  </data>
+  <data name="Bidding_FinalPrice" xml:space="preserve">
+    <value>இறுதி விலை</value>
+  </data>
+  <data name="Bidding_OrderNumber" xml:space="preserve">
+    <value>ஆர்டர் #</value>
+  </data>
+  <data name="Bidding_PayNow" xml:space="preserve">
+    <value>இப்பொழுது செலுத்துக</value>
+  </data>
+  <data name="Bidding_PaymentPending" xml:space="preserve">
+    <value>செலுத்துதல் நிலுவையிலுள்ளது</value>
+  </data>
+  <data name="Bidding_Paid" xml:space="preserve">
+    <value>செலுத்தப்பட்டது</value>
+  </data>
+  <data name="Bidding_LotLeftLocation" xml:space="preserve">
+    <value>லாட் விடப்பட்ட இடம்</value>
+  </data>
+  <data name="Bidding_LotLeftFacilityNo" xml:space="preserve">
+    <value>இல்லை</value>
+  </data>
+  <data name="Bidding_LotLeftFacilityYes" xml:space="preserve">
+    <value>ஆம்</value>
+  </data>
+  <data name="SortDropDown_ZipCode" xml:space="preserve">
+    <value>அஞ்சல் குறியீடு</value>
+  </data>
+  <data name="BiddingSearchResults" xml:space="preserve">
+    <value>{Count} வாகனங்களை நாங்கள் கண்டறிந்தோம்</value>
+  </data>
+  <data name="SortDropDown_BidStatus" xml:space="preserve">
+    <value>விலைக்குறிப்பு நிலை</value>
+  </data>
+  <data name="SortDropDown_LotLeftLocationDate" xml:space="preserve">
+    <value>லாட் விடப்பட்ட இடம்</value>
+  </data>
+  <data name="SortDropDown_PaymentStatus" xml:space="preserve">
+    <value>செலுத்துதல் நிலை</value>
+  </data>
+  <data name="SortDropDown_SalePrice" xml:space="preserve">
+    <value>விற்பனை விலை</value>
+  </data>
+  <data name="Bidding_NoLotsLost" xml:space="preserve">
+    <value>தற்சமயம் காண்பிப்பதற்கு வாகனங்கள் எதுவும் இல்லை.</value>
+  </data>
+  <data name="Bidding_NoLotsWon" xml:space="preserve">
+    <value>தற்சமயம் காண்பிப்பதற்கு வாகனங்கள் எதுவும் இல்லை.</value>
+  </data>
+  <data name="SortDropDown_MyBid" xml:space="preserve">
+    <value>எனது விலைக்குறிப்பு</value>
+  </data>
+  <data name="SortDropDown_ItemNumber" xml:space="preserve">
+    <value>வாகன #</value>
+  </data>
+  <data name="Bidding_NoBids_CurrentBids" xml:space="preserve">
+    <value>தற்போதைய விலைக்குறிப்புகள் எதையும் நீங்கள் பெற்றிருக்கவில்லை.</value>
+  </data>
+  <data name="MyBids_LearnAboutBidding" xml:space="preserve">
+    <value>விலை குறிப்பதற்கு</value>
+  </data>
+  <data name="MyBids_NoResultsMsg_bidon" xml:space="preserve">
+    <value>விலை குறித்தல் பற்றிக் கற்றுக்கொள்க.</value>
+  </data>
+  <data name="MyBids_NoResultsMsg_FindVehiclesText" xml:space="preserve">
+    <value>வாகனங்களைக் கண்டுபிடிக்கவும்</value>
+  </data>
+  <data name="MyBids_NoResultsMsg_orText" xml:space="preserve">
+    <value>அல்லது </value>
+  </data>
+  <data name="Bidding_PaymentDue" xml:space="preserve">
+    <value>செலுத்துதலுக்கான காலக்கெடு</value>
+  </data>
+  <data name="LotsWon_CsvDateFormat" xml:space="preserve">
+    <value>yyyy MMMM d</value>
+  </data>
+  <data name="SortDropDown_GridRow" xml:space="preserve">
+    <value>கட்டம் / வரிசை</value>
+  </data>
+  <data name="SortDropDown_SaleStatus" xml:space="preserve">
+    <value>விற்பனை நிலை</value>
+  </data>
+  <data name="SortDropDown_VIN" xml:space="preserve">
+    <value>VIN</value>
+  </data>
+  <data name="Bidding_WonPrice" xml:space="preserve">
+    <value>ஹாமர் விலை (பொருந்தக்கூடிய வரிகள் அல்லது கட்டணம் எதுவும் சேர்க்கப்படவில்லை)</value>
+  </data>
+  <data name="Bidding_Congratulations" xml:space="preserve">
+    <value>வாழ்த்துக்கள், நீங்கள் வெற்றி பெற்றுள்ளீர்கள்!</value>
+  </data>
+  <data name="Bidding_CurrentAmount" xml:space="preserve">
+    <value>தற்போது செலுத்த வேண்டிய தொகை</value>
+  </data>
+  <data name="Bidding_OtherCharges" xml:space="preserve">
+    <value>இதர கட்டணங்களை கொண்டு செல்லும் நேரத்தில் செலுத்த வேண்டும்</value>
+  </data>
+  <data name="TermsandConditions_Accept" xml:space="preserve">
+    <value>ஏற்கவும்</value>
+  </data>
+  <data name="TermsandConditions_Decline" xml:space="preserve">
+    <value>மறுக்கவும்</value>
+  </data>
+</root>

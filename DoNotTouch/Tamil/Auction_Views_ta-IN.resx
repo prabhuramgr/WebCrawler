@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Auctions_Future" xml:space="preserve">
+    <value>எதிர்வரும்</value>
+  </data>
+  <data name="Auctions_FutureSale" xml:space="preserve">
+    <value>எதிர்கால விற்பனை</value>
+  </data>
+  <data name="Auctions_Highlights" xml:space="preserve">
+    <value>விற்பனையின் சிறப்புக்கூறுகள்</value>
+  </data>
+  <data name="Auctions_Location" xml:space="preserve">
+    <value>அமைவிடம்</value>
+  </data>
+  <data name="Auctions_Region" xml:space="preserve">
+    <value>பிராந்தியம்</value>
+  </data>
+  <data name="Auctions_SaleTime" xml:space="preserve">
+    <value>விற்பனை நேரம்</value>
+  </data>
+  <data name="Auctions_NextSale" xml:space="preserve">
+    <value>அடுத்த விற்பனை</value>
+  </data>
+  <data name="Auctions_Calendar" xml:space="preserve">
+    <value>நாள்காட்டி</value>
+  </data>
+  <data name="Auctions_FutureAuctions" xml:space="preserve">
+    <value>எதிர்கால ஏலங்கள்</value>
+  </data>
+  <data name="Auctions_List" xml:space="preserve">
+    <value>பட்டியல்</value>
+  </data>
+  <data name="Auctions_Map" xml:space="preserve">
+    <value>வரைபடம்</value>
+  </data>
+  <data name="Auctions_UpcomingHeading" xml:space="preserve">
+    <value>ஏலங்கள்</value>
+  </data>
+  <data name="AuctionsCalgary_UpcomingHeading" xml:space="preserve">
+    <value>எதிர்வரும் கால்கரி ஏலங்கள்</value>
+  </data>
+  <data name="Auctions_UpcomingTitle" xml:space="preserve">
+    <value>இன்றைக்குப் பிறகு வரும் ஏலங்கள்</value>
+  </data>
+  <data name="Auctions_SalesListTitle" xml:space="preserve">
+    <value>விற்பனைப் பட்டியல்</value>
+  </data>
+  <data name="Auctions_ViewBy" xml:space="preserve">
+    <value>இதன் மூலம் காண்க</value>
+  </data>
+  <data name="Auctions_CurrentSale" xml:space="preserve">
+    <value>தற்போதைய விற்பனை</value>
+  </data>
+  <data name="Auctions_Today" xml:space="preserve">
+    <value>இன்றைய ஏலங்கள்</value>
+  </data>
+  <data name="AuctionsCalgary_Today" xml:space="preserve">
+    <value>இன்றைய கால்கரி ஏலங்கள்</value>
+  </data>
+  <data name="Auctions_items" xml:space="preserve">
+    <value>வாகனங்கள்</value>
+  </data>
+  <data name="Auctions_Join" xml:space="preserve">
+    <value>நேரடி ஏலத்தில் சேருங்கள்</value>
+  </data>
+  <data name="Auctions_Join_Now" xml:space="preserve">
+    <value>ஏலத்தில் இப்பொழுது சேருங்கள்</value>
+  </data>
+  <data name="Auctions_Lane" xml:space="preserve">
+    <value>லேன்</value>
+  </data>
+  <data name="Auctions_Later" xml:space="preserve">
+    <value>இன்றைய பிந்தைய ஏலங்கள்</value>
+  </data>
+  <data name="Auctions_Live" xml:space="preserve">
+    <value>இப்பொழுது நடைபெற்றுக் கொண்டிருக்கும் ஏலங்கள்</value>
+  </data>
+  <data name="Auctions_SaleList" xml:space="preserve">
+    <value>விற்பனைப் பட்டியலைப் பார்க்கவும்</value>
+  </data>
+  <data name="Auctions_TT_Lane" xml:space="preserve">
+    <value>லேன்|இந்தக் குறிப்பிட்ட வாகனம் என்ன செய்கிறது என்பதை விவரிக்கின்ற ஒன்றிரண்டு சிறு வாக்கியம்.</value>
+  </data>
+  <data name="Auctions_TT_SaleTime" xml:space="preserve">
+    <value>விற்பனை நேரம்|விற்பனை நேரம் என்பது ஒரு ஏலம் தொடங்குவதற்காக திட்டமிடப்பட்ட தொடக்க நேரம் ஆகும். விற்பனை நேரங்கள் என்பவை ஒரு குறிப்பிட்ட வாகனம் வைக்கப்பட்டுள்ள உள்ளூர் அலுவலகத்துக்குரிய பிரத்யேக நேரம் ஆகும்.</value>
+  </data>
+  <data name="Auctions_ContactPhone" xml:space="preserve">
+    <value>தொலைபேசி:</value>
+  </data>
+  <data name="Auctions_Directions" xml:space="preserve">
+    <value>வழிகாட்டுதல்கள்</value>
+  </data>
+  <data name="Auctions_InProgress" xml:space="preserve">
+    <value>நேரடி ஏலம் நடந்துகொண்டிருக்கிறது</value>
+  </data>
+  <data name="Auctions_LocationInfo" xml:space="preserve">
+    <value>அமைவிடத் தகவல்</value>
+  </data>
+  <data name="Auctions_Next" xml:space="preserve">
+    <value>அடுத்த ஏலம்</value>
+  </data>
+  <data name="Auctions_SearchInventory" xml:space="preserve">
+    <value>பொருள் இருப்புப்பட்டியலைப் தேடவும்</value>
+  </data>
+  <data name="Auctions_ViewthisLocation" xml:space="preserve">
+    <value>இந்த அமைவிடத்தைப் பார்க்கவும்</value>
+  </data>
+  <data name="Auction_Contact" xml:space="preserve">
+    <value>தொடர்புகொள்க</value>
+  </data>
+  <data name="Auction_FreeWifi" xml:space="preserve">
+    <value>இலவச WiFi</value>
+  </data>
+  <data name="Auction_Hours" xml:space="preserve">
+    <value>மணி</value>
+  </data>
+  <data name="Auction_NoWifi" xml:space="preserve">
+    <value>WiFi இல்லை</value>
+  </data>
+  <data name="Auctions_SaleDate" xml:space="preserve">
+    <value>விற்பனைத் தேதி</value>
+  </data>
+  <data name="Auctions_CalendarHeader" xml:space="preserve">
+    <value>அடுத்த 6 வாரங்களுக்கான ஏலங்கள்</value>
+  </data>
+  <data name="Auctions_MyWatchlistHeader" xml:space="preserve">
+    <value>எனது கண்காணிப்புப் பட்டியல்</value>
+  </data>
+  <data name="Auctions_WatchlistCompareVehiclesBtn" xml:space="preserve">
+    <value>வாகனங்களை ஒப்பிடவும்</value>
+  </data>
+  <data name="Auctions_WatchlistReverseBtn" xml:space="preserve">
+    <value>பின்செல்க</value>
+  </data>
+  <data name="Auctions_ViewInventory" xml:space="preserve">
+    <value>பொருள் இருப்புப்பட்டியலைப் பார்க்கவும்</value>
+  </data>
+  <data name="Auctions_LotsLostHeader" xml:space="preserve">
+    <value>லாட்கள் இழக்கப்பட்டன</value>
+  </data>
+  <data name="Auctions_LotsWonHeader" xml:space="preserve">
+    <value>வெற்றி பெற்ற லாட்கள்</value>
+  </data>
+  <data name="Auctions_SalesTimes_InfoBanner" xml:space="preserve">
+    <value>விற்பனை நேரம் பொதுவாக {SaleDate} அன்று {Saletimes} நேரத்தில் நடத்தப்படுகிறது</value>
+  </data>
+  <data name="LaneSelector_CloseLabel" xml:space="preserve">
+    <value>மூடவும்</value>
+  </data>
+  <data name="LaneSelector_DescriptionLabel1" xml:space="preserve">
+    <value>ஒரு லேன் என்பது ஒவ்வொரு நேரடி ஏலத்தின்போதும் விலைக்குறிப்புக்காகத் தயார்நிலையிலுள்ள அனைத்து வாகனங்களையும் கொண்ட உட்கணம் ஆகும்.</value>
+  </data>
+  <data name="LaneSelector_HeaderBegin" xml:space="preserve">
+    <value>கோபார்ட்டில் சேருங்கள்</value>
+  </data>
+  <data name="LaneSelector_ItemsLabel" xml:space="preserve">
+    <value>வாகனங்கள்</value>
+  </data>
+  <data name="LaneSelector_JoinSaleLabel" xml:space="preserve">
+    <value>விற்பனையில் சேருங்கள்</value>
+  </data>
+  <data name="LaneSelector_LaneLegendHeader" xml:space="preserve">
+    <value>லேன் விளக்கங்கள் மற்றும் ஒதுக்கீடுகள்</value>
+  </data>
+  <data name="LaneSelector_WhatIsALaneLabel" xml:space="preserve">
+    <value>லேன் என்றால் என்ன?</value>
+  </data>
+  <data name="LaneSelector_LaneLabel" xml:space="preserve">
+    <value>லேன்</value>
+  </data>
+  <data name="LaneSelector_HeaderEnd" xml:space="preserve">
+    <value>ஏலம்</value>
+  </data>
+  <data name="Auctions_ViewLotsForSale" xml:space="preserve">
+    <value>விற்பனைக்கான லாட்களைப் பார்க்கவும்</value>
+  </data>
+  <data name="Auctions_ViewAllToday" xml:space="preserve">
+    <value>இன்றைய ஏலங்கள் அனைத்தையும் பார்க்கவும்</value>
+  </data>
+  <data name="AuctionsCalgary_ViewAllToday" xml:space="preserve">
+    <value>இன்றைய கால்கரி ஏலங்கள் அனைத்தையும் பார்க்கவும்</value>
+  </data>
+  <data name="AuctionsCalgary_ViewAllUpcoming" xml:space="preserve">
+    <value>எதிர்வரும் கால்கரி ஏலங்கள் அனைத்தையும் பார்க்கவும்</value>
+  </data>
+  <data name="Auctions_ViewAllUpcoming" xml:space="preserve">
+    <value>எதிர்வரும் ஏலங்கள் அனைத்தையும் பார்க்கவும்</value>
+  </data>
+  <data name="Auctions_Today_NoAuctions" xml:space="preserve">
+    <value>இப்பொழுது நேரடி ஏலங்கள் எதுவும் இல்லை. இந்த நேரத்தை உங்களுடைய தேவைகளைப் பூர்த்தி செய்யக்கூடிய &lt;a href=&apos;{FindVehicles}&apos;&gt;வாகனங்களைக் கண்டுபிடிப்பதற்கு&lt;/a&gt; பயன்படுத்திக்கொள்ளுங்கள்.</value>
+  </data>
+  <data name="Auctions_Today_NoMoreAuctionsToday" xml:space="preserve">
+    <value>இன்றைய ஏலங்கள் முடிந்துவிட்டன. எதிர்கால ஏலத்தில் எது வரப்போகின்றது என்பதைப் பார்ப்பதற்கு &lt;a href=&apos;{SearchOurInventoryLink}&apos;&gt;எங்களுடைய பொருள் இருப்புப்பட்டியலைத் தேடவும்&lt;/a&gt;.</value>
+  </data>
+  <data name="Auctions_TT_SaleDate" xml:space="preserve">
+    <value>விற்பனைத் தேதி|விற்பனைத் தேதி என்பது ஒரு குறிப்பிட்ட அலுவலகத்துக்கென நிர்ணயிக்கப்பட்ட பொருள் இருப்புப்பட்டியல் ஏலத்தில் இடம்பெறுகின்ற வேலை நாள் ஆகும். விற்பனைத் தேதிகள் அலுவலகத்தைப் பொறுத்து வேறுபடலாம்.</value>
+  </data>
+  <data name="LocationDetailModal_Close" xml:space="preserve">
+    <value>மூடவும்</value>
+  </data>
+  <data name="LocationDetailModal_FromYourLocation" xml:space="preserve">
+    <value>உங்களுடைய அமைவிடத்திலிருந்து</value>
+  </data>
+  <data name="LocationDetail_AtThisLocation" xml:space="preserve">
+    <value>இந்த அமைவிடத்தில்</value>
+  </data>
+  <data name="Auctions_SaleEnded" xml:space="preserve">
+    <value>ஏலங்கள் ஏற்கனவே முடிந்துவிட்டன</value>
+  </data>
+  <data name="Auction_ToolTip_Live" xml:space="preserve">
+    <value>நேரடி</value>
+  </data>
+  <data name="Auction_ToolTip_Today" xml:space="preserve">
+    <value>இன்று</value>
+  </data>
+  <data name="Auction_ToolTip_Upcoming" xml:space="preserve">
+    <value>எதிர்வரும்</value>
+  </data>
+  <data name="Auction_LaneSelector_DefaultText" xml:space="preserve">
+    <value>ஒரு லேனைத் தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="Auction_TT_LaneExplanation" xml:space="preserve">
+    <value>ஒரு லேன் என்பது ஒவ்வொரு நேரடி ஏலத்தின்போதும் விலைக்குறிப்புக்காகத் தயார்நிலையிலுள்ள அனைத்து வாகனங்களையும் கொண்ட உட்கணம் ஆகும். லேன்கள் வாகன வகையைக் குறிப்பிடுகின்ற வாகன எண்களின் அடிப்படையில் ஒதுக்கப்படுகின்றன. இந்தப் பட்டியல் வாகன எண்கள் மற்றும் லேன் ஒதுக்கீடுகளுக்கு இடையிலுள்ள உறவுமுறையை காண்பிக்கின்றது.</value>
+  </data>
+  <data name="Auction_TT_LaneQuestion" xml:space="preserve">
+    <value>லேன் என்றால் என்ன?</value>
+  </data>
+  <data name="Auction_Upcoming_NoAuctions" xml:space="preserve">
+    <value>ஏலம் பற்றிய தகவல் எதுவும் கிடைக்கவில்லை. இப்பொழுது &lt;a href=&apos;{SearchingVehicles}&apos;&gt;வாகனங்களைத் தேடுவதன்&lt;/a&gt; மூலம் எதிர்வரும் ஏலங்களுக்குத் தயாராகவும்.</value>
+  </data>
+  <data name="AuctionsLaterToday_Location" xml:space="preserve">
+    <value>இன்றைய பிந்தைய {LOCATION} ஏலங்கள்</value>
+  </data>
+  <data name="AuctionsTodayViewAll_Location" xml:space="preserve">
+    <value>இன்றைய {LOCATION} ஏலங்கள் அனைத்தையும் பார்க்கவும்</value>
+  </data>
+  <data name="AuctionsToday_Location" xml:space="preserve">
+    <value>இன்றைய {LOCATION} ஏலங்கள்</value>
+  </data>
+  <data name="AuctionsUpcomingViewAll_Location" xml:space="preserve">
+    <value>{LOCATION}-இன் எதிர்வரும் ஏலங்கள் அனைத்தையும் பார்க்கவும்</value>
+  </data>
+  <data name="AuctionsUpcoming_Location" xml:space="preserve">
+    <value>எதிர்வரும் {LOCATION} ஏலங்கள்</value>
+  </data>
+  <data name="Auctions_FutureLink" xml:space="preserve">
+    <value>தேடுக</value>
+  </data>
+  <data name="Auctions_AuctionsCalendar" xml:space="preserve">
+    <value>ஏலங்களுக்கான நாள்காட்டி</value>
+  </data>
+  <data name="Auctions_ViewStock" xml:space="preserve">
+    <value>இருப்பைப் பார்க்கவும்</value>
+  </data>
+  <data name="LaneSelector_DescriptionLabel2" xml:space="preserve">
+    <value>கீழே உள்ள ஒரு லேனைத் தேர்ந்தெடுப்பதன் மூலம் ஒரு விற்பனையில் சேருங்கள், அல்லது வாகன எண்கள், லேன் ஒதுக்கீடுகள் மற்றும் வாகன நிலைமைகள் ஆகியவற்றுக்கிடையிலான தொடர்புகளைப் பார்ப்பதற்கு கீழே ஸ்க்ரால் செய்யவும்.</value>
+  </data>
+  <data name="Auction_TT_LaneExplanationUS" xml:space="preserve">
+    <value>ஒரு லேன் என்பது ஒவ்வொரு நேரடி ஏலத்தின்போதும் விலைக்குறிப்புக்காகத் தயார்நிலையிலுள்ள அனைத்து வாகனங்களையும் கொண்ட உட்கணம் ஆகும். லேன்கள் வாகன வகையைக் குறிப்பிடுகின்ற வாகன எண்களின் அடிப்படையில் ஒதுக்கப்படுகின்றன. இந்தப் பட்டியல் வாகன எண்கள் மற்றும் லேன் ஒதுக்கீடுகளுக்கு இடையிலுள்ள உறவுமுறையை காண்பிக்கின்றது.</value>
+  </data>
+  <data name="Auctions_Today_NoAuctions_UK" xml:space="preserve">
+    <value>எங்களது நேரடி ஏலம் இன்று உள்ளூர் நேரத்தின்படி 12pm மணிக்குத் தொடங்குகிறது, இருந்தபோதிலும் நீங்கள் இப்பொழுதும் மற்றும் நேரடி ஏலம் தொடங்குவதற்கு ஒரு மணி நேரம் முன்னர் வரை எந்த நேரத்திலும் வாகனத்துக்கு முன்-விலை குறிக்க முடியும்.  &lt;a href=&apos;{SearchOurStockLink}&apos;&gt;எங்களுடைய இருப்பைத் தேடுங்கள்.&lt;/a&gt;</value>
+  </data>
+  <data name="Auctions_Today_NoMoreAuctionsToday_LocationDetail_UK" xml:space="preserve">
+    <value>இன்று இந்த அலுவலகத்தில் நேரடி ஏலங்கள் எதுவும் நடைபெறவில்லை. இருப்பினும், இப்பொழுதும் மற்றும் நேரடி ஏலம் தொடங்குவதற்கு ஒரு மணிநேரத்துக்கு முன்னர் வரை எந்த நேரத்திலும் வாகனத்துக்கு முன்-விலை குறிக்க முடியும். மாற்றாக, இதர அலுவலகங்களில் இடம்பெறும் ஏலங்களையும் &lt;a href=&apos;{SearchOurStockLink}&apos;&gt; இல் நீங்கள் பார்க்க முடியும். &lt;/a&gt;</value>
+  </data>
+  <data name="Auctions_Today_NoMoreAuctionsToday_UK" xml:space="preserve">
+    <value>இன்றைய ஏலங்கள் முடிந்துவிட்டன. எதிர்கால ஏலத்தில் எது வரப்போகின்றது என்பதைப் பார்ப்பதற்கு &lt;a href=&apos;{SearchOurInventoryLink}&apos;&gt;எங்களுடைய பொருள் இருப்புப்பட்டியலைத் தேடவும்&lt;/a&gt;.</value>
+  </data>
+  <data name="Auctions_Maintenance_message" xml:space="preserve">
+    <value>பராமரிப்புப் பணி மேற்கொள்வதற்காக ஏலங்கள் தற்காலிகமாக நிறுத்தி வைக்கப்பட்டுள்ளன... தயவுசெய்து விரைவில் மீண்டும் பார்க்கவும்!</value>
+  </data>
+  <data name="Auctions_NCSDesc" xml:space="preserve">
+    <value>கோபார்ட்டின் நைட் கேப் விற்பனைகள் என்பவை ஒவ்வொரு வாரமும் திங்கள் முதல் வியாழன் வரை மேற்கொள்ளப்படுகின்ற பிராந்திய மாலை நேர ஏலங்கள் ஆகும். இந்த விற்பனை வாகனங்கள் மீது விலை குறிப்பதற்கு உறுப்பினர்களுக்கு ஒரு இரண்டாவது வாய்ப்பை வழங்குகிறது.</value>
+  </data>
+  <data name="Auctions_NCSHeader" xml:space="preserve">
+    <value>&quot;NCS&quot;: நைட் கேப் விற்பனை</value>
+  </data>
+  <data name="Auctions_SealedBidRepoDesc" xml:space="preserve">
+    <value>முத்திரையிடப்பட்ட விலைக்குறிப்பு ரெப்போக்கள் என்பவை மீட்கப்பட்ட வாகனங்கள் இடம்பெறும் விற்பனை ஆகும். இந்த வாகனங்கள் கடன் வாங்குபவரின் / குத்தகைதாரரின் நிதிப் பொறுப்புகளை நிறைவு செய்யும் விதமாக வாகன நிதி நிறுவனத்தால் விற்பனை செய்யப்படுகின்றன.</value>
+  </data>
+  <data name="Auctions_VIXDesc" xml:space="preserve">
+    <value>கோபார்ட்டின் விர்ச்சுவல் இணையதள பரிமாற்ற அம்சம் விலை குறிக்கப்படும் நேரத்தில் கூட விற்பனையாளர் வசம் உள்ள வாகனங்களைக் காட்டுகிறது. VIX வாகனங்கள் ஒரு முத்திரையிடப்பட்ட விலைக்குறிப்பு ஏல அமைப்பைப் பயன்படுத்தி “அனுமதியின் கீழ்” விற்பனை செய்யப்படுகின்றன. விலைக்குறிப்புகள் முக மதிப்பில் ஏற்கப்படுகின்றன என்பதையும், மற்றும் இந்த வாகனங்களுக்கு BID4U கிடைப்பதில்லை என்பதையும் இது குறிப்பிடுகிறது.</value>
+  </data>
+  <data name="Auctions_VIXHeader" xml:space="preserve">
+    <value>&quot;VIX&quot;: விர்ச்சுவல் இணையதள பரிமாற்றம்</value>
+  </data>
+  <data name="JoinAuctionModal_UpgradeBrowserMsg1" xml:space="preserve">
+    <value>ஏற்புடைய ஏலச் செயல்திறனுக்கு, நாங்கள் பரிந்துரைக்கிறோம்</value>
+  </data>
+  <data name="JoinAuctionModal_UpgradeBrowserMsg2" xml:space="preserve">
+    <value>உங்களுடைய பிரவுசரை IE9–க்கு தரமுயர்த்துதல்</value>
+  </data>
+  <data name="JoinAuctionModal_UpgradeBrowserMsg3" xml:space="preserve">
+    <value>அல்லது அதற்குப் பதிலாக Firefox அல்லது Chrome பயன்படுத்துதல்.</value>
+  </data>
+  <data name="UpcomingAuctions_Upcomingsale" xml:space="preserve">
+    <value>வரவிருக்கும் விற்பனை</value>
+  </data>
+  <data name="UpcomingAuctions__FollowingSale" xml:space="preserve">
+    <value>விற்பனையைப் பின்தொடர்கிறது</value>
+  </data>
+  <data name="AuctionMessage_LocationDetailsBanner" xml:space="preserve">
+    <value>இப்பொழுது பிரவுஸ் செய்து விலைகுறிப்பதன் மூலம் வரவிருக்கும் {CityNameValue} ஏலங்களுக்குத் தயாராகுங்கள்.</value>
+  </data>
+  <data name="Auctions_UpcomingSale" xml:space="preserve">
+    <value>வரவிருக்கும் ஏலங்கள்</value>
+  </data>
+</root>

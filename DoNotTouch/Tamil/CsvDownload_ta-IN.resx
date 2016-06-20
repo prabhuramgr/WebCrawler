@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SalesData_ACV" xml:space="preserve">
+    <value>லாட் ACV</value>
+  </data>
+  <data name="SalesData_BodyStyle" xml:space="preserve">
+    <value>பாடி ஸ்டைல்</value>
+  </data>
+  <data name="SalesData_BuyItNow" xml:space="preserve">
+    <value>இப்பொழுது வாங்குக விலை</value>
+  </data>
+  <data name="SalesData_City" xml:space="preserve">
+    <value>அமைவிட நகரம்</value>
+  </data>
+  <data name="SalesData_Color" xml:space="preserve">
+    <value>நிறம்</value>
+  </data>
+  <data name="SalesData_Country" xml:space="preserve">
+    <value>அமைவிட நாடு</value>
+  </data>
+  <data name="SalesData_CurrencyCode" xml:space="preserve">
+    <value>நாணயக் குறியீடு</value>
+  </data>
+  <data name="SalesData_Cylinders" xml:space="preserve">
+    <value>சிலிண்டர்கள்</value>
+  </data>
+  <data name="SalesData_DamageDesc" xml:space="preserve">
+    <value>சேதம் பற்றிய விளக்கம்</value>
+  </data>
+  <data name="SalesData_DayOfWeek" xml:space="preserve">
+    <value>வாரத்தின் நாள்</value>
+  </data>
+  <data name="SalesData_Drive" xml:space="preserve">
+    <value>ஓட்டு</value>
+  </data>
+  <data name="SalesData_Engine" xml:space="preserve">
+    <value>எஞ்சின்</value>
+  </data>
+  <data name="SalesData_FuelType" xml:space="preserve">
+    <value>எரிபொருள் வகை</value>
+  </data>
+  <data name="SalesData_GridRow" xml:space="preserve">
+    <value>கட்டம் / வரிசை</value>
+  </data>
+  <data name="SalesData_HasKeys" xml:space="preserve">
+    <value>சாவிகள் உள்ளன – ஆம் அல்லது இல்லை</value>
+  </data>
+  <data name="SalesData_HighBid" xml:space="preserve">
+    <value>அதிக விலைக்குறிப்பு</value>
+  </data>
+  <data name="SalesData_ImageThumbNail" xml:space="preserve">
+    <value>படம் தம்ப்நெய்ல்</value>
+  </data>
+  <data name="SalesData_ItemNumber" xml:space="preserve">
+    <value>வாகன #</value>
+  </data>
+  <data name="SalesData_LotNumber" xml:space="preserve">
+    <value>லாட் எண்</value>
+  </data>
+  <data name="SalesData_Make" xml:space="preserve">
+    <value>தயாரிப்பு</value>
+  </data>
+  <data name="SalesData_Model" xml:space="preserve">
+    <value>மாடல்</value>
+  </data>
+  <data name="SalesData_Odometer" xml:space="preserve">
+    <value>ஓடோமீட்டர்</value>
+  </data>
+  <data name="SalesData_OdometerBrand" xml:space="preserve">
+    <value>ஓடோமீட்டர் பிராண்டு</value>
+  </data>
+  <data name="SalesData_RepairCost" xml:space="preserve">
+    <value>பழுதுபார்ப்புச் செலவு</value>
+  </data>
+  <data name="SalesData_RunsAndDrives" xml:space="preserve">
+    <value>ஓட்டங்கள்/இயக்கிகள்</value>
+  </data>
+  <data name="SalesData_SaleDate" xml:space="preserve">
+    <value>விற்பனைத் தேதி</value>
+  </data>
+  <data name="SalesData_SaleStatus" xml:space="preserve">
+    <value>விற்பனை நிலை</value>
+  </data>
+  <data name="SalesData_SaleTime" xml:space="preserve">
+    <value>விற்பனை நேரம்</value>
+  </data>
+  <data name="SalesData_SaleTitleType" xml:space="preserve">
+    <value>விற்பனைத் தலைப்பு வகை</value>
+  </data>
+  <data name="SalesData_SecDamageDesc" xml:space="preserve">
+    <value>இரண்டாம் நிலை சேதம்</value>
+  </data>
+  <data name="SalesData_SplNote" xml:space="preserve">
+    <value>சிறப்புக் குறிப்பு</value>
+  </data>
+  <data name="SalesData_State" xml:space="preserve">
+    <value>அமைவிட மாநிலம்</value>
+  </data>
+  <data name="SalesData_TimeZone" xml:space="preserve">
+    <value>நேர மண்டலம்</value>
+  </data>
+  <data name="SalesData_Transmission" xml:space="preserve">
+    <value>டிரான்ஸ்மிஷன்</value>
+  </data>
+  <data name="SalesData_VehicleType" xml:space="preserve">
+    <value>வாகன வகை</value>
+  </data>
+  <data name="SalesData_VIN" xml:space="preserve">
+    <value>VIN</value>
+  </data>
+  <data name="SalesData_YardName" xml:space="preserve">
+    <value>யார்டு பெயர்</value>
+  </data>
+  <data name="SalesData_YardNumber" xml:space="preserve">
+    <value>யார்டு எண்</value>
+  </data>
+  <data name="SalesData_Year" xml:space="preserve">
+    <value>ஆண்டு</value>
+  </data>
+  <data name="SalesData_Zip" xml:space="preserve">
+    <value>அமைவிடத்தின் ஜிப்</value>
+  </data>
+  <data name="Search_ACV" xml:space="preserve">
+    <value>உண்மையான ரொக்க மதிப்பு</value>
+  </data>
+  <data name="Search_CurrentBid" xml:space="preserve">
+    <value>தற்போதைய விலைக்குறிப்பு</value>
+  </data>
+  <data name="Search_Cylinders" xml:space="preserve">
+    <value>சிலிண்டர்கள்</value>
+  </data>
+  <data name="Search_DamageDesc" xml:space="preserve">
+    <value>சேதம் பற்றிய விளக்கம்</value>
+  </data>
+  <data name="Search_EngineType" xml:space="preserve">
+    <value>எஞ்சின் வகை</value>
+  </data>
+  <data name="Search_ItemNumber" xml:space="preserve">
+    <value>வாகன எண்</value>
+  </data>
+  <data name="Search_LotNumber" xml:space="preserve">
+    <value>லாட் எண்</value>
+  </data>
+  <data name="Search_LotUrl" xml:space="preserve">
+    <value>லாட் URL</value>
+  </data>
+  <data name="Search_Make" xml:space="preserve">
+    <value>தயாரிப்பு</value>
+  </data>
+  <data name="Search_MaxBid" xml:space="preserve">
+    <value>எனது விலைக்குறிப்பு</value>
+  </data>
+  <data name="Search_Model" xml:space="preserve">
+    <value>மாடல்</value>
+  </data>
+  <data name="Search_OdometerBrand" xml:space="preserve">
+    <value>ஓடோமீட்டர் பற்றிய விளக்கம்</value>
+  </data>
+  <data name="Search_OdometerReading" xml:space="preserve">
+    <value>ஓடோமீட்டர் அளவு</value>
+  </data>
+  <data name="Search_SaleDate" xml:space="preserve">
+    <value>எதிர்பார்க்கப்படும் விற்பனைத் தேதி</value>
+  </data>
+  <data name="Search_TitleDesc" xml:space="preserve">
+    <value>வகைப்பாடு</value>
+  </data>
+  <data name="Search_Vin" xml:space="preserve">
+    <value>VIN</value>
+  </data>
+  <data name="Search_Year" xml:space="preserve">
+    <value>ஆண்டு</value>
+  </data>
+  <data name="LotsWon_DisplayAmount" xml:space="preserve">
+    <value>மொத்தம் செலுத்த வேண்டியது</value>
+  </data>
+  <data name="LotsWon_LotLeftYard" xml:space="preserve">
+    <value>லாட் விடுபட்ட யார்டு தேதி</value>
+  </data>
+  <data name="LotsWon_LotNumber" xml:space="preserve">
+    <value>லாட்#</value>
+  </data>
+  <data name="LotsWon_Make" xml:space="preserve">
+    <value>தயாரிப்பு</value>
+  </data>
+  <data name="LotsWon_MaxBid" xml:space="preserve">
+    <value>இறுதி விற்பனை விலை</value>
+  </data>
+  <data name="LotsWon_Model" xml:space="preserve">
+    <value>மாடல்</value>
+  </data>
+  <data name="LotsWon_Odometer" xml:space="preserve">
+    <value>ஓடோமீட்டர் அளவு</value>
+  </data>
+  <data name="LotsWon_OdometerDesc" xml:space="preserve">
+    <value>ஓடோமீட்டர் பற்றிய விளக்கம்</value>
+  </data>
+  <data name="LotsWon_PaymentStatus" xml:space="preserve">
+    <value>நிலை</value>
+  </data>
+  <data name="LotsWon_SaleDate" xml:space="preserve">
+    <value>விற்பனைத் தேதி</value>
+  </data>
+  <data name="LotsWon_Vin" xml:space="preserve">
+    <value>VIN</value>
+  </data>
+  <data name="LotsWon_YardName" xml:space="preserve">
+    <value>அலுவலகம்</value>
+  </data>
+  <data name="LotsWon_Year" xml:space="preserve">
+    <value>ஆண்டு</value>
+  </data>
+</root>

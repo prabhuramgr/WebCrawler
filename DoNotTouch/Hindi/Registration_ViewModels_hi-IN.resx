@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddressModel_City" xml:space="preserve">
+    <value>शहर</value>
+  </data>
+  <data name="AddressModel_Country" xml:space="preserve">
+    <value>देश</value>
+  </data>
+  <data name="AddressModel_PostalCode" xml:space="preserve">
+    <value>पिनकोड</value>
+  </data>
+  <data name="AddressModel_State" xml:space="preserve">
+    <value>राज्य/प्रांत</value>
+  </data>
+  <data name="AddressModel_StreetAddress1" xml:space="preserve">
+    <value>पता पंक्ति 1</value>
+  </data>
+  <data name="AddressModel_StreetAddress2" xml:space="preserve">
+    <value>पता पंक्ति 2</value>
+  </data>
+  <data name="EmailInUseText" xml:space="preserve">
+    <value>ई-मेल पता पहले ही मौजूद है</value>
+  </data>
+  <data name="Error_EmailAlreadyTaken" xml:space="preserve">
+    <value>यह ईमेल पहले ही किसी अन्य उपयोगकर्ता ने ले ली है।</value>
+  </data>
+  <data name="RegistrationFormHeader" xml:space="preserve">
+    <value>Copart पर नए हैं? यहाँ साइन अप करें!</value>
+  </data>
+  <data name="RegistrationModel_CaptchaVerificationCode" xml:space="preserve">
+    <value>सत्यापन कोड</value>
+  </data>
+  <data name="RegistrationModel_Company" xml:space="preserve">
+    <value>कंपनी का नाम</value>
+  </data>
+  <data name="RegistrationModel_ConfirmEmail" xml:space="preserve">
+    <value>ईमेल की पुष्टि करें</value>
+  </data>
+  <data name="RegistrationModel_ConfirmEmailRequired" xml:space="preserve">
+    <value>ईमेल पते की पुष्टि करना ज़रूरी है</value>
+  </data>
+  <data name="RegistrationModel_ConfirmPassword" xml:space="preserve">
+    <value>पासवर्ड की पुष्टि करें</value>
+  </data>
+  <data name="RegistrationModel_EmailAddress" xml:space="preserve">
+    <value>ईमेल</value>
+  </data>
+  <data name="RegistrationModel_EmailAddressRequired" xml:space="preserve">
+    <value>ईमेल पता ज़रूरी है</value>
+  </data>
+  <data name="RegistrationModel_FirstName" xml:space="preserve">
+    <value>प्रथम नाम</value>
+  </data>
+  <data name="RegistrationModel_HowHeardAboutUs" xml:space="preserve">
+    <value>आपने हमारे बारे में कैसे सुना?</value>
+  </data>
+  <data name="RegistrationModel_Is18OrOver" xml:space="preserve">
+    <value>यह बॉक्स क्लिक करके, मैं सहमत हूँ कि मेरी उम्र कम-से-कम 18 साल है और कि मैंने Copart की [सदस्य नियम व शर्तें], वेबसाइट [सेवा की शर्तें], और [गोपनीयता नीति] पढ़ी है और मैं इनसे सहमत हूँ</value>
+  </data>
+  <data name="RegistrationModel_LastName" xml:space="preserve">
+    <value>अंतिम नाम</value>
+  </data>
+  <data name="RegistrationModel_MailingAddressRequired" xml:space="preserve">
+    <value>डाक का पता ज़रूरी है</value>
+  </data>
+  <data name="RegistrationModel_MailingCityRequired" xml:space="preserve">
+    <value>डाक का शहर ज़रूरी है</value>
+  </data>
+  <data name="RegistrationModel_MailingPostCodeInvalid" xml:space="preserve">
+    <value>भौतिक पते के लिए पिनकोड मान्य नहीं है</value>
+  </data>
+  <data name="RegistrationModel_MailingPostCodeRequired" xml:space="preserve">
+    <value>डाक के पते के लिए पूरा PostalCode ज़रूरी है</value>
+  </data>
+  <data name="RegistrationModel_Password" xml:space="preserve">
+    <value>पासवर्ड</value>
+  </data>
+  <data name="RegistrationModel_Phone2Type" xml:space="preserve">
+    <value>प्रकार</value>
+  </data>
+  <data name="RegistrationModel_Phone2Type_Cellular" xml:space="preserve">
+    <value>सेलुलर</value>
+  </data>
+  <data name="RegistrationModel_Phone2Type_Fax" xml:space="preserve">
+    <value>फ़ैक्स</value>
+  </data>
+  <data name="RegistrationModel_Phone2Type_Home" xml:space="preserve">
+    <value>होम</value>
+  </data>
+  <data name="RegistrationModel_Phone2Type_Work" xml:space="preserve">
+    <value>कार्य</value>
+  </data>
+  <data name="RegistrationModel_PhoneExt" xml:space="preserve">
+    <value>एक्सटेंशन</value>
+  </data>
+  <data name="RegistrationModel_PhoneNumber" xml:space="preserve">
+    <value>फ़ोन</value>
+  </data>
+  <data name="RegistrationModel_PhoneNumber2" xml:space="preserve">
+    <value>वैकल्पिक फ़ोन</value>
+  </data>
+  <data name="RegistrationModel_PhonenumberNotValid" xml:space="preserve">
+    <value>फ़ोन नंबर मान्य नहीं है</value>
+  </data>
+  <data name="RegistrationModel_PhoneNumberRequired" xml:space="preserve">
+    <value>फ़ोन नंबर ज़रूरी है</value>
+  </data>
+  <data name="RegistrationModel_PhysicalAddressRequired" xml:space="preserve">
+    <value>भौतिक पता ज़रूरी है</value>
+  </data>
+  <data name="RegistrationModel_PhysicalCityRequired" xml:space="preserve">
+    <value>भौतिक शहर ज़रूरी है</value>
+  </data>
+  <data name="RegistrationModel_PhysicalPostCodeInvalid" xml:space="preserve">
+    <value>भौतिक पते के लिए पिनकोड मान्य नहीं है</value>
+  </data>
+  <data name="RegistrationModel_PhysicalPostCodeRequired" xml:space="preserve">
+    <value>भौतिक पते के लिए पूरा PostalCode ज़रूरी है</value>
+  </data>
+  <data name="RegistrationModel_PostalCode" xml:space="preserve">
+    <value>ज़िप/पिनकोड</value>
+  </data>
+  <data name="RegistrationModel_PromoCode" xml:space="preserve">
+    <value>प्रोमो कोड</value>
+  </data>
+  <data name="RegistrationModel_SelectType" xml:space="preserve">
+    <value>प्रकार चुनें...</value>
+  </data>
+  <data name="RegistrationModel_StateProvince" xml:space="preserve">
+    <value>राज्य/प्रांत</value>
+  </data>
+  <data name="RegistrationModel_StreetAddress1" xml:space="preserve">
+    <value>सड़क का पता</value>
+  </data>
+  <data name="RegistrationModel_StreetAddress2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UK_AddressModel_City" xml:space="preserve">
+    <value>नगर</value>
+  </data>
+  <data name="UK_AddressModel_PostalCode" xml:space="preserve">
+    <value>पिनकोड</value>
+  </data>
+  <data name="UK_AddressModel_PostalCode_Alt" xml:space="preserve">
+    <value>पिनकोड</value>
+  </data>
+  <data name="UK_RegistrationModel_ALTPhoneNumber" xml:space="preserve">
+    <value>वैकल्पिक फ़ोन</value>
+  </data>
+  <data name="UK_RegistrationModel_MailingAddressSameAsPhysical" xml:space="preserve">
+    <value>डाक पता भौतिक पते के समान है</value>
+  </data>
+  <data name="UK_RegistrationModel_PhoneNumber" xml:space="preserve">
+    <value>फ़ोन</value>
+  </data>
+  <data name="UK_RegistrationModel_StreetAddress1" xml:space="preserve">
+    <value>सड़क का नाम व नंबर</value>
+  </data>
+  <data name="VATFieldText" xml:space="preserve">
+    <value>VAT</value>
+  </data>
+  <data name="VATinUseText" xml:space="preserve">
+    <value>VAT पहले ही मौजूद है</value>
+  </data>
+  <data name="RegistrationModel_ALTPhoneNumber" xml:space="preserve">
+    <value>वैकल्पिक फ़ोन</value>
+  </data>
+  <data name="RegistrationModel_MailingAddressSameAsPhysical" xml:space="preserve">
+    <value>डाक पता भौतिक पते के समान है</value>
+  </data>
+  <data name="AddressModel_PostalCode_Alt" xml:space="preserve">
+    <value>पिनकोड</value>
+  </data>
+  <data name="RegistrationModel_MailingStateRequired" xml:space="preserve">
+    <value>डाक राज्य ज़रूरी है</value>
+  </data>
+  <data name="RegistrationModel_PhysicalStateRequired" xml:space="preserve">
+    <value>भौतिक राज्य ज़रूरी है</value>
+  </data>
+  <data name="RegistrationModel_PhoneNumberMinLength" xml:space="preserve">
+    <value>फ़ोन नंबर में कम-से-कम 7 अंक होने चाहिए</value>
+  </data>
+  <data name="RegistrationModel_VAT" xml:space="preserve">
+    <value>पहचान नंबर</value>
+  </data>
+  <data name="RegistrationModel_VATCountry" xml:space="preserve">
+    <value>जारी करने वाला देश</value>
+  </data>
+  <data name="RegistrationModel_VATField" xml:space="preserve">
+    <value>VAT/कर जानकारी</value>
+  </data>
+</root>

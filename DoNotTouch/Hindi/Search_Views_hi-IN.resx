@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BidNowButtonText" xml:space="preserve">
+    <value>अभी बोली लगाएँ</value>
+  </data>
+  <data name="CompareButton" xml:space="preserve">
+    <value>तुलना करें</value>
+  </data>
+  <data name="CompareVehicles_BiddingPurchaseOptions" xml:space="preserve">
+    <value>बोली व ख़रीद विकल्प</value>
+  </data>
+  <data name="CompareVehicles_BodyStyle" xml:space="preserve">
+    <value>बॉडी स्टाइल</value>
+  </data>
+  <data name="CompareVehicles_CloseTooltip" xml:space="preserve">
+    <value>बंद करें</value>
+  </data>
+  <data name="CompareVehicles_Cylinders" xml:space="preserve">
+    <value>सिलेंडर</value>
+  </data>
+  <data name="CompareVehicles_Drive" xml:space="preserve">
+    <value>ड्राइव</value>
+  </data>
+  <data name="CompareVehicles_Engine" xml:space="preserve">
+    <value>इंजन</value>
+  </data>
+  <data name="CompareVehicles_EstRetailValue" xml:space="preserve">
+    <value>अनुमानित खुदरा मूल्य</value>
+  </data>
+  <data name="CompareVehicles_Fuel" xml:space="preserve">
+    <value>ईंधन</value>
+  </data>
+  <data name="CompareVehicles_RunCondition" xml:space="preserve">
+    <value>रन कंडीशन</value>
+  </data>
+  <data name="CompareVehicles_KeysAvailable" xml:space="preserve">
+    <value>कुंजियाँ उपलब्ध</value>
+  </data>
+  <data name="CompareVehicles_Location" xml:space="preserve">
+    <value>स्थान</value>
+  </data>
+  <data name="CompareVehicles_LotNumber" xml:space="preserve">
+    <value>लॉट नंबर</value>
+  </data>
+  <data name="CompareVehicles_LotWithNumberSign" xml:space="preserve">
+    <value>लॉट#</value>
+  </data>
+  <data name="CompareVehicles_MoveTooltip" xml:space="preserve">
+    <value>स्थानांतरित करें</value>
+  </data>
+  <data name="CompareVehicles_MyBid" xml:space="preserve">
+    <value>मेरी बोली</value>
+  </data>
+  <data name="CompareVehicles_Notes" xml:space="preserve">
+    <value>नोट्स</value>
+  </data>
+  <data name="CompareVehicles_Odometer" xml:space="preserve">
+    <value>ओडोमीटर</value>
+  </data>
+  <data name="CompareVehicles_Mileage" xml:space="preserve">
+    <value>माइलेज</value>
+  </data>
+  <data name="CompareVehicles_Or" xml:space="preserve">
+    <value>या</value>
+  </data>
+  <data name="CompareVehicles_OwnerDocType" xml:space="preserve">
+    <value>स्वामी DOC प्रकार</value>
+  </data>
+  <data name="CompareVehicles_ABICategory" xml:space="preserve">
+    <value>वर्ग</value>
+  </data>
+  <data name="CompareVehicles_PrimaryDamage" xml:space="preserve">
+    <value>प्राथमिक क्षति</value>
+  </data>
+  <data name="CompareVehicles_RepairEst" xml:space="preserve">
+    <value>मरम्मत का अनुमान</value>
+  </data>
+  <data name="CompareVehicles_SaleDate" xml:space="preserve">
+    <value>बिक्री की तिथि</value>
+  </data>
+  <data name="CompareVehicles_SecondaryDamage" xml:space="preserve">
+    <value>द्वितीयक क्षति</value>
+  </data>
+  <data name="CompareVehicles_VechicleHighlights" xml:space="preserve">
+    <value>वाहन की हाइलाइट्स</value>
+  </data>
+  <data name="CompareVehicles_VIN" xml:space="preserve">
+    <value>VIN</value>
+  </data>
+  <data name="CompareVehicles_VAT" xml:space="preserve">
+    <value>VAT</value>
+  </data>
+  <data name="CompareVehicles_YrMakeModel" xml:space="preserve">
+    <value>वर्ष, मेक व मॉडल</value>
+  </data>
+  <data name="CurrentBidText" xml:space="preserve">
+    <value>मौजूदा बोली</value>
+  </data>
+  <data name="SearchResults_FiltersAppliedText" xml:space="preserve">
+    <value>लागू फ़िल्टर</value>
+  </data>
+  <data name="LotSearch_InvalidLot" xml:space="preserve">
+    <value>खोज योग्य मान्य लॉट नंबर 3 से 10 अंकों का नंबर होता है।</value>
+  </data>
+  <data name="LotSearch_SearchButton" xml:space="preserve">
+    <value>लॉट# द्वारा खोज करें</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>वाहन खोजकर्ता</value>
+  </data>
+  <data name="SearchResultsMember_AddToWatchListLinkText" xml:space="preserve">
+    <value>वाचलिस्ट में जोड़ें</value>
+  </data>
+  <data name="SearchResultsMember_IncreaseBid" xml:space="preserve">
+    <value>बोली बढ़ाएँ</value>
+  </data>
+  <data name="SearchResultsMember_MyBid" xml:space="preserve">
+    <value>मेरी बोली</value>
+  </data>
+  <data name="SearchResultsMember_RemoveFromWatchlistLinkText" xml:space="preserve">
+    <value>वाचलिस्ट से निकालें</value>
+  </data>
+  <data name="SearchResultsMember_Status" xml:space="preserve">
+    <value>स्थिति</value>
+  </data>
+  <data name="SearchResultsMember_Winning" xml:space="preserve">
+    <value>जीतना</value>
+  </data>
+  <data name="SearchResults_ApplyFiltersButton" xml:space="preserve">
+    <value>फ़िल्टर लागू करें</value>
+  </data>
+  <data name="SearchResults_Awaiting" xml:space="preserve">
+    <value>स्वीकृति पर</value>
+  </data>
+  <data name="SearchResults_BuyItNowButtonText" xml:space="preserve">
+    <value>इसे अभी ख़रीदें!</value>
+  </data>
+  <data name="SearchResults_BuyNowText" xml:space="preserve">
+    <value>अभी ख़रीदें</value>
+  </data>
+  <data name="SearchResults_ByDrivetrain" xml:space="preserve">
+    <value>ड्राइवट्रेन द्वारा</value>
+  </data>
+  <data name="SearchResults_ByLocation" xml:space="preserve">
+    <value>स्थान द्वारा</value>
+  </data>
+  <data name="SearchResults_ByMake" xml:space="preserve">
+    <value>मेक द्वारा</value>
+  </data>
+  <data name="SearchResults_ByModel" xml:space="preserve">
+    <value>मॉडल द्वारा</value>
+  </data>
+  <data name="SearchResults_ByModelYear" xml:space="preserve">
+    <value>मॉडल वर्ष द्वारा</value>
+  </data>
+  <data name="SearchResults_BySalvageType" xml:space="preserve">
+    <value>साल्वेज प्रकार द्वारा</value>
+  </data>
+  <data name="SearchResults_CompareVehiclesButton_Text" xml:space="preserve">
+    <value>तुलना करें</value>
+  </data>
+  <data name="SearchResults_CompareVehiclesTitle" xml:space="preserve">
+    <value>वाहनों की तुलना करें</value>
+  </data>
+  <data name="SearchResults_CounterbidButtonText" xml:space="preserve">
+    <value>काउंटर बोली</value>
+  </data>
+  <data name="SearchResults_CounterbidText" xml:space="preserve">
+    <value>विक्रेता विरोध</value>
+  </data>
+  <data name="SearchResults_DownloadCSVButton" xml:space="preserve">
+    <value>खोज डाउनलोड करें</value>
+  </data>
+  <data name="SearchResults_FilterOptionsHeader" xml:space="preserve">
+    <value>फ़िल्टर विकल्प</value>
+  </data>
+  <data name="SearchResults_HideImages" xml:space="preserve">
+    <value>छवियाँ छिपाएँ</value>
+  </data>
+  <data name="SearchResults_ShowImages" xml:space="preserve">
+    <value>छवियाँ दिखाएँ</value>
+  </data>
+  <data name="SearchResults_LotLookupHeader" xml:space="preserve">
+    <value>अलग-अलग लॉट देखें</value>
+  </data>
+  <data name="SearchResults_NoFiltersApplied" xml:space="preserve">
+    <value>कोई फ़िल्टर लागू नहीं किया गया</value>
+  </data>
+  <data name="SearchResults_NoResultsFoundHeader" xml:space="preserve">
+    <value>क्षमा करें, आपकी खोज ने कोई परिणाम वापस नहीं किया। </value>
+  </data>
+  <data name="SearchResults_CurrencyError" xml:space="preserve">
+    <value>क्षमा करें, आपकी खोज में अमान्य मुद्रा कोड है। </value>
+  </data>
+  <data name="SearchResults_ErrorTitle" xml:space="preserve">
+    <value>मुद्रा कोड त्रुटि</value>
+  </data>
+  <data name="SearchResults_ErrorHeader" xml:space="preserve">
+    <value>खोज परिणाम त्रुटि</value>
+  </data>
+  <data name="SearchResults_NoResultsFoundMessage" xml:space="preserve">
+    <value>हम मिलान के परिणाम ढूँढ़ने में असमर्थ रहे</value>
+  </data>
+  <data name="SearchResults_NoResultsFoundTitle" xml:space="preserve">
+    <value>कोई परिणाम नहीं मिला</value>
+  </data>
+  <data name="SearchResults_NoResultsSearchAgainLinkText" xml:space="preserve">
+    <value>पुनः खोजें</value>
+  </data>
+  <data name="SearchResults_OutbidText" xml:space="preserve">
+    <value>बढ़कर बोली लगाएँ</value>
+  </data>
+  <data name="SearchResults_PagerBacktoTop" xml:space="preserve">
+    <value>शीर्ष पर वापस</value>
+  </data>
+  <data name="SearchResults_PagerNext" xml:space="preserve">
+    <value>अगला</value>
+  </data>
+  <data name="SearchResults_PagerPrev" xml:space="preserve">
+    <value>पिछला</value>
+  </data>
+  <data name="SearchResults_PageSizeOptions" xml:space="preserve">
+    <value>20 परिणाम दिखाएँ|50 परिणाम दिखाएँ|100 परिणाम दिखाएँ</value>
+  </data>
+  <data name="SearchResults_PhotoToolTip" xml:space="preserve">
+    <value>त्वरित लॉन्च</value>
+  </data>
+  <data name="SearchResults_PleaseSelectAMake" xml:space="preserve">
+    <value>मॉडल देखने के लिए कृपया मेक चुनें।</value>
+  </data>
+  <data name="SearchResults_ReverseRadioBtn" xml:space="preserve">
+    <value>उलटा</value>
+  </data>
+  <data name="SearchResults_SaleDateFormat" xml:space="preserve">
+    <value>{0:d}</value>
+  </data>
+  <data name="SearchResults_SaveSearchButton" xml:space="preserve">
+    <value>खोज सहेजें</value>
+  </data>
+  <data name="SearchResults_SearchResultsFor" xml:space="preserve">
+    <value>&quot;{SearchText}&quot; के लिए खोज परिणाम</value>
+  </data>
+  <data name="SearchResults_SearchResults" xml:space="preserve">
+    <value>खोज परिणाम</value>
+  </data>
+  <data name="SearchResults_ShowOnScreen" xml:space="preserve">
+    <value>स्क्रीन पर दिखाएँ</value>
+  </data>
+  <data name="SearchResults_SortByLabel" xml:space="preserve">
+    <value>इससे क्रमबद्ध करें</value>
+  </data>
+  <data name="SearchResults_SortByOptions" xml:space="preserve">
+    <value>चुनें क्रमबद्ध करें|मॉडल|वर्ष|स्थान|ज़िप कोड|लॉट|मेक|मॉडल|माइलेज|क्षति|स्वामित्व डॉक प्रकार|ERV|बिक्री तिथि|मौजूदा बोली|मेरी बोली|इसे अभी ख़रीदें</value>
+  </data>
+  <data name="SearchResults_TimeLeftFormat" xml:space="preserve">
+    <value>{0:%d}दिन {0:%h}घंटे {0:mm}मिनट</value>
+  </data>
+  <data name="SearchResults_VinLookupHeader" xml:space="preserve">
+    <value>अलग-अलग VIN देखें</value>
+  </data>
+  <data name="SearchResults_WatchButtonText" xml:space="preserve">
+    <value>देखें</value>
+  </data>
+  <data name="SearchResults_WatchRemoveButtonText" xml:space="preserve">
+    <value>निकालें</value>
+  </data>
+  <data name="SearchResults_WeFoundXVehiclesLabel" xml:space="preserve">
+    <value>हमें {Count} वाहन मिले हैं</value>
+  </data>
+  <data name="SearchResults_ViewingXVehiclesLabel" xml:space="preserve">
+    <value>{Count} वाहन देख रहे हैं, कुल वाहन {Total}</value>
+  </data>
+  <data name="SearchResults_NoSearchResultsRemove" xml:space="preserve">
+    <value>बेहतर खोज परिणामों के लिए फ़िल्टर निकालें। या इसकी सूचना प्राप्त के लिए वाहन अलर्ट के लिए साइन अप करें कि जब हमारे पास वह हो जिसकी आप तलाश कर रहे हैं तो हम आपको सूचना भेज दें।</value>
+  </data>
+  <data name="SearchResults_NoSearchResultsLink" xml:space="preserve">
+    <value>वाहन अलर्ट को इससे जोड़ने की ज़रूरत होगी</value>
+  </data>
+  <data name="SearchResults_WinningbidText" xml:space="preserve">
+    <value>जीतना</value>
+  </data>
+  <data name="SearchResutls_ByCylinder" xml:space="preserve">
+    <value>सिलेंडर द्वारा</value>
+  </data>
+  <data name="SearchResutls_ByFuelType" xml:space="preserve">
+    <value>ईंधन प्रकार द्वारा</value>
+  </data>
+  <data name="VehicleFinder_CurrentBid1000To2000" xml:space="preserve">
+    <value>मौजूदा बिड $1001- $2000</value>
+  </data>
+  <data name="VehicleFinder_CurrentBid500To1000" xml:space="preserve">
+    <value>मौजूदा बिड $ 500- $ 1000</value>
+  </data>
+  <data name="VehicleFinder_CurrentBidOver2000" xml:space="preserve">
+    <value>मौजूदा बिड &gt; $2000</value>
+  </data>
+  <data name="VehicleFinder_CurrentBidUnder500" xml:space="preserve">
+    <value>मौजूदा बिड &gt; $500</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeDonations" xml:space="preserve">
+    <value>दान</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeFeaturedCars" xml:space="preserve">
+    <value>फ़ीचर्ड कारें</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeFeaturedVehicles" xml:space="preserve">
+    <value>फ़ीचर्ड वाहन</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeFleetLease" xml:space="preserve">
+    <value>फ़्लीट / लीज़</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeFloodDamaged" xml:space="preserve">
+    <value>बाढ़ से क्षतिग्रस्त</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeForSaleByPublic" xml:space="preserve">
+    <value>जनता द्वारा बिक्री के लिए</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeHighValueItems" xml:space="preserve">
+    <value>उच्च मूल्य आइटम</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeHotItems" xml:space="preserve">
+    <value>हॉट आइटम</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeImpoundVehicles" xml:space="preserve">
+    <value>ज़ब्त वाहन</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeMunicipalFleet" xml:space="preserve">
+    <value>म्युनिसिपल फ़्लीट</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeNewItems" xml:space="preserve">
+    <value>नए आइटम</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeNoDamage" xml:space="preserve">
+    <value>कोई क्षति नहीं</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeNoLicenseRequired" xml:space="preserve">
+    <value>किसी लाइसेंस की ज़रूरत नहीं है</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeOffsiteSales" xml:space="preserve">
+    <value>ऑफ़साइट बिक्री</value>
+  </data>
+  <data name="VehicleFinder_FilterCodePureSaleItems" xml:space="preserve">
+    <value>कोई आरक्षित आइटम नहीं</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeRepossessions" xml:space="preserve">
+    <value>पुनः कब्ज़ा</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeRetiredFleet" xml:space="preserve">
+    <value>रिटायर्ड फ़्लीट</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeRunsAndDrives" xml:space="preserve">
+    <value>चलाता है और ड्राइव करता है</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeSealedBidRepossessions" xml:space="preserve">
+    <value>मोहरबंद बोली पुनः कब्ज़ा</value>
+  </data>
+  <data name="VehicleFinder_FilterCodeTheftRecovered" xml:space="preserve">
+    <value>चोरी रिकवर की गई</value>
+  </data>
+  <data name="VehicleFinder_FindVehiclesButtonText" xml:space="preserve">
+    <value>वाहन ढूँढ़ें</value>
+  </data>
+  <data name="VehicleFinder_Header_Label" xml:space="preserve">
+    <value>वाहन खोजकर्ता</value>
+  </data>
+  <data name="InventoryFinderByType_Header_Label" xml:space="preserve">
+    <value>अपनी इन्वेंटरी वाहन प्रकार द्वारा खोजें</value>
+  </data>
+  <data name="CountermanInformation_Header" xml:space="preserve">
+    <value>काउंटरमेन जानकारी</value>
+  </data>
+  <data name="InventoryFinderCopart_Header_Label" xml:space="preserve">
+    <value>कोपार्ट इन्वेंटरी में खोज करें</value>
+  </data>
+  <data name="InventoryFinderByLotVinSerial_Header_Label" xml:space="preserve">
+    <value>अपनी इन्वेंटरी लॉट/VIN/सीरियल द्वारा खोजें</value>
+  </data>
+  <data name="VehicleFinder_Location_Label" xml:space="preserve">
+    <value>स्थान</value>
+  </data>
+  <data name="VehicleFinder_LocationRadioBtn" xml:space="preserve">
+    <value>स्थान</value>
+  </data>
+  <data name="VehicleFinder_ColorLabel" xml:space="preserve">
+    <value>रंग</value>
+  </data>
+  <data name="VehicleFinder_MakeLabel" xml:space="preserve">
+    <value>मेक</value>
+  </data>
+  <data name="VehicleFinder_ModelLabel" xml:space="preserve">
+    <value>मॉडल</value>
+  </data>
+  <data name="VehicleFinder_StateProvinceRadioBtn" xml:space="preserve">
+    <value>राज्य/प्रांत</value>
+  </data>
+  <data name="VehicleFinder_Title" xml:space="preserve">
+    <value>इस स्थान पर वाहन ढूँढ़ें</value>
+  </data>
+  <data name="VehicleFinder_TitleGroupClean" xml:space="preserve">
+    <value>टाइटल साफ़ करें</value>
+  </data>
+  <data name="VehicleFinder_TitleGroupNonRepairable" xml:space="preserve">
+    <value>गैर-मरम्मत योग्य टाइटल</value>
+  </data>
+  <data name="VehicleFinder_TitleGroupSalvage" xml:space="preserve">
+    <value>टाइटल साल्वेज करें</value>
+  </data>
+  <data name="VehicleFinder_TypeLabel" xml:space="preserve">
+    <value>प्रकार</value>
+  </data>
+  <data name="VehicleFinder_YearLabel" xml:space="preserve">
+    <value>वर्ष</value>
+  </data>
+  <data name="VehicleFinder_ZipRadioBtn" xml:space="preserve">
+    <value>पिन कोड</value>
+  </data>
+  <data name="VinSearch_InvalidVin" xml:space="preserve">
+    <value>खोज योग्य मान्य VIN में 3 से 17 वर्ण होते हैं।</value>
+  </data>
+  <data name="VinSearch_SearchButton" xml:space="preserve">
+    <value>VIN द्वारा खोजें</value>
+  </data>
+  <data name="SaveSearchModal_Cancel" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="SaveSearchModal_Savebtn" xml:space="preserve">
+    <value>खोज सहेजें</value>
+  </data>
+  <data name="SaveSearchModal_Text" xml:space="preserve">
+    <value>खोज परिणाम इस रूप में सहेजें</value>
+  </data>
+  <data name="SaveSearchModal_Title" xml:space="preserve">
+    <value>खोज सहेजें</value>
+  </data>
+  <data name="SearchResults_PhotoCount" xml:space="preserve">
+    <value>{Count} फ़ोटो</value>
+  </data>
+  <data name="VehicleFinder_SelectMake_Dropdown" xml:space="preserve">
+    <value>मेक चुनें</value>
+  </data>
+  <data name="VehicleFinder_SelectModel_Dropdown" xml:space="preserve">
+    <value>मॉडल चुनें</value>
+  </data>
+  <data name="VehicleFinder_SelectColor_Dropdown" xml:space="preserve">
+    <value>रंग चुनें</value>
+  </data>
+  <data name="SavedSearch_Delete" xml:space="preserve">
+    <value>हटाएँ</value>
+  </data>
+  <data name="SavedSearch_Error" xml:space="preserve">
+    <value>आपका डेटा सहेजने में समस्या थी।  कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="SavedSearch_List" xml:space="preserve">
+    <value>सहेजी गई खोज सूची</value>
+  </data>
+  <data name="SavedSearch_Name" xml:space="preserve">
+    <value>सहेजे गए खोज नाम</value>
+  </data>
+  <data name="SavedSearch_Saved" xml:space="preserve">
+    <value>सहेजा गया</value>
+  </data>
+  <data name="SavedSearch_Search" xml:space="preserve">
+    <value>खोजें</value>
+  </data>
+  <data name="SavedSearch_Visit" xml:space="preserve">
+    <value>वाहन खोजकर्ता पर जाएँ और नई खोज जोड़ें</value>
+  </data>
+  <data name="SaveSearchModal_Confirmation" xml:space="preserve">
+    <value>खोज पर लौटें</value>
+  </data>
+  <data name="SaveSearchModal_ConfirmationText" xml:space="preserve">
+    <value>आपकी खोज सफलतापूर्वक सहेज ली गई है।</value>
+  </data>
+  <data name="VehicleFinder_SearchByType" xml:space="preserve">
+    <value>प्रकार चुनें</value>
+  </data>
+  <data name="VehicleFinder_ABICategory_Label" xml:space="preserve">
+    <value>वर्ग</value>
+  </data>
+  <data name="Search_InvalidZip" xml:space="preserve">
+    <value>कृपया मान्य ज़िप दर्ज करें</value>
+  </data>
+  <data name="SearchResults_FilterTimeLabel" xml:space="preserve">
+    <value>समय फ़िल्टर करें</value>
+  </data>
+  <data name="VehicleFinder_TitleTypeLabel" xml:space="preserve">
+    <value>टाइटल का प्रकार</value>
+  </data>
+  <data name="SearchResults_JoinAuction" xml:space="preserve">
+    <value>नीलामी में शामिल हों</value>
+  </data>
+  <data name="VehicleFinder_LotRequiredErrorMessage" xml:space="preserve">
+    <value>अलग-अलग लुकअप LOT फ़ील्ड की ज़रूरत है</value>
+  </data>
+  <data name="VehicleFinder_VinRequiredErrorMessage" xml:space="preserve">
+    <value>अलग-अलग लुकअप VIN फ़ील्ड की ज़रूरत है</value>
+  </data>
+  <data name="VehicleFinder_Zip1000miles" xml:space="preserve">
+    <value>1000 मील दूर</value>
+  </data>
+  <data name="VehicleFinder_Zip100miles" xml:space="preserve">
+    <value>100 मील दूर</value>
+  </data>
+  <data name="VehicleFinder_Zip2000miles" xml:space="preserve">
+    <value>2000 मील दूर</value>
+  </data>
+  <data name="VehicleFinder_Zip200miles" xml:space="preserve">
+    <value>200 मील दूर</value>
+  </data>
+  <data name="VehicleFinder_Zip250miles" xml:space="preserve">
+    <value>250 मील दूर</value>
+  </data>
+  <data name="VehicleFinder_Zip500miles" xml:space="preserve">
+    <value>500 मील दूर</value>
+  </data>
+  <data name="VehicleFinder_Zip50miles" xml:space="preserve">
+    <value>50 मील दूर</value>
+  </data>
+  <data name="VehicleFinder_ZipSelectDistance" xml:space="preserve">
+    <value>कितने भी मील दूर</value>
+  </data>
+  <data name="SearchResults_ByText" xml:space="preserve">
+    <value>इसके द्वारा</value>
+  </data>
+  <data name="SearchResults_PhotosText" xml:space="preserve">
+    <value>फ़ोटो</value>
+  </data>
+  <data name="SavedSearch_LearnSavedSearch" xml:space="preserve">
+    <value>सहेजी गई खोजों के बारे में ज़्यादा जानें</value>
+  </data>
+  <data name="SavedSearch_StartNewSearch" xml:space="preserve">
+    <value>नई खोज शुरू करें</value>
+  </data>
+  <data name="SavedSearch_Title" xml:space="preserve">
+    <value>सहेजी गई खोजें</value>
+  </data>
+  <data name="SearchResultsCount" xml:space="preserve">
+    <value>{Count} वाहन मिले हैं</value>
+  </data>
+  <data name="SearchResultsLotsCount" xml:space="preserve">
+    <value>हमें {Count} लॉट मिले हैं</value>
+  </data>
+  <data name="SearchResults_AwaitingApproval" xml:space="preserve">
+    <value>स्वीकृति की प्रतीक्षा हो रही है</value>
+  </data>
+  <data name="SearchResults_TimeLeftFormat_js" xml:space="preserve">
+    <value>%dदिन %hघंटे %मिनट</value>
+    <comment>jQuery jCountdown string: Tokens available: %y = years, %m = months, %d = days, %h = hours, %i = minutes, %s = seconds</comment>
+  </data>
+  <data name="SearchResults_DidYouMean" xml:space="preserve">
+    <value>क्या आपका मतलब है:</value>
+  </data>
+  <data name="SearchResults_Sealed" xml:space="preserve">
+    <value>मोहरबंद बोली</value>
+  </data>
+  <data name="SearchResults_MileageFilter1" xml:space="preserve">
+    <value>25,000 से कम</value>
+  </data>
+  <data name="SearchResults_MileageFilter2" xml:space="preserve">
+    <value>25,000 से 50,000</value>
+  </data>
+  <data name="SearchResults_MileageFilter3" xml:space="preserve">
+    <value>50,000 से अधिक</value>
+  </data>
+  <data name="SearchResults_PostalCode" xml:space="preserve">
+    <value>पोस्टल कोड</value>
+  </data>
+  <data name="SearchResults_PostalErrorText" xml:space="preserve">
+    <value>कृपया मान्य पोस्टल कोड डालें</value>
+  </data>
+  <data name="SearchResults_PostalHeaderText" xml:space="preserve">
+    <value>अपना पोस्टल कोड दर्ज करें</value>
+  </data>
+  <data name="SearchResults_PostalSortText" xml:space="preserve">
+    <value>अपने स्थान के आधार पर वाहन क्रमबद्ध करने के लिए नीचे अपना पोस्टल कोड दर्ज करें।</value>
+  </data>
+  <data name="SearchResults_ZipCode" xml:space="preserve">
+    <value>ज़िप कोड</value>
+  </data>
+  <data name="SearchResults_ZipErrorText" xml:space="preserve">
+    <value>कृपया मान्य ज़िप कोड डाले</value>
+  </data>
+  <data name="SearchResults_ZipHeaderText" xml:space="preserve">
+    <value>अपना ज़िप कोड दर्ज करे</value>
+  </data>
+  <data name="SearchResults_ZipSortText" xml:space="preserve">
+    <value>अपने स्थान के आधार पर वाहन क्रमबद्ध करने के लिए नीचे अपना ज़िप कोड दर्ज करें।</value>
+  </data>
+  <data name="VehicleFinder_ZIP_Required" xml:space="preserve">
+    <value>ज़िप/पोस्टल कोड की ज़रूरत है</value>
+  </data>
+  <data name="VehicleFinder_Invalid_ZIP" xml:space="preserve">
+    <value>ज़िप/पोस्टल कोड अमान्य है</value>
+  </data>
+  <data name="SearchResults_SealedText" xml:space="preserve">
+    <value>पूरी प्रक्रिया के दौरान आपकी बोली गोपनीय रहेगी और यह अन्य बोली लगाने वालों को दिखाई नहीं देगी। इसलिए आपको वह अधिकतम बोली लगानी चाहिए जो आपके विचार से लॉट जीतने के लिए ज़रूरी है। नीलामी के दौरान आप किसी भी समय उच्चतर बोली सबमिट कर सकते हैं जो आपकी पिछली बोली से अग्रता ले लेगी। बिक्री बंद होने के बाद, हमारी स्वचालित प्रणाली सबसे ऊँची बोली निर्धारित करेगी और लॉट उस बोली लगाने वाले को दे देगी।</value>
+  </data>
+  <data name="SearchResults_NoResultsMessage" xml:space="preserve">
+    <value>हम इसके लिए परिणाम ढूँढ़ने में असमर्थ रहे</value>
+  </data>
+  <data name="CompareVehicles_BidStatus" xml:space="preserve">
+    <value>बोली की स्थिति</value>
+  </data>
+  <data name="CompareVehicles_BuyItNow" xml:space="preserve">
+    <value>इसे अभी ख़रीदें</value>
+  </data>
+  <data name="CompareVehicles_CurrentBid" xml:space="preserve">
+    <value>मौजूदा बोली</value>
+  </data>
+  <data name="CompareVehicles_NotAvailable" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SerialSearch_InvalidSerial" xml:space="preserve">
+    <value>मान्य खोज योग्य क्रम संख्या 6 अंकों वाली वर्णों और अंकों का मेल होती है।</value>
+  </data>
+  <data name="Watchlist_DownloadCSVButton" xml:space="preserve">
+    <value>वाचलिस्ट डाउनलोड करें</value>
+  </data>
+  <data name="CompareVehicles_EstRetailValue_UK" xml:space="preserve">
+    <value>PAV</value>
+  </data>
+  <data name="CompareVehicles_RepairEst_UK" xml:space="preserve">
+    <value>मरम्मत की लागत</value>
+  </data>
+  <data name="SearchResults_NeverbidText" xml:space="preserve">
+    <value>कभी बोली न लगाएँ</value>
+  </data>
+  <data name="VehicleFinder_SearchButton" xml:space="preserve">
+    <value>खोजें</value>
+  </data>
+  <data name="MyBids_SaleDate_Future" xml:space="preserve">
+    <value>भविष्य</value>
+  </data>
+  <data name="SaleDate_Upcoming" xml:space="preserve">
+    <value>आगामी</value>
+  </data>
+  <data name="SavedSearch_List_Header" xml:space="preserve">
+    <value>सहेजी गई खोजें</value>
+  </data>
+  <data name="SavedSearch_Email_Tooltip" xml:space="preserve">
+    <value>जब नए वाहन बिक्री के लिए उपलब्ध हो जाएँगे तो हम आपको उनके विवरण के साथ ईमेल भेज देंगे।  ईमेल सूचनाएँ बंद करने के लिए, चेक बॉक्स को अनचेक करें। टिक बॉक्स चेक करके ईमेल अलर्ट फिर शुरू किए जा सकते हैं।</value>
+  </data>
+  <data name="VehicleFinder_ZipRadioBtnUK" xml:space="preserve">
+    <value>पोस्टकोड</value>
+  </data>
+  <data name="SearchResults_NoResultsFoundMessage_UK" xml:space="preserve">
+    <value>क्षमा करें, फ़िलहाल आपकी खोज से मिलान का कोई लॉट नहीं है। कृपया नए लॉट के लिए जल्दी ही फिर से जाँच करें।</value>
+  </data>
+  <data name="Search_Print_Notes" xml:space="preserve">
+    <value>नोट्स</value>
+  </data>
+  <data name="SearchResults_Miles_Unknown" xml:space="preserve">
+    <value>अज्ञात</value>
+  </data>
+  <data name="VehicleFinder_YearErrorMsg" xml:space="preserve">
+    <value>&apos;से&apos; वर्ष &apos;तक&apos; वर्ष से बड़ा नहीं हो सकता।</value>
+  </data>
+  <data name="VehicleFinder_TypeAtv" xml:space="preserve">
+    <value>ATV</value>
+  </data>
+  <data name="VehicleFinder_TypeAutomobile" xml:space="preserve">
+    <value>ऑटोमोबाइल</value>
+  </data>
+  <data name="VehicleFinder_TypeBoat" xml:space="preserve">
+    <value>नाव</value>
+  </data>
+  <data name="VehicleFinder_TypeDirtBike" xml:space="preserve">
+    <value>डर्ट बाइक</value>
+  </data>
+  <data name="VehicleFinder_TypeHeavyDutyTrucks" xml:space="preserve">
+    <value>हैवी ड्यूटी ट्रक</value>
+  </data>
+  <data name="VehicleFinder_TypeHomeowners" xml:space="preserve">
+    <value>गृहस्वामी</value>
+  </data>
+  <data name="VehicleFinder_TypeIndustrialEquipment" xml:space="preserve">
+    <value>औद्योगिक उपकरण</value>
+  </data>
+  <data name="VehicleFinder_TypeJetSki" xml:space="preserve">
+    <value>जेट स्की</value>
+  </data>
+  <data name="VehicleFinder_TypeMediumDutyBoxTrucks" xml:space="preserve">
+    <value>मीडियम ड्यूटी/बॉक्स ट्रक</value>
+  </data>
+  <data name="VehicleFinder_TypeMotorcycle" xml:space="preserve">
+    <value>मोटरसाइकिल</value>
+  </data>
+  <data name="VehicleFinder_TypeRecreationalVehicle" xml:space="preserve">
+    <value>रीक्रियेशनल वाहन(RV)</value>
+  </data>
+  <data name="VehicleFinder_TypeSnowmobile" xml:space="preserve">
+    <value>स्नोमोबाइल</value>
+  </data>
+  <data name="VehicleFinder_TypeTrailers" xml:space="preserve">
+    <value>ट्रेलर</value>
+  </data>
+  <data name="Seo_ButtonText" xml:space="preserve">
+    <value>हमारी {seofilter} इन्वेंटरी देखें</value>
+  </data>
+  <data name="Seo_Level0" xml:space="preserve">
+    <value>कोपार्ट पर अपना अगला वाहन खोजें। किसी भी दिन नीलामी के लिए 75,000 से ज़्यादा साल्वेज और साफ़ टाइटल आइटम के साथ, हमारे पास सबके लिए कुछ-न-कुछ है। कोपार्ट पर, आप सख़्ती से ऑटो बिक्री तक ही सीमित नहीं रहते। हम नौकाओं, RVs, ATVs,  म्युनिसिपल वाहनों, ट्रैक्टर ट्रेलर, औद्योगिक वाहनों और मोटरसाइकिल, और अन्य वाहन प्रकारों का विस्तृत चयन पेश करते हैं।  हम डिस्मेंटलर, बॉडी शॉप, साल्वेज ख़रीदारों, डीलरों और अलग-अलग उपभोक्ताओं को वाहन बेचते हैं। सौदों को लाइव, वास्तविक समय में होता हुआ देखने के लिए आज ही नीलामी में शामिल हों!</value>
+  </data>
+  <data name="Seo_Level1" xml:space="preserve">
+    <value>कोपार्ट पर अपना अगला {type} खोजें। किसी भी दिन नीलामी के लिए 75,000 से ज़्यादा साल्वेज और साफ़ टाइटल वाहनों के साथ, हम निश्चित हैं कि हमारे पास वह है जिसकी आप तलाश कर रहे हैं। हमारे पास विभिन्न क्षति स्तरों के साथ {type} हैं, जिनमें मामूली डेंट और खरोंचों से लेकर पूरी बॉडी के नुक़सान की रेंज शामिल है। विशिष्ट क्षेत्र में ख़ास {type} ढूँढ़ने की ज़रूरत है? बस इस वाहन के प्रकार के लिए खोज करें, और उसके बाद स्थान द्वारा फ़िल्टर करें। हमारे {type} में से कुछ &quot;इसे अभी ख़रीदें&quot; वाहनों के रूप में भी नामित हो सकते हैं और आज ही ख़रीद के लिए उपलब्ध हो सकते हैं!</value>
+  </data>
+  <data name="Seo_Level2" xml:space="preserve">
+    <value>कोपार्ट पर अपना अगला {make} खोजें। किसी भी दिन नीलामी के लिए 75,000 से ज़्यादा साल्वेज और साफ़ टाइटल वाहनों के साथ, हम निश्चित हैं कि हमारे पास वह है जिसकी आप तलाश कर रहे हैं। हमारे पास विभिन्न क्षति स्तरों के साथ {make} हैं, जिनमें मामूली डेंट और खरोंचों से लेकर पूरी बॉडी के नुक़सान की रेंज शामिल है। विशिष्ट क्षेत्र में ख़ास {make} ढूँढ़ने की ज़रूरत है? बस इस मेक के लिए खोज करें, और उसके बाद स्थान द्वारा फ़िल्टर करें। हमारे {make} में से कुछ &quot;इसे अभी ख़रीदें&quot; वाहनों के रूप में भी नामित हो सकते हैं और आज ही ख़रीद के लिए उपलब्ध हो सकते हैं!</value>
+  </data>
+  <data name="Seo_Level3" xml:space="preserve">
+    <value>कोपार्ट पर अपना अगला {make} {model} खोजें। किसी भी दिन नीलामी के लिए 75,000 से ज़्यादा साल्वेज और साफ़ टाइटल वाहनों के साथ, हमारे पास वह होने की संभावना जिसकी आप तलाश कर रहे हैं। हमारे {make} {model} विभिन्न क्षति स्तरों के साथ आते हैं, जिनमें मामूली डेंट और खरोंचों पूरी बॉडी के लिए नुक़सान की रेंज शामिल है। विशिष्ट क्षेत्र में ख़ास {make} {model} ढूँढ़ने की ज़रूरत है? बस इस मेक और मॉडल के लिए खोज करें, और उसके बाद स्थान द्वारा फ़िल्टर करें। हमारे {make} {model} में से कुछ &quot;इसे अभी ख़रीदें&quot; वाहनों के रूप में भी नामित हो सकते हैं और आज ही ख़रीद के लिए उपलब्ध हो सकते हैं!</value>
+  </data>
+  <data name="Seo_Level4" xml:space="preserve">
+    <value>कोपार्ट पर अपना अगला {year} {make} {model} खोजें। किसी भी दिन नीलामी के लिए 75,000 से ज़्यादा साल्वेज और साफ़ टाइटल वाहनों के साथ, हमारे पास वह होने की संभावना जिसकी आप तलाश कर रहे हैं। हमारे {year} {make} {model} सामान्य रूप से विभिन्न क्षति स्तरों के साथ आते हैं, जिनमें मामूली डेंट और खरोंचों से लेकर पूरी बॉडी के नुक़सान की रेंज शामिल है। विशिष्ट क्षेत्र में ख़ास {year} {make} {model} ढूँढ़ने की ज़रूरत है? बस इस मेक और मॉडल के लिए खोज करें, और उसके बाद वर्ष और स्थान द्वारा फ़िल्टर करें। हमारे {year} {make} {model} में से कुछ &quot;इसे अभी ख़रीदें&quot; वाहनों के रूप में भी नामित हो सकते हैं और आज ही ख़रीद के लिए उपलब्ध हो सकते हैं!</value>
+  </data>
+  <data name="VehicleAlerts_Text1" xml:space="preserve">
+    <value>कोपार्ट के साथ ख़रीदना और बेचना</value>
+  </data>
+  <data name="VehicleAlerts_Text2" xml:space="preserve">
+    <value>जब यह वाहन उपलब्ध हो तब ईमेल प्राप्त करना चाहते हैं?</value>
+  </data>
+  <data name="VehicleAlerts_Text3" xml:space="preserve">
+    <value>मुफ़्त वाहन अलर्ट के लिए साइन अप करने के लिए यहाँ क्लिक करें!</value>
+  </data>
+  <data name="VehicleAlerts_Text4" xml:space="preserve">
+    <value>जब वह वाहन Copart.com पर उपलब्ध हो जाएगा, जिसकी आप तलाश कर रहे हैं तब हम आपको ईमेल भेजेंगे।</value>
+  </data>
+  <data name="Seo_AboutCopart" xml:space="preserve">
+    <value>कोपार्ट के बारे में</value>
+  </data>
+  <data name="Seo_Overview" xml:space="preserve">
+    <value>सिंहावलोकन</value>
+  </data>
+  <data name="VehicleFinder_Invalid_UKZIP" xml:space="preserve">
+    <value>पोस्टल कोड अमान्य है</value>
+  </data>
+  <data name="VehicleFinder_UKZIP_Required" xml:space="preserve">
+    <value>पोस्टल कोड की ज़रूरत है</value>
+  </data>
+  <data name="Seo_UK_Level0" xml:space="preserve">
+    <value>कोपार्ट पर अपना अगला वाहन खोजें। नीलामी के लिए सालाना 3,00000 से ज़्यादा यूज़्ड और साल्वेज वाहनों के साथ, हमारे पास सभी के लिए कुछ-न-कुछ है। कोपार्ट पर, आप सख़्ती से ऑटो बिक्री तक ही सीमित नहीं रहते। हम नौकाओं, ट्रैक्टर ट्रेलर, औद्योगिक वाहनों और मोटरसाइकिल, और अन्य वाहन प्रकारों का विस्तृत चयन पेश करते हैं।  हम डिस्मेंटलर, बॉडी शॉप, साल्वेज ख़रीदारों, और डीलरों को वाहन बेचते हैं। सौदों को लाइव, वास्तविक समय में होता हुआ देखने के लिए आज ही ऑनलाइन नीलामी में शामिल हों!</value>
+  </data>
+  <data name="Seo_UK_Level1" xml:space="preserve">
+    <value>कोपार्ट पर अपना अगला {type} खोजें। सालाना नीलामी के लिए 3,00,000 से ज़्यादा यूज़्ड और साल्वेज वाहनों के साथ, हम निश्चित हैं कि हमारे पास वह है जिसकी आप तलाश कर रहे हैं। हमारे पास विभिन्न क्षति स्तरों के साथ {type} हैं, जिनमें मामूली डेंट और खरोंचों से लेकर पूरी बॉडी के नुक़सान की रेंज शामिल है। विशिष्ट क्षेत्र में ख़ास {type} ढूँढ़ने की ज़रूरत है? बस इस वाहन के प्रकार के लिए खोज करें, और उसके बाद स्थान द्वारा फ़िल्टर करें। हमारे {type} में से कुछ &quot;इसे अभी ख़रीदें&quot; वाहनों के रूप में भी नामित हो सकते हैं और आज ही ख़रीद के लिए उपलब्ध हो सकते हैं!</value>
+  </data>
+  <data name="Seo_UK_Level2" xml:space="preserve">
+    <value>कोपार्ट पर अपना अगला {make} खोजें। सालाना नीलामी के लिए 3,00,000 से ज़्यादा यूज़्ड और साल्वेज वाहनों के साथ, हम निश्चित हैं कि हमारे पास वह है जिसकी आप तलाश कर रहे हैं। हमारे पास विभिन्न क्षति स्तरों के साथ {make} हैं, जिनमें मामूली डेंट और खरोंचों से लेकर पूरी बॉडी के नुक़सान की रेंज शामिल है। विशिष्ट क्षेत्र में ख़ास {make} ढूँढ़ने की ज़रूरत है? बस इस मेक के लिए खोज करें, और उसके बाद स्थान द्वारा फ़िल्टर करें। हमारे {make} में से कुछ &quot;इसे अभी ख़रीदें&quot; वाहनों के रूप में भी नामित हो सकते हैं और आज ही ख़रीद के लिए उपलब्ध हो सकते हैं!</value>
+  </data>
+  <data name="Seo_UK_Level3" xml:space="preserve">
+    <value>कोपार्ट पर अपना अगला {make} {model} खोजें। सालाना नीलामी के लिए 3,00,000 से ज़्यादा यूज़्ड और साल्वेज वाहनों के साथ, संभावना है कि हमारे पास वह है जिसकी आप तलाश कर रहे हैं। हमारे {make} {model} विभिन्न क्षति स्तरों के साथ आते हैं, जिनमें मामूली डेंट और खरोंचों पूरी बॉडी के लिए नुकसान की रेंज शामिल है। विशिष्ट क्षेत्र में ख़ास {make} {model} ढूँढ़ने की ज़रूरत है? बस इस मेक और मॉडल के लिए खोज करें, और उसके बाद स्थान द्वारा फ़िल्टर करें। हमारे {make} {model} में से कुछ &quot;इसे अभी ख़रीदें&quot; वाहनों के रूप में भी नामित हो सकते हैं और आज ही ख़रीद के लिए उपलब्ध हो सकते हैं!</value>
+  </data>
+  <data name="Seo_UK_Level4" xml:space="preserve">
+    <value>कोपार्ट पर अपना अगला {year} {make} {model} खोजें। सालाना नीलामी के लिए 3,00,000 से ज़्यादा यूज़्ड और साल्वेज वाहनों के साथ, संभावना है कि हमारे पास वह है जिसकी आप तलाश कर रहे हैं। हमारे {year} {make} {model} सामान्य रूप से विभिन्न क्षति स्तरों के साथ आते हैं, जिनमें मामूली डेंट और खरोंचों से लेकर पूरी बॉडी के नुक़सान की रेंज शामिल है। विशिष्ट क्षेत्र में ख़ास {year} {make} {model} ढूँढ़ने की ज़रूरत है? बस इस मेक और मॉडल के लिए खोज करें, और उसके बाद वर्ष और स्थान द्वारा फ़िल्टर करें। हमारे {year} {make} {model} में से कुछ &quot;इसे अभी ख़रीदें&quot; वाहनों के रूप में भी नामित हो सकते हैं और आज ही ख़रीद के लिए उपलब्ध हो सकते हैं!</value>
+  </data>
+  <data name="SearchResults_TipsForImprovingYourSearch" xml:space="preserve">
+    <value>आपकी खोज में सुधार के लिए सुझाव</value>
+  </data>
+  <data name="SearchResults_SortByPostalCode" xml:space="preserve">
+    <value>पोस्टल कोड द्वारा क्रमबद्ध करें</value>
+  </data>
+  <data name="SearchResults_SortByZip" xml:space="preserve">
+    <value>ज़िप द्वारा क्रमबद्ध करें</value>
+  </data>
+  <data name="SearchResults_SortByZipBtn" xml:space="preserve">
+    <value>शुरू करें</value>
+  </data>
+  <data name="SearchResults_SaleListFor" xml:space="preserve">
+    <value>{SearchText} के लिए बिक्री सूची</value>
+  </data>
+  <data name="SearchResults_Lane" xml:space="preserve">
+    <value>लेन - {AuctionLane}</value>
+  </data>
+  <data name="SearchResults_SubTitle" xml:space="preserve">
+    <value>बिक्री तिथि / समय: {SaleDate}  |  पूर्व-बोली समाप्त होने का समय: {PreBidEndDate}</value>
+  </data>
+  <data name="SearchResults_DownloadSaleListCSVButton" xml:space="preserve">
+    <value>बिक्री सूची डाउनलोड करें</value>
+  </data>
+  <data name="SearchResutls_BackToSalesList" xml:space="preserve">
+    <value>सूची पर वापस</value>
+  </data>
+  <data name="SearchResutls_ViewLocation" xml:space="preserve">
+    <value>स्थान देखें</value>
+  </data>
+  <data name="SearchResults_SaleListPageSizeOptions" xml:space="preserve">
+    <value>20 परिणाम दिखाएँ|50 परिणाम दिखाएँ|100 परिणाम दिखाएँ|परिणामों से दिखाएँ</value>
+  </data>
+  <data name="SearchResults_PageSizeOptionValues" xml:space="preserve">
+    <value>20|50|100</value>
+  </data>
+  <data name="SearchResults_SaleListPageSizeOptionValues" xml:space="preserve">
+    <value>20|50|100|{अधिकतम}</value>
+  </data>
+  <data name="SearchResults_SortByPostcode" xml:space="preserve">
+    <value>पोस्टकोड द्वारा क्रमबद्ध करें</value>
+  </data>
+  <data name="Watchlist_WeFoundXVehiclesLabel" xml:space="preserve">
+    <value>आपके पास {Count} वाहन हैं</value>
+  </data>
+  <data name="SearchResults_FutureSale" xml:space="preserve">
+    <value>बिक्री तिथि / समय: भविष्य</value>
+  </data>
+  <data name="UnavailableText" xml:space="preserve">
+    <value>अनुपलब्ध</value>
+  </data>
+  <data name="VehicleFinder_NoInventoryText" xml:space="preserve">
+    <value>इस पृष्ठ का प्रयोजन आपको इन्वेंटरी से त्वरित लिंक प्रदान करना है। फ़िलहाल, कोई लिंक उपलब्ध नहीं है। कृपया बाद में वापस जाँच करें।</value>
+  </data>
+  <data name="VehicleFinder_AllLocations" xml:space="preserve">
+    <value>सभी स्थान</value>
+  </data>
+  <data name="SearchFilters_ApplyFilter" xml:space="preserve">
+    <value>फ़िल्टर लागू करें</value>
+  </data>
+  <data name="SearchFilters_Cancel" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="SearchFilters_ChooseFilterOptions" xml:space="preserve">
+    <value>अपने फ़िल्टर विकल्प चुनें</value>
+  </data>
+  <data name="SearchFilters_ClearAll" xml:space="preserve">
+    <value>सभी साफ़ करें</value>
+  </data>
+  <data name="SearchFilters_EditFilter" xml:space="preserve">
+    <value>फ़िल्टर संपादित करें</value>
+  </data>
+  <data name="SearchFilters_Filter" xml:space="preserve">
+    <value>फ़िल्टर</value>
+  </data>
+  <data name="SearchFilters_FilterOptions" xml:space="preserve">
+    <value>फ़िल्टर विकल्प</value>
+  </data>
+  <data name="SearchFilters_RemoveFilters" xml:space="preserve">
+    <value>ये फ़िल्टर निकालें</value>
+  </data>
+  <data name="NoInventory" xml:space="preserve">
+    <value>और बहुत कुछ जल्द आएगा</value>
+  </data>
+  <data name="SavedSearch_Heading_Name" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="Download_Report" xml:space="preserve">
+    <value>डाउनलोड रिपोर्ट</value>
+  </data>
+</root>

@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutYouHeader" xml:space="preserve">
+    <value>आपके बारे में</value>
+  </data>
+  <data name="BuyerType" xml:space="preserve">
+    <value>आप किस प्रकार के ख़रीदार हैं?</value>
+  </data>
+  <data name="ContactInformationHeader" xml:space="preserve">
+    <value>संपर्क जानकारी</value>
+  </data>
+  <data name="Index_Page_Title" xml:space="preserve">
+    <value>आज ही साइन अप करें! यह तेज़ और निःशुल्क है</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>ऐच्छिक</value>
+  </data>
+  <data name="RegisterLinkText" xml:space="preserve">
+    <value>पंजीकरण करें</value>
+  </data>
+  <data name="SameAs" xml:space="preserve">
+    <value>भौतिक पता डाक के पते के समान</value>
+  </data>
+  <data name="SelectCountry" xml:space="preserve">
+    <value>देश चुनें</value>
+  </data>
+  <data name="SelectState" xml:space="preserve">
+    <value>राज्य चुनें</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>जमा करें</value>
+  </data>
+  <data name="SubmitInstructions" xml:space="preserve">
+    <value>अपना डेटा जमा करने और Copart के नए सदस्य के रूप में आवेदन करने के लिए क्लिक करें।</value>
+  </data>
+  <data name="TellUsHeader" xml:space="preserve">
+    <value>हमें अपने बारे में बताएँ</value>
+  </data>
+  <data name="TermsAgreement" xml:space="preserve">
+    <value>यह बॉक्स क्लिक करके, मैं सहमत हूँ कि मेरी उम्र कम-से-कम 18 साल है और कि मैंने यह पढ़ लिया है और मैं इनसे सहमत हूँ </value>
+  </data>
+  <data name="UK_Registration_GetQuoteHeader" xml:space="preserve">
+    <value>कोटेशन प्राप्त करें</value>
+  </data>
+  <data name="UK_Registration_GetQuote_TellUsText" xml:space="preserve">
+    <value>हमें अपने वाहन के बारे में बताएँ</value>
+  </data>
+  <data name="UK_Registration_GetQuote_Text" xml:space="preserve">
+    <value>अपने &lt;b&gt;निःशुल्क&lt;/b&gt; बिना दायित्व की कोटेशन के लिए यह फ़ॉर्म भरें!</value>
+  </data>
+  <data name="UK_Registration_QuestionBox_Contact" xml:space="preserve">
+    <value>1-888-Sell-it-Now</value>
+  </data>
+  <data name="UK_Registration_QuestionBox_Question" xml:space="preserve">
+    <value>हमारे लिए सवाल है?</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_JunkVehicle" xml:space="preserve">
+    <value>अगर आपका वाहन 1999 का या उससे पुराना है, तो कृपया हमारे &lt;a href=&quot;{#Link}&quot;&gt;जंक वाहन फ़ॉर्म&lt;/a&gt; का इस्तेमाल करकें।</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_LoanLabel" xml:space="preserve">
+    <value>वहाँ वाहन पर ऋण है?</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_MakeLabel" xml:space="preserve">
+    <value>मेक</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_MileLabel" xml:space="preserve">
+    <value>मील</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_ModelLabel" xml:space="preserve">
+    <value>मॉडल</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_No" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_OptionalLabel" xml:space="preserve">
+    <value>ऐच्छिक</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_SelectMake" xml:space="preserve">
+    <value>मेक चुनें</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_SelectModel" xml:space="preserve">
+    <value>मॉडल चुनें</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_VehicleWorthLabel" xml:space="preserve">
+    <value>आपके वाहन की मूल्यवत्ता क्या है?</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_YearLabel" xml:space="preserve">
+    <value>वर्ष</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_Yes" xml:space="preserve">
+    <value>हाँ</value>
+  </data>
+  <data name="UK_Registration_TellUsForm_EmailLabel" xml:space="preserve">
+    <value>ईमेल</value>
+  </data>
+  <data name="UK_Registration_TellUsForm_FirstNameLabel" xml:space="preserve">
+    <value>प्रथम नाम</value>
+  </data>
+  <data name="UK_Registration_TellUsForm_LastNameLabel" xml:space="preserve">
+    <value>अंतिम नाम</value>
+  </data>
+  <data name="UK_Registration_TellUsForm_PhoneLabel" xml:space="preserve">
+    <value>फ़ोन</value>
+  </data>
+  <data name="UK_Registration_TellUsForm_ReferralLabel" xml:space="preserve">
+    <value>रैफ़रल कोड</value>
+  </data>
+  <data name="UK_Registration_TellUsForm_SubmitBtnText" xml:space="preserve">
+    <value>अपनी नि:शुल्क कोटेशन प्राप्त करें!</value>
+  </data>
+  <data name="UK_Registration_TellUsForm_ZipcodeLabel" xml:space="preserve">
+    <value>वाहन ज़िप कोड</value>
+  </data>
+  <data name="WhereLocatedHeader" xml:space="preserve">
+    <value>आप कहाँ स्थित हैं?</value>
+  </data>
+  <data name="UKRegistration_PostalModalSearch" xml:space="preserve">
+    <value>खोजें</value>
+  </data>
+  <data name="UK_Registration_PostalModalCancel" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="UK_Registration_PostalModalContinuedAddress" xml:space="preserve">
+    <value>लगातर रहने वाला पता</value>
+  </data>
+  <data name="UK_Registration_PostalModalExplanationText" xml:space="preserve">
+    <value>पते के आगे रेडियो बटन पर क्लिक करके चयन करें</value>
+  </data>
+  <data name="UK_Registration_PostalModalNoneFoundExplanationText" xml:space="preserve">
+    <value>दर्ज किए गए डाक कोड के साथ कोई पता नहीं मिला।</value>
+  </data>
+  <data name="UK_Registration_PostalModalPostCode" xml:space="preserve">
+    <value>पिन कोड</value>
+  </data>
+  <data name="UK_Registration_PostalModalResultsText" xml:space="preserve">
+    <value>इसके लिए पोस्ट कोड खोज परिणाम</value>
+  </data>
+  <data name="UK_Registration_PostalModalSelect" xml:space="preserve">
+    <value>चुनें</value>
+  </data>
+  <data name="UK_Registration_PostalModalSelectText" xml:space="preserve">
+    <value>चुनें</value>
+  </data>
+  <data name="UK_Registration_PostalModalTownCity" xml:space="preserve">
+    <value>नगर/शहर</value>
+  </data>
+  <data name="UK_Registration_PostalModalAddress" xml:space="preserve">
+    <value>पता</value>
+  </data>
+  <data name="UK_Registration_TellUsHeader" xml:space="preserve">
+    <value>हमें अपने बारे में बताएँ</value>
+  </data>
+  <data name="ConfirmEmail_ToolTip" xml:space="preserve">
+    <value>आपके द्वारा प्रदान किए जाने वाले ईमेल पते का इस्तेमाल आपकी आवेदन प्रक्रिया के दौरान आपके साथ संप्रेषण करने के लिए किया जाएगा, और इसका इस्तेमाल, हमारी गोपनीयता नीति से अनुरूपता में, किसी अन्य प्रयोजन के लिए नहीं किया जाएगा।</value>
+  </data>
+  <data name="ConfirmEmail_ToolTipTitle" xml:space="preserve">
+    <value>Copart को मेरी ईमेल क्यों चाहिए?</value>
+  </data>
+  <data name="UK_ConfirmEmail_ToolTip" xml:space="preserve">
+    <value>आपके द्वारा प्रदान किए जाने वाले ईमेल पते का इस्तेमाल आपकी आवेदन प्रक्रिया के दौरान आपके साथ संप्रेषण करने के लिए किया जाएगा, और इसका इस्तेमाल, हमारी गोपनीयता नीति से अनुरूपता में, किसी अन्य प्रयोजन के लिए नहीं किया जाएगा।</value>
+  </data>
+  <data name="UK_ConfirmEmail_ToolTipTitle" xml:space="preserve">
+    <value>Copart को मेरी ईमेल क्यों चाहिए?</value>
+  </data>
+  <data name="CurrencySymbol" xml:space="preserve">
+    <value>$</value>
+  </data>
+  <data name="TermsAgreement_Error" xml:space="preserve">
+    <value>अगर आपकी उम्र 18 साल या ज़्यादा है और आप Copart की सदस्य नियम और शर्तों, वेबसाइट सेवा की शर्तों और गोपनीयता नीति से सहमत हैं, तो कृपया चेक बॉक्स चुनें।</value>
+  </data>
+  <data name="Invalid_Postal_Code_Error" xml:space="preserve">
+    <value>अमान्य पोस्टल कोड</value>
+  </data>
+  <data name="Invalid_Zip_Code_Error" xml:space="preserve">
+    <value>अमान्य ज़िप कोड</value>
+  </data>
+  <data name="Phone_ToolTip" xml:space="preserve">
+    <value>आपका फ़ोन नंबर हमें आपकी जीती गई बोलियों और लॉट के बारे में आपसे संपर्क करने का तरीका देता है। इससे हम लाइसेंसिंग, डिलीवरी, भुगतान और Copart के साथ आपके अनुभवों के बारे में आपके साथ फ़ॉलो अप भी कर पाते हैं।</value>
+  </data>
+  <data name="Phone_ToolTipTitle" xml:space="preserve">
+    <value>Copart को मेरा फ़ोन नंबर क्यों चाहिए?</value>
+  </data>
+  <data name="TermsAgreement_Header" xml:space="preserve">
+    <value>सदस्य नियम और शर्तें</value>
+  </data>
+  <data name="UK_Phone_ToolTip" xml:space="preserve">
+    <value>आपका फ़ोन नंबर हमें आपकी जीती गई बोलियों और लॉट के बारे में आपसे संपर्क करने का तरीका देता है। इससे हम लाइसेंसिंग, डिलीवरी, भुगतान और Copart के साथ आपके अनुभवों के बारे में आपके साथ फ़ॉलो अप भी कर पाते हैं।</value>
+  </data>
+  <data name="UK_Phone_ToolTipTitle" xml:space="preserve">
+    <value>Copart को मेरा फ़ोन नंबर क्यों चाहिए?</value>
+  </data>
+  <data name="Terms_Modal_Page_Address" xml:space="preserve">
+    <value>~/Views/Shared/termsmodal_pv.cshtml</value>
+  </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>गोपनीयता नीति</value>
+  </data>
+  <data name="TermsAndConditionsLabel" xml:space="preserve">
+    <value>Copart की सदस्य नियम और शर्तें</value>
+  </data>
+  <data name="TermsOfServiceLabel" xml:space="preserve">
+    <value>वेबसाइट सेवा की शर्तें</value>
+  </data>
+  <data name="Testing" xml:space="preserve">
+    <value>&lt;p&gt;&lt;strong&gt;इस गोपनीयता नीति क्या कवर करती है&lt;br /&gt;
+&lt;/strong&gt;&lt;br /&gt;
+यह नीति www.copart.co.uk पर संचालित वेबसाइट और Copart यूके, Copart यूएई और Copart, Inc. (&quot;Copart&quot;) संयुक्त राज्य अमेरिका में स्थित उनके पेरेंट कॉर्पोरेशन की जानकारी प्रथाओं का अभिशासन करती है। हमारी वेबसाइट के माध्यम से और हमें निजी जानकारी प्रदान करके आप समझते हैं और स्वीकार करते हैं कि आप अपनी निजी जानकारी&lt;br /&gt; Copart यूके और Copart (और, अगर आप संयुक्त अरब अमीरात में आधारित हैं या यूएई में स्थित वाहन ख़रीदते हैं, तो Copart यूएई भी) को प्रदान कर रहे हैं। निजी जानकारी आपके बारे में वह जानकारी होती है जो निजी रूप से पहचान योग्य होती है, जैसे आपका नाम, पता, ईमेल पता, या फ़ोन नंबर, और जो अन्यथा सार्वजनिक रूप से उपलब्ध नहीं होती।&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+यह नीति उन कंपनियों की प्रथाओं पर लागू नहीं होती जिनकी Copart यूके, Copart यूएई या Copart स्वामी नहीं है या जिनका ये नियंत्रण नहीं करतीं या उन लोगों पर जिन्हें Copart यूके या Copart यूएई ने काम पर नहीं रखा या जिनका ये प्रबंधन नहीं करतीं।&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;जानकारी का संग्रह और उपयोग&lt;/strong&gt; &lt;br /&gt;
+&lt;br /&gt;
+हम निजी जानकारी तब एकत्र करते हैं जब आप हमारे साथ पंजीकरण करते हैं और जब आप हमारी सेवाओं का इस्तेमाल करते हैं।&lt;br /&gt;
+&lt;br /&gt;
+जब आप हमारे साथ पंजीकरण करते हैं तो हम ऐसी जानकारी पूछ सकते हैं जैसे आपका नाम, पता, ईमेल पता, फ़ोन नंबर, क्रेडिट कार्ड की जानकारी, व्यापार लाइसेंस जानकारी, ड्राइविंग लाइसेंस जानकारी, पिन कोड, और अन्य वित्तीय जानकारी। जब आप हमारे साथ पंजीकरण कर लेते हैं और हमारी सेवाओं का इस्तेमाल करने में लॉगइन करते हैं, तो आप हमारे लिए गुमनाम नहीं रह जाते।&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+हम हमारे साथ आपके ट्रांजेक्शन के बारे में जानकारी एकत्र करते हैं, जिसमें उन आइटम की जानकारी शामिल होती है जिन पर आप बोली लगाते हैं।&lt;br /&gt;
+&lt;br /&gt;
+हम Copart यूके, Copart यूएई और Copart वेबसाइटों और उनकी सहायक कंपनियों पर आपके सत्रों के बारे में जानकारी, और संबंधित कुकी जानकारी (अगर आपने अपने कंप्यूटर को कुकीज़ प्राप्त करने के लिए सेट किया है) स्वचालित रूप से हमारे सर्वर लॉग प्राप्त और रिकॉर्ड करते हैं। अधिक जानकारी के लिए, नीचे &quot;कुकीज़&quot; शीर्षक अनुभाग देखें।&lt;br /&gt;
+&lt;br /&gt;
+हम निम्नलिखित सामान्य प्रयोजनों के लिए जानकारी का इस्तेमाल करते हैं: आपसे संपर्क करने के लिए, Copart यूके, Copart यूएई और Copart के माध्यम से आपके द्वारा आइटम की बोली लगाने, ख़रीदने, और बेचने में सुविधा देने के लिए, आपके द्वारा ख़रीदे और बेचे गए आइटम के टाइटल और स्वामित्व स्थानांतरित करने के लिए, और ख़रीद और बिक्री से संबंधित कानूनों और विनियमों का पालन करने के लिए।&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;जानकारी साझाकरण और प्रकटीकरण&lt;br /&gt;
+&lt;/strong&gt;&lt;br /&gt;
+हम आपके बारे में निजी जानकारी अन्य लोगों को या गैर-संबद्ध कंपनियों को किराये पर नहीं देते, बेचते नहीं, या साझा नहीं करते, सिवाय इनके, (i) आपके द्वारा अनुरोध किए गए उत्पाद या सेवाएँ उपलब्ध कराने के लिए, (ii) जब हमारे पास आपकी अनुमति होती है, या (iii) निम्नलिखित परिस्थितियों में:&lt;br /&gt;
+&lt;br /&gt;
+ &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;हम उन भरोसेमंद साझेदारों को गोपनीयता समझौते के तहत और कानून के अनुसार जानकारी प्रदान करते हैं जो हमारी ओर से या हमारे साथ काम करते हैं। ये कंपनियाँ आपकी निजी जानकारी का इस्तेमाल हमारी ओर से प्रस्तावों के बारे में आपके साथ संवाद करने में हमें मदद करने के लिए कर सकती हैं। तथापि, इन कंपनियों के पास इस जानकारी को साझा करने के लिए कोई स्वतंत्र अधिकार नहीं होता&lt;/li&gt;
+
+&lt;li&gt;हम सम्मन, अदालत के आदेश, या कानूनी प्रक्रिया के जवाब में, या अपने कानूनी अधिकार स्थापित करने या का उनका इस्तेमाल करने के लिए या कानूनी दावों के खिलाफ की रक्षा के लिए, या कानून प्रवर्तन एजेंसियों (जैसे पुलिस और ट्रेडिंग मानक) से मान्य अनुरोध प्राप्त होने पर जानकारी प्रदान करते हैं;&lt;/li&gt;
+
+&lt;li&gt;हम अन्यथा तृतीय पक्षों के साथ वेबसाइट के उपयोगकर्ताओं के बारे में निजी जानकारी साझा नहीं करते जब तक ऐसा करना उपयोगकर्ता का अनुरोध पूरा करने के लिए उपयुक्त न हो या यह यथोचित रूप से मानती ​​है कि ऐसा करना कानूनी रूप से या अपनी संपत्ति या अन्य कानूनी अधिकारों की रक्षा करने के लिए अपने हित में या दूसरों की संपत्ति की रक्षा करने के लिए ज़रूरी है;&lt;/li&gt;
+
+&lt;li&gt;हम आप के बारे में जानकारी का लागू कानून द्वारा अनुमति की सीमा तक स्थानांतरण कर सकते हैं, अगर Copart यूके या Copart का अन्य कंपनी द्वारा अधिग्रहण या विलय कर लिया जाता है। इस स्थिति में, आप के बारे में जानकारी के स्थानांतरित होने और&lt;br /&gt;भिन्न गोपनीयता नीति के अधीन होने से पहले हम आपको को सूचित करेंगे;&lt;/li&gt;
+
+&lt;li&gt;हम आपके बारे में जानकारी उन आइटम के विक्रेताओं को जिन्हें आप ख़रीदते हैं, उन आइटम के ख़रीदारों को जिन्हें आप बेचते हैं और उनके सेवा प्रदाताओं को स्थानांतरित करते हैं जिसे वे हमारे बिक्री स्थानों पर आइटम आबंटित करने में सुविधा देने, और सरकारी एजेंसियों को देने के लिए रख सकते हैं जब स्वामित्व स्थानांतरण प्रक्रिया में सुविधा देने के लिए ज़रूरी हो।&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;अंतर्राष्ट्रीय विज़िटर और ग्राहक&lt;br /&gt;
+&lt;/strong&gt;&lt;br /&gt;
+Copart यूके और Copart यूएई वेबसाइट हमारी ओर से Copart द्वारा संयुक्त राज्य अमेरिका में होस्ट किया जाता है। संयुक्त राज्य अमेरिका पर्याप्त डेटा संरक्षण प्रदान करने के लिए कटिबद्ध नहीं है। तथापि, Copart ग्राहक डेटा और उस निजी डेटा के डेटा संरक्षण के संबंध में संयुक्त राज्य अमेरिका और यूरोपीय संघ के बीच समझौते के सुरक्षित हार्बर सिद्धांतों का पालन करती है जिसे हम&lt;br /&gt;आपके द्वारा हमारी सेवाओं के लिए पंजीकरण करने या हमारी वेबसाइट का इस्तेमाल करने पर प्राप्त करते हैं। तदनुसार, जब आप हमारी वेबसाइट पर विज़िट करते हैं या हमें निजी डेटा उपलब्ध कराते हैं, तो हमने लागू डेटा संरक्षण&lt;br /&gt; कानून के अनुसार आपके निजी डेटा पर प्रक्रिया करने के लिए पर्याप्त कदम उठाए हैं।&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+कृपया ध्यान दें कि आप अपना निजी डेटा संयुक्त राज्य अमेरिका में स्थानांतरित कर रहे हैं और अपना निजी प्रदान करके आप इनके लिए सहमति देते हैं:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;इस गोपनीयता नीति के अनुसार ऊपर पहचान किए गए प्रयोजनों के लिए आपके निजी डेटा का उपयोग; और&lt;/li&gt;
+
+&lt;li&gt;संयुक्त राज्य अमेरिका में आपके निजी डेटा का स्थानांतरण जैसा कि ऊपर संकेत किया गया है।&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;कुकीज़&lt;/strong&gt;&lt;br /&gt;
+हम आपके कंप्यूटर की ब्राउज़र फाइलों में &quot;कुकी&quot; नामक पाठ फ़ाइल रख सकते हैं। स्वयं कुकी में निजी जानकारी शामिल नहीं होती हालाँकि यह हमें Copart वेबसाइटों के आपके इस्तेमाल को उस जानकारी से जोड़ने में सक्षम करेगी जो आपने हमें विशेष रूप से और जानकारी के साथ प्रदान की है। लेकिन कुकी में केवल वही निजी जानकारी शामिल हो सकती है जो आपने खुद दी है। कुकी आपकी हार्ड डिस्क का डेटा नहीं पढ़ सकता या अन्य वेबसाइटों द्वारा बनाई गई कुकी फ़ाइलें नहीं पढ़ सकती।&lt;br /&gt;
+&lt;br /&gt;
+हम Copart वेबसाइटों पर उपयोगकर्ता यातायात पैटर्न ट्रैक करने के लिए कुकीज़ का इस्तेमाल कर सकते हैं, लेकिन हम तृतीय पक्ष की वेबसाइटों का आपका इस्तेमाल ट्रैक करने के लिए कुकीज़ का इस्तेमाल नहीं करते।&lt;br /&gt;
+&lt;br /&gt;
+इसके अलावा, जब उपयोगकर्ता हमारी वेबसाइट पर लॉग ऑन करता है, तो हम हर पृष्ठ पर उपयोगकर्ता को प्रमाणित करने के लिए एन्क्रिप्टेड कुकीज़ का इस्तेमाल करने है। इन कुकीज़ को स्वीकार किए बिना हमारी वेबसाइट के सदस्यों के क्षेत्र में लॉग इन करना संभव नहीं है - इसका मतलब है कि आप इन कुकीज़ स्वीकार को स्वीकार किए बिना Copart यूके या Copart यूएई लॉट पर बोली नहीं लगा सकते।&lt;br /&gt;
+&lt;br /&gt;
+लॉग-इन कुकीज़ स्वीकार करने से आप हमारी वेबसाइट के सदस्यों के क्षेत्र में पहुँच कर सकेंगे, लेकिन अगर  आपकी अन्य कुकीज़ अक्षम हैं तो हो सकता है कि कुछ अन्य सुविधाएँ और सेवाएँ (उदाहरण के वाहनों के लिए अनुकूलित खोजें बनाना) ठीक से या आसानी से काम न करें।&lt;br /&gt;
+&lt;br /&gt;
+आप अपने ब्राउज़र में कुकीज़ बंद करके, उनसे इंकार कर सकते हैं। वैकल्पिक रूप से आप अपने ब्राउज़र को कुकीज़ स्वीकार करने से पहले आपको सचेत करने के लिए सेट कर सकते हैं; इसका मतलब है कि आपको हर कुकी के साथ चेतावनी संदेश प्राप्त होगा।&lt;br /&gt;
+ &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;संचार&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+हम आपको हमारी सेवाओं और हमारे साथ अपने खाते से संबंधित कुछ संप्रेषण, आपको उनसे बाहर निकलने का अवसर प्रदान किए बिना, भेजने का अधिकार सुरक्षित रखते हैं, जिसमें अधिसूचनाएँ, सेवा घोषणाएँ, और व्यवस्थापकीय संदेश शामिल है (यद्यपि हम आपके द्वारा अपना खाता बनाते समय आपकी सहमति प्राप्त करेंगे)। अगर आप इस तरह के संचार प्राप्त न करना चुनते हैं तो हो सकता है कि हमारी सेवाओं तक आपकी निरंतर पहुँच या इस्तेमाल&lt;br /&gt; संभव न हो सके।&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;डेटा संग्रहण&lt;br /&gt;
+&lt;/strong&gt;&lt;br /&gt;
+हमारे साथ आपका खाता समाप्त होने के बाद हम हमारे डेटाबेस में आपके खाते की जानकारी का संग्रह कानून द्वारा अनुमति की अधिकतम सीमा तक अनिश्चित काल कर सकते हैं।&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;गोपनीयता और सुरक्षा&lt;br /&gt;
+&lt;/strong&gt;&lt;br /&gt;
+हम आप के बारे में निजी जानकारी तक पहुँच उन कर्मचारियों तक सीमित करते हैं जिनके बारे में हमारा यथोचित रूप से मानना ​​है कि आपको उत्पाद या सेवाएँ प्रदान करने के लिए या अपना कार्य करने के लिए उस जानकारी के संपर्क में आना ज़रूरी है।&lt;/p&gt;
+
+&lt;p&gt;हमारे पास ऐसे भौतिक, इलेक्ट्रॉनिक और कार्य-प्रणाली-संबंधी सुरक्षा उपाय हैं जो आप के बारे में निजी जानकारी की रक्षा करने की हमारी कानूनी ज़िम्मेदारियों के  अनुपालन में हैं।&lt;br /&gt;
+&lt;br /&gt;
+अगर हमें सुरक्षा व्यवस्था भंग होने का पता चलता है कि आपको आप इलेक्ट्रॉनिक रूप से सूचित करने का प्रयास कर सकते हैं ताकि  आप उचित सुरक्षात्मक कदम उठा सकें। इस वेबसाइट का इस्तेमाल करके या हमें निजी जानकारी उपलब्ध करवाकर आप सहमत है कि हम इस वेबसाइट के आपके इस्तेमाल से संबंधित सुरक्षा, गोपनीयता और व्यवस्थापकीय मुद्दों के बारे में आप के साथ इलेक्ट्रॉनिक रूप से संप्रेषण कर सकते हैं। अगर सुरक्षा भंग होती है, तो हम अपनी वेबसाइट पर&lt;br /&gt;नोटिस पोस्ट कर सकते हैं। इन परिस्थितियों में हम आपको उस ईमेल पते पर ईमेल भी भेज सकते हैं जो आपने हमें प्रदान किया है।आपके आवास के आधार पर निर्भर करते हुए, आपके पास सुरक्षा भंग की सूचना लिखित रूप में प्राप्त करने का कानूनी अधिकार हो सकता है। सुरक्षा उल्लंघन की निःशुल्क लिखित सूचना प्राप्त करने के लिए (या, अगर आप व्यक्ति हैं, तो इलेक्ट्रॉनिक नोटिस प्राप्त करने की अपनी सहमति वापस लेने के लिए) आपको हमें  &lt;a href=&quot;mailto:privacy@copart.co.uk&quot;&gt;privacy@copart.co.uk&lt;/a&gt; पर सूचित करना चाहिए। &lt;br /&gt;
+&lt;br /&gt;
+हम अपनी सुरक्षा को गंभीरता से लेते हैं और आपकी जानकारी की सुरक्षा के लिए उचित कदम उठाते हैं। इंटरनेट पर किसी डेटा संचरण या सूचना भंडारण प्रौद्योगिकी की 100% सुरक्षित होने की गारंटी नहीं दी जा सकती। निम्नलिखित उन उपायों का सारांश है जो हम आपकी जानकारी की रक्षा के लिए करते हैं और उन तरीकों का वर्णन है जिन्हें हम आपके द्वारा हम हमें प्रदान की जाने वाली विभिन्न प्रकार की जानकारी के लिए इन उपायों को लागू करते हैं:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;सुरक्षित सॉकेट लेयर (SSL)&lt;/i&gt;&lt;br /&gt;
+&lt;br /&gt;
+हम कुछ प्रकार की जानकारी के संचारण के लिए SSL एन्क्रिप्शन का इस्तेमाल करते हैं, जैसे वित्तीय सेवा जानकारी या भुगतान जानकारी। क्रेडिट कार्ड और भुगतान के अन्य रूपों को शामिल करने वाली SSL ट्रांजेक्शन के दौरान ज़्यादातर ब्राउज़रों विंडो के तल पर पैडलॉक जैसा आइकन प्रदर्शित किया जाता है। हम जब भी आपसे &lt;br /&gt;भुगतान के लिए या सत्यापन के प्रयोजनों के लिए क्रेडिट कार्ड नंबर माँगते हैं, तो यह SSL एन्क्रिप्टेड किया जाएगा। आपके द्वारा दी जाने वाली जानकारी हमारे सर्वर पर सुरक्षित रूप से संगृहीत की जाएगी। जब आप अपना क्रेडिट कार्ड नंबर संग्रह करना या दर्ज करना चुनते हैं, तो जब आप भविष्य में इसे पुनः प्राप्त या संपादित करेंगे तो इसे आपके लिए पूरे रूप में प्रदर्शित नहीं किया जाएगा। पूरे नंबर के बजाय, आप सिर्फ़ एस्टेरिक और अपने नंबर के या तो पहले चार अंक या अंतिम चार अंक देखेंगे।&lt;br /&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;i&gt;विक्रेता और साझेदार&lt;br /&gt;
+&lt;/i&gt;&lt;br /&gt;
+उपयोगकर्ता जानकारी की सुरक्षा और  गोपनीयता की रक्षा करने के लिए हम विक्रेताओं और साझेदारों के साथ काम करते हैं।&lt;br /&gt;
+&lt;/li&gt;
+
+&lt;li&gt; &lt;i&gt;जानकारी तक कर्मचारी और ठेकेदार की पहुँच&lt;/i&gt;&lt;br /&gt;
+हम आप के बारे में निजी जानकारी तक पहुँच उन कर्मचारियों तक सीमित करते हैं जिनके बारे में हमारा यथोचित रूप से मानना ​​है कि आपको उत्पाद या सेवाएँ प्रदान करने के लिए या अपना कार्य करने के लिए उनका उस जानकारी के संपर्क में आना ज़रूरी है।&lt;br /&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;i&gt;कर्मचारियों के लिए शिक्षा और प्रशिक्षण&lt;br /&gt;
+&lt;/i&gt;&lt;br /&gt;
+हमने सुरक्षा के बारे में कंपनी-व्यापक शिक्षा और प्रशिक्षण प्रोग्राम लागू किया है जो हर Copart यूके और Copart यूएई कर्मचारी के लिए ज़रूरी है।&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;इस गोपनीयता नीति में बदलाव&lt;br /&gt;
+&lt;/strong&gt;&lt;br /&gt;
+हम इस नीति का अद्यतन कर सकते हैं। जब हम ऐसा करते हैं, तो हम इस दस्तावेज़ के शुरू में तिथि भी संशोधित करेंगे। इस नीति में ऐसे बदलावों के लिए जो आपके द्वारा हमें प्रदान की गई निजी जानकारी के हमारे इस्तेमाल या खुलासे पर कम प्रतिबंधात्मक हो सकती है, हम बदलाव लागू करने से पहले आपकी सहमति प्राप्त करने का प्रयास करेंगे। यह जानने के लिए कि हम एकत्र की गई जानकारी की रक्षा किस प्रकार करते हैं, हम आपको प्रोत्साहित करते हैं कि इस गोपनीयता कथन को कुछ समय-समय पर देखते रहें। इस वेबसाइट का आपका लगातार इस्तेमाल इस नीति और किसी अद्यतन से आपकी सहमति का गठन करता है।&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;प्रश्न और सुझाव&lt;br /&gt;
+&lt;/strong&gt;&lt;br /&gt;
+अगर आपके पास हमारी गोपनीयता नीति के बारे में प्रश्न या सुझाव है, तो कृपया हमसे &lt;a href=&quot;mailto:privacy@copart.co.uk&quot;&gt;privacy@copart.co.uk&lt;/a&gt;&lt;/p&gt; पर संपर्क करें</value>
+  </data>
+  <data name="CPMainContent" xml:space="preserve">
+    <value>मुख्य-सामग्री</value>
+  </data>
+  <data name="CPMemberTerms" xml:space="preserve">
+    <value>पंजीकरण/MemberTerms</value>
+  </data>
+  <data name="CPPrivacyPolicy" xml:space="preserve">
+    <value>पंजीकरण/PrivacyPolicy</value>
+  </data>
+  <data name="CPTermsOfService" xml:space="preserve">
+    <value>पंजीकरण/termsOfService</value>
+  </data>
+  <data name="Registration_AcceptanceCondition" xml:space="preserve">
+    <value>Copart आपका खाता सक्रिय कर सकती है, जब आप पंजीकरण की प्रक्रिया सफलतापूर्वक पूरी कर लेते हैं। इसलिए, कृपया हमें भरा हुआ सदस्य आवेदन फार्म, और साथ ही अपने व्यापारिक प्रमाण पत्र और अपने VAT की प्रतिलिपि भेज दें (USt-ID-Nr.)।</value>
+  </data>
+  <data name="Registration_ContactInfo1" xml:space="preserve">
+    <value>अगर आपका कोई प्रश्न है, तो कृपया हमसे सोमवार से शुक्रवार (जर्मन राष्ट्रीय छुट्टियों को छोड़कर) 9:00 और 17:00 बजे के बीच +49 (0) 7248 931 31 60 पर संपर्क करें।</value>
+  </data>
+  <data name="Registration_ContactInfo2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredField" xml:space="preserve">
+    <value>* आवश्यक फील्ड</value>
+  </data>
+  <data name="Company_Tooltip" xml:space="preserve">
+    <value>कंपनी का नाम आपके Copart खाते के लिए प्राथमिक नाम बन जाता है। अगर आप व्यापारिक प्रयोजनों के लिए Copart का इस्तेमाल नहीं करते, तो कृपया अपना प्रथम और अंतिम नाम दर्ज करें।</value>
+  </data>
+  <data name="Company_TooltipTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="IpadSuccessModal_bodyText" xml:space="preserve">
+    <value>अब क्योंकि आप नए Copart सदस्य हैं, इसलिए यह जीतने के लिए तैयार होने का समय है! Copart की नीलामियों में बोली लगाने और जीतने में सहायता के लिए कृपया एजेंट मिलें।</value>
+  </data>
+  <data name="IpadSuccessModal_header" xml:space="preserve">
+    <value>पंजीकरण करने के लिए धन्यवाद</value>
+  </data>
+  <data name="InlineSignInRegistrationBodyText" xml:space="preserve">
+    <value>यह क्रिया करने के लिए, आपको Copart सदस्य होना चाहिए। सदस्य बनने के लिए, कृपया नीचे दिया गया पंजीकरण फ़ॉर्म भरें। अगर आप पहले ही सदस्य हैं, तो अपनी उपयोगकर्ता ID और पासवर्ड के साथ साइन इन करें।</value>
+  </data>
+  <data name="SignInOrRegister" xml:space="preserve">
+    <value>कृपया साइन इन करें या पंजीकरण करें</value>
+  </data>
+  <data name="UK_SubmitInstructions" xml:space="preserve">
+    <value>अपना पंजीकरण जमा करें और ईमेल द्वारा अपना पासवर्ड प्राप्त करने के लिए क्लिक करें।</value>
+  </data>
+  <data name="TermsOfCopyrightNotice" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Registration_ThankYou" xml:space="preserve">
+    <value>धन्यवाद</value>
+  </data>
+  <data name="CPTermsOfCopyright" xml:space="preserve">
+    <value>पंजीकरण/TermsofCopyright</value>
+  </data>
+  <data name="VATCountry_Select" xml:space="preserve">
+    <value>देश चुनें</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>धन्यवाद</value>
+  </data>
+  <data name="TermsAndConditionsLbl" xml:space="preserve">
+    <value>नियम और शर्तें</value>
+  </data>
+  <data name="TermsOfServiceLbl" xml:space="preserve">
+    <value>सेवा की शर्तें</value>
+  </data>
+</root>

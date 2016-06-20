@@ -1,0 +1,1839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="C210501" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C210502" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C210503" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C210504" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C210599" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C221101" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C221102" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C221199" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C225501" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C225502" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C225503" xml:space="preserve">
+    <value>மின்னஞ்சல் மற்றும் உறுதிப்படுத்தும் மின்னஞ்சல் ஆகியவை பொருந்தவில்லை</value>
+  </data>
+  <data name="C225504" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C225505" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C225506" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C225598" xml:space="preserve">
+    <value />
+  </data>
+  <data name="C225599" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C226003" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C226004" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C226005" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C226006" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C226007" xml:space="preserve">
+    <value>இந்த மின்னஞ்சல் முகவரியில் ஏற்கனவே ஒரு உறுப்பினர் இருக்கிறார். </value>
+  </data>
+  <data name="C226098" xml:space="preserve">
+    <value />
+  </data>
+  <data name="C226099" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C250201" xml:space="preserve">
+    <value>PCI சர்வர் கிடைக்கவில்லை</value>
+  </data>
+  <data name="C250202" xml:space="preserve">
+    <value>PCISERVER COMREFAI-ஐ மீட்டெடுக்க முடியவில்லை</value>
+  </data>
+  <data name="C250203" xml:space="preserve">
+    <value>CP010G-ஐ அழைப்பதில் பிழை</value>
+  </data>
+  <data name="C250204" xml:space="preserve">
+    <value>வெப் யார்டை மீட்டெடுக்க முடியவில்லை</value>
+  </data>
+  <data name="C250205" xml:space="preserve">
+    <value>கார்டு செயலாக்கத்துக்கு வெப் யார்டு தகுதி பெறவில்லை</value>
+  </data>
+  <data name="C250206" xml:space="preserve">
+    <value>வாங்குநர் எண் காணப்படவில்லை</value>
+  </data>
+  <data name="C250299" xml:space="preserve">
+    <value>*PSSR பிழை C2502G</value>
+  </data>
+  <data name="C250501" xml:space="preserve">
+    <value>செல்லத்தகாத செலுத்துதல் வகை</value>
+  </data>
+  <data name="C250502" xml:space="preserve">
+    <value>செலுத்த வேண்டிய இன்வாய்ஸை சேர்க்கும்போது பிழை ஏற்பட்டது</value>
+  </data>
+  <data name="C250503" xml:space="preserve">
+    <value>ACH1006-ஐ அழைக்கும்போது பிழை ஏற்பட்டது</value>
+  </data>
+  <data name="C250504" xml:space="preserve">
+    <value>ACH9033-ஐ அழைக்கும்போது பிழை ஏற்பட்டது</value>
+  </data>
+  <data name="C250505" xml:space="preserve">
+    <value>வாங்குநர் காணப்படவில்லை</value>
+  </data>
+  <data name="C250506" xml:space="preserve">
+    <value>இன்வாய்ஸ் காணப்படவில்லை அல்லது செலுத்துதலுக்கு இனிமேல் தகுதியில்லை</value>
+  </data>
+  <data name="C250507" xml:space="preserve">
+    <value>உறுதிப்படுத்துதல் பதிவேட்டை எழுதுவதில் பிழை</value>
+  </data>
+  <data name="C250508" xml:space="preserve">
+    <value>செல்லத்தகாத வாங்குநர் / இன்வாய்ஸ் இணைப்பு</value>
+  </data>
+  <data name="C250509" xml:space="preserve">
+    <value>செல்லத்தகாத நிதியுதவியாளர் குறியீடு</value>
+  </data>
+  <data name="C250510" xml:space="preserve">
+    <value>DS008G-ஐ அழைக்கும்போது பிழை ஏற்பட்டது</value>
+  </data>
+  <data name="C250599" xml:space="preserve">
+    <value>*PSSR பிழை C2505G</value>
+  </data>
+  <data name="C250601" xml:space="preserve">
+    <value>செல்லத்தகாத செலுத்துதல் வகை</value>
+  </data>
+  <data name="C250602" xml:space="preserve">
+    <value>செலுத்த வேண்டிய பேட்ச்சை சமர்ப்பிப்பதில் பிழை ஏற்பட்டது</value>
+  </data>
+  <data name="C250603" xml:space="preserve">
+    <value>ACH1008-ஐ அழைக்கும்போது பிழை ஏற்பட்டது</value>
+  </data>
+  <data name="C250604" xml:space="preserve">
+    <value>ACH9031-ஐ அழைக்கும்போது பிழை ஏற்பட்டது</value>
+  </data>
+  <data name="C250605" xml:space="preserve">
+    <value>உள்ளீட்டு அளவுருக்கள் காலியாக இருக்க முடியாது</value>
+  </data>
+  <data name="C250606" xml:space="preserve">
+    <value>BYPCNFBC கோப்பை புதுப்பிக்கும்போது பிழை ஏற்பட்டது</value>
+  </data>
+  <data name="C250607" xml:space="preserve">
+    <value>ACH1004G-ஐ அழைக்கும்போது பிழை ஏற்பட்டது</value>
+  </data>
+  <data name="C250608" xml:space="preserve">
+    <value>புதிய பேட்ச் எண்ணை மீட்டெடுப்பதில் பிழை   </value>
+  </data>
+  <data name="C250699" xml:space="preserve">
+    <value>*PSSR பிழை C2506G</value>
+  </data>
+  <data name="C251101" xml:space="preserve">
+    <value>இன்வாய்ஸ்கள் எதுவும் கண்டறியப்படவில்லை                     </value>
+  </data>
+  <data name="C251102" xml:space="preserve">
+    <value>கோப்பை அணுகுவதில் பிழை, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C251103" xml:space="preserve">
+    <value>கோரப்பட்ட குறியீடுகளுக்கு பரிமாற்றக் கட்டணம் எதுவும் இல்லை  </value>
+  </data>
+  <data name="C251104" xml:space="preserve">
+    <value>செல்லத்தகாத வாங்குநர் எண்                  </value>
+  </data>
+  <data name="C251105" xml:space="preserve">
+    <value>செல்லத்தகாத இன்வாய்ஸ் எண்                </value>
+  </data>
+  <data name="C251301" xml:space="preserve">
+    <value>செலுத்துதல் தலைப்பை எழுதுவதில் பிழை</value>
+  </data>
+  <data name="C251302" xml:space="preserve">
+    <value>புதிய பேட்ச் எண்ணை மீட்டெடுப்பதில் பிழை ஏற்பட்டது</value>
+  </data>
+  <data name="C251399" xml:space="preserve">
+    <value>*PSSR தோல்வி C2513G</value>
+  </data>
+  <data name="C251501" xml:space="preserve">
+    <value>C2504-ஐ அழைப்பதில் பிழை</value>
+  </data>
+  <data name="C251599" xml:space="preserve">
+    <value>*PSSR பிழை C2515G</value>
+  </data>
+  <data name="C257901" xml:space="preserve">
+    <value>லாட் கண்டறியப்படவில்லை</value>
+  </data>
+  <data name="C257902" xml:space="preserve">
+    <value>BY190G மூலம் பிழை ஏற்பட்டது              </value>
+  </data>
+  <data name="C257903" xml:space="preserve">
+    <value>BY190G மூலம் கோப்புகளை புதுப்பிப்பதில் பிழை ஏற்பட்டது           </value>
+  </data>
+  <data name="C257904" xml:space="preserve">
+    <value>LotBillB பதிவேடு மற்றொரு பயனரால் பயன்படுத்தப்பட்டிருக்கிறது</value>
+  </data>
+  <data name="C257999" xml:space="preserve">
+    <value>*PSSR பிழை C2505G</value>
+  </data>
+  <data name="C269101" xml:space="preserve">
+    <value>மின்னஞ்சல் முகவரி தேவைப்படுகிறது</value>
+  </data>
+  <data name="C269102" xml:space="preserve">
+    <value>உறுதிப்படுத்தல் மின்னஞ்சல் முகவரி தேவைப்படுகிறது</value>
+  </data>
+  <data name="C269103" xml:space="preserve">
+    <value>மின்னஞ்சல் செல்லத்தக்கதல்ல</value>
+  </data>
+  <data name="C269104" xml:space="preserve">
+    <value>உறுதிப்படுத்தல் மின்னஞ்சல் செல்லத்தக்கதல்ல</value>
+  </data>
+  <data name="C269105" xml:space="preserve">
+    <value>மின்னஞ்சல் மற்றும் உறுதிப்படுத்தல் மின்னஞ்சல் ஆகியவை பொருந்தவில்லை</value>
+  </data>
+  <data name="C269106" xml:space="preserve">
+    <value>மின்னஞ்சல் முகவரி ஏற்கனவே உள்ளது</value>
+  </data>
+  <data name="C269107" xml:space="preserve">
+    <value>முதல் பெயர் தேவைப்படுகிறது</value>
+  </data>
+  <data name="C269108" xml:space="preserve">
+    <value>கடைசிப் பெயர் தேவைப்படுகிறது</value>
+  </data>
+  <data name="C269109" xml:space="preserve">
+    <value>ஃபிஸிக்கல் முகவரி தேவைப்படுகிறது</value>
+  </data>
+  <data name="C269110" xml:space="preserve">
+    <value>ஃபிஸிக்கல் நகரம் தேவைப்படுகிறது</value>
+  </data>
+  <data name="C269111" xml:space="preserve">
+    <value>முழுமையான அஞ்சல் குறியீடு தேவைப்படுகிறது</value>
+  </data>
+  <data name="C269112" xml:space="preserve">
+    <value>முழுமையான அஞ்சல் குறியீடு தேவைப்படுகிறது</value>
+  </data>
+  <data name="C269113" xml:space="preserve">
+    <value>ஃபிஸிக்கல் முகவரிக்கான அஞ்சல் குறியீடு செல்லத்தக்கதல்ல</value>
+  </data>
+  <data name="C269114" xml:space="preserve">
+    <value>அஞ்சல் முகவரிக்கான அஞ்சல் குறியீடு செல்லத்தக்கதல்ல</value>
+  </data>
+  <data name="C269115" xml:space="preserve">
+    <value>தொலைபேசி எண் செல்லத்தக்கதல்ல</value>
+  </data>
+  <data name="C269116" xml:space="preserve">
+    <value>மாற்றுத் தொலைபேசி எண் செல்லத்தக்கதல்ல</value>
+  </data>
+  <data name="C269117" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="C269118" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29002" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29003" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29004" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29005" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29007" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29009" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29010" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29011" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29012" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29013" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29014" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29017" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29018" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29019" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29020" xml:space="preserve">
+    <value>தொடர்புநபரின் முதற்பெயர் உள்ளிடப்பட வேண்டும்.</value>
+  </data>
+  <data name="VB29021" xml:space="preserve">
+    <value>தொடர்புநபரின் கடைசிப் பெயர் உள்ளிடப்பட வேண்டும்.</value>
+  </data>
+  <data name="VB29022" xml:space="preserve">
+    <value>நிறுவனத்தின் பெயர் உள்ளிடப்பட வேண்டும்.</value>
+  </data>
+  <data name="VB29023" xml:space="preserve">
+    <value>மின்னஞ்சல் முகவரி உள்ளிடப்பட வேண்டும்.</value>
+  </data>
+  <data name="VB29024" xml:space="preserve">
+    <value>தொடர்புநபரின் தொலைபேசி எண்ணின் இரண்டு பாகங்களும் உள்ளிடப்பட வேண்டும்.</value>
+  </data>
+  <data name="VB29025" xml:space="preserve">
+    <value>தொடர்புநபரின் தொலைபேசி வகை உள்ளிடப்பட வேண்டும்.</value>
+  </data>
+  <data name="VB29026" xml:space="preserve">
+    <value>மாற்று தொலைபேசி 1# தேர்ந்தெடுக்கப்பட்டால், எண்ணின் இரண்டு பாகங்களும் உள்ளிடப்பட வேண்டும்.</value>
+  </data>
+  <data name="VB29028" xml:space="preserve">
+    <value>மாற்றுத் தொலைபேசி 1-இன் வகை உள்ளிடப்பட வேண்டும்.</value>
+  </data>
+  <data name="VB29029" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29030" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29031" xml:space="preserve">
+    <value>மாற்றுத் தொலைபேசி 2# தேர்ந்தெடுக்கப்பட்டால், எண்ணின் இரண்டு பாகங்களும் உள்ளிடப்பட வேண்டும்.</value>
+  </data>
+  <data name="VB29032" xml:space="preserve">
+    <value>மாற்றுத் தொலைபேசி 2-இன் வகை உள்ளிடப்பட வேண்டும்.</value>
+  </data>
+  <data name="VB29033" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29035" xml:space="preserve">
+    <value>பில்லிங் முகவரி 1 உள்ளிடப்பட வேண்டும்.</value>
+  </data>
+  <data name="VB29036" xml:space="preserve">
+    <value>பில்லிங் முகவரி நகரம் உள்ளிடப்பட வேண்டும்.</value>
+  </data>
+  <data name="VB29037" xml:space="preserve">
+    <value>பில்லிங் முகவரி மாநிலம் உள்ளிடப்பட வேண்டும்.</value>
+  </data>
+  <data name="VB29038" xml:space="preserve">
+    <value>நகரம், மாநிலம் மற்றும் ஜிப் குறியீடு ஆகியவற்றின் சேர்க்கை செல்லத்தக்கதல்ல.</value>
+  </data>
+  <data name="VB29040" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29041" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29042" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29043" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29044" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29045" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29046" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29047" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29048" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29049" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29050" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29051" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29052" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29053" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29054" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29056" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29057" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29058" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29059" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29060" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29061" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29062" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29063" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29064" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29065" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29066" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29067" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29068" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29069" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29070" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29073" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29074" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VB29082" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="WB07101" xml:space="preserve">
+    <value>செல்லத்தகாத வாங்குநர் எண்</value>
+  </data>
+  <data name="WB07199" xml:space="preserve">
+    <value>*PSSR பிழை</value>
+  </data>
+  <data name="WB07201" xml:space="preserve">
+    <value>செல்லத்தகாத வாங்குநர் எண்</value>
+  </data>
+  <data name="WB07299" xml:space="preserve">
+    <value>*PSSR பிழை</value>
+  </data>
+  <data name="WB88501" xml:space="preserve">
+    <value>மின்னஞ்சலில் &apos;@&apos; குறியீடு காணப்படவில்லை</value>
+  </data>
+  <data name="WB88502" xml:space="preserve">
+    <value>மின்னஞ்சலில் &apos;@&apos; குறியீடு ஒன்றுக்கு மேற்பட்ட இடங்களில் காணப்படுகிறது.</value>
+  </data>
+  <data name="WB88503" xml:space="preserve">
+    <value>மின்னஞ்சலில் @-க்குப் பின்னர் ஒரு பீரியட் இருக்க வேண்டும்.</value>
+  </data>
+  <data name="WB88504" xml:space="preserve">
+    <value>உட்பொதிக்கப்பட்ட இடம் மின்னஞ்சலில் அனுமதிக்கப்படுவதில்லை</value>
+  </data>
+  <data name="WB88505" xml:space="preserve">
+    <value>கடைசி பீரியடைத் தொடர்ந்து குறைந்தபட்சம் இரண்டு எழுத்துருக்கள் இருக்க வேண்டும்</value>
+  </data>
+  <data name="WB88506" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="WB88507" xml:space="preserve">
+    <value>சிஸ்டம் உங்களுடைய மின்னஞ்சல் முகவரிக்கான டொமைனுக்காக அமைக்கப்படவில்லை.</value>
+  </data>
+  <data name="WB88508" xml:space="preserve">
+    <value>சிறப்பு உருக்கள் அனுமதிக்கப்படுவதில்லை</value>
+  </data>
+  <data name="WB88509" xml:space="preserve">
+    <value>ஒரு பயன்பாட்டுப் பிழை ஏற்பட்டுள்ளது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="WB88510" xml:space="preserve">
+    <value>மின்னஞ்சல் முகவரி தேவைப்படுகிறது</value>
+  </data>
+  <data name="WB89901" xml:space="preserve">
+    <value>தேவைப்படுகின்ற அளவுருவாக மின்னஞ்சல் உள்ளது</value>
+  </data>
+  <data name="WB89902" xml:space="preserve">
+    <value>செல்லத்தக்க மின்னஞ்சலைத் தீர்மானிக்க முடியவில்லை</value>
+  </data>
+  <data name="WB89903" xml:space="preserve">
+    <value>உங்களுடைய கோரிக்கைகளில் ஒன்று அல்லது அதற்கு மேற்பட்டவை வெற்றி பெறவில்லை</value>
+  </data>
+  <data name="WB89999" xml:space="preserve">
+    <value>*PSSR பிழை WB899G</value>
+  </data>
+  <data name="C202701" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் கணக்கை புதுப்பிக்க முடியவில்லை</value>
+  </data>
+  <data name="C202702" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் கணக்கின் நிலையை புதுப்பிக்க முடியவில்லை</value>
+  </data>
+  <data name="C202703" xml:space="preserve">
+    <value>ஐட்டம் பரிசோதனையை அழிக்க முடியவில்லை</value>
+  </data>
+  <data name="C202705" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் / மாஸ்டர் மறுவிற்பனையாளர் உறவை தீர்மானிக்க முடியவில்லை</value>
+  </data>
+  <data name="C202706" xml:space="preserve">
+    <value>செல்லத்தகாத வாங்குநர் / மறுவிற்பனையாளர்</value>
+  </data>
+  <data name="C202707" xml:space="preserve">
+    <value>செல்லத்தகாத ஏலம் கேட்பவர்</value>
+  </data>
+  <data name="C202708" xml:space="preserve">
+    <value>நிலை மாற்றத்துக்கான ஏலம் கேட்பவர் சரிபார்த்தலைச் செயலாக்க முடியவில்லை</value>
+  </data>
+  <data name="C202709" xml:space="preserve">
+    <value>நீங்கள் நிலையை மாற்ற முடியாது: அது பெருநிறுவன ஊழியரால் மாற்றப்பட்டது</value>
+  </data>
+  <data name="C202711" xml:space="preserve">
+    <value>செல்லத்தகாத தகுதி குறியீடு</value>
+  </data>
+  <data name="C202799" xml:space="preserve">
+    <value>பயன்பாட்டு பிழை</value>
+  </data>
+  <data name="C202001" xml:space="preserve">
+    <value>கடவுச்சொல்லும் ஐடி-யும் ஒரே மாதிரி இருக்க முடியாது</value>
+  </data>
+  <data name="C202002" xml:space="preserve">
+    <value>கடவுச்சொல் கட்டுப்படுத்தியவற்றில் ஒன்றாக உள்ளது</value>
+  </data>
+  <data name="C202099" xml:space="preserve">
+    <value>பயன்பாட்டு பிழை</value>
+  </data>
+  <data name="C202501" xml:space="preserve">
+    <value>செல்லத்தகாத ஏலம் கேட்பவர் எண்</value>
+  </data>
+  <data name="C202502" xml:space="preserve">
+    <value>ஏலம் கேட்பவரின் கணக்கை அணுக முடியவில்லை</value>
+  </data>
+  <data name="C202504" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் குறைந்தபட்சம் 1 விலைக்குறிப்புக்கு ஒப்புதல் பெற வேண்டியுள்ளது</value>
+  </data>
+  <data name="C202505" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் குறைந்தபட்சம் 1 இன்வாய்ஸ் நிலுவையைப் பெற்றுள்ளார்</value>
+  </data>
+  <data name="C202506" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் குறைந்தபட்சம் 1 தற்போதைய பூர்வாங்க விலைக்குறிப்பைப் பெற்றுள்ளார்</value>
+  </data>
+  <data name="C202507" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் 1 க்கும் மேற்பட்ட விலைக்குறிப்பு வரம்பு பதிவைப் பெற்றுள்ளார்</value>
+  </data>
+  <data name="C202508" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் ஒரு கோபார்ட் விலைக்குறிப்புப் பதிவைப் பெற்றிருக்கவில்லை</value>
+  </data>
+  <data name="C202509" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் பயன்படுத்தப்படாத நிதியைப் பெற்றுள்ளார்</value>
+  </data>
+  <data name="C202510" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் குறைந்தபட்சம் 1 தொகையைச் செலுத்தாமல் இருக்கிறார்</value>
+  </data>
+  <data name="C202511" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் யார்டை விட்டுச் செல்லாத குறைந்தபட்சம் 1 வாகனத்தைப் பெற்றுள்ளார்</value>
+  </data>
+  <data name="C202512" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் குறைந்தபட்சம் முடிக்காத 1 லாட் பெற்றுள்ளார்</value>
+  </data>
+  <data name="C202513" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் / மாஸ்டர் மறுவிற்பனையாளர் உறவை தீர்மானிக்க முடியவில்லை</value>
+  </data>
+  <data name="C202515" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் இந்த மறுவிற்பனையாளரை / முதன்மை வாங்குநரைச் சேர்ந்தவர் அல்ல</value>
+  </data>
+  <data name="C202516" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் கணக்கை அணுக முடியவில்லை</value>
+  </data>
+  <data name="C202517" xml:space="preserve">
+    <value>செல்லத்தகாத ஏலம் கேட்பவர் எண்</value>
+  </data>
+  <data name="C202599" xml:space="preserve">
+    <value>பயன்பாட்டு பிழை</value>
+  </data>
+  <data name="C203101" xml:space="preserve">
+    <value>செல்லத்தகாத வாங்குநர் / மறுவிற்பனையாளர் எண்.</value>
+  </data>
+  <data name="C203102" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் எண் இந்த வாங்குநரை / மறுவிற்பனையாளரைச் சார்ந்தது அல்ல.</value>
+  </data>
+  <data name="C203103" xml:space="preserve">
+    <value>இது மறுவிற்பனையாளர் எண் அல்ல.</value>
+  </data>
+  <data name="C203104" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் சரியாக அமைக்கவில்லை.</value>
+  </data>
+  <data name="C236001" xml:space="preserve">
+    <value>நகரம் செல்லத்தகாதது.</value>
+  </data>
+  <data name="C236002" xml:space="preserve">
+    <value>மாநிலம் செல்லத்தகாதது.</value>
+  </data>
+  <data name="C236003" xml:space="preserve">
+    <value>ஜிப் குறியீடு செல்லத்தகாதது.</value>
+  </data>
+  <data name="C236004" xml:space="preserve">
+    <value>நாடு செல்லத்தகாதது</value>
+  </data>
+  <data name="C236005" xml:space="preserve">
+    <value>கண்டறியப்படாத பிழை</value>
+  </data>
+  <data name="C236006" xml:space="preserve">
+    <value>தொடர்புப் பகுதியின் குறியீடு செல்லத்தகாதது</value>
+  </data>
+  <data name="C236007" xml:space="preserve">
+    <value>தொடர்புநபரின் தொலைபேசி எண் செல்லத்தகாதது</value>
+  </data>
+  <data name="C236009" xml:space="preserve">
+    <value>மாற்றுத் தொலைபேசி பகுதியின் குறியீடு செல்லத்தகாதது</value>
+  </data>
+  <data name="C236010" xml:space="preserve">
+    <value>மாற்றுத் தொலைபேசி எண் செல்லத்தகாதது</value>
+  </data>
+  <data name="C236011" xml:space="preserve">
+    <value>மாற்றுத் தொலைபேசி வகை செல்லத்தகாதது</value>
+  </data>
+  <data name="C236012" xml:space="preserve">
+    <value>கண்டறியப்படாத பிழை</value>
+  </data>
+  <data name="C236013" xml:space="preserve">
+    <value>தொடர்புநபரின் தகவல்களை புதுப்பிக்க இயலவில்லை</value>
+  </data>
+  <data name="C236014" xml:space="preserve">
+    <value>செல்லத்தகாத வாங்குநர்</value>
+  </data>
+  <data name="C236015" xml:space="preserve">
+    <value>வாங்குநர் மாஸ்டராக அல்லது தரகராக இருக்க வேண்டும்</value>
+  </data>
+  <data name="C236016" xml:space="preserve">
+    <value>செல்லத்தகாத தொலைபேசி எண்</value>
+  </data>
+  <data name="C236017" xml:space="preserve">
+    <value>செல்லத்தகாத மாற்றுத் தொலைபேசி எண்</value>
+  </data>
+  <data name="C236099" xml:space="preserve">
+    <value>கண்டறியப்படாத பிழை</value>
+  </data>
+  <data name="WB94604" xml:space="preserve">
+    <value>மின்னஞ்சல் முகவரி ஏற்கனவே உள்ளது</value>
+  </data>
+  <data name="C219710" xml:space="preserve">
+    <value>விலைக்குறிப்பு அதிகரிப்புக்குள் விலை குறிக்கக் கூடாது</value>
+  </data>
+  <data name="WB97704" xml:space="preserve">
+    <value>உள்ளிடப்பட்ட எண்ணிக்கை வரம்புகள் கேப்பை விட அதிகமாக இருக்கக் கூடாது.</value>
+  </data>
+  <data name="WB97801" xml:space="preserve">
+    <value>இந்த ஏலம் கேட்பவருக்கு விலைக்குறிப்பு வரம்புகள் அமைக்கப்படவில்லை</value>
+  </data>
+  <data name="WB97802" xml:space="preserve">
+    <value>விலைக்குறிப்பு வரம்பை இந்த முறை அணுக இயலவில்லை.</value>
+  </data>
+  <data name="WB97803" xml:space="preserve">
+    <value>விலைக்குறிப்பு வரம்பைப் புதுப்பிக்க இயலவில்லை.</value>
+  </data>
+  <data name="WB97804" xml:space="preserve">
+    <value>விலைக்குறிப்பு வரம்புகளைச் சரிபார்க்க இயலவில்லை.</value>
+  </data>
+  <data name="WB97805" xml:space="preserve">
+    <value>WB468G-யை அழைப்பதில் பிழை.</value>
+  </data>
+  <data name="WB97806" xml:space="preserve">
+    <value>வாங்குநர் ஏலம் கேட்பவருக்கு அங்கீகாரம் வழங்கப்படவில்லை.</value>
+  </data>
+  <data name="WB97899" xml:space="preserve">
+    <value>*PSSR பிழை WB978G.</value>
+  </data>
+  <data name="WB97701" xml:space="preserve">
+    <value>ஏலம் கேட்பவரின் விலைக்குறிப்பு வரம்புகளை அணுக இயலவில்லை.</value>
+  </data>
+  <data name="WB97703" xml:space="preserve">
+    <value>உள்ளிடப்பட்ட தொகை வரம்புகள் கேப்பை விட அதிகமாக இருக்கக் கூடாது.</value>
+  </data>
+  <data name="WB97705" xml:space="preserve">
+    <value>உள்ளிடப்பட்ட தொகை மற்றும் எண்ணிக்கைகள் இரண்டுமே பூச்சியத்தை விடப் பெரிதாக இருக்க வேண்டும்.</value>
+  </data>
+  <data name="WB97706" xml:space="preserve">
+    <value>உள்ளிடப்பட்ட எண்ணிக்கை வரம்புகள் மாஸ்டர் வாங்குநரின் எண்ணிக்கை வரம்புகளை விட அதிகமாக இருக்கக்கூடாது.</value>
+  </data>
+  <data name="WB97707" xml:space="preserve">
+    <value>உள்ளிடப்பட்ட தொகை வரம்புகள் மாஸ்டர் வாங்குநரின் தொகை வரம்புகளை விட அதிகமாக இருக்கக்கூடாது.</value>
+  </data>
+  <data name="WB97708" xml:space="preserve">
+    <value>உள்ளிடப்பட்ட எண்ணிக்கை வரம்புகள் தற்போதைய எண்ணிக்கை வரம்புகளை விடக் குறைவாக இருக்கக்கூடாது.</value>
+  </data>
+  <data name="WB97709" xml:space="preserve">
+    <value>உள்ளிடப்பட்ட தொகை வரம்புகள் தற்போதைய தொகை வரம்புகளை விடக் குறைவாக இருக்கக்கூடாது.</value>
+  </data>
+  <data name="WB97799" xml:space="preserve">
+    <value>*PSSR பிழை WB977G.</value>
+  </data>
+  <data name="WB46801" xml:space="preserve">
+    <value>வாங்குநர் மற்றும் ஏலம் கேட்பவர் இணை VB2 Xref கோப்பில் காணப்படவில்லை.</value>
+  </data>
+  <data name="WB46899" xml:space="preserve">
+    <value>*PSSR பிழை WB468G.</value>
+  </data>
+  <data name="C201701" xml:space="preserve">
+    <value>ஏலம் கேட்பவருக்கு விலைக்குறிப்பு வரம்புகள் அமைக்கப்படவில்லை.</value>
+  </data>
+  <data name="C201702" xml:space="preserve">
+    <value>விலைக்குறிப்பு வரம்புகளை இந்த நேரத்தில் அணுக முடியவில்லை.</value>
+  </data>
+  <data name="C201703" xml:space="preserve">
+    <value>விலைக்குறிப்பு வரம்பைப் புதுப்பிக்க இயலவில்லை.</value>
+  </data>
+  <data name="C201704" xml:space="preserve">
+    <value>விலைக்குறிப்பு வரம்புகளைச் சரிபார்க்க இயலவில்லை.</value>
+  </data>
+  <data name="C201705" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் / மாஸ்டர் மறுவிற்பனையாளர் உறவைத் தீர்மானிக்க இயலவில்லை.</value>
+  </data>
+  <data name="C201799" xml:space="preserve">
+    <value>பயன்பாட்டுப் பிழை.</value>
+  </data>
+  <data name="C202901" xml:space="preserve">
+    <value>ஏலம் கேட்பவரின் விலைக்குறிப்பு வரம்புகளை அணுக இயலவில்லை.</value>
+  </data>
+  <data name="C202902" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் எண் காணப்படவில்லை.</value>
+  </data>
+  <data name="C202903" xml:space="preserve">
+    <value>உள்ளிடப்பட்ட தொகை மற்றும் எண்ணிக்கைகள் இரண்டுமே பூச்சியத்தை விடப் பெரிதாக இருக்க வேண்டும்.</value>
+  </data>
+  <data name="C202904" xml:space="preserve">
+    <value>உள்ளிடப்பட்ட எண்ணிக்கை வரம்புகள் கேப்பை விட அதிகமாக இருக்கக் கூடாது. </value>
+  </data>
+  <data name="C202905" xml:space="preserve">
+    <value>உள்ளிடப்பட்ட தொகை வரம்புகள் கேப்பை விட அதிகமாக இருக்கக் கூடாது.</value>
+  </data>
+  <data name="C202906" xml:space="preserve">
+    <value>உள்ளிடப்பட்ட எண்ணிக்கை வரம்புகள் மறுவிற்பனையாளர்களின் எண்ணிக்கை வரம்புகளை விட அதிகமாக இருக்கக் கூடாது. </value>
+  </data>
+  <data name="C202907" xml:space="preserve">
+    <value>உள்ளிடப்பட்ட தொகை வரம்புகள் மறுவிற்பனையாளர்களின் தொகை வரம்புகளை விட அதிகமாக இருக்கக் கூடாது.</value>
+  </data>
+  <data name="C202908" xml:space="preserve">
+    <value>உள்ளிடப்பட்ட எண்ணிக்கை வரம்புகள் தற்போதைய எண்ணிக்கையை விட அதிகமாக இருக்கக் கூடாது.</value>
+  </data>
+  <data name="C202909" xml:space="preserve">
+    <value>உள்ளிடப்பட்ட தொகை வரம்புகள் தற்போதைய தொகையை விட அதிகமாக இருக்கக் கூடாது.</value>
+  </data>
+  <data name="C202999" xml:space="preserve">
+    <value>பயன்பாட்டுப் பிழை.</value>
+  </data>
+  <data name="WB97601" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் கணக்கை புதுப்பிக்க முடியவில்லை</value>
+  </data>
+  <data name="WB97602" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் கணக்கின் நிலையை புதுப்பிக்க முடியவில்லை</value>
+  </data>
+  <data name="WB97603" xml:space="preserve">
+    <value>ஐட்டம் பரிசோதனையை அழிக்க முடியவில்லை</value>
+  </data>
+  <data name="WB97605" xml:space="preserve">
+    <value>WB468G-ஐ அழைப்பதில் பிழை</value>
+  </data>
+  <data name="WB97606" xml:space="preserve">
+    <value>செல்லத்தகாத வாங்குநர்</value>
+  </data>
+  <data name="WB97607" xml:space="preserve">
+    <value>செல்லத்தகாத ஏலம் கேட்பவர்</value>
+  </data>
+  <data name="WB97609" xml:space="preserve">
+    <value>நீங்கள் நிலையை மாற்ற முடியாது: அது பெருநிறுவன ஊழியரால் மாற்றப்பட்டது</value>
+  </data>
+  <data name="WB97699" xml:space="preserve">
+    <value>*PSSR பிழை WB976G</value>
+  </data>
+  <data name="C218503" xml:space="preserve">
+    <value>ஒரு விலைக்குறிப்பை ஏற்பதற்கு இந்த லாட் தகுதியானதல்ல</value>
+  </data>
+  <data name="C219004" xml:space="preserve">
+    <value>உங்களுடைய தொடக்க விலைக்குறிப்பு இந்த விலைக்குறிப்பு அதிகரிப்புக்குள் இல்லை. செல்லத்தக்க விலைக்குறிப்புகள் {0} மற்றும் {1}–ஐக் கொண்டதாக உள்ளன</value>
+  </data>
+  <data name="C219005" xml:space="preserve">
+    <value>உங்களுடைய அதிகபட்ச விலைக்குறிப்பானது விலைக்குறிப்பு அதிகரிப்புக்குள் இல்லை. செல்லத்தக்க விலைக்குறிப்புகள் {0} மற்றும் {1}–ஐக் கொண்டதாக உள்ளன</value>
+  </data>
+  <data name="VB32405" xml:space="preserve">
+    <value>இந்த நேரத்தில் விலை குறிப்பது அனுமதிக்கப்படவில்லை</value>
+  </data>
+  <data name="VB32406" xml:space="preserve">
+    <value>இந்த லாட் ஏற்கனவே விற்பனை செய்யப்பட்டுள்ளது</value>
+  </data>
+  <data name="VB32407" xml:space="preserve">
+    <value>இந்த லாட் மீது விலை குறிப்பதற்கு உங்களுக்கு தகுதி இல்லை. கூடுதல் தகவல்களுக்கு தயவுசெய்து உங்களுடைய தரகரை அணுகவும்</value>
+  </data>
+  <data name="VB32409" xml:space="preserve">
+    <value>இந்த லாட் மீது விலை குறிப்பதற்கு உங்களுக்கு தகுதி இல்லை. கூடுதல் தகவல்களுக்கு தயவுசெய்து உங்களுடைய தரகரை அணுகவும்</value>
+  </data>
+  <data name="VB64613" xml:space="preserve">
+    <value>உங்களுடைய விலைக்குறிப்பு உங்களுடைய முந்தைய அதிகபட்ச விலைக்குறிப்பை விட அதிகமானதாக இருக்க வேண்டும்</value>
+  </data>
+  <data name="VB64603" xml:space="preserve">
+    <value>மன்னிக்கவும், உங்களுடைய விலைக்குறிப்பு தற்போதைய அதிகபட்ச விலைக்குறிப்புடன் இணைந்துள்ளது</value>
+  </data>
+  <data name="VB64604" xml:space="preserve">
+    <value>மன்னிக்கவும், நீங்கள் ஏற்கனவே அதிக விலை கூறியுள்ளீர்கள். தற்போது அதிக தொகைக்கு ஏலம் கேட்டுள்ளவர் நீங்கள் குறித்துள்ள விலையை விட அதிகமாக விலை குறித்துள்ளார்</value>
+  </data>
+  <data name="WB84003" xml:space="preserve">
+    <value>இந்த லாட் மீது எதிர் விலை குறிப்பதற்கு உங்களுக்கு அனுமதி இல்லை. அதிக விலை குறித்தவர் நீங்கள் அல்ல.</value>
+  </data>
+  <data name="C201001" xml:space="preserve">
+    <value>செல்லத்தகாத பயனர் ஐடி</value>
+  </data>
+  <data name="C201002" xml:space="preserve">
+    <value>மறுவிற்பனையாளரின் கணக்கை அணுக முடியவில்லை</value>
+  </data>
+  <data name="C201003" xml:space="preserve">
+    <value>அமைக்கப்பட்ட முடிவு அனுமதிக்கப்பட்ட அதிகபட்ச அளவை விடப் பெரியது</value>
+  </data>
+  <data name="C201004" xml:space="preserve">
+    <value>செல்லத்தகாத மறுவிற்பனையாளர் ஐடி</value>
+  </data>
+  <data name="C201099" xml:space="preserve">
+    <value>பயன்பாட்டு பிழை</value>
+  </data>
+  <data name="C201301" xml:space="preserve">
+    <value>செல்லத்தகாத பயனர்</value>
+  </data>
+  <data name="C201302" xml:space="preserve">
+    <value>சேவைகள் இதுவரை அமைக்கப்படவில்லை</value>
+  </data>
+  <data name="C201303" xml:space="preserve">
+    <value>மறுவிற்பனையாளர் சேவைகளை அணுக முடியவில்லை</value>
+  </data>
+  <data name="C201304" xml:space="preserve">
+    <value>அமைக்கப்பட்ட முடிவு அதிகபட்சத்தை விடப் பெரிதாக உள்ளது</value>
+  </data>
+  <data name="C201305" xml:space="preserve">
+    <value>இந்த மறுவிற்பனையாளர் எந்தச் சேவையையும் வழங்கவில்லை</value>
+  </data>
+  <data name="C201399" xml:space="preserve">
+    <value>பயன்பாட்டு பிழை</value>
+  </data>
+  <data name="C201401" xml:space="preserve">
+    <value>செல்லத்தகாத பயனர் ஐடி</value>
+  </data>
+  <data name="C201402" xml:space="preserve">
+    <value>செலுத்துதல் முறைகள் இதுவரை அமைக்கப்படவில்லை</value>
+  </data>
+  <data name="C201403" xml:space="preserve">
+    <value>தற்போதைய செலுத்துதல் முறைகளை அணுக முடியவில்லை</value>
+  </data>
+  <data name="C201404" xml:space="preserve">
+    <value>அமைக்கப்பட்ட முடிவு அதிகபட்சத்தை விடப் பெரிதாக உள்ளது</value>
+  </data>
+  <data name="C201405" xml:space="preserve">
+    <value>இந்த மறுவிற்பனையாளருக்கு செலுத்துதல் முறை எதுவும் காணப்பெறவில்லை</value>
+  </data>
+  <data name="C201499" xml:space="preserve">
+    <value>பயன்பாட்டு பிழை</value>
+  </data>
+  <data name="C201501" xml:space="preserve">
+    <value>செல்லத்தகாத பயனர் ஐடி</value>
+  </data>
+  <data name="C201599" xml:space="preserve">
+    <value>பயன்பாட்டு பிழை</value>
+  </data>
+  <data name="C201601" xml:space="preserve">
+    <value>இந்த ஏலம் கேட்பவருக்கு விலைக்குறிப்பு வரம்புகள் அமைக்கப்படவில்லை</value>
+  </data>
+  <data name="C201602" xml:space="preserve">
+    <value>விலைக்குறிப்பு வரம்பை இந்த நேரத்தில் அணுக முடியவில்லை</value>
+  </data>
+  <data name="C201603" xml:space="preserve">
+    <value>அமைக்கப்பட்ட முடிவு அனுமதிக்கப்பட்ட அதிகபட்ச அளவை விடப் பெரியது</value>
+  </data>
+  <data name="C201604" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் / மாஸ்டர் மறுவிற்பனையாளர் உறவை தீர்மானிக்க முடியவில்லை</value>
+  </data>
+  <data name="C201699" xml:space="preserve">
+    <value>பயன்பாட்டு பிழை</value>
+  </data>
+  <data name="C201801" xml:space="preserve">
+    <value>அமைக்கப்பட்ட முடிவு அதிகபட்சத்தை விடப் பெரிதாக உள்ளது</value>
+  </data>
+  <data name="C201802" xml:space="preserve">
+    <value>ஏலம் கேட்பவருக்கான அணுகத்தக்க வாகனங்களின் எண்ணிக்கையைத் தீர்மானிக்க முடியவில்லை</value>
+  </data>
+  <data name="C201803" xml:space="preserve">
+    <value>ஏலம் கேட்பவருக்கான விலைக்குறிப்புகளின் எண்ணிக்கையைத் தீர்மானிக்க முடியவில்லை</value>
+  </data>
+  <data name="C201804" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் வென்ற லாட்களின் எண்ணிக்கையைத் தீர்மானிக்க முடியவில்லை</value>
+  </data>
+  <data name="C201805" xml:space="preserve">
+    <value>ஏலம் கேட்பவருக்கான அணுகத்தக்க வாகனங்களைக் கணக்கிட முடியவில்லை</value>
+  </data>
+  <data name="C201806" xml:space="preserve">
+    <value>ஏலம் கேட்பவருக்கான விலைக்குறிப்புகளின் எண்ணிக்கையைக் கணக்கிட முடியவில்லை</value>
+  </data>
+  <data name="C201807" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் வென்ற லாட்களின் எண்ணிக்கையைக் கணக்கிட முடியவில்லை</value>
+  </data>
+  <data name="C201808" xml:space="preserve">
+    <value>ஏலம் கேட்பவர் / மாஸ்டர் மறுவிற்பனையாளர் உறவை தீர்மானிக்க முடியவில்லை</value>
+  </data>
+  <data name="C201899" xml:space="preserve">
+    <value>பயன்பாட்டு பிழை</value>
+  </data>
+  <data name="C201999" xml:space="preserve">
+    <value>பயன்பாட்டு பிழை</value>
+  </data>
+  <data name="C203601" xml:space="preserve">
+    <value>செல்லத்தகாத பயனர் ஐடி</value>
+  </data>
+  <data name="C203602" xml:space="preserve">
+    <value>மறுவிற்பனையாளரின் கணக்கை அணுக முடியவில்லை</value>
+  </data>
+  <data name="C203603" xml:space="preserve">
+    <value>அமைக்கப்பட்ட முடிவு அனுமதிக்கப்பட்ட அதிகபட்ச அளவை விடப் பெரியது</value>
+  </data>
+  <data name="C203604" xml:space="preserve">
+    <value>மறுவிற்பனையாளர் பட்டியலை மீட்டெடுக்க இயலவில்லை</value>
+  </data>
+  <data name="C203605" xml:space="preserve">
+    <value>மறுவிற்பனையாளர் எவரும் காணப்படவில்லை.</value>
+  </data>
+  <data name="C203606" xml:space="preserve">
+    <value>லாட் எண் ஒரு தேவையான அளவுரு ஆகும்</value>
+  </data>
+  <data name="C203607" xml:space="preserve">
+    <value>மாநிலம் ஒரு தேவையான அளவுரு ஆகும்</value>
+  </data>
+  <data name="C203608" xml:space="preserve">
+    <value>லாட் எண் காணப்படவில்லை</value>
+  </data>
+  <data name="C203609" xml:space="preserve">
+    <value>மாநிலம் மற்றும் நாடு அமைக்கப்படவில்லை</value>
+  </data>
+  <data name="C203610" xml:space="preserve">
+    <value>நாடு ஒரு தேவையான அளவுரு ஆகும்</value>
+  </data>
+  <data name="C203699" xml:space="preserve">
+    <value>பயன்பாட்டு பிழை</value>
+  </data>
+  <data name="C204701" xml:space="preserve">
+    <value>செல்லத்தகாத பயனர்</value>
+  </data>
+  <data name="C204702" xml:space="preserve">
+    <value>கோப்பில் பிழை: BUYERBY01</value>
+  </data>
+  <data name="C204703" xml:space="preserve">
+    <value>அமைக்கப்பட்ட முடிவு அதிகபட்சத்தை விடப் பெரிதாக உள்ளது</value>
+  </data>
+  <data name="C204704" xml:space="preserve">
+    <value>கோப்பை வாசிக்கும்போது பிழை: BUYDFTBD01</value>
+  </data>
+  <data name="C204799" xml:space="preserve">
+    <value>பயன்பாட்டு பிழை</value>
+  </data>
+  <data name="C208901" xml:space="preserve">
+    <value>வாங்குநர் எண் ஒரு தேவையான அளவுரு ஆகும்</value>
+  </data>
+  <data name="C208902" xml:space="preserve">
+    <value>ஆண்டுத் தேர்ந்தெடுப்பு செல்லத்தகாதது</value>
+  </data>
+  <data name="C208999" xml:space="preserve">
+    <value>உட்புற பிழை C2089</value>
+  </data>
+  <data name="C212001" xml:space="preserve">
+    <value>பயனர் செயல்படுவதற்கு அங்கீகரிக்கப்படவில்லை.</value>
+  </data>
+  <data name="C212002" xml:space="preserve">
+    <value>செல்லத்தகாத லாட் எண்</value>
+  </data>
+  <data name="C212003" xml:space="preserve">
+    <value>பயனர் இந்த லாட்டுக்கு அங்கீகரிக்கப்படவில்லை</value>
+  </data>
+  <data name="C212099" xml:space="preserve">
+    <value>*C2120G-இல் PSSR பிழை.</value>
+  </data>
+  <data name="C214901" xml:space="preserve">
+    <value>செல்லத்தகாத பயனர் அல்லது பயனர் செயல்படுவதற்கு அங்கீகரிக்கப்படவில்லை</value>
+  </data>
+  <data name="C214999" xml:space="preserve">
+    <value>* C2149G-இல் PSSR பிழை</value>
+  </data>
+  <data name="C215001" xml:space="preserve">
+    <value>செல்லத்தகாத லிங்க் பயனர் அல்லது விற்பனையாளர் ஐடி</value>
+  </data>
+  <data name="C215099" xml:space="preserve">
+    <value>*PSSR தோல்வி C2150G</value>
+  </data>
+  <data name="C217401" xml:space="preserve">
+    <value>செல்லத்தகாத வாங்குநர் எண்</value>
+  </data>
+  <data name="C217402" xml:space="preserve">
+    <value>COMREF ஆட்டோசெக் / சந்தா காணப்படவில்லை</value>
+  </data>
+  <data name="C217403" xml:space="preserve">
+    <value>COMREF ஆட்டோசெக் / காலாவதி தேதி காணப்படவில்லை</value>
+  </data>
+  <data name="C217499" xml:space="preserve">
+    <value>*PSSR பிழை C2174G</value>
+  </data>
+  <data name="C218001" xml:space="preserve">
+    <value>தகவல்களைப் பெறுவதில் YD390G–இல் ஒரு பிழை ஏற்பட்டது</value>
+  </data>
+  <data name="C218002" xml:space="preserve">
+    <value>வாங்குநர் அவர்களுடைய விலைக்குறிப்பு எண்ணிக்கையை அதிகரிக்கவில்லை</value>
+  </data>
+  <data name="C218099" xml:space="preserve">
+    <value>பயன்பாட்டு பிழை</value>
+  </data>
+  <data name="C218201" xml:space="preserve">
+    <value>செல்லத்தகாத வாங்குநர் எண்</value>
+  </data>
+  <data name="C218202" xml:space="preserve">
+    <value>விலைக்குறிப்பு வரம்புப் பதிவேடு காணப்படவில்லை</value>
+  </data>
+  <data name="C218299" xml:space="preserve">
+    <value>*PSSR பிழை C2182G</value>
+  </data>
+  <data name="C219301" xml:space="preserve">
+    <value>முடிவு அளவுக்கதிகமாக அமைக்கப்பட்டது</value>
+  </data>
+  <data name="C219399" xml:space="preserve">
+    <value>*PSSR பிழை C2193G</value>
+  </data>
+  <data name="C222199" xml:space="preserve">
+    <value>*PSSR பிழை</value>
+  </data>
+  <data name="C224001" xml:space="preserve">
+    <value>காலி முடிவு அமைக்கப்பட்டது</value>
+  </data>
+  <data name="C224099" xml:space="preserve">
+    <value>*PSSR பிழை C2240G</value>
+  </data>
+  <data name="C227601" xml:space="preserve">
+    <value>செல்லத்தகாத உறுப்பினர் எண்</value>
+  </data>
+  <data name="C227699" xml:space="preserve">
+    <value>*PSSR தோல்வி C2276G</value>
+  </data>
+  <data name="C227701" xml:space="preserve">
+    <value>செல்லத்தகாத உறுப்பினர் எண்</value>
+  </data>
+  <data name="C227799" xml:space="preserve">
+    <value>*PSSR பிழை C2277G</value>
+  </data>
+  <data name="C228101" xml:space="preserve">
+    <value>தேவையான அளவுருக்கள் விடுபடுகின்றன</value>
+  </data>
+  <data name="C228102" xml:space="preserve">
+    <value>டோக்கன் ஐடி ஏற்கனவே உள்ளது</value>
+  </data>
+  <data name="C228103" xml:space="preserve">
+    <value>UMREC-ஐ எழுத முடியவில்லை</value>
+  </data>
+  <data name="C228199" xml:space="preserve">
+    <value>*PSSR பிழை C2281G</value>
+  </data>
+  <data name="C228201" xml:space="preserve">
+    <value>காணப்படவில்லை அல்லது நேரம் கடந்துவிட்டது</value>
+  </data>
+  <data name="C228299" xml:space="preserve">
+    <value>*PSSR பிழை C2282G</value>
+  </data>
+  <data name="C235001" xml:space="preserve">
+    <value>வாங்குநர் காணப்படவில்லை</value>
+  </data>
+  <data name="C235801" xml:space="preserve">
+    <value>வாங்குநர் எண் தேவைப்படுகிறது</value>
+  </data>
+  <data name="C235802" xml:space="preserve">
+    <value>லாட் வாங்குநரைச் சேர்ந்ததல்ல</value>
+  </data>
+  <data name="C235899" xml:space="preserve">
+    <value>பயன்பாட்டுப் பிழை C2358</value>
+  </data>
+  <data name="C245001" xml:space="preserve">
+    <value>அமைக்கப்பட்ட முடிவு மிகப் பெரியதாக உள்ளது</value>
+  </data>
+  <data name="C245099" xml:space="preserve">
+    <value>*PSSR பிழை C2450G</value>
+  </data>
+  <data name="C246101" xml:space="preserve">
+    <value>பயனர் செல்லருக்கு அங்கீகரிக்கப்படவில்லை</value>
+  </data>
+  <data name="C246102" xml:space="preserve">
+    <value>செல்லத்தகாத தனித்துவமிக்க குறிப்பு எண்</value>
+  </data>
+  <data name="C248201" xml:space="preserve">
+    <value>முடிவுத் தொகுப்பு பதிவுகளை விடப் பெரிதாக உள்ளது – திருப்பப்பட்ட அதிகபட்சம் மட்டும்.</value>
+  </data>
+  <data name="C248202" xml:space="preserve">
+    <value>முடிவுத் தொகுப்பு எந்தப் பதிவுகளையும் பெற்றிருக்கவில்லை – குறைந்தபட்சம் 1 பதிவு எதிர்பார்க்கப்படுகிறது.</value>
+  </data>
+  <data name="C248203" xml:space="preserve">
+    <value>பயனர் கோப்பில் காணப்படவில்லை. (SLDINTSI)</value>
+  </data>
+  <data name="C248204" xml:space="preserve">
+    <value>WB957G-ஐ அழைப்பதில் பிழை</value>
+  </data>
+  <data name="C248299" xml:space="preserve">
+    <value>*PSSR தோல்வி WB972G</value>
+  </data>
+  <data name="C250302" xml:space="preserve">
+    <value>வாங்குநர் காணப்படவில்லை</value>
+  </data>
+  <data name="C250303" xml:space="preserve">
+    <value>முடிவுத் தொகுப்பு அளவுக்கதிகமாக உள்ளது</value>
+  </data>
+  <data name="C250399" xml:space="preserve">
+    <value>*PSSR தோல்வி C2503G</value>
+  </data>
+  <data name="C250401" xml:space="preserve">
+    <value>வாங்குநர் செல்லத்தக்கவர் அல்ல</value>
+  </data>
+  <data name="C250402" xml:space="preserve">
+    <value>வாங்குநர் காணப்படவில்லை</value>
+  </data>
+  <data name="C250701" xml:space="preserve">
+    <value>முடிவு அளவுக்கதிகமாக அமைக்கப்பட்டது</value>
+  </data>
+  <data name="C250799" xml:space="preserve">
+    <value>*PSSR பிழை C2507G</value>
+  </data>
+  <data name="C251801" xml:space="preserve">
+    <value>வாங்குநர் எண் காணப்படவில்லை</value>
+  </data>
+  <data name="C251802" xml:space="preserve">
+    <value>வாங்குநர் எண் தேவைப்படுகிறது</value>
+  </data>
+  <data name="C251899" xml:space="preserve">
+    <value>பயன்பாட்டு பிழை</value>
+  </data>
+  <data name="C255201" xml:space="preserve">
+    <value>வாங்குநர் எண் தேவைப்படுகிறது, மற்றும் அது குறை எண்ணாக இருக்க முடியாது</value>
+  </data>
+  <data name="C255202" xml:space="preserve">
+    <value>செல்லத்தகாத வாங்குநர் எண்</value>
+  </data>
+  <data name="C255203" xml:space="preserve">
+    <value>செல்லத்தகாத தனித்துவமிக்க குறிப்பு</value>
+  </data>
+  <data name="C255299" xml:space="preserve">
+    <value>*PSSR பிழை</value>
+  </data>
+  <data name="C255501" xml:space="preserve">
+    <value>செல்லத்தகாத லாட்</value>
+  </data>
+  <data name="C255502" xml:space="preserve">
+    <value>லாட் ஆண்டு தற்போதைய ஆண்டு +1 ஐ விடப் பெரியது</value>
+  </data>
+  <data name="C255503" xml:space="preserve">
+    <value>VIN (ஆண்டு)-இன் 10வது நிலை COMREF–இல் இல்லை (வகை: NHTSAVINYR)</value>
+  </data>
+  <data name="C255504" xml:space="preserve">
+    <value>செல்லத்தகாத VIN</value>
+  </data>
+  <data name="C255599" xml:space="preserve">
+    <value>C2555SQL புரொகிராம் செயலிழப்பு</value>
+  </data>
+  <data name="C255703" xml:space="preserve">
+    <value>MKTGUIDE/வாங்குதல் comref இல்லை</value>
+  </data>
+  <data name="C255799" xml:space="preserve">
+    <value>C2557SQL செயலிழப்பு</value>
+  </data>
+  <data name="C256101" xml:space="preserve">
+    <value>லாட் எண் GT பூச்சியமாக இருக்க வேண்டும்</value>
+  </data>
+  <data name="C256102" xml:space="preserve">
+    <value>லாட் எண் காணப்படவில்லை</value>
+  </data>
+  <data name="C256199" xml:space="preserve">
+    <value>உட்புற பிழை C2561</value>
+  </data>
+  <data name="C256201" xml:space="preserve">
+    <value>அளவுருவில் செல்லத்தகாத மதிப்பு</value>
+  </data>
+  <data name="C256202" xml:space="preserve">
+    <value>VIN-ஐ குறிநீக்கம் செய்ய முடியவில்லை</value>
+  </data>
+  <data name="C256299" xml:space="preserve">
+    <value>உட்புற பிழை C2562</value>
+  </data>
+  <data name="C261699" xml:space="preserve">
+    <value>பயன்பாட்டுப் பிழை</value>
+  </data>
+  <data name="C261799" xml:space="preserve">
+    <value>பயன்பாட்டுப் பிழை</value>
+  </data>
+  <data name="C261899" xml:space="preserve">
+    <value>பயன்பாட்டுப் பிழை</value>
+  </data>
+  <data name="C261999" xml:space="preserve">
+    <value>பயன்பாட்டுப் பிழை</value>
+  </data>
+  <data name="C278001" xml:space="preserve">
+    <value>நிராகரிக்கப்பட்டது. கட்டண நிலுவை பக்கம் ஏற்றப்பட்டது.</value>
+  </data>
+  <data name="C278099" xml:space="preserve">
+    <value>நிராகரிக்கப்பட்டது. கட்டண நிலுவை பக்கம் ஏற்றப்பட்டது.</value>
+  </data>
+  <data name="C282003" xml:space="preserve">
+    <value>லாட் {0} காணப்படவில்லை</value>
+  </data>
+  <data name="C282099" xml:space="preserve">
+    <value>*PSSR பிழை C2820G</value>
+  </data>
+  <data name="C284001" xml:space="preserve">
+    <value>வாங்குநர் செல்லத்தக்கவர் அல்ல</value>
+  </data>
+  <data name="C284002" xml:space="preserve">
+    <value>வாங்குநர் காணப்படவில்லை</value>
+  </data>
+  <data name="C284801" xml:space="preserve">
+    <value>நிறுவனக் குறியீடு தேவைப்படுகிறது</value>
+  </data>
+  <data name="C284802" xml:space="preserve">
+    <value>மெனு ஐடி தேவைப்படுகிறது</value>
+  </data>
+  <data name="C284803" xml:space="preserve">
+    <value>பயனர் பாதுகாப்பு நிலை தேவைப்படுகிறது</value>
+  </data>
+  <data name="C284804" xml:space="preserve">
+    <value>பயனர் ஐடி தேவைப்படுகிறது</value>
+  </data>
+  <data name="C284805" xml:space="preserve">
+    <value>நிலை தேவைப்படுகிறது</value>
+  </data>
+  <data name="C292102" xml:space="preserve">
+    <value>வாங்குநர் காணப்படவில்லை</value>
+  </data>
+  <data name="C292103" xml:space="preserve">
+    <value>முடிவுத் தொகுப்பு அளவுக்கதிகமாக உள்ளது</value>
+  </data>
+  <data name="C292199" xml:space="preserve">
+    <value>*PSSR தோல்வி C2921G</value>
+  </data>
+  <data name="CP07101" xml:space="preserve">
+    <value>CCLIST-ஐ மீட்டெடுப்பதில் பிழை ஏற்பட்டது</value>
+  </data>
+  <data name="CP07199" xml:space="preserve">
+    <value>*PSSR பிழை CP071G</value>
+  </data>
+  <data name="FM25001" xml:space="preserve">
+    <value>மாஸ்டர் வாங்குநர் மட்டும் தகுதியுடையவர்</value>
+  </data>
+  <data name="FM25002" xml:space="preserve">
+    <value>முடிவு அளவுக்கதிகமாக அமைக்கப்பட்டது</value>
+  </data>
+  <data name="FM25099" xml:space="preserve">
+    <value>*PSSR பிழை FM250G</value>
+  </data>
+  <data name="UK62801" xml:space="preserve">
+    <value>SQL மாநிலம் பிழை</value>
+  </data>
+  <data name="UP21701" xml:space="preserve">
+    <value>செல்லத்தகாத அஞ்சல் குறியீடு</value>
+  </data>
+  <data name="VB40603" xml:space="preserve">
+    <value>முடிவுத் தொகுப்பு அதிகபட்ச பதிவுகளை விடப் பெரியதாக உள்ளது</value>
+  </data>
+  <data name="VB40699" xml:space="preserve">
+    <value>*PSSR பிழை VB406G</value>
+  </data>
+  <data name="WB05601" xml:space="preserve">
+    <value>செல்லத்தகாத வகை அல்லது அது இதுவரை அமைக்கப்படவில்லை</value>
+  </data>
+  <data name="WB05602" xml:space="preserve">
+    <value>முடிவு அளவு அளவுக்கதிகமாக உள்ளது</value>
+  </data>
+  <data name="WB05603" xml:space="preserve">
+    <value>கோப்பை அணுகுவதில் பிழை {0}, தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="WB05699" xml:space="preserve">
+    <value>பயன்பாட்டு பிழை</value>
+  </data>
+  <data name="WB07301" xml:space="preserve">
+    <value>செல்லத்தகாத வாங்குநர் எண்</value>
+  </data>
+  <data name="WB07399" xml:space="preserve">
+    <value>*PSSR பிழை</value>
+  </data>
+  <data name="WB07601" xml:space="preserve">
+    <value>உள்நுழைய முடியவில்லை</value>
+  </data>
+  <data name="WB07602" xml:space="preserve">
+    <value>செல்லத்தகாத கடவுச்சொல்</value>
+  </data>
+  <data name="WB07603" xml:space="preserve">
+    <value>செல்லத்தகாத பயனர்</value>
+  </data>
+  <data name="WB07605" xml:space="preserve">
+    <value>கடவுச்சொல் தேவைப்படுகிறது</value>
+  </data>
+  <data name="WB08801" xml:space="preserve">
+    <value>வாங்குநர் காணப்படவில்லை</value>
+  </data>
+  <data name="WB08899" xml:space="preserve">
+    <value>*PSSR பிழை WB088G</value>
+  </data>
+  <data name="WB08901" xml:space="preserve">
+    <value>வாங்குநர் காணப்படவில்லை</value>
+  </data>
+  <data name="WB08999" xml:space="preserve">
+    <value>*PSSR பிழை WB089G</value>
+  </data>
+  <data name="WB09601" xml:space="preserve">
+    <value>முடிவுகளைப் பெறும்போது பிழை ஏற்பட்டது</value>
+  </data>
+  <data name="WB09602" xml:space="preserve">
+    <value>முடிவுத் தொகுப்பு அதிகபட்ச பதிவுகளை விடப் பெரியதாக உள்ளது</value>
+  </data>
+  <data name="WB09699" xml:space="preserve">
+    <value>*PSSR பிழை WB096G</value>
+  </data>
+  <data name="WB36901" xml:space="preserve">
+    <value>செல்லத்தகாத லாட் எண்</value>
+  </data>
+  <data name="WB38901" xml:space="preserve">
+    <value>செல்லத்தகாத வாங்குநர் எண்</value>
+  </data>
+  <data name="WB38902" xml:space="preserve">
+    <value>செல்லத்தகாத தொடக்கத் தேதி</value>
+  </data>
+  <data name="WB38903" xml:space="preserve">
+    <value>செல்லத்தகாத முடிவு தேதி</value>
+  </data>
+  <data name="WB39001" xml:space="preserve">
+    <value>செல்லத்தகாத நிறுவனக் குறியீடு</value>
+  </data>
+  <data name="WB39002" xml:space="preserve">
+    <value>இந்தத் தேர்ந்தெடுப்பில் பதிவுகள் எதுவும் காணப்படவில்லை</value>
+  </data>
+  <data name="WB39201" xml:space="preserve">
+    <value>செல்லத்தகாத வாங்குநர் எண்</value>
+  </data>
+  <data name="WB39202" xml:space="preserve">
+    <value>செல்லத்தகாத தொடக்கத் தேதி</value>
+  </data>
+  <data name="WB39203" xml:space="preserve">
+    <value>செல்லத்தகாத முடிவு தேதி</value>
+  </data>
+  <data name="WB39299" xml:space="preserve">
+    <value>*PSSR பிழை</value>
+  </data>
+  <data name="WB39601" xml:space="preserve">
+    <value>முடிவுத் தொகுப்பு பதிவுகள் எதையும் கொண்டிருக்கவில்லை.</value>
+  </data>
+  <data name="WB39901" xml:space="preserve">
+    <value>செல்லத்தகாத வாங்குநர் எண்</value>
+  </data>
+  <data name="WB39902" xml:space="preserve">
+    <value>செல்லத்தகாத வாங்குநர் / ஏலம் கேட்பவர் இணைப்பு</value>
+  </data>
+  <data name="WB39903" xml:space="preserve">
+    <value>செல்லத்தகாத நாணயக் குறியீடு</value>
+  </data>
+  <data name="WB39909" xml:space="preserve">
+    <value>*PSSR தோல்வி WB399</value>
+  </data>
+  <data name="WB46201" xml:space="preserve">
+    <value>வாங்குநர் எண் காணப்படவில்லை</value>
+  </data>
+  <data name="WB46299" xml:space="preserve">
+    <value>*PSSR பிழை C2451G</value>
+  </data>
+  <data name="WB80301" xml:space="preserve">
+    <value>வாங்குநர் எண் என்பது தேவையான அளவுரு ஆகும்</value>
+  </data>
+  <data name="WB80303" xml:space="preserve">
+    <value>WB802G-ஐ அழைப்பதில் பிழை</value>
+  </data>
+  <data name="WB80304" xml:space="preserve">
+    <value>முடிவுத் தொகுப்பு அதிகபட்ச பதிவுகளை விடப் பெரியதாக உள்ளது</value>
+  </data>
+  <data name="WB80399" xml:space="preserve">
+    <value>*PSSR பிழை</value>
+  </data>
+  <data name="WB87002" xml:space="preserve">
+    <value>வாங்குநர் {0} காணப்படவில்லை</value>
+  </data>
+  <data name="WB87003" xml:space="preserve">
+    <value>லாட் {0} காணப்படவில்லை</value>
+  </data>
+  <data name="WB88400" xml:space="preserve">
+    <value>பிளாங்க் மின்னஞ்சல் முகவரி அல்லது VB2 ID பிழை</value>
+  </data>
+  <data name="WB88401" xml:space="preserve">
+    <value>பிளாங்க் கடவுச்சொல் பிழை</value>
+  </data>
+  <data name="WB88402" xml:space="preserve">
+    <value>செல்லத்தகாத பயனர் வகை பிளாங்க், வாங்கு அல்லது SLR ஆக இருக்க வேண்டும்</value>
+  </data>
+  <data name="WB88403" xml:space="preserve">
+    <value>பிளாங்க் நிறுவனக் குறியீடு பிழை</value>
+  </data>
+  <data name="WB88404" xml:space="preserve">
+    <value>பிளாங்க் அமர்வு ஐடி பிழை</value>
+  </data>
+  <data name="WB88405" xml:space="preserve">
+    <value>மின்னஞ்சல் முகவரி காணப்படவில்லை அல்லது கடவுச்சொல் பொருந்தவில்லை</value>
+  </data>
+  <data name="WB88406" xml:space="preserve">
+    <value>வாங்குபவர் / விற்பவர் எண் காணப்படவில்லை</value>
+  </data>
+  <data name="WB88407" xml:space="preserve">
+    <value>இந்த மின்னஞ்சல் முகவரியின் கீழ் உங்களுக்குப் பல கணக்குகள் உள்ளன. தயவுசெய்து, உள்நுழைவதற்கு உங்களுடைய வாங்குநர் / விற்பவர் எண்ணைப் பயன்படுத்தவும்</value>
+  </data>
+  <data name="WB88408" xml:space="preserve">
+    <value>உங்களுடைய கணக்கு செயல்பாட்டில் இல்லை. தயவுசெய்து உங்களுடைய உள்ளூர் அலுவலகத்தைத் தொடர்புகொள்ளவும்.</value>
+  </data>
+  <data name="WB88409" xml:space="preserve">
+    <value>உங்களுடைய உள்நுழைவு மற்றும் / அல்லது கடவுச்சொல் செல்லத்தகாதது. தயவுசெய்து உங்களுடைய உள்நுழைவை மீண்டும் உள்ளிடவும்.</value>
+  </data>
+  <data name="WB88411" xml:space="preserve">
+    <value>உள்நுழைய முடியவில்லை. தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="WB88412" xml:space="preserve">
+    <value>வாங்குநர் / விற்பவர் கோப்பில் இல்லை</value>
+  </data>
+  <data name="WB88413" xml:space="preserve">
+    <value>பயன்பாட்டுக்கு அங்கீகரிக்கப்படவில்லை</value>
+  </data>
+  <data name="WB88499" xml:space="preserve">
+    <value>*PSSR பிழை WB884G</value>
+  </data>
+  <data name="WB88699" xml:space="preserve">
+    <value>*PSSR பிழை WB886G</value>
+  </data>
+  <data name="WB89199" xml:space="preserve">
+    <value>*PSSR பிழை WB891G</value>
+  </data>
+  <data name="WB89301" xml:space="preserve">
+    <value>முடிவுத் தொகுப்பு அதிகபட்ச பதிவேடுகளை விடப் பெரியது – திருப்பப்பட்ட அதிகபட்சம் மட்டும்</value>
+  </data>
+  <data name="WB89302" xml:space="preserve">
+    <value>முடிவுத் தொகுப்பு எந்தப் பதிவுகளையும் பெற்றிருக்கவில்லை – குறைந்தபட்சம் 1 பதிவு எதிர்பார்க்கப்படுகிறது</value>
+  </data>
+  <data name="WB89399" xml:space="preserve">
+    <value>*PSSR பிழை WB89399</value>
+  </data>
+  <data name="WB89599" xml:space="preserve">
+    <value>*PSSR பிழை WB895G</value>
+  </data>
+  <data name="WB92503" xml:space="preserve">
+    <value>வாங்குநர் {0} தேவைப்படுகிறது</value>
+  </data>
+  <data name="WB92504" xml:space="preserve">
+    <value>வாங்குநர் {0} காணப்படவில்லை</value>
+  </data>
+  <data name="WB92599" xml:space="preserve">
+    <value>*PSSR தோல்வி</value>
+  </data>
+  <data name="WB95499" xml:space="preserve">
+    <value>*PSSR பிழை WB954G</value>
+  </data>
+  <data name="WB96801" xml:space="preserve">
+    <value>வாங்குநர் ஏலம் கேட்பவருக்கு அங்கீகரிக்கப்படவில்லை</value>
+  </data>
+  <data name="WB96802" xml:space="preserve">
+    <value>WB874G-ஐ அழைப்பதில் பிழை</value>
+  </data>
+  <data name="WB96803" xml:space="preserve">
+    <value>WB875G-ஐ அழைப்பதில் பிழை</value>
+  </data>
+  <data name="WB96804" xml:space="preserve">
+    <value>WB802G-ஐ அழைப்பதில் பிழை</value>
+  </data>
+  <data name="WB96805" xml:space="preserve">
+    <value>WB468G-ஐ அழைப்பதில் பிழை</value>
+  </data>
+  <data name="WB96899" xml:space="preserve">
+    <value>*PSSR பிழை WB968G</value>
+  </data>
+  <data name="WB97101" xml:space="preserve">
+    <value>முடிவுத் தொகுப்பு அதிகபட்சத்தை விடப் பெரியது</value>
+  </data>
+  <data name="WB97102" xml:space="preserve">
+    <value>முடிவுத் தொகுப்பு எந்தப் பதிவுகளையும் பெற்றிருக்கவில்லை</value>
+  </data>
+  <data name="WB97103" xml:space="preserve">
+    <value>லிங்க் பயனர் செல்லத்தக்கதாக இருக்க வேண்டும்</value>
+  </data>
+  <data name="WB97199" xml:space="preserve">
+    <value>பயன்பாட்டுப் பிழை</value>
+  </data>
+  <data name="WB98401" xml:space="preserve">
+    <value>செல்லத்தக்க வாங்குநர் எண் தேவைப்படுகிறது</value>
+  </data>
+  <data name="WB98499" xml:space="preserve">
+    <value>*PSSR பிழை WB984G</value>
+  </data>
+  <data name="WB98601" xml:space="preserve">
+    <value>செல்லத்தக்க வாங்குநர் எண் தேவைப்படுகிறது</value>
+  </data>
+  <data name="WB98602" xml:space="preserve">
+    <value>செல்லத்தக்க கடவுச்சொல் தேவைப்படுகிறது</value>
+  </data>
+  <data name="WB98603" xml:space="preserve">
+    <value>புரொகிராமுக்கு அழைப்பதில் பிழை</value>
+  </data>
+  <data name="WB98604" xml:space="preserve">
+    <value>எதிர்க் குறிப்பாளர் பதிவைச் சேர்க்கும்போது / புதுப்பிக்கும்போது பிழை ஏற்பட்டது</value>
+  </data>
+  <data name="WB98699" xml:space="preserve">
+    <value>*PSSR பிழை WB986G</value>
+  </data>
+  <data name="UK63201" xml:space="preserve">
+    <value>VIN தகவல் VIN# {0}–வுக்கு கிடைக்கவில்லை</value>
+  </data>
+  <data name="C218506" xml:space="preserve">
+    <value>Your Account Status is currently Inactive. Please contact Copart for assistance.</value>
+  </data>
+  <data name="C219012" xml:space="preserve">
+    <value>உங்களுடைய விலைக்குறிப்பு உங்களுடைய அதிகபட்ச விலைக்குறிப்பை விட அதிகமாக இருக்க வேண்டும்</value>
+  </data>
+  <data name="C242401" xml:space="preserve">
+    <value>உங்களுடைய சலுகை தொடக்க விலைக்குறிப்புக்குச் சமமாக அல்லது அதை விட அதிகமாக இருக்க வேண்டும்</value>
+  </data>
+  <data name="C241905" xml:space="preserve">
+    <value>கோரிக்கையைச் செயலாக்கம் செய்வதில் பிழை</value>
+  </data>
+  <data name="C241906" xml:space="preserve">
+    <value>சலுகை விலை தற்போதைய விலைக்குறிப்பை விட அதிகமாக இருக்க வேண்டும்</value>
+  </data>
+  <data name="C218502" xml:space="preserve">
+    <value>உங்களுடைய தற்போதைய நிலை வாகனங்கள் மீது விலை குறிப்பதை அனுமதிக்காது. இந்த வாகனங்கள் மீது விலை குறிப்பதற்கான நிபந்தனைகளைப் பற்றி விவாதிப்பதற்கு தயவுசெய்து உங்களுடைய உள்ளூர் அலுவலகத்தைத் தொடர்புகொள்ளவும்</value>
+  </data>
+  <data name="C219014" xml:space="preserve">
+    <value>கோரிக்கையைச் செயலாக்கம் செய்வதில் பிழை</value>
+  </data>
+  <data name="WB87022" xml:space="preserve">
+    <value>உங்களுடைய தற்போதைய நிலை B வகையைச் சேர்ந்த வாகனங்கள் மீது விலைகுறிப்பதை அனுமதிப்பதில்லை.  இந்த வாகனங்கள் மீது விலைகுறிப்பதற்கான நிபந்தனைகளைப் பற்றி விவாதிப்பதற்கு தயவுசெய்து உங்களுடைய உள்ளூர் அலுவலகத்தைத் தொடர்புகொள்ளவும்.</value>
+  </data>
+  <data name="WB87023" xml:space="preserve">
+    <value>இது கட்டுப்படுத்தப்பட்ட விற்பனை லாட் ஆகும். &lt;a href=&apos;{TermsLink}&apos;&gt;உறுப்பினர் விதிமுறைகள் மற்றும் நிபந்தனைகள்&lt;/a&gt; - உடைந்தவையாக மட்டும் வகைப்படுத்தப்பட்ட வாகனங்கள் என்பதை தயவுசெய்து பார்க்கவும்.</value>
+  </data>
+  <data name="SR65104" xml:space="preserve">
+    <value>அனுமதிக்கப்பட்ட சேமிக்கப்பட்ட தேடல்களின் அதிகபட்ச எண்ணிக்கையை நீங்கள் அடைந்துள்ளீர்கள். ஒரு புதிய தேடலைச் சேமிப்பதற்கு, உங்களுடைய தற்போதைய தேடல்களிலிருந்து ஒன்றை நீக்கவும்.</value>
+  </data>
+  <data name="WB94806" xml:space="preserve">
+    <value>கண்காணிப்புப் பட்டியலுடன் சேர்க்க முடியவில்லை. லாட் எண் அதிக விலைக்குறிப்பு அமைக்கப்பட்டுள்ளது</value>
+  </data>
+  <data name="C219013" xml:space="preserve">
+    <value>செல்லத்தகாத விலைக்குறிப்பு. விலைக்குறிப்பு தற்போதைய அதிக விலைக்குறிப்பை விட அதிகமானதாக இருக்க வேண்டும்.</value>
+  </data>
+  <data name="VB64703" xml:space="preserve">
+    <value>மன்னிக்கவும், நீங்கள் ஏற்கனவே அதிக விலை கூறியுள்ளீர்கள்.  தற்போதைக்கு அதிக தொகைக்கு ஏலம் கேட்டிருப்பவர் உங்களுடைய விலைக்குறிப்பை விட அதிகமாக அதிகபட்ச விலைக்குறிப்பைப் பெற்றுள்ளார்.</value>
+  </data>
+  <data name="VB64713" xml:space="preserve">
+    <value>Your Bid must be higher than your prior Maximum Bid.</value>
+  </data>
+  <data name="VB64728" xml:space="preserve">
+    <value>மீறப்பட்ட விருது எண்ணிக்கை வரம்பு</value>
+  </data>
+  <data name="VB64729" xml:space="preserve">
+    <value>This bid cannot be accepted because it exceeds your bid limits</value>
+  </data>
+  <data name="VB64730" xml:space="preserve">
+    <value>மீறப்பட்ட விருது தொகை வரம்பு</value>
+  </data>
+  <data name="VB64731" xml:space="preserve">
+    <value>This bid cannot be accepted because it exceeds your bid limits</value>
+  </data>
+  <data name="WB94802" xml:space="preserve">
+    <value>வாங்குநர் காணப்படவில்லை</value>
+  </data>
+  <data name="WB94804" xml:space="preserve">
+    <value>லாட் எண் காணப்படவில்லை</value>
+  </data>
+  <data name="WB94805" xml:space="preserve">
+    <value>கண்காணிப்புப் பட்டியலுடன் சேர்க்க முடியவில்லை. நீங்கள் உங்கள் வரம்பை எட்டிவிட்டீர்கள்</value>
+  </data>
+  <data name="WB94807" xml:space="preserve">
+    <value>கண்காணிப்புப் பட்டியலுடன் சேர்க்க முடியவில்லை. லாட் இனி மேல் தகுதியுடையதாக இல்லை</value>
+  </data>
+  <data name="WB94891" xml:space="preserve">
+    <value>நிறுவனக் குறியீடு விடுபட்டுள்ளது</value>
+  </data>
+  <data name="WB94892" xml:space="preserve">
+    <value>நிறுவனக் குறியீடு செல்லத்தக்கதல்ல / PROFIT_CENTER_GROUPS -இல் எந்த வரிசையும் காணப்படவில்லை</value>
+  </data>
+  <data name="WB88415" xml:space="preserve">
+    <value>உங்களுடைய கணக்கு இடைநீக்கம் செய்யப்பட்டுள்ளது. தயவுசெய்து உங்களுடைய உள்ளூர் அலுவலகத்தைத் தொடர்புகொள்ளவும்.</value>
+  </data>
+  <data name="WB88416" xml:space="preserve">
+    <value>உங்களுடைய கணக்கு வெறுமையாக்கப்பட்டுள்ளது. தயவுசெய்து உங்களுடைய உள்ளூர் அலுவலகத்தைத் தொடர்புகொள்ளவும்.</value>
+  </data>
+  <data name="WB88417" xml:space="preserve">
+    <value>உங்களுடைய கணக்கு கடமை தவறியுள்ளது. தயவுசெய்து உங்களுடைய உள்ளூர் அலுவலகத்தைத் தொடர்புகொள்ளவும்.</value>
+  </data>
+  <data name="C2190131" xml:space="preserve">
+    <value>செல்லத்தகாத விலைக்குறிப்பு. விலைக்குறிப்பு தற்போதைய அதிக விலைக்குறிப்பை விட அதிகமாக இருக்க வேண்டும்.</value>
+  </data>
+  <data name="VB647031" xml:space="preserve">
+    <value>உங்களுடைய அதிகபட்ச விலைக்குறிப்பு தற்போதைய அதிகபட்ச விலைக்குறிப்பை விடக் குறைவாக உள்ளது.</value>
+  </data>
+  <data name="C241804" xml:space="preserve">
+    <value>உங்களுடைய விலைக்குறிப்பு வரம்பு(கள்) மீறப்பட்டுள்ளன</value>
+  </data>
+  <data name="VB64704" xml:space="preserve">
+    <value>Sorry, your bid tied the current maximum bid.</value>
+  </data>
+  <data name="BUYITNOW_BID01" xml:space="preserve">
+    <value>செல்லத்தகாத வாங்குநர் எண்</value>
+  </data>
+  <data name="BUYITNOW_BID02" xml:space="preserve">
+    <value>செல்லத்தகாத லாட் எண்</value>
+  </data>
+  <data name="BUYITNOW_BID03" xml:space="preserve">
+    <value>விலைக்குறிப்புத் தொகை பூச்சியமாகவோ அல்லது அதற்குக் குறைவாகவோ இருக்க முடியாது</value>
+  </data>
+  <data name="BUYITNOW_BID04" xml:space="preserve">
+    <value>This bid exceeds your bid limits.</value>
+  </data>
+  <data name="BUYITNOW_BID05" xml:space="preserve">
+    <value>Sorry, we were unable to accept your bid. Please contact Copart for additional details.</value>
+  </data>
+  <data name="MEMBER_LOT_ELIG01" xml:space="preserve">
+    <value>வாங்குநர் காணப்படவில்லை</value>
+  </data>
+  <data name="MEMBER_LOT_ELIG02" xml:space="preserve">
+    <value>லாட் கண்டறியப்படவில்லை</value>
+  </data>
+  <data name="MEMBER_LOT_ELIG03" xml:space="preserve">
+    <value>இந்த லாட் மீது விலைகுறிப்பதற்கு உறுப்பினருக்குத் தகுதி இல்லை</value>
+  </data>
+  <data name="MEMBER_LOT_ELIG04" xml:space="preserve">
+    <value>உங்களுடைய தொடக்க விலைக்குறிப்பானது விலைக்குறிப்பு அதிகரிப்புக்குள் இல்லை. செல்லத்தக்க விலைக்குறிப்புகள் {0} மற்றும் {1}–ஐக் கொண்டதாக உள்ளன </value>
+  </data>
+  <data name="MEMBER_LOT_ELIG05" xml:space="preserve">
+    <value>பூர்வாங்க விலைக்குறிப்பு முடிக்கப்பட்டுள்ளது</value>
+  </data>
+  <data name="MEMBER_LOT_ELIG06" xml:space="preserve">
+    <value>உங்களுடைய அதிகபட்ச விலைக்குறிப்பானது விலைக்குறிப்பு அதிகரிப்புக்குள் இல்லை. செல்லத்தக்க விலைக்குறிப்புகள் {0} மற்றும் {1}–ஐக் கொண்டதாக உள்ளன  </value>
+  </data>
+  <data name="MEMBER_LOT_ELIG07" xml:space="preserve">
+    <value>விலைக்குறிப்புகள் தற்போதுள்ள விலைக்குறிப்பு வரம்புகளை மீறக்கூடாது </value>
+  </data>
+  <data name="MEMBER_LOT_ELIG08" xml:space="preserve">
+    <value>குறைந்தபட்சம் {0} {{currency_code}} உள்ள விலைக்குறிப்பை உள்ளிடுக</value>
+  </data>
+  <data name="MEMBER_LOT_ELIG09" xml:space="preserve">
+    <value>குறைந்தபட்சம் {0} {{currency_code}} உள்ள விலைக்குறிப்பை உள்ளிடுக</value>
+  </data>
+  <data name="MEMBER_LOT_ELIG10" xml:space="preserve">
+    <value>செல்லத்தகாத விலைக்குறிப்பு. விலைக்குறிப்பு தற்போதைய அதிக விலைக்குறிப்பை விட அதிகமானதாக இருக்க வேண்டும்.</value>
+  </data>
+  <data name="MEMBER_LOT_ELIG11" xml:space="preserve">
+    <value>உங்களுடைய விலைக்குறிப்பு உங்களுடைய அதிகபட்ச விலைக்குறிப்பை விட அதிகமாக இருக்க வேண்டும்</value>
+  </data>
+  <data name="MEMBER_LOT_ELIG12" xml:space="preserve">
+    <value>செல்லத்தகாத விலைக்குறிப்பு வகை அனுப்பப்பட்டது</value>
+  </data>
+  <data name="PRELIM_BID10" xml:space="preserve">
+    <value>உங்களுடைய தொடக்க விலைக்குறிப்புத் தொகை சரியான விலைக்குறிப்பு அதிகரிப்பாக இல்லை</value>
+  </data>
+  <data name="PRELIM_BID02" xml:space="preserve">
+    <value>பூர்வாங்க விலைக்குறிப்பு இனிமேலும் செயல்படுவதாக இருக்காது</value>
+  </data>
+  <data name="PRELIM_BID03" xml:space="preserve">
+    <value>மன்னிக்கவும், நீங்கள் ஏற்கனவே அதிக விலை கூறியுள்ளீர்கள்.  தற்போதைக்கு அதிக தொகைக்கு ஏலம் கேட்டிருப்பவர் உங்களுடைய விலைக்குறிப்பை விட அதிகமாக அதிகபட்ச விலைக்குறிப்பைப் பெற்றுள்ளார்.</value>
+  </data>
+  <data name="PRELIM_BID04" xml:space="preserve">
+    <value>மன்னிக்கவும், உங்களுடைய விலைக்குறிப்பு தற்போதைய அதிகபட்ச விலைக்குறிப்புடன் இணைந்துள்ளது</value>
+  </data>
+  <data name="PRELIM_BID05" xml:space="preserve">
+    <value>This bid cannot be accepted because it exceeds your bid limits</value>
+  </data>
+  <data name="PRELIM_BID01" xml:space="preserve">
+    <value>Bids must be within valid bid increments.</value>
+  </data>
+  <data name="PRELIM_BID13" xml:space="preserve">
+    <value>Your Bid must be higher than your prior Maximum Bid</value>
+  </data>
+  <data name="PRELIM_BID14" xml:space="preserve">
+    <value>நீங்கள் இயல்பான விலைக்குறிப்பை மீறவில்லை</value>
+  </data>
+  <data name="PRELIM_BID21" xml:space="preserve">
+    <value>செல்லத்தகாத யார்டு</value>
+  </data>
+  <data name="PRELIM_BID22" xml:space="preserve">
+    <value>செல்லத்தகாத வாங்குநர்</value>
+  </data>
+  <data name="PRELIM_BID23" xml:space="preserve">
+    <value>செல்லத்தகாத லாட் எண்</value>
+  </data>
+  <data name="PRELIM_BID24" xml:space="preserve">
+    <value>உங்களிடம் போதுமான பணம் இல்லை</value>
+  </data>
+  <data name="PRELIM_BID25" xml:space="preserve">
+    <value>இந்த லாட் மீது நீங்கள் விலைகுறிக்க முடியாது</value>
+  </data>
+  <data name="PRELIM_BID27" xml:space="preserve">
+    <value>செல்லத்தகாத கியோஸ்க் ஐபி முகவரி</value>
+  </data>
+  <data name="PRELIM_BID28" xml:space="preserve">
+    <value>மீறப்பட்ட விருது எண்ணிக்கை வரம்பு</value>
+  </data>
+  <data name="PRELIM_BID29" xml:space="preserve">
+    <value>This bid cannot be accepted because it exceeds your bid limits</value>
+  </data>
+  <data name="PRELIM_BID30" xml:space="preserve">
+    <value>மீறப்பட்ட விருது தொகை வரம்பு</value>
+  </data>
+  <data name="PRELIM_BID31" xml:space="preserve">
+    <value>This bid cannot be accepted because it exceeds your bid limits</value>
+  </data>
+  <data name="PRELIM_BID40" xml:space="preserve">
+    <value>செல்லத்தகாத விலைக்குறிப்பு</value>
+  </data>
+  <data name="PRELIM_BID41" xml:space="preserve">
+    <value>செல்லத்தகாத விலைக்குறிப்பு</value>
+  </data>
+</root>

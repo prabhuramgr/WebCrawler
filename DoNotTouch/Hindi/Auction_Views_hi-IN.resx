@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Auctions_Future" xml:space="preserve">
+    <value>आगामी</value>
+  </data>
+  <data name="Auctions_FutureSale" xml:space="preserve">
+    <value>भविष्य की बिक्री</value>
+  </data>
+  <data name="Auctions_Highlights" xml:space="preserve">
+    <value>बिक्री की हाइलाइट्स</value>
+  </data>
+  <data name="Auctions_Location" xml:space="preserve">
+    <value>स्थान</value>
+  </data>
+  <data name="Auctions_Region" xml:space="preserve">
+    <value>क्षेत्र</value>
+  </data>
+  <data name="Auctions_SaleTime" xml:space="preserve">
+    <value>बिक्री का समय</value>
+  </data>
+  <data name="Auctions_NextSale" xml:space="preserve">
+    <value>अगली बिक्री</value>
+  </data>
+  <data name="Auctions_Calendar" xml:space="preserve">
+    <value>कैलेंडर</value>
+  </data>
+  <data name="Auctions_FutureAuctions" xml:space="preserve">
+    <value>भविष्य की नीलामियाँ</value>
+  </data>
+  <data name="Auctions_List" xml:space="preserve">
+    <value>सूची</value>
+  </data>
+  <data name="Auctions_Map" xml:space="preserve">
+    <value>मानचित्र</value>
+  </data>
+  <data name="Auctions_UpcomingHeading" xml:space="preserve">
+    <value>नीलामी</value>
+  </data>
+  <data name="AuctionsCalgary_UpcomingHeading" xml:space="preserve">
+    <value>आगामी कैलगरी नीलामियाँ</value>
+  </data>
+  <data name="Auctions_UpcomingTitle" xml:space="preserve">
+    <value>आज के बाद नीलामी</value>
+  </data>
+  <data name="Auctions_SalesListTitle" xml:space="preserve">
+    <value>बिक्री सूची</value>
+  </data>
+  <data name="Auctions_ViewBy" xml:space="preserve">
+    <value>इन्होंने देखा है</value>
+  </data>
+  <data name="Auctions_CurrentSale" xml:space="preserve">
+    <value>मौजूदा बिक्री</value>
+  </data>
+  <data name="Auctions_Today" xml:space="preserve">
+    <value>आज की नीलामियाँ</value>
+  </data>
+  <data name="AuctionsCalgary_Today" xml:space="preserve">
+    <value>आज की कैलगरी नीलामियाँ</value>
+  </data>
+  <data name="Auctions_items" xml:space="preserve">
+    <value>आइटम</value>
+  </data>
+  <data name="Auctions_Join" xml:space="preserve">
+    <value>लाइव नीलामी में शामिल हों</value>
+  </data>
+  <data name="Auctions_Join_Now" xml:space="preserve">
+    <value>नीलामी में अभी शामिल हों</value>
+  </data>
+  <data name="Auctions_Lane" xml:space="preserve">
+    <value>लेन</value>
+  </data>
+  <data name="Auctions_Later" xml:space="preserve">
+    <value>आज बाद में नीलामियाँ</value>
+  </data>
+  <data name="Auctions_Live" xml:space="preserve">
+    <value>फ़िलहाल लाइव नीलामियाँ</value>
+  </data>
+  <data name="Auctions_SaleList" xml:space="preserve">
+    <value>बिक्री सूची देखें</value>
+  </data>
+  <data name="Auctions_TT_Lane" xml:space="preserve">
+    <value>लेन|यह वर्णन करने के लिए एक या दो छोटे वाक्य कि यह आइटम विशेष क्या करता है।</value>
+  </data>
+  <data name="Auctions_TT_SaleTime" xml:space="preserve">
+    <value>बिक्री का समय|बिक्री का समय नीलामी के लिए निर्धारित प्रारंभ समय होता है। बिक्री का समय उस परिसर के लिए स्थानीय होता है, जिसमें वाहन विशेष संगृहीत होता है।</value>
+  </data>
+  <data name="Auctions_ContactPhone" xml:space="preserve">
+    <value>फ़ोन:</value>
+  </data>
+  <data name="Auctions_Directions" xml:space="preserve">
+    <value>दिशा-निर्देश</value>
+  </data>
+  <data name="Auctions_InProgress" xml:space="preserve">
+    <value>प्रगति में लाइव नीलामी</value>
+  </data>
+  <data name="Auctions_LocationInfo" xml:space="preserve">
+    <value>स्थान जानकारी</value>
+  </data>
+  <data name="Auctions_Next" xml:space="preserve">
+    <value>अगली नीलामी</value>
+  </data>
+  <data name="Auctions_SearchInventory" xml:space="preserve">
+    <value>खोज सूची</value>
+  </data>
+  <data name="Auctions_ViewthisLocation" xml:space="preserve">
+    <value>यह स्थान देखें</value>
+  </data>
+  <data name="Auction_Contact" xml:space="preserve">
+    <value>संपर्क</value>
+  </data>
+  <data name="Auction_FreeWifi" xml:space="preserve">
+    <value>मुफ़्त WiFi</value>
+  </data>
+  <data name="Auction_Hours" xml:space="preserve">
+    <value>घंटे</value>
+  </data>
+  <data name="Auction_NoWifi" xml:space="preserve">
+    <value>कोई WiFi नहीं है</value>
+  </data>
+  <data name="Auctions_SaleDate" xml:space="preserve">
+    <value>बिक्री की तिथि</value>
+  </data>
+  <data name="Auctions_CalendarHeader" xml:space="preserve">
+    <value>अगले 6 सप्ताह के लिए नीलामियाँ</value>
+  </data>
+  <data name="Auctions_MyWatchlistHeader" xml:space="preserve">
+    <value>मेरी वाचलिस्ट</value>
+  </data>
+  <data name="Auctions_WatchlistCompareVehiclesBtn" xml:space="preserve">
+    <value>वाहनों की तुलना करें</value>
+  </data>
+  <data name="Auctions_WatchlistReverseBtn" xml:space="preserve">
+    <value>उलटा</value>
+  </data>
+  <data name="Auctions_ViewInventory" xml:space="preserve">
+    <value>सूची देखें</value>
+  </data>
+  <data name="Auctions_LotsLostHeader" xml:space="preserve">
+    <value>खो गए लॉट</value>
+  </data>
+  <data name="Auctions_LotsWonHeader" xml:space="preserve">
+    <value>जीते गए लॉट</value>
+  </data>
+  <data name="Auctions_SalesTimes_InfoBanner" xml:space="preserve">
+    <value>बिक्री का समय आम तौर पर यह होता है {SaleDate} {Saletimes}</value>
+  </data>
+  <data name="LaneSelector_CloseLabel" xml:space="preserve">
+    <value>बंद करें</value>
+  </data>
+  <data name="LaneSelector_DescriptionLabel1" xml:space="preserve">
+    <value>लेन उन सभी आइटम का सबसेट होता है जो हर लाइव नीलामी के दौरान बोली के लिए उपस्थित होता है।</value>
+  </data>
+  <data name="LaneSelector_HeaderBegin" xml:space="preserve">
+    <value>Copart में शामिल हों</value>
+  </data>
+  <data name="LaneSelector_ItemsLabel" xml:space="preserve">
+    <value>आइटम</value>
+  </data>
+  <data name="LaneSelector_JoinSaleLabel" xml:space="preserve">
+    <value>बिक्री में शामिल हों</value>
+  </data>
+  <data name="LaneSelector_LaneLegendHeader" xml:space="preserve">
+    <value>लेन विवरण और असाइनमेंट्स</value>
+  </data>
+  <data name="LaneSelector_WhatIsALaneLabel" xml:space="preserve">
+    <value>लेन क्या है?</value>
+  </data>
+  <data name="LaneSelector_LaneLabel" xml:space="preserve">
+    <value>लेन</value>
+  </data>
+  <data name="LaneSelector_HeaderEnd" xml:space="preserve">
+    <value>नीलामी</value>
+  </data>
+  <data name="Auctions_ViewLotsForSale" xml:space="preserve">
+    <value>बिक्री के लिए लॉट देखें</value>
+  </data>
+  <data name="Auctions_ViewAllToday" xml:space="preserve">
+    <value>आज की सभी नीलामियाँ देखें</value>
+  </data>
+  <data name="AuctionsCalgary_ViewAllToday" xml:space="preserve">
+    <value>आज की सभी कैलगरी नीलामियाँ देखें</value>
+  </data>
+  <data name="AuctionsCalgary_ViewAllUpcoming" xml:space="preserve">
+    <value>कैलगरी की सभी आगामी नीलामियाँ देखें</value>
+  </data>
+  <data name="Auctions_ViewAllUpcoming" xml:space="preserve">
+    <value>सभी आगामी नीलामियाँ देखें</value>
+  </data>
+  <data name="Auctions_Today_NoAuctions" xml:space="preserve">
+    <value>अभी कोई लाइव नीलामी नहीं है। इस समय का इस्तेमाल वे
+ &lt;a href=&apos;{FindVehicles}&apos;&gt;वाहन ढूँढ़ने में&lt;/a&gt; करें जो आपकी ज़रूरतें पूरी करते हैं।</value>
+  </data>
+  <data name="Auctions_Today_NoMoreAuctionsToday" xml:space="preserve">
+    <value>आज के लिए नीलामियाँ बंद हो गई हैं। यह देखने के लिए &lt;a href=&apos;{SearchOurInventoryLink}&apos;&gt;हमारी इन्वेंटरी की खोज करें&lt;/a&gt; कि भविष्य की नीलामियों में क्या आ रही है।</value>
+  </data>
+  <data name="Auctions_TT_SaleDate" xml:space="preserve">
+    <value>बिक्री की तिथि|बिक्री तिथि सप्ताह का वह दिन होता है जब विशेष परिसर पर नामित सूची की नीलामी होगी। बिक्री की तिथियाँ परिसर के अनुसार अलग-अलग होती हैं।</value>
+  </data>
+  <data name="LocationDetailModal_Close" xml:space="preserve">
+    <value>बंद करें</value>
+  </data>
+  <data name="LocationDetailModal_FromYourLocation" xml:space="preserve">
+    <value>अपने स्थान से</value>
+  </data>
+  <data name="LocationDetail_AtThisLocation" xml:space="preserve">
+    <value>इस स्थान पर</value>
+  </data>
+  <data name="Auctions_SaleEnded" xml:space="preserve">
+    <value>पहले ही समाप्त हो चुकी नीलामियाँ</value>
+  </data>
+  <data name="Auction_ToolTip_Live" xml:space="preserve">
+    <value>लाइव</value>
+  </data>
+  <data name="Auction_ToolTip_Today" xml:space="preserve">
+    <value>आज</value>
+  </data>
+  <data name="Auction_ToolTip_Upcoming" xml:space="preserve">
+    <value>आगामी</value>
+  </data>
+  <data name="Auction_LaneSelector_DefaultText" xml:space="preserve">
+    <value>लेन चुनें</value>
+  </data>
+  <data name="Auction_TT_LaneExplanation" xml:space="preserve">
+    <value>लेन उन सभी आइटम का सबसेट होता है जो हर लाइव नीलामी के दौरान बोली के लिए उपस्थित होता है। लेन आइटम नंबर के आधार पर आबंटित की जाती हैं, जो वाहन प्रकार का संकेत करते हैं। यह सूची आइटम नंबर और लेन आबंटन के बीच संबंध दर्शाती है।</value>
+  </data>
+  <data name="Auction_TT_LaneQuestion" xml:space="preserve">
+    <value>लेन क्या है?</value>
+  </data>
+  <data name="Auction_Upcoming_NoAuctions" xml:space="preserve">
+    <value>नीलामी की कोई जानकारी उपलब्ध नहीं है। अभी &lt;a href=&apos;{SearchingVehicles}&apos;&gt;वाहन खोजकर&lt;/a&gt; आगामी नीलामियों के लिए तैयार हो जाएँ।</value>
+  </data>
+  <data name="AuctionsLaterToday_Location" xml:space="preserve">
+    <value>आज बाद में {LOCATION} नीलामियाँ</value>
+  </data>
+  <data name="AuctionsTodayViewAll_Location" xml:space="preserve">
+    <value>आज की सभी {LOCATION} नीलामियाँ देखें</value>
+  </data>
+  <data name="AuctionsToday_Location" xml:space="preserve">
+    <value>आज की {LOCATION} नीलामियाँ</value>
+  </data>
+  <data name="AuctionsUpcomingViewAll_Location" xml:space="preserve">
+    <value>{LOCATION} की सभी आगामी नीलामियाँ देखें</value>
+  </data>
+  <data name="AuctionsUpcoming_Location" xml:space="preserve">
+    <value>आगामी {LOCATION} नीलामियाँ</value>
+  </data>
+  <data name="Auctions_FutureLink" xml:space="preserve">
+    <value>भविष्य</value>
+  </data>
+  <data name="Auctions_AuctionsCalendar" xml:space="preserve">
+    <value>नीलामी कैलेंडर</value>
+  </data>
+  <data name="Auctions_ViewStock" xml:space="preserve">
+    <value>स्टॉक देखें</value>
+  </data>
+  <data name="LaneSelector_DescriptionLabel2" xml:space="preserve">
+    <value>नीचे लेन चुनकर बिक्री में शामिल हों, या आइटम नंबर, लेन आबंटन और वाहन की स्थिति के बीच संबंध देखने के लिए नीचे स्क्रॉल करें।</value>
+  </data>
+  <data name="Auction_TT_LaneExplanationUS" xml:space="preserve">
+    <value>लेन उन सभी आइटम का सबसेट होता है जो हर लाइव नीलामी के दौरान बोली के लिए उपस्थित होता है। लेन आइटम नंबर के आधार पर आबंटित की जाती हैं, जो वाहन प्रकार का संकेत करते हैं। यह सूची आइटम नंबर और लेन आबंटन के बीच संबंध दर्शाती है।</value>
+  </data>
+  <data name="Auctions_Today_NoAuctions_UK" xml:space="preserve">
+    <value>हमारी लाइव नीलामी स्थानीय समय के अनुसार आज दोपहर 12:00 बजे शुरू होगी लेकिन आप वाहनों के लिए अभी और लाइव नीलामी शुरू होने से पहले एक घंटे तक किसी भी समय पूर्व-बोली लगा सकते हैं।  &lt;a href=&apos;{SearchOurStockLink}&apos;&gt;हमारे स्टॉक में खोज करें।&lt;/a&gt;</value>
+  </data>
+  <data name="Auctions_Today_NoMoreAuctionsToday_LocationDetail_UK" xml:space="preserve">
+    <value>आज इस परिसर में कोई लाइव नीलामी नहीं है। तथापि, आप वाहनों के लिए अभी और लाइव नीलामी शुरू होने से पहले एक घंटे तक किसी भी समय पूर्व-बोली लगा सकते हैं। वैकल्पिक रूप से, अन्य परिसरों  &lt;a href=&apos;{SearchOurStockLink}&apos;&gt;पर क्यों नहीं देखते। &lt;/a&gt;</value>
+  </data>
+  <data name="Auctions_Today_NoMoreAuctionsToday_UK" xml:space="preserve">
+    <value>आज के लिए नीलामियाँ बंद हो गई हैं। यह देखने के लिए &lt;a href=&apos;{SearchOurInventoryLink}&apos;&gt;हमारी इन्वेंटरी की खोज करें&lt;/a&gt; कि भविष्य की नीलामियों में क्या आ रही है।</value>
+  </data>
+  <data name="Auctions_Maintenance_message" xml:space="preserve">
+    <value>रखरखाव के कारण नीलामियाँ अस्थायी रूप से बंद हैं... कृपया जल्दी ही वापस जाँच करें!</value>
+  </data>
+  <data name="Auctions_NCSDesc" xml:space="preserve">
+    <value>Copart की नाइट कैप सेल्स क्षेत्रीय शाम की नीलामियाँ होती हैं जो हर सोमवार से गुरुवार तक होती हैं। ये बिक्री सदस्यों को वाहनों पर बोली लगाने के लिए दूसरा मौका देती हैं।</value>
+  </data>
+  <data name="Auctions_NCSHeader" xml:space="preserve">
+    <value>&quot;NCS&quot;: नाइट कैप सेल</value>
+  </data>
+  <data name="Auctions_SealedBidRepoDesc" xml:space="preserve">
+    <value>सील्ड बिड रेपो बिक्री में जब्त वाहन फ़ीचर किए जाते हैं। ये वाहन ऋणी/लीज़कर्ता के वित्तीय दायित्व पूरा करने के लिए वाहन वित्त-पोषण कंपनी द्वारा बेचे जाते हैं।</value>
+  </data>
+  <data name="Auctions_VIXDesc" xml:space="preserve">
+    <value>Copart का वर्चुअल इंटरनेट एक्सचेंज उन वाहनों को फ़ीचर करता है जो बोली के समय विक्रेता के कब्जे में ही होते हैं। VIX वाहन मोहरबंद नीलामी बोली फ़ॉरमेट का इस्तेमाल करके &quot;स्वीकृति पर&quot; बेचे जाते हैं। इसका मतलब यह है कि बोलियों को अंकित मूल्य पर स्वीकार किया जाता है और इन आइटम पर BID4U उपलब्ध नहीं होता।</value>
+  </data>
+  <data name="Auctions_VIXHeader" xml:space="preserve">
+    <value>&quot;VIX&quot;: वर्चुअल इंटरनेट एक्सचेंज</value>
+  </data>
+  <data name="JoinAuctionModal_UpgradeBrowserMsg1" xml:space="preserve">
+    <value>इष्टतम नीलामी निष्पादन के लिए, हम सिफ़ारिश करते हैं कि</value>
+  </data>
+  <data name="JoinAuctionModal_UpgradeBrowserMsg2" xml:space="preserve">
+    <value>अपना ब्राउज़र IE9 में अपग्रेड करें</value>
+  </data>
+  <data name="JoinAuctionModal_UpgradeBrowserMsg3" xml:space="preserve">
+    <value>या इसके बजाय फ़ायरफ़ॉक्स या क्रोम का इस्तेमाल कर।</value>
+  </data>
+  <data name="UpcomingAuctions_Upcomingsale" xml:space="preserve">
+    <value>आगामी बिक्री</value>
+  </data>
+  <data name="UpcomingAuctions__FollowingSale" xml:space="preserve">
+    <value>अगली बिक्री</value>
+  </data>
+  <data name="AuctionMessage_LocationDetailsBanner" xml:space="preserve">
+    <value>अभी ब्राउज़िंग करके और बोली लगाकर आगामी {CityNameValue} नीलामियों के लिए तैयार हो जाएँ।</value>
+  </data>
+  <data name="Auctions_UpcomingSale" xml:space="preserve">
+    <value>आगामी बिक्री</value>
+  </data>
+</root>

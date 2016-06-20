@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutYouHeader" xml:space="preserve">
+    <value>உங்களைப் பற்றி</value>
+  </data>
+  <data name="BuyerType" xml:space="preserve">
+    <value>நீங்கள் எந்த வகையான வாங்குநர்?</value>
+  </data>
+  <data name="ContactInformationHeader" xml:space="preserve">
+    <value>தொடர்புநபர் தகவல்</value>
+  </data>
+  <data name="Index_Page_Title" xml:space="preserve">
+    <value>இன்று பதிவு செய்யுங்கள்! அது விரைவானது மற்றும் இலவசமானது</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>விருப்பம் சார்ந்தது</value>
+  </data>
+  <data name="RegisterLinkText" xml:space="preserve">
+    <value>பதிவு செய்க</value>
+  </data>
+  <data name="SameAs" xml:space="preserve">
+    <value>ஃபிஸிக்கல் முகவரி அஞ்சல் முகவரியை ஒத்ததாகும்</value>
+  </data>
+  <data name="SelectCountry" xml:space="preserve">
+    <value>நாட்டைத் தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="SelectState" xml:space="preserve">
+    <value>மாநிலத்தைத் தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>சமர்ப்பிக்கவும்</value>
+  </data>
+  <data name="SubmitInstructions" xml:space="preserve">
+    <value>உங்களுடைய தரவைச் சமர்ப்பிப்பதற்கு கிளிக் செய்யவும் மற்றும் கோபார்ட்டுக்கு ஒரு புதிய உறுப்பினராக விண்ணப்பிக்கவும்.</value>
+  </data>
+  <data name="TellUsHeader" xml:space="preserve">
+    <value>உங்களைப் பற்றி எங்களுக்குச் சொல்லவும்</value>
+  </data>
+  <data name="TermsAgreement" xml:space="preserve">
+    <value>இந்தப் பெட்டியை கிளிக் செய்வதன் மூலம் நான் குறைந்தபட்சம் 18 வயதுடையவர் என்பதையும் மற்றும் பின்வருவனவற்றைப் படித்துப்பார்த்து ஒப்புக்கொண்டுள்ளேன் எனவும் ஒப்புக்கொள்கிறேன் </value>
+  </data>
+  <data name="UK_Registration_GetQuoteHeader" xml:space="preserve">
+    <value>ஒரு மேற்கோளைப் பெறவும்</value>
+  </data>
+  <data name="UK_Registration_GetQuote_TellUsText" xml:space="preserve">
+    <value>உங்கள் வாகனத்தைப் பற்றி எங்களுக்குச் சொல்லுங்கள்</value>
+  </data>
+  <data name="UK_Registration_GetQuote_Text" xml:space="preserve">
+    <value>உங்களுடைய &lt;b&gt;இலவச&lt;/b&gt; கட்டுப்பாடில்லாத மேற்கோளுக்காக இந்தப் படிவத்தை நிரப்பவும்!</value>
+  </data>
+  <data name="UK_Registration_QuestionBox_Contact" xml:space="preserve">
+    <value>1-888-Sell-it-Now</value>
+  </data>
+  <data name="UK_Registration_QuestionBox_Question" xml:space="preserve">
+    <value>எங்களுக்காக ஒரு கேள்வி உங்களிடம் உள்ளதா?</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_JunkVehicle" xml:space="preserve">
+    <value>உங்களுடைய வாகனம் 1999 அல்லது அதைவிடப் பழையதாக இருந்தால், தயவுசெய்து எங்களுடைய &lt;a href=&quot;{#Link}&quot;&gt;ஜங்க் வாகன படிவத்தை&lt;/a&gt; பயன்படுத்தவும்.</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_LoanLabel" xml:space="preserve">
+    <value>வாகனத்தின் மீது கடன் உள்ளதா?</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_MakeLabel" xml:space="preserve">
+    <value>தயாரிப்பு</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_MileLabel" xml:space="preserve">
+    <value>மைல்கள்</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_ModelLabel" xml:space="preserve">
+    <value>மாடல்</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_No" xml:space="preserve">
+    <value>இல்லை</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_OptionalLabel" xml:space="preserve">
+    <value>விருப்பம் சார்ந்தது</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_SelectMake" xml:space="preserve">
+    <value>தயாரிப்பைத் தேர்ந்தெடுங்கள்</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_SelectModel" xml:space="preserve">
+    <value>மாடலை தேர்ந்தெடுங்கள்</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_VehicleWorthLabel" xml:space="preserve">
+    <value>உங்களுடைய வாகனத்தின் மதிப்பு என்ன?</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_YearLabel" xml:space="preserve">
+    <value>ஆண்டு</value>
+  </data>
+  <data name="UK_Registration_QuoteForm_Yes" xml:space="preserve">
+    <value>ஆம்</value>
+  </data>
+  <data name="UK_Registration_TellUsForm_EmailLabel" xml:space="preserve">
+    <value>மின்னஞ்சல்</value>
+  </data>
+  <data name="UK_Registration_TellUsForm_FirstNameLabel" xml:space="preserve">
+    <value>முதற்பெயர்</value>
+  </data>
+  <data name="UK_Registration_TellUsForm_LastNameLabel" xml:space="preserve">
+    <value>கடைசி பெயர்</value>
+  </data>
+  <data name="UK_Registration_TellUsForm_PhoneLabel" xml:space="preserve">
+    <value>தொலைபேசி</value>
+  </data>
+  <data name="UK_Registration_TellUsForm_ReferralLabel" xml:space="preserve">
+    <value>பரிந்துரைக் குறியீடு</value>
+  </data>
+  <data name="UK_Registration_TellUsForm_SubmitBtnText" xml:space="preserve">
+    <value>உங்களுடைய இலவச விலைக்குறிப்பைப் பெறுங்கள்!</value>
+  </data>
+  <data name="UK_Registration_TellUsForm_ZipcodeLabel" xml:space="preserve">
+    <value>வாகனத்தின் ஜிப் குறியீடு</value>
+  </data>
+  <data name="WhereLocatedHeader" xml:space="preserve">
+    <value>உங்களுடைய அமைவிடம் எது?</value>
+  </data>
+  <data name="UKRegistration_PostalModalSearch" xml:space="preserve">
+    <value>தேடல்</value>
+  </data>
+  <data name="UK_Registration_PostalModalCancel" xml:space="preserve">
+    <value>ரத்து செய்க</value>
+  </data>
+  <data name="UK_Registration_PostalModalContinuedAddress" xml:space="preserve">
+    <value>தொடர்ந்த முகவரி</value>
+  </data>
+  <data name="UK_Registration_PostalModalExplanationText" xml:space="preserve">
+    <value>முகவரிக்கு அடுத்து உள்ள ரேடியோ பட்டனை கிளிக் செய்வதன் மூலம் ஒன்றைத் தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="UK_Registration_PostalModalNoneFoundExplanationText" xml:space="preserve">
+    <value>உள்ளிடப்பட்ட அஞ்சல் குறியீட்டில் எந்த முகவரிகளும் காணப்படவில்லை.</value>
+  </data>
+  <data name="UK_Registration_PostalModalPostCode" xml:space="preserve">
+    <value>அஞ்சல் குறியீடு</value>
+  </data>
+  <data name="UK_Registration_PostalModalResultsText" xml:space="preserve">
+    <value>இதற்கான அஞ்சல் குறியீடு தேடல் முடிவுகள்</value>
+  </data>
+  <data name="UK_Registration_PostalModalSelect" xml:space="preserve">
+    <value>தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="UK_Registration_PostalModalSelectText" xml:space="preserve">
+    <value>தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="UK_Registration_PostalModalTownCity" xml:space="preserve">
+    <value>நகரம் / மாநகரம்</value>
+  </data>
+  <data name="UK_Registration_PostalModalAddress" xml:space="preserve">
+    <value>முகவரி</value>
+  </data>
+  <data name="UK_Registration_TellUsHeader" xml:space="preserve">
+    <value>உங்களைப் பற்றி எங்களுக்குச் சொல்லவும்</value>
+  </data>
+  <data name="ConfirmEmail_ToolTip" xml:space="preserve">
+    <value>நீங்கள் வழங்கிய மின்னஞ்சல் முகவரி உங்களுடைய விண்ணப்பச் செயல்முறையின்போது உங்களைத் தொடர்புகொள்வதற்கு பயன்படுத்தப்படும், மற்றும் எங்களுடைய தனியுரிமைக் கொள்கையில் குறிப்பிட்டவாறு வேறு எந்த நோக்கத்துக்காகவும் பயன்படுத்தப்பட மாட்டாது.</value>
+  </data>
+  <data name="ConfirmEmail_ToolTipTitle" xml:space="preserve">
+    <value>கோபார்ட்டுக்கு எனது மின்னஞ்சல் ஏன் தேவைப்படுகிறது?</value>
+  </data>
+  <data name="UK_ConfirmEmail_ToolTip" xml:space="preserve">
+    <value>நீங்கள் வழங்கிய மின்னஞ்சல் முகவரி உங்களுடைய விண்ணப்பச் செயல்முறையின்போது உங்களைத் தொடர்புகொள்வதற்கு பயன்படுத்தப்படும், மற்றும் எங்களுடைய தனியுரிமைக் கொள்கையில் குறிப்பிட்டவாறு வேறு எந்த நோக்கத்துக்காகவும் பயன்படுத்தப்பட மாட்டாது.</value>
+  </data>
+  <data name="UK_ConfirmEmail_ToolTipTitle" xml:space="preserve">
+    <value>கோபார்ட்டுக்கு எனது மின்னஞ்சல் ஏன் தேவைப்படுகிறது?</value>
+  </data>
+  <data name="CurrencySymbol" xml:space="preserve">
+    <value>$</value>
+  </data>
+  <data name="TermsAgreement_Error" xml:space="preserve">
+    <value>நீங்கள் 18 வயதுக்கு மேற்பட்டவராக இருந்தால் மற்றும் கோபார்ட்டின் உறுப்பினர் விதிமுறைகள் &amp; நிபந்தனைகள், இணையதள சேவை விதிமுறைகள் மற்றும் தனியுரிமைக் கொள்கை ஆகியவற்றுக்கு ஒப்புக்கொள்வதாக இருந்தால், தயவுசெய்து தேர்வுப் பெட்டியைத் தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="Invalid_Postal_Code_Error" xml:space="preserve">
+    <value>செல்லத்தகாத அஞ்சல் குறியீடு</value>
+  </data>
+  <data name="Invalid_Zip_Code_Error" xml:space="preserve">
+    <value>செல்லத்தகாத ஜிப் குறியீடு</value>
+  </data>
+  <data name="Phone_ToolTip" xml:space="preserve">
+    <value>உங்களுடைய தொலைபேசி எண் உங்களுடைய விலைக்குறிப்பைப் பற்றியும் நீங்கள் வென்ற லாட்களைப் பற்றியும் உங்களைத் தொடர்புகொள்வதற்கான ஒரு வழியை எங்களுக்குக் கொடுக்கிறது. மேலும் அது உரிமம் வழங்குதல், விநியோகம், செலுத்துதல்கள் மற்றும் கோபார்ட்டுடன் உங்களுடைய அனுபவங்கள் ஆகியவற்றுக்காக உங்களைத் தொடர்புகொள்வதற்கு எங்களுக்கு அனுமதிக்கிறது.</value>
+  </data>
+  <data name="Phone_ToolTipTitle" xml:space="preserve">
+    <value>கோபார்ட்டுக்கு எனது தொலைபேசி எண் ஏன் தேவைப்படுகிறது?</value>
+  </data>
+  <data name="TermsAgreement_Header" xml:space="preserve">
+    <value>உறுப்பினர் விதிமுறை நிபந்தனைகள்</value>
+  </data>
+  <data name="UK_Phone_ToolTip" xml:space="preserve">
+    <value>உங்களுடைய தொலைபேசி எண் உங்களுடைய விலைக்குறிப்பைப் பற்றியும் நீங்கள் வென்ற லாட்களைப் பற்றியும் உங்களைத் தொடர்புகொள்வதற்கான ஒரு வழியை எங்களுக்குக் கொடுக்கிறது. மேலும் அது உரிமம் வழங்குதல், விநியோகம், செலுத்துதல்கள் மற்றும் கோபார்ட்டுடன் உங்களுடைய அனுபவங்கள் ஆகியவற்றுக்காக உங்களைத் தொடர்புகொள்வதற்கு எங்களுக்கு அனுமதிக்கிறது.</value>
+  </data>
+  <data name="UK_Phone_ToolTipTitle" xml:space="preserve">
+    <value>கோபார்ட்டுக்கு எனது தொலைபேசி எண் ஏன் தேவைப்படுகிறது?</value>
+  </data>
+  <data name="Terms_Modal_Page_Address" xml:space="preserve">
+    <value>~/Views/Shared/termsmodal_pv.cshtml</value>
+  </data>
+  <data name="PrivacyPolicyLabel" xml:space="preserve">
+    <value>தனியுரிமைக் கொள்கை</value>
+  </data>
+  <data name="TermsAndConditionsLabel" xml:space="preserve">
+    <value>கோபார்ட்டின் உறுப்பினர் விதிமுறைகள் மற்றும் நிபந்தனைகள்</value>
+  </data>
+  <data name="TermsOfServiceLabel" xml:space="preserve">
+    <value>இணையதள சேவை நிபந்தனைகள்</value>
+  </data>
+  <data name="Testing" xml:space="preserve">
+    <value>&lt;p&gt;&lt;strong&gt;இந்த தனியுரிமைக் கொள்கையில் என்னென்ன இடம் பெற்றுள்ளன&lt;br /&gt;
+&lt;/strong&gt;&lt;br /&gt;
+இந்தக் கொள்கை www.copart.co.uk–வில் செயல்படும் இணையதளத்தையும், மற்றும் கோபார்ட் UK, கோபார்ட் UAE மற்றும் கோபார்ட், இன்க். (”கோபார்ட்”), அமெரிக்காவில் இயங்கும் அவற்றின் தாய் நிறுவனங்கள் ஆகியவற்றின் தகவல் நடைமுறைகளையும் கட்டுப்படுத்துகிறது. எங்களது இணையதளம் வாயிலாகவும் மற்றும் எங்களுக்கும் தனிப்பட்ட தகவல்களை வழங்குவதன் மூலம் நீங்கள் உங்களுடைய தனிப்பட்ட தகவல்களை கோபார்ட் UK மற்றும் கோபார்ட் இருவருக்கும் வழங்குகிறீர்கள்&lt;br /&gt; என்பதைப் புரிந்துகொண்டு ஏற்றுக்கொள்கிறீர்கள் (மற்றும், நீங்கள் ஐக்கிய அரபு எமிரேட்ஸைச் சேர்ந்தவராக இருந்தால், அல்லது UAE-யில் உள்ள வாகனங்களை வாங்குவதாக இருந்தால், கோபார்ட் UAE-க்கும் வழங்குகிறீர்கள்). தனிப்பட்ட தகவல் என்பது உங்களைத் தனிப்பட்ட முறையில் அடையாளம் காணக்கூடிய தகவல்களை உள்ளடக்கியதாகும், அதில் உங்களது பெயர், முகவரி, மின்னஞ்சல் முகவரி, அல்லது தொலைபேசி எண் மற்றும் பகிரங்கமாக கிடைக்காத தகவல்கள் இடம் பெற்றிருக்கும்.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+இந்தக் கொள்கை கோபார்ட் UK,கோபார்ட் UAE அல்லது கோபார்ட் நிறுவனத்துக்கு உரிமையில்லாத அல்லது கட்டுப்பாட்டில் இல்லாத நிறுவனங்களின் நடைமுறைகளுக்கு, அல்லது கோபார்ட் UK அல்லது கோபார்ட் UAE நியமிக்காத அல்லது நிர்வகிக்காத பணியாளர்களுக்கு பொருந்தாது.&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;தகவல் சேகரிப்பு மற்றும் பயன்பாடு&lt;/strong&gt; &lt;br /&gt;
+&lt;br /&gt;
+நீங்கள் எங்களுடன் பதிவு செய்யும்போதும் எங்களது சேவைகளைப் பயன்படுத்தும்போதும் உங்களின் தனிப்பட்ட தகவல்களை நாங்கள் சேகரிக்கிறோம்.&lt;br /&gt;
+&lt;br /&gt;
+நீங்கள் எங்களுடன் பதிவு செய்யும்போது உங்கள் பெயர், முகவரி, மின்னஞ்சல் முகவரி, தொலைபேசி எண், கிரெடிட் கார்டு தகவல், வணிக உரிம எண், ஓட்டுநர் உரிமம் பற்றிய தகவல்கள், அஞ்சல் குறியீடு மற்றும் இதர நிதி சார்ந்த தகவல்கள் போன்ற தகவல்களை நாங்கள் உங்களிடம் கேட்கலாம். நீங்கள் எங்களுடன் பதிவு செய்துகொண்டு எங்கள் சேவைகளைப் பயன்படுத்துவதற்காக உள்நுழைந்தவுடன், நீங்கள் எங்களுக்கு அனாமதேயமானவர் அல்ல.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+நீங்கள் விலை குறித்த வாகனங்கள் தொடர்பான தகவல்கள் உட்பட, எங்களுடனான உங்களுடைய பரிவர்த்தனைகளைப் பற்றிய தகவல்களை நாங்கள் சேகரிக்கிறோம்.&lt;br /&gt;
+&lt;br /&gt;
+கோபார்ட் UK, கோபார்ட் UAE மற்றும் கோபார்ட் இணையதளங்கள் மற்றும் அவற்றின் துணை நிறுவனங்கள், மற்றும் (உங்கள் கணினியை குக்கீகளைப் பெறுமாறு அமைத்திருந்தால்) தொடர்புடைய குக்கீ தகவல் ஆகியவை குறித்த உங்களுடைய அமர்வுகள் தொடர்பான எங்கள் சர்வர் பதிவுகள் குறித்த தகவல்களை நாங்கள் தானாகவே பெற்றுப் பதிவு செய்வோம். கூடுதல் தகவல்களுக்கு, “குக்கீகள்” என்ற தலைப்பில் கீழே கொடுக்கப்பட்டுள்ள பிரிவைப் பார்க்கவும்.&lt;br /&gt;
+&lt;br /&gt;
+பின்வரும் பொதுவான நோக்கங்களுக்காக நாங்கள் தகவல்களைப் பயன்படுத்துகிறோம்: உங்களைத் தொடர்புகொள்வதற்கு, ஏலத்தை எளிதாக்குவதற்கு, கோபார்ட் UK, கோபார்ட் UAE மற்றும் கோபார்ட் வாயிலாக உங்களால் வாகனங்களை வாங்குவதற்கு மற்றும் விற்பதற்கு, உங்களால் வாங்கப்பட்ட மற்றும் விற்கப்பட்ட வாகனங்களின் பெயர் மற்றும் உரிமையை மாற்றம் செய்வதற்கு, மற்றும் எங்கள் வாயிலாக உங்களால் வாங்கப்படுகின்ற மற்றும் விற்கப்படுகின்ற வாகனங்கள் தொடர்பான சட்டங்கள் மற்றும் விதிமுறைகளைப் பின்பற்றுவதற்கு.&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;தகவல்களைப் பகிர்ந்துகொள்ளுதல் மற்றும் வெளியிடுதல்&lt;br /&gt;
+&lt;/strong&gt;&lt;br /&gt;
+(i) நீங்கள் கேட்டுக்கொண்ட தயாரிப்புகள் அல்லது சேவைகளை வழங்குவதற்கு, (ii) நாங்கள் உங்களிடம் அனுமதி பெற்றிருக்கும் பட்சத்தில், அல்லது (iii) பின்வரும் சூழ்நிலைகளின் கீழ் தவிர, உங்களைப் பற்றிய தனிப்பட்ட தகவல்களை இதர நபர்கள் அல்லது இணைக்கப்படாத நிறுவனங்களுக்கு வாடகைக்குத் தரவோ, விற்கவோ அல்லது பகிர்ந்துகொள்ளவோ மாட்டோம்:&lt;br /&gt;
+&lt;br /&gt;
+ &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;இரகசியத்தன்மை ஒப்பந்தங்களின் கீழ் மற்றும் சட்டத்துக்கு இணங்க எங்களின் சார்பாக அல்லது எங்களுடன் பணிபுரிகின்ற நம்பகமான கூட்டாளர்களுக்கு நாங்கள் தகவல்களை வழங்குகிறோம். இந்த நிறுவனங்கள் எங்களிடமிருந்து வரும் வணிக வாய்ப்புகள் பற்றி உங்களுக்குத் தெரியப்படுத்த உதவுவதற்காக உங்களுடைய தனிப்பட்ட தகவல்களைப் பயன்படுத்தலாம். இருப்பினும், இந்த நிறுவனங்கள் இந்தத் தகவல்களைப் பகிர்வதற்கு எந்த வித தனிப்பட்ட உரிமையும் பெற்றிருக்காது&lt;/li&gt;
+
+&lt;li&gt;தகவல்களை நாங்கள் நீதிமன்ற அழைப்பாணைகள், நீதிமன்ற ஆணைகள், அல்லது சட்ட ரீதியான செயல்முறைக்கு இணங்க, அல்லது எங்களது சட்ட உரிமைகளை உறுதிப்படுத்துவதற்கு அல்லது பயன்படுத்துவதற்கு, அல்லது சட்டப்பூர்வக் கோரிக்கைகளுக்கு எதிராக நடவடிக்கை எடுப்பதற்கு, அல்லது சட்டத்தை நடைமுறைப்படுத்தும் முகமைகளிடமிருந்து (காவல்துறை மற்றும் வர்த்தகத் தரங்கள் போன்றவை) ஒரு செல்லத்தக்க கோரிக்கை கிடைக்கப்பெறும் பட்சத்தில் வழங்குவோம்;&lt;/li&gt;
+
+&lt;li&gt;மற்றபடி, இணையதளத்தைப் பயன்படுத்துபவர்களைப் பற்றிய தனிப்பட்ட தகவல்களை மூன்றாம் தரப்பினருடன் பகிர்ந்துகொள்வது ஒரு பயனரின் கோரிக்கையை நிறைவேற்றுவதற்குப் பொருத்தமானதாக இருந்தால் தவிர, அல்லது அவ்வாறு செய்வது சட்டரீதியாக தேவைப்படுகிறது என நியாயமாக நம்பப்பட்டால் தவிர, அல்லது அதன் சொத்து அல்லது இதர சட்ட உரிமைகள் அல்லது மற்றவர்களின் உரிமைகள் அல்லது சொத்து ஆகியவற்றைப் பாதுகாப்பது நமது அக்கறை என இருந்தால் தவிர, இதர நோக்கங்களுக்காக நாங்கள் அவ்வாறு பகிர்ந்துகொள்ள மாட்டோம்;&lt;/li&gt;
+
+&lt;li&gt;கோபார்ட் UK அல்லது கோபார்ட் மற்றொரு நிறுவனத்தால் கையகப்படுத்தப்பட்டாலோ அல்லது அதனுடன் இணைக்கப்பட்டாலோ, பொருந்தக்கூடிய சட்டத்தால் அனுமதிக்கப்படும் அளவுக்கு உங்களைப் பற்றிய தகவல்களை நாங்கள் பரிமாற்றம் செய்யலாம். இந்த நிகழ்வில், உங்களைப் பற்றிய தகவல்கள் பரிமாற்றப்படுவதற்கு முன்னதாக நாங்கள் உங்களுக்குத் தெரிவிப்போம். அது வேறொரு&lt;br /&gt;
+தனியுரிமைக் கொள்கைக்கு உட்பட்டதாகிறது;&lt;/li&gt;
+
+&lt;li&gt;உங்களைப் பற்றிய தகவல்களை நீங்கள் வாங்கிய வாகனங்களின் உரிமையாளர்களுக்கு, நீங்கள் விற்ற வாகனங்களை வாங்கியவர்களுக்கு மற்றும் அவர்களுடைய சேவை வழங்குநர்களுக்கு நாங்கள் பரிமாற்றம் செய்வோம். அவர்கள் உரிமை மாற்றச் செயல்முறை எளிதாக்க வேண்டியிருக்கும்போது எங்களுடைய விற்பனை இடங்களுக்கும், அரசாங்க முகமைகளுக்கும் வாகனங்களை ஒதுக்குவதற்கும் அதை தங்களிடம் வைத்திருக்கலாம்.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;சர்வதேசப் பார்வையாளர்கள் மற்றும் வாடிக்கையாளர்கள்&lt;br /&gt;
+&lt;/strong&gt;&lt;br /&gt;
+கோபார்ட் UK மற்றும் கோபார்ட் UAE இணையதளங்கள் எங்களின் சார்பாக கோபார்ட் நிறுவனத்தால் அமெரிக்க ஐக்கிய நாடுகளில் பதிவு செய்யப்படுகின்றன. அமெரிக்கா பொருத்தமான தரவுப் பாதுகாப்பை உறுதியாக வழங்கும் என்பது தீர்மானிக்கப்படவில்லை. இருப்பினும், கோபார்ட் நிறுவனம் நீங்கள் எங்களுடைய சேவைகளுக்காக பதிவு செய்யும்போது அல்லது எங்களது இணையதளத்தைப் பயன்படுத்தும்போது நாங்கள் பெறுகின்ற வாடிக்கையாளர் தரவு மற்றும் தனிப்பட்ட விவரத்துக்கான தரவுப் பாதுகாப்பு தொடர்பாக அமெரிக்க ஐக்கிய&lt;br /&gt; நாடுகள் மற்றும் ஐரோப்பிய ஒன்றியம் ஆகியவற்றுக்கிடையே ஒப்பந்தமாகியுள்ள பாதுகாப்புத் துறைமுக கொள்கைகளை கோபார்ட் பின்பற்றுகிறது. அதற்கேற்ப, நீங்கள் எங்கள் இணையதளத்தைப் பார்வையிடும்போது அல்லது எங்களுக்கு தனிப்பட்ட தரவுகளை வழங்கும்போது, பொருந்தக்கூடிய தரவுப் பாதுகாப்புச் சட்டத்துக்கு இணங்க உங்களுடைய தனிப்பட்ட தரவுகளைச் செயலாக்கம் செய்வதில் போதுமான பாதுகாப்பை உறுதி செய்வதற்கான நடவடிக்கைகளை நாங்கள் எடுத்து&lt;br /&gt;
+வருகிறோம்.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+நீங்கள் உங்களுடைய தனிப்பட்ட தரவை அமெரிக்காவுக்கு அனுப்புகிறீர்கள் என்பதை தயவுசெய்து கவனத்தில் கொள்ளவும் மற்றும் உங்களுடைய தனிப்பட்ட தரவுகளை வழங்குவதன் மூலம் நீங்கள் இவற்றுக்கு ஒப்புக்கொள்கிறீர்கள்:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;இந்த தனியுரிமைக் கொள்கைக்கு இணங்க மேலே தெரிவிக்கப்பட்டுள்ள நோக்கங்களுக்காக உங்களுடைய தனிப்பட்ட தரவைப் பயன்படுத்துவதற்கு; மற்றும்&lt;/li&gt;
+
+&lt;li&gt;மேலே குறிப்பிட்டவாறு உங்களுடைய தனிப்பட்ட தரவை அமெரிக்காவுக்கு அனுப்புவதற்கு.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;குக்கீகள்&lt;/strong&gt;&lt;br /&gt;
+உங்களுடைய கணினியின் பிரவுசர் கோப்புகளில் “குக்கீ” எனப்படுகின்ற ஒரு உரைக் கோப்பை நாங்கள் இடம்பெறச் செய்யலாம். குக்கீயில் தனிப்பட்ட தகவல்கள் எதுவும் இடம் பெற்றிருக்காது என்றாலும் கூட, நீங்கள் குறிப்பாக உங்களுக்குத் தெரிந்தே வழங்கிய தகவல்களுடன் உங்களுடைய கோபார்ட் இணையதளப் பயன்பாட்டைத் தொடர்புபடுத்துவதற்கு அது எங்களுக்கு உதவும். ஆனால் குக்கீயில் இடம் பெற்றிருக்கும் ஒரே ஒரு தனிப்பட்ட தகவல் என்னவெனில் நீங்கள் வழங்கும் தகவல் மட்டுமே ஆகும். ஒரு குக்கீ உங்களுடைய ஹார்ட் டிஸ்க்கில் உள்ள தரவைப் படிக்க முடியாது அல்லது மற்ற இணையதளங்களால் உருவாக்கப்படுகின்ற குக்கீ கோப்புகளைப் படிக்க முடியாது.&lt;br /&gt;
+&lt;br /&gt;
+கோபார்ட் இணையதளங்களில் உள்ள பயனர் வணிகத்தொடர்பு அமைப்புகளைக் கண்காணிப்பதற்கு நாங்கள் குக்கீகளை பயன்படுத்தலாம், ஆனால் உங்களுடைய மூன்றாம் தரப்பு இணையதளங்களைக் கண்காணிப்பதற்கு நாங்கள் குக்கீகளைப் பயன்படுத்துவதில்லை.&lt;br /&gt;
+&lt;br /&gt;
+அதோடு, பயனர் எங்களுடைய இணையதளத்துக்குள் நுழைந்த பிறகு ஒவ்வொரு பக்கத்திலும் பயனரை அங்கீகரிப்பதற்காக நாங்கள் மறைகுறியாக்கப்பட்ட குக்கீகளை பயன்படுத்துகிறோம். இந்தக் குக்கீகளை ஏற்காமல் எங்கள் இணையதளத்தின் உறுப்பினர்கள் பகுதிக்குள் நுழைவது சாத்தியமில்லாதது - அதாவது, இந்தக் குக்கீகளை ஏற்காமல் கோபார்ட் UK அல்லது கோபார்ட் UAE லாட்களில் நீங்கள் விலைகுறிக்க முடியாது.&lt;br /&gt;
+&lt;br /&gt;
+உள்நுழைவுக்கான குக்கீகளை ஏற்பது எங்கள் இணையதளத்தின் உறுப்பினர்கள் பகுதியை அணுகுவதற்கு உங்களுக்கு உதவும், ஆனால் உங்களுடைய இதர குக்கீகள் முடக்கப்பட்டிருந்தால் சில இதர அம்சங்களும் சேவைகளும் (உதாரணமாக வாகனங்களுக்கு தனிப்பயனாக்கப்பட்ட தேடல்களை உருவாக்குதல்) முறையாக அல்லது ஏற்புடையதாகச் செயல்படாமல் போகலாம்.&lt;br /&gt;
+&lt;br /&gt;
+குக்கீகளை உங்களுடைய பிரவுசரில் நிறுத்துவதன் மூலம் அவை செயல்படுவதை நீங்கள் மறுக்க முடியும். மாறாக குக்கீகளை ஏற்பதற்கு முன்னர் உங்களை எச்சரிக்கும் வகையில் நீங்கள் உங்கள் பிரவுசரை அமைத்துக்கொள்ள முடியும்; அதாவது, ஒவ்வொரு குக்கீக்கும் நீங்கள் எச்சரிக்கைச் செய்தியைப் பெறுவீர்கள்.&lt;br /&gt;
+ &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;தகவல்தொடர்புகள்&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+எங்களுடைய சேவைகள் மற்றும் எங்களுடனான உங்களுடைய கணக்கு தொடர்பாக குறிப்பிட்ட தகவல்களை, அவற்றைத் தேர்ந்தெடுப்பதற்கான வாய்ப்பை வழங்காமலேயே உங்களுக்கு அனுப்புவதற்கான உரிமையை நாங்கள் பெற்றுள்ளோம், இவற்றில் பின்வருபவை மட்டுமன்றி ஏனையவையும் அடங்கலாம்: அறிவிக்கைகள், சேவை அறிவிப்புகள் மற்றும் நிர்வாகச் செய்திகள் (இருந்தபோதிலும் நீங்கள் உங்களுடைய கணக்கை உருவாக்கும்போது உங்கள் ஒப்புதலை நாங்கள் பெறுவோம்). அத்தகைய தகவல்தொடர்புகளைப் பெறவேண்டாம் என நீங்கள் தேர்ந்தெடுத்தால், எங்களுடைய சேவைகளை நீங்கள் தொடர்ந்து அணுகுவது அல்லது பயன்படுத்துவது&lt;br /&gt;
+சாத்தியமில்லாமல் போகலாம்.&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;தரவுச் சேமிப்பு&lt;br /&gt;
+&lt;/strong&gt;&lt;br /&gt;
+எங்களுடனான உங்களுடைய கணக்கு முடிக்கப்பட்ட பிறகு,  எங்களுடைய தரவுத்தளங்களில் உள்ள தகவல்களை சட்டத்தால் அனுமதிக்கப்பட்ட அதிகபட்ச அளவுக்கு காலவரையின்றி நாங்கள் தேர்ந்தெடுக்க முடியும்.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;இரகசியத்தன்மை மற்றும் பாதுகாப்பு&lt;br /&gt;
+&lt;/strong&gt;&lt;br /&gt;
+உங்களைப் பற்றிய தனிப்பட்ட தகவல்களை, தங்களுடைய வேலைகளைச் செய்வதற்காக தயாரிப்புகளை அல்லது சேவைகளை உங்களுக்கு வழங்குவதற்கு அந்தத் தகவல்கள் நியாயமாகத் தேவைப்படுகிறது என நாங்கள் நம்புகின்ற பணியாளர்கள் மட்டுமே அணுகுமாறு நாங்கள் கட்டுப்படுத்துகிறோம்.&lt;/p&gt;
+
+&lt;p&gt;உங்களைப் பற்றிய தனிப்பட்ட தகவல்களைப் பாதுகாப்பதற்கு எங்களுடைய சட்டப் பொறுப்புகளுக்கு இணக்கமான உடல் ரீதியான, மின்னணு மற்றும் நடைமுறைப் பாதுகாப்புகள் எங்களிடம் உள்ளன.&lt;br /&gt;
+&lt;br /&gt;
+பாதுகாப்பு விதி மீறல் இருப்பதாக எங்களுக்குத் தெரியவந்தால் நீங்கள் பாதுகாப்பு நடவடிக்கைகளை எடுப்பதற்கு ஏதுவாக நாங்கள் உங்களுக்கு மின்னணு முறையில் அனுப்பி வைக்க முயற்சி செய்வோம். இந்த இணையதளத்தைப் பயன்படுத்துவதன் மூலம் அல்லது தனிப்பட்ட தகவல்களை எங்களுக்கு வழங்குவதன் மூலம் இந்த இணையதளத்தை நீங்கள் பயன்படுத்துவது தொடர்பான பாதுகாப்பு, தனியுரிமை மற்றும் நிர்வாகப் பிரச்சனைகள் தொடர்பாக மின்னணு முறையில் உங்களைத் தொடர்புகொள்வதற்கு நீங்கள் ஒப்புக்கொள்கிறீர்கள். ஏதேனும் பாதுகாப்பு மீறல்&lt;br /&gt; நிகழ்ந்தால் எங்களது இணையதளத்தில் நாங்கள் ஒரு அறிவிப்பு வெளியிடுவோம். இந்தச் சூழ்நிலைகளில் நீங்கள் எங்களுக்கு வழங்கியுள்ள மின்னஞ்சல் முகவரிக்கு நாங்கள் ஒரு மின்னஞ்சலும் அனுப்புவோம். நீங்கள் எங்கு வசிக்கிறீர்கள் என்பதைப் பொறுத்து, பாதுகாப்பு மீறல் குறித்த எழுத்துப்பூர்வமான அறிவிப்பைப் பெறுவதற்கு உங்களுக்கு சட்ட ரீதியான உரிமை இருக்கலாம். பாதுகாப்பு மீறல் குறித்த இலவச எழுத்துப்பூர்வ அறிவிப்பைப் பெறுவதற்கு (அல்லது, நீங்கள் ஒரு தனிநபராக இருந்தால் மின்னணு அறிவிப்புகளைப் பெறுவதிலிருந்து உங்களுடைய ஒப்புதலை விலக்கிக்கொள்வதற்கு) நீங்கள் எங்களுக்கு &lt;a href=&quot;mailto:privacy@copart.co.uk&quot;&gt;privacy@copart.co.uk&lt;/a&gt;-இல் தெரியப்படுத்த வேண்டும். &lt;br /&gt;
+&lt;br /&gt;
+நாங்கள் உங்களுடைய பாதுகாப்பை தீவிரமான விஷயமாக எடுத்துக்கொண்டு உங்களுடைய தகவல்களைப் பாதுகாப்பதற்கான நியாயமான நடவடிக்கைகளை எடுப்போம். இணையதள அல்லது தகவல் சேமிப்புத் தொழில்நுட்பம் குறித்த எந்த ஒரு தரவுப் பரிமாற்றத்துக்கும் 100% பாதுகாப்புக்கு உத்தரவாதம் வழங்க முடியாது. உங்கள் தகவல்களைப் பாதுகாப்பதற்கு நாங்கள் எடுக்கும் நடவடிக்கைகள் பற்றிய சுருக்கம் மற்றும் நீங்கள் எங்களுக்கு வழங்கியுள்ள பல்வேறு வகைப்பட்ட தகவல்களுக்கு இந்த நடவடிக்கைகளை நடைமுறைப்படுத்தும் வழிகளுக்குரிய விளக்கங்கள் ஆகியவை பற்றிய சுருக்கம் கீழே கொடுக்கப்பட்டுள்ளது:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;பாதுகாப்பு சாக்கெட் அடுக்கு (SSL)&lt;/i&gt;&lt;br /&gt;
+&lt;br /&gt;
+நிதிச் சேவைத் தகவல் அல்லது பணம் செலுத்துதல் தகவல் போன்ற குறிப்பிட்ட தகவல் வகைகளை அனுப்பும்போது நாங்கள் SSL குறியாக்கத்தைப் பயன்படுத்துகிறோம். கிரெடிட் கார்டு மற்றும் இதர செலுத்துதல் வகைகளை உள்ளடக்கிய SSL பரிவர்த்தனைகளின்போது பெரும்பாலான பிரவுசர்களில் விண்டோவின் அடிப்பகுதியில் பேட்லாக்கை ஒத்த ஒரு ஐகன் காண்பிக்கப்படுகிறது. பணம் செலுத்துதல் அல்லது சரிபார்த்தல் நோக்கங்களுக்காக ஒரு கிரெடிட் கார்டு&lt;br /&gt; எண்ணை நாங்கள் உங்களிடம் கேட்கின்ற எந்த ஒரு நேரத்திலும், அது SSL குறியாக்கம் செய்யப்பட்டதாக இருக்கும். நீங்கள் வழங்கும் தகவல் எங்களுடைய சர்வர்களில் பாதுகாப்பாக சேமித்து வைக்கப்பட்டிருக்கும். உங்களுடைய கிரெடிட் கார்டு எண்ணை சேமிப்பதற்கு அல்லது உள்ளிடுவதற்கு நீங்கள் தேர்ந்தெடுத்தவுடன், எதிர்காலத்தில் அதை மீட்டுப்பெறும்போது அல்லது திருத்தும்போது அது முழுமையாக உங்களுக்கு திரும்பவும் காண்பிக்கப்பட மாட்டாது. முழுமையான எண்ணுக்குப் பதிலாக, நட்சத்திரக் குறிகளை மட்டுமே நீங்கள் பார்க்க முடியும், உங்களுடைய எண்ணின் முதல் நான்கு இலக்கங்கள் அல்லது கடைசி நான்கு இலக்கங்களை மட்டுமே நீங்கள் முழுமையாக பார்க்க முடியும்.&lt;br /&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;i&gt;விற்பனையாளர்கள் மற்றும் கூட்டாளர்கள்&lt;br /&gt;
+&lt;/i&gt;&lt;br /&gt;
+பயனர் தகவல்களின் பாதுகாப்பு மற்றும் தனியுரிமையைப் பாதுகாப்பதற்காக விற்பனையாளர்களுடனும் கூட்டாளர்களுடன் இணைந்து நாங்கள் செயல்படுகிறோம்.&lt;br /&gt;
+&lt;/li&gt;
+
+&lt;li&gt; &lt;i&gt;தகவல்களை பணியாளர் மற்றும் ஒப்பந்ததாரர் அணுகுதல்&lt;/i&gt;&lt;br /&gt;
+உங்களைப் பற்றிய தனிப்பட்ட தகவல்களை, தங்களுடைய வேலைகளைச் செய்வதற்காக தயாரிப்புகளை அல்லது சேவைகளை உங்களுக்கு வழங்குவதற்கு அந்தத் தகவல்கள் நியாயமாகத் தேவைப்படுகிறது என நாங்கள் நம்புகின்ற பணியாளர்கள் மட்டுமே அணுகுமாறு நாங்கள் கட்டுப்படுத்துகிறோம்.&lt;br /&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;i&gt;பணியாளர்களுக்கான கல்வி மற்றும் பயிற்சி&lt;br /&gt;
+&lt;/i&gt;&lt;br /&gt;
+கோபார்ட் UK மற்றும் கோபார்ட் UAE பணியாளர் ஒவ்வொருவருக்கும் தேவைப்படுகின்ற பாதுகாப்பு பற்றி நிறுவன அளவிலான கல்வி மற்றும் பயிற்சித் திட்டத்தை நாங்கள் செயல்படுத்தியுள்ளோம்.&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;இந்த தனியுரிமைக் கொள்கையில் மாற்றங்கள் மேற்கொள்வது குறித்து&lt;br /&gt;
+&lt;/strong&gt;&lt;br /&gt;
+இந்தக் கொள்கையை நாங்கள் புதுப்பிக்கலாம். நாங்கள் அதைச் செய்யும்போது, இந்த ஆவணத்தின் தொடக்கத்தில் உள்ள தேதியையும் நாங்கள் திருத்துவோம். நீங்கள் எங்களுக்கு வழங்கியுள்ள தனிப்பட்ட தகவல்களைப் பயன்படுத்துவது அல்லது வெளிப்படுத்துவதை மிகக் குறைவான அளவே கட்டுப்படுத்துகின்ற இந்தக் கொள்கையில் மாற்றங்கள் மேற்கொள்வதற்கு, மாற்றத்தைச் செயல்படுத்துவதற்கு முன்னர் உங்களுடைய ஒப்புதலைப் பெறுவதற்கு நாங்கள் முயற்சி செய்வோம். நாங்கள் சேகரிக்கின்ற தகவல்களை நாங்கள் எவ்வாறு பாதுகாக்கிறோம் என்பதைப் பற்றித் தொடர்ந்து தெரிந்துகொள்வதற்கு இந்தக் கொள்கையை குறிப்பிட்ட கால இடைவெளியில் மதிப்பாய்வு செய்யுமாறு நாங்கள் உங்களை ஊக்குவிக்கிறோம். இந்த இணையதளத்தை நீங்கள் தொடர்ந்து பயன்படுத்துவது இந்தக் கொள்கைகளையும் மேற்கொள்ளப்பட்ட மேம்பாடுகளையும் நீங்கள் ஒப்புக்கொள்வதைத் தெரிவிக்கிறது.&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;கேள்விகள் மற்றும் ஆலோசனைகள்&lt;br /&gt;
+&lt;/strong&gt;&lt;br /&gt;
+எங்களுடைய தனியுரிமைக் கொள்கை பற்றி உங்களுக்கு ஏதாவது சந்தேகங்கள் அல்லது ஆலோசனைகள் இருந்தால், தயவுசெய்து &lt;a href=&quot;mailto:privacy@copart.co.uk&quot;&gt;privacy@copart.co.uk&lt;/a&gt;-இல் எங்களைத் தொடர்புகொள்ளவும்.&lt;/p&gt;</value>
+  </data>
+  <data name="CPMainContent" xml:space="preserve">
+    <value>முக்கிய-உள்ளடக்கம்</value>
+  </data>
+  <data name="CPMemberTerms" xml:space="preserve">
+    <value>பதிவு / உறுப்பினர் விதிமுறைகள்</value>
+  </data>
+  <data name="CPPrivacyPolicy" xml:space="preserve">
+    <value>பதிவு / தனியுரிமைக் கொள்கை</value>
+  </data>
+  <data name="CPTermsOfService" xml:space="preserve">
+    <value>பதிவு / சேவை விதிமுறைகள்</value>
+  </data>
+  <data name="Registration_AcceptanceCondition" xml:space="preserve">
+    <value>பதிவுச் செயல்முறையை நீங்கள் வெற்றிகரமாக முடித்தபிறகு மட்டுமே கோபார்ட் உங்களுடைய கணக்கைச் செயல்படுத்த முடியும். எனவே பூர்த்தி செய்யப்பட்ட உறுப்பினர் விண்ணப்பப் படிவத்தையும், மற்றும் உங்களுடைய வணிகச் சான்றிதழ் மற்றும் உங்களுடைய VAT (USt-ID-Nr.) ஆகியவற்றின் நகலையும் தயவுசெய்து எங்களுக்கு அனுப்பவும்.</value>
+  </data>
+  <data name="Registration_ContactInfo1" xml:space="preserve">
+    <value>உங்களுக்கு ஏதாவது சந்தேகங்கள் இருந்தால் தயவுசெய்து எங்களை +49 (0) 7248 931 31 60 என்ற எண்ணில், திங்கள் முதல் வெள்ளி வரை 9:00 மற்றும் 17:00 Uhr நேரத்துக்கு இடையில் (ஜெர்மனியின் தேசிய விடுமுறை நாட்களைத் தவிர) தொடர்புகொள்ளவும்.</value>
+  </data>
+  <data name="Registration_ContactInfo2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredField" xml:space="preserve">
+    <value>* கட்டாயமாகப் பூர்த்தி செய்ய வேண்டும்</value>
+  </data>
+  <data name="Company_Tooltip" xml:space="preserve">
+    <value>நிறுவனத்தின் பெயர் உங்களுடைய கோபார்ட் கணக்கின் முதன்மைப் பெயர் ஆகும். கோபார்ட்டை நீங்கள் வணிக நோக்கங்களுக்காகப் பயன்படுத்தவில்லை எனில், தயவுசெய்து உங்களுடைய முதல் பெயரையும் கடைசிப் பெயரையும் உள்ளிடவும்.</value>
+  </data>
+  <data name="Company_TooltipTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="IpadSuccessModal_bodyText" xml:space="preserve">
+    <value>இப்பொழுது நீங்கள் புதிய கோபார்ட் உறுப்பினர் என்பதால், இது வெற்றிபெறத் தயாராவதற்கான நேரம் ஆகும்! கோபார்ட் ஏலங்களில் விலை குறிப்பதற்கும் வெற்றி பெறுவதற்கும் உதவி பெறுவதற்கு தயவுசெய்து ஒரு முகவரைப் பார்க்கவும்.</value>
+  </data>
+  <data name="IpadSuccessModal_header" xml:space="preserve">
+    <value>பதிவு செய்ததற்கு நன்றி</value>
+  </data>
+  <data name="InlineSignInRegistrationBodyText" xml:space="preserve">
+    <value>இந்தச் செயல்பாட்டை மேற்கொள்வதற்கு நீங்கள் ஒரு கோபார்ட் உறுப்பினராக இருக்க வேண்டும். ஒரு உறுப்பினராவதற்கு, தயவுசெய்து கீழே உள்ள பதிவுப் படிவத்தை பூர்த்தி செய்யவும். நீங்கள் ஏற்கனவே ஒரு உறுப்பினராக இருந்தால், உங்களுடைய பயனர் ஐடி மற்றும் கடவுசொல் மூலம் உள்நுழையவும்.</value>
+  </data>
+  <data name="SignInOrRegister" xml:space="preserve">
+    <value>தயவுசெய்து உள்நுழையவும் அல்லது பதிவு செய்யவும்</value>
+  </data>
+  <data name="UK_SubmitInstructions" xml:space="preserve">
+    <value>உங்களுடைய பதிவைச் சமர்ப்பிப்பதற்கு கிளிக் செய்து, உங்களுடைய கடவுச்சொல்லை மின்னஞ்சல் மூலம் பெறவும்.</value>
+  </data>
+  <data name="TermsOfCopyrightNotice" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Registration_ThankYou" xml:space="preserve">
+    <value>நன்றி</value>
+  </data>
+  <data name="CPTermsOfCopyright" xml:space="preserve">
+    <value>பதிவு / பதிப்புரிமையின் விதிமுறைகள்</value>
+  </data>
+  <data name="VATCountry_Select" xml:space="preserve">
+    <value>நாட்டைத் தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>நன்றி</value>
+  </data>
+  <data name="TermsAndConditionsLbl" xml:space="preserve">
+    <value>விதிமுறைகள் மற்றும் நிபந்தனைகள்</value>
+  </data>
+  <data name="TermsOfServiceLbl" xml:space="preserve">
+    <value>சேவை விதிமுறைகள்</value>
+  </data>
+</root>

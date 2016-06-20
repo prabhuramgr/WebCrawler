@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="VehcileAlert_Description1" xml:space="preserve">
+    <value>वह वाहन नहीं देख पा रहे जो आप चाहते हैं? Copart वाहन अलर्ट के लिए साइन अप करें।</value>
+  </data>
+  <data name="VehcileAlert_Description2" xml:space="preserve">
+    <value>वाहन अलर्ट इस आधार पर नवीनतम वाहनों का ईमेल अद्यतन होता है कि आप क्या तलाश कर रहे हैं।</value>
+  </data>
+  <data name="VehcileAlert_Description3" xml:space="preserve">
+    <value>वाहन प्रकार, वर्ष, मेक, और वह मॉडल चुनें जिसकी आप निगरानी करना चाहते हैं। इसके बाद जब भी वह वाहन बाज़ार में आएगा जो आपके मानदंडों के मिलान में होगा, तो हम आपको दैनिक या साप्ताहिक ईमेल भेजेंगे।</value>
+  </data>
+  <data name="VehcileAlert_Description4" xml:space="preserve">
+    <value>वाहन अलर्ट के लिए क्यों साइन अप करें?</value>
+  </data>
+  <data name="VehcileAlert_Description5" xml:space="preserve">
+    <value>जब आपकी तलाश वाला वाहन बिक्री के लिए आए, तो यह जानने वाले पहले व्यक्ति बनें।</value>
+  </data>
+  <data name="VehcileAlert_Description6" xml:space="preserve">
+    <value>जब हमारे पास वह न हो, जिसकी आप तलाश कर रहे हैं, तो हमें बताएँ। हम अपने नेटवर्क में इसे खोजने की पूरी कोशिश करेंगे।</value>
+  </data>
+  <data name="VehcileAlert_Description7" xml:space="preserve">
+    <value>यह तेज़ और आसान है! फ़ॉर्म जमा करें, और बाकी काम हम करेंगे!</value>
+  </data>
+  <data name="VehcileAlert_Description8" xml:space="preserve">
+    <value>आप अलर्ट किसी भी समय रद्द कर सकते हैं या अपनी ज़रूरतों के अनुसार इनकी आवृत्ति बदल सकते हैं। आप जितने चाहे उतने अलर्ट भी सेट कर सकते हैं।</value>
+  </data>
+  <data name="VehicleAlert_AllModels_Dropdown" xml:space="preserve">
+    <value>सभी मॉडल</value>
+  </data>
+  <data name="VehicleAlert_Email" xml:space="preserve">
+    <value>ईमेल</value>
+  </data>
+  <data name="VehicleAlert_FirstName" xml:space="preserve">
+    <value>प्रथम नाम</value>
+  </data>
+  <data name="VehicleAlert_From" xml:space="preserve">
+    <value>प्रेषक</value>
+  </data>
+  <data name="VehicleAlert_LastName" xml:space="preserve">
+    <value>अंतिम नाम</value>
+  </data>
+  <data name="VehicleAlert_Make" xml:space="preserve">
+    <value>मेक</value>
+  </data>
+  <data name="VehicleAlert_Model" xml:space="preserve">
+    <value>मॉडल</value>
+  </data>
+  <data name="VehicleAlert_Required" xml:space="preserve">
+    <value>* आवश्यक फील्ड</value>
+  </data>
+  <data name="VehicleAlert_SelectMake_Dropdown" xml:space="preserve">
+    <value>मेक चुनें</value>
+  </data>
+  <data name="VehicleAlert_SignUp" xml:space="preserve">
+    <value>साइन अप करें</value>
+  </data>
+  <data name="VehicleAlert_Success" xml:space="preserve">
+    <value>Copart के साथ वाहन अलर्ट के लिए साइन अप करने के लिए धन्यवाद! जब आपकी तलाश वाला वाहन बिक्री के लिए आएगा, तो अब यह सुनने वाले आप पहले व्यक्ति बनेंगे। यह सुनिश्चित करने के लिए कि हमारे अद्यतन आपके इनबॉक्स में पहुँचते हैं (न कि जंक फ़ोल्डर में), अपनी ई-मेल पता पुस्तिका में COPART@e.copart.com जोड़ें। खोज जारी रखें &gt; http://ww2.copart.com/us/Search/VehicleFinder</value>
+  </data>
+  <data name="VehicleAlert_ThankYou1" xml:space="preserve">
+    <value>Copart के साथ वाहन अलर्ट के लिए साइन अप करने के लिए धन्यवाद! जब आपकी तलाश वाला वाहन बिक्री के लिए आएगा, तो अब यह सुनने वाले आप पहले व्यक्ति बनेंगे। यह सुनिश्चित करने के लिए कि हमारे अद्यतन आपके इनबॉक्स में पहुँचते हैं (न कि जंक फ़ोल्डर में),</value>
+  </data>
+  <data name="VehicleAlert_ThankYou2" xml:space="preserve">
+    <value>अपनी ई-मेल पता पुस्तिका में</value>
+  </data>
+  <data name="VehicleAlert_ThankYou3" xml:space="preserve">
+    <value>COPART@e.copart.com जोड़ें।</value>
+  </data>
+  <data name="VehicleAlert_ThankYou4" xml:space="preserve">
+    <value>खोज जारी रखें</value>
+  </data>
+  <data name="VehicleAlert_Title" xml:space="preserve">
+    <value>वाहन अलर्ट</value>
+  </data>
+  <data name="VehicleAlert_To" xml:space="preserve">
+    <value>प्राप्तकर्ता</value>
+  </data>
+  <data name="VehicleAlert_Type" xml:space="preserve">
+    <value>प्रकार</value>
+  </data>
+  <data name="VehicleAlert_UnSubscribe" xml:space="preserve">
+    <value>आपने इस वाहन अलर्ट की सदस्यता त्याग दी है।</value>
+  </data>
+  <data name="VehicleAlert_Update" xml:space="preserve">
+    <value>आपका वाहन अलर्ट अद्यतित कर दिया गया है।</value>
+  </data>
+  <data name="VehicleAlert_Year" xml:space="preserve">
+    <value>वर्ष</value>
+  </data>
+  <data name="VehicleAlert_YearErrorMsg" xml:space="preserve">
+    <value>&apos;से&apos; वर्ष &apos;तक&apos; वर्ष से बड़ा नहीं हो सकता।</value>
+  </data>
+</root>

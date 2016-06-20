@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="View_Brokers_PageSubtitle" xml:space="preserve">
+    <value>Copart के ब्रोकर व्यक्तियों और व्यवसायों को वे मूल्य वर्धित सेवाएँ प्रदान करके राजस्व अर्जित करते हैं जिनके लिए ब्रोकर की सेवाओं की ज़रूरत होती है।</value>
+  </data>
+  <data name="View_Brokers_PageTitle" xml:space="preserve">
+    <value>ब्रोकर और बाज़ार निर्माता</value>
+  </data>
+  <data name="View_Brokers_ViewBroker" xml:space="preserve">
+    <value>ब्रोकर देखें</value>
+  </data>
+  <data name="View_Brokers_Phone" xml:space="preserve">
+    <value>फ़ोन:</value>
+  </data>
+  <data name="View_Brokers_Address" xml:space="preserve">
+    <value>पता:</value>
+  </data>
+  <data name="View_Brokers_Website" xml:space="preserve">
+    <value>वेबसाइट:</value>
+  </data>
+  <data name="View_Brokers_BrokerFees" xml:space="preserve">
+    <value>ब्रोकर की फ़ीस:</value>
+  </data>
+  <data name="View_Brokers_RegistrationFees" xml:space="preserve">
+    <value>पंजीकरण की फ़ीस</value>
+  </data>
+  <data name="View_Brokers_SecurityDeposit" xml:space="preserve">
+    <value>सुरक्षा जमा</value>
+  </data>
+  <data name="View_Brokers_TransactionFee" xml:space="preserve">
+    <value>ट्रांजेक्शन फ़ीस</value>
+  </data>
+  <data name="View_Brokers_BackToTop" xml:space="preserve">
+    <value>शीर्ष पर वापस</value>
+  </data>
+  <data name="View_BrokerDetail_BackToAllBrokers" xml:space="preserve">
+    <value>वापस सभी ब्रोकर पर</value>
+  </data>
+  <data name="View_BrokerDetail_BusinessInformation" xml:space="preserve">
+    <value>व्यापार की जानकारी</value>
+  </data>
+  <data name="View_BrokerDetail_Email" xml:space="preserve">
+    <value>ईमेल:</value>
+  </data>
+  <data name="View_BrokerDetail_AboutUs" xml:space="preserve">
+    <value>हमारे बारे में</value>
+  </data>
+  <data name="View_BrokerDetail_ServicesAndInformation" xml:space="preserve">
+    <value>सर्विस व जानकारी</value>
+  </data>
+  <data name="View_BrokerDetail_ServicesProvided" xml:space="preserve">
+    <value>दी गईं सेवाएँ:</value>
+  </data>
+  <data name="View_BrokerDetail_AdditionalInformation" xml:space="preserve">
+    <value>अतिरिक्त जानकारी:</value>
+  </data>
+  <data name="View_BrokerDetail_PaymentMethods" xml:space="preserve">
+    <value>भुगतान के तरीके</value>
+  </data>
+  <data name="View_BrokerDetail_FeesAndPayments" xml:space="preserve">
+    <value>शुल्क व भुगतान</value>
+  </data>
+  <data name="View_BrokersLotInfo_LotInformation" xml:space="preserve">
+    <value># के लिए लॉट जानकारी {LotNumber}</value>
+  </data>
+  <data name="View_BrokersLotInfo_PhotosCount" xml:space="preserve">
+    <value>{Count} फ़ोटो</value>
+  </data>
+  <data name="View_BrokersLotInfo_LotNumber" xml:space="preserve">
+    <value>लॉट#</value>
+  </data>
+  <data name="View_BrokersLotInfo_EstRetailValue" xml:space="preserve">
+    <value>अनुमानित खुदरा मूल्य</value>
+  </data>
+  <data name="View_BrokersLotInfo_RepairEstimate" xml:space="preserve">
+    <value>मरम्मत का अनुमान</value>
+  </data>
+  <data name="View_BrokersLotInfo_PrimaryDmg" xml:space="preserve">
+    <value>प्राथमिक नुक़सान</value>
+  </data>
+  <data name="View_BrokersLotInfo_DocType" xml:space="preserve">
+    <value>दस्तावेज़ प्रकार</value>
+  </data>
+  <data name="View_BrokersLotInfo_SaleDate" xml:space="preserve">
+    <value>बिक्री की तिथि</value>
+  </data>
+  <data name="View_BrokersLotInfo_TimeLeft" xml:space="preserve">
+    <value>शेष समय </value>
+  </data>
+  <data name="View_BrokersLotInfo_Location" xml:space="preserve">
+    <value>स्थान</value>
+  </data>
+  <data name="View_BrokersLotInfo_Cylinders" xml:space="preserve">
+    <value>सिलेंडर</value>
+  </data>
+  <data name="View_BrokersLotInfo_Engine" xml:space="preserve">
+    <value>इंजन</value>
+  </data>
+  <data name="View_BrokersLotInfo_Miles" xml:space="preserve">
+    <value>मील</value>
+  </data>
+  <data name="View_Transporters_PageTitle" xml:space="preserve">
+    <value>ट्रांसपोर्टर्स</value>
+  </data>
+  <data name="View_Transporters_DomesticLink" xml:space="preserve">
+    <value>घरेलू</value>
+  </data>
+  <data name="View_Transporters_InternationalLink" xml:space="preserve">
+    <value>अंतर्राष्ट्रीय</value>
+  </data>
+  <data name="View_Transporters_SelectStateDefault" xml:space="preserve">
+    <value>राज्य चुनें</value>
+  </data>
+  <data name="View_Transporters_StatesServed" xml:space="preserve">
+    <value>सेवा किए जाने वाले राज्य</value>
+  </data>
+  <data name="View_TransportersInt_SelectLocation" xml:space="preserve">
+    <value>स्थान चुनें</value>
+  </data>
+  <data name="View_Transporters_AboutUs" xml:space="preserve">
+    <value>हमारे बारे में</value>
+  </data>
+  <data name="View_Transporters_Location" xml:space="preserve">
+    <value>स्थान</value>
+  </data>
+  <data name="View_Transporters_Phone" xml:space="preserve">
+    <value>फ़ोन</value>
+  </data>
+  <data name="View_Error500Message" xml:space="preserve">
+    <value>आपके अनुरोध पर प्रक्रिया करने में समस्या थी।</value>
+  </data>
+  <data name="View_Error500Content1" xml:space="preserve">
+    <value>कृपया यह पृष्ठ ताज़ा करें, या पिछला पृष्ठ फिर से लोड करने के लिए अपने ब्राउज़र पर &quot;वापस&quot; क्लिक करें।</value>
+  </data>
+  <data name="View_Error500Content2" xml:space="preserve">
+    <value>इसके बाद अपनी कार्रवाई के लिए फिर से कोशिश करें।</value>
+  </data>
+  <data name="View_Error500Content3" xml:space="preserve">
+    <value>अगर आपको सहायता की ज़रूरत है, तो कृपया संपर्क करें </value>
+  </data>
+  <data name="View_Error500Content4" xml:space="preserve">
+    <value>सदस्य सेवाएँ।</value>
+  </data>
+  <data name="View_Transporters_Website" xml:space="preserve">
+    <value>वेबसाइट</value>
+  </data>
+  <data name="View_Transporters_Button_CanadaButton" xml:space="preserve">
+    <value>कनाडा निर्यात शिपिंग</value>
+  </data>
+  <data name="View_Transporters_Header3" xml:space="preserve">
+    <value>हमने शिपिंग कवर की है</value>
+  </data>
+  <data name="View_Transporters_Header5_1" xml:space="preserve">
+    <value>अपना वाहन शिप करने की ज़रूरत है? कोई समस्या नहीं है! Copart आपकी शिपिंग की सभी ज़रूरतें संभाल लेगी</value>
+  </data>
+  <data name="View_Transporters_Header5_2" xml:space="preserve">
+    <value>महाद्वीपीय संयुक्त राज्य अमेरिका के भीतर कहीं से भी।</value>
+  </data>
+  <data name="View_Transporters_Header6" xml:space="preserve">
+    <value>कनाडा के बारे में क्या स्थिति है?</value>
+  </data>
+  <data name="View_Transporters_Header_Sub1" xml:space="preserve">
+    <value>दुर्भाग्य से, Copart की घरेलू शिपिंग का विस्तार कनाडा तक नहीं है, और इसके लिए निर्यात शिपिंग</value>
+  </data>
+  <data name="View_Transporters_Header_Sub2" xml:space="preserve">
+    <value>सेवाएँ ज़रूरी है। लेकिन चिंता न करें, हमने उस कवर कर लिया है।</value>
+  </data>
+  <data name="View_TransportersInt_HeadTitle" xml:space="preserve">
+    <value>यूएस से अंतर्राष्ट्रीय स्तर पर शिपिंग</value>
+  </data>
+  <data name="View_TransportersInt_ResetForm" xml:space="preserve">
+    <value>रीसेट फ़ॉर्म</value>
+  </data>
+  <data name="View_TransportersInt_TopMessage1" xml:space="preserve">
+    <value>चाहे आपका वाहन कहीं भी हो, Copart आपको ऐसा अंतर्राष्ट्रीय</value>
+  </data>
+  <data name="View_TransportersInt_TopMessage2" xml:space="preserve">
+    <value>शिपिंग समाधान खोजने में मदद करती है जो आपके लिए काम करे।</value>
+  </data>
+  <data name="View_TransportersInt_VehicleLoc" xml:space="preserve">
+    <value>वाहन कहाँ स्थित है?</value>
+  </data>
+  <data name="View_Brokers_SendEmail" xml:space="preserve">
+    <value>ईमेल भेजें</value>
+  </data>
+  <data name="View_Brokers_ViewWebSite" xml:space="preserve">
+    <value>वेबसाइट देखें</value>
+  </data>
+  <data name="View_BrokerDetail_BackToBroker" xml:space="preserve">
+    <value>ब्रोकर पर वापस</value>
+  </data>
+  <data name="View_BrokerDetail_NextBroker" xml:space="preserve">
+    <value>अगला ब्रोकर</value>
+  </data>
+  <data name="View_BrokerDetail_PreviousBroker" xml:space="preserve">
+    <value>पिछला ब्रोकर</value>
+  </data>
+  <data name="View_TransportersInternational_MoreInfo" xml:space="preserve">
+    <value>अधिक जानकारी</value>
+  </data>
+  <data name="View_Transporters_CountriesServed" xml:space="preserve">
+    <value>देश जिनमें सेवा की जाती है</value>
+  </data>
+  <data name="View_Transporters_DeliveryRange" xml:space="preserve">
+    <value>डिलीवरी रेंज</value>
+  </data>
+  <data name="View_Transporters_NationWide" xml:space="preserve">
+    <value>राष्ट्रव्यापी</value>
+  </data>
+  <data name="View_Transporters_RightSideMBoxHeader" xml:space="preserve">
+    <value />
+  </data>
+  <data name="View_Transporters_ServiceAreas" xml:space="preserve">
+    <value>सेवा क्षेत्र</value>
+  </data>
+  <data name="View_Transporters_VisitWebSite" xml:space="preserve">
+    <value>वेबसाइट पर जाएँ</value>
+  </data>
+  <data name="View_TranspotersDomestic_Title" xml:space="preserve">
+    <value>घरेलू परिवहन</value>
+  </data>
+  <data name="View_TranspotersInternational_Title" xml:space="preserve">
+    <value>अंतर्राष्ट्रीय परिवहन</value>
+  </data>
+  <data name="View_Transporters_BackToTransporters" xml:space="preserve">
+    <value>सभी ट्रांसपोर्टर पर वापस</value>
+  </data>
+  <data name="View_BrokersDetail_PageTitle" xml:space="preserve">
+    <value>ब्रोकर का विवरण</value>
+  </data>
+  <data name="View_BrokerDetail_BrokerInformation" xml:space="preserve">
+    <value>ब्रोकर की जानकारी</value>
+  </data>
+  <data name="View_HireABroker_AutoBidMaster" xml:space="preserve">
+    <value>ऑटो बिड मास्टर</value>
+  </data>
+  <data name="View_HireABroker_BrokerFees" xml:space="preserve">
+    <value>ब्रोकर की फ़ीस</value>
+  </data>
+  <data name="View_HireABroker_MoreInfo" xml:space="preserve">
+    <value>अधिक जानकारी</value>
+  </data>
+  <data name="View_HireABroker_Phone" xml:space="preserve">
+    <value>फ़ोन</value>
+  </data>
+  <data name="View_HireABroker_PhotosCount" xml:space="preserve">
+    <value>{Count} फ़ोटो</value>
+  </data>
+  <data name="View_HireABroker_Title" xml:space="preserve">
+    <value>ब्रोकर ढूँढ़ें</value>
+  </data>
+  <data name="View_HireABroker_Watch" xml:space="preserve">
+    <value>देखें</value>
+  </data>
+  <data name="View_HireSpecificBrokeDetail" xml:space="preserve">
+    <value>काम पर रखें विशिष्ट ब्रोकर विवरण</value>
+  </data>
+  <data name="HireABroker_Extension" xml:space="preserve">
+    <value>एक्स.: {Count}</value>
+  </data>
+  <data name="View_Transporters_submit" xml:space="preserve">
+    <value>जानकारी भेजें</value>
+  </data>
+  <data name="View_Transporters_send" xml:space="preserve">
+    <value>भेजें</value>
+  </data>
+  <data name="View_Transporters_Transportation" xml:space="preserve">
+    <value>हमारे परिवहन प्रोग्राम से जुड़ें</value>
+  </data>
+  <data name="View_Transporters_Business" xml:space="preserve">
+    <value>हमें अपने व्यापार के बारे में बताएँ</value>
+  </data>
+  <data name="View_Transporters_TellusaboutYourself" xml:space="preserve">
+    <value>हमें इसके बारे में बताएँ </value>
+  </data>
+  <data name="View_Transpoters_Close" xml:space="preserve">
+    <value>ठीक</value>
+  </data>
+  <data name="View_Transpoters_CloseButton" xml:space="preserve">
+    <value>बंद करें</value>
+  </data>
+  <data name="View_Transpoters_ContactUs" xml:space="preserve">
+    <value>Copart से संपर्क करने के लिए धन्यवाद।</value>
+  </data>
+  <data name="View_Transpoters_validation_City" xml:space="preserve">
+    <value>कृपया मान्य शहर दर्ज करें</value>
+  </data>
+  <data name="View_Transpoters_validation_Company" xml:space="preserve">
+    <value>कृपया मान्य कंपनी नाम दर्ज करें</value>
+  </data>
+  <data name="View_Transpoters_validation_Contact" xml:space="preserve">
+    <value>कृपया मान्य संपर्क नाम दर्ज करें</value>
+  </data>
+  <data name="View_Transpoters_validation_Email" xml:space="preserve">
+    <value>कृपया मान्य ईमेल पता दर्ज करें</value>
+  </data>
+  <data name="View_Transpoters_validation_Phone" xml:space="preserve">
+    <value>कृपया मान्य फ़ोन दर्ज करें</value>
+  </data>
+  <data name="View_Transporters_GetStartedNow" xml:space="preserve">
+    <value>अभी शुरू करें!</value>
+  </data>
+  <data name="View_Transporters_Join" xml:space="preserve">
+    <value>अगर आपको Copart टीम में शामिल होने के तरीके के बारे में अधिक जानकारी चाहिए, तो हमें ईमेल के लिए बस नीचे बटन पर क्लिक करें</value>
+  </data>
+  <data name="View_Transporters_LabelText" xml:space="preserve">
+    <value>सभी परिसर</value>
+  </data>
+  <data name="View_Transporters_NearestCopartLocation" xml:space="preserve">
+    <value>निकटतम Copart स्थान</value>
+  </data>
+  <data name="View_Transporters_SelectaLocation" xml:space="preserve">
+    <value>स्थान चुनें</value>
+  </data>
+  <data name="View_Transporters_Selectastate" xml:space="preserve">
+    <value>राज्य चुनें</value>
+  </data>
+  <data name="View_Transpoters_validation_State" xml:space="preserve">
+    <value>कृपया राज्य चुनें</value>
+  </data>
+  <data name="View_BrokerDetail_AboutUsText" xml:space="preserve">
+    <value>हमारे बारे में</value>
+  </data>
+  <data name="View_BrokerDetail_MoreInformation" xml:space="preserve">
+    <value>अधिक जानकारी</value>
+  </data>
+  <data name="View_BrokerDetail_MoreInformation_pdf" xml:space="preserve">
+    <value>(PDF)</value>
+  </data>
+  <data name="View_Transporters_CompanyNameText" xml:space="preserve">
+    <value>कंपनी का नाम</value>
+  </data>
+  <data name="View_Transporters_ContactNameText" xml:space="preserve">
+    <value>संपर्क नाम</value>
+  </data>
+  <data name="View_Transporters_EmailAddressText" xml:space="preserve">
+    <value>ईमेल पता</value>
+  </data>
+  <data name="View_Transporters_PhoneText" xml:space="preserve">
+    <value>फ़ोन नंबर</value>
+  </data>
+  <data name="View_Transporters_Yourself" xml:space="preserve">
+    <value>स्वयं को</value>
+  </data>
+  <data name="View_Brokers_PageSubtitleText" xml:space="preserve">
+    <value>लाइसेंस की कमी के कारण अपना पसंदीदा वाहन ख़रीदने से वंचित न रहें। अपनी ख़रीद में सुविधा के लिए ब्रोकर या बाज़ार निर्माता से संपर्क करें।</value>
+  </data>
+  <data name="View_Transpoters_Request_Representative" xml:space="preserve">
+    <value>परिवहन प्रतिनिधि शीघ्र ही</value>
+  </data>
+  <data name="View_Transpoters_Request_Shortly" xml:space="preserve">
+    <value> आपसे संपर्क करेगा।</value>
+  </data>
+  <data name="View_Transpoters_Request_Submission" xml:space="preserve">
+    <value>आपका अनुरोध जमा हो गया है और Copart </value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="View_TermsandConditions" xml:space="preserve">
+    <value>नियम व शर्तें</value>
+  </data>
+  <data name="View_Brokers_SeeWebsiteFormattedText" xml:space="preserve">
+    <value>वेबसाइट देखें</value>
+  </data>
+  <data name="View_Brokers_SeeWebsitePlainText" xml:space="preserve">
+    <value>SEEWEBSITE</value>
+  </data>
+  <data name="View_ExtensionText" xml:space="preserve">
+    <value>एक्स.:</value>
+  </data>
+  <data name="View_Brokers_ServicesOfferedText" xml:space="preserve">
+    <value>पेश की जाने वाली सेवाएँ:</value>
+  </data>
+  <data name="View_Error500Content5" xml:space="preserve">
+    <value>हमारी यूके सदस्यों के लिए,  कृपया संपर्क करें </value>
+  </data>
+  <data name="View_Error500Content6" xml:space="preserve">
+    <value>यूके सदस्य सेवाएँ।</value>
+  </data>
+  <data name="View_Error404Content1" xml:space="preserve">
+    <value>शायद पता ग़लत टाइप हुआ है, या पृष्ठ अब मौजूद नहीं है।</value>
+  </data>
+  <data name="View_Error404Content2" xml:space="preserve">
+    <value>क्या आप निम्नलिखित में से किसी की तलाश में हैं?</value>
+  </data>
+  <data name="View_Error404Content3" xml:space="preserve">
+    <value>वाहन ढूँढ़ें</value>
+  </data>
+  <data name="View_Error404Content4" xml:space="preserve">
+    <value>नीलामी में शामिल हों</value>
+  </data>
+  <data name="View_Error404Content5" xml:space="preserve">
+    <value>वाहन बेचें</value>
+  </data>
+  <data name="View_Error404Content6" xml:space="preserve">
+    <value>Copart स्थान देखें</value>
+  </data>
+  <data name="View_Error404Content7" xml:space="preserve">
+    <value>होमपेज पर लौटें</value>
+  </data>
+  <data name="View_Error404Message" xml:space="preserve">
+    <value>क्षमा करें, आप जिस पृष्ठ की तलाश कर रहे हैं, वह उपलब्ध नहीं है।</value>
+  </data>
+  <data name="View_Transporters_City" xml:space="preserve">
+    <value>शहर</value>
+  </data>
+  <data name="View_Transporters_State" xml:space="preserve">
+    <value>राज्य</value>
+  </data>
+  <data name="View_Brokers_MarketMakerMsg" xml:space="preserve">
+    <value>बाज़ार निर्माता से संपर्क करें</value>
+  </data>
+  <data name="View_Brokers_BrokersNavLink" xml:space="preserve">
+    <value>ब्रोकर</value>
+  </data>
+  <data name="View_Brokers_MarketMakersNavLink" xml:space="preserve">
+    <value>बाज़ार निर्माता</value>
+  </data>
+  <data name="View_BrokerDetail_BackToAllMarketMakers" xml:space="preserve">
+    <value>सभी बाज़ार निर्माताओं पर वापस</value>
+  </data>
+  <data name="View_Brokers_ViewMarketMaker" xml:space="preserve">
+    <value>बाज़ार निर्माता देखें</value>
+  </data>
+  <data name="View_Brokers_MarketMakerFees" xml:space="preserve">
+    <value>बाज़ार निर्माता की फ़ीस:</value>
+  </data>
+  <data name="View_ErrorMessage1" xml:space="preserve">
+    <value>हमें खेद है! इस पृष्ठ पर कुछ ग़लत हो गया है।</value>
+  </data>
+  <data name="View_ErrorMessage2" xml:space="preserve">
+    <value>त्रुटि के बारे में हमारी प्रौद्योगिकी टीम को ईमेल भेज दी गई है। हम कड़ी मेहनत कर रहे हैं और इसे यथाशीघ्र ठीक कर देंगे।</value>
+  </data>
+  <data name="View_ErrorMessage3" xml:space="preserve">
+    <value>आप क्या कर सकते हैं?</value>
+  </data>
+  <data name="View_ErrorMessage4" xml:space="preserve">
+    <value>यहाँ जाकर हमारे काम कर रहे पृष्ठ देखें</value>
+  </data>
+  <data name="View_ErrorMessage5" xml:space="preserve">
+    <value>या आप अपने ब्राउज़र की पता बार की जाँच कर सकते हैं, हो सकता है कि आपने असावधानी से ग़लत URL टाइप कर दिया हो।</value>
+  </data>
+  <data name="View_ErrorMessage6" xml:space="preserve">
+    <value>साइट मानचित्र</value>
+  </data>
+  <data name="View_ErrorMessage" xml:space="preserve">
+    <value>&lt;h1&gt;हमें खेद है! इस पृष्ठ पर कुछ ग़लत हो गया है।&lt;/h1&gt;&lt;br /&gt;&lt;p class={0}&gt;त्रुटि के बारे में हमारी प्रौद्योगिकी टीम को ईमेल भेज दी गई है। हम कड़ी मेहनत कर रहे हैं और इसे यथाशीघ्र ठीक कर देंगे।&lt;/p&gt;&lt;br /&gt;&lt;h3&gt;आप क्या कर सकते हैं?&lt;/h3&gt;&lt;br /&gt;&lt;p class={0}&gt;यहाँ जाकर हमारे काम कर रहे पृष्ठ देखें &lt;a href={1}&gt;site map.&lt;/a&gt;&lt;/p&gt;&lt;br /&gt;&lt;p class={0}&gt;या आप अपने ब्राउज़र की पता बार की जाँच कर सकते हैं, हो सकता है कि आपने असावधानी से ग़लत URL टाइप कर दिया हो।&lt;/p&gt;</value>
+  </data>
+</root>

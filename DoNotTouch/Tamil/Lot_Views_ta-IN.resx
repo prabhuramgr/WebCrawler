@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Details_BuyerServices" xml:space="preserve">
+    <value>வாங்குநர் சேவைகள்</value>
+  </data>
+  <data name="Details_LocationDeliveryTitle" xml:space="preserve">
+    <value>அமைவிடம் மற்றும் விநியோகம்</value>
+  </data>
+  <data name="Details_BackTo" xml:space="preserve">
+    <value>விவரங்களுக்கு பின்செல்க</value>
+  </data>
+  <data name="Details_LotDetailsHeader" xml:space="preserve">
+    <value>லாட் #{LotNumber} விவரங்கள்</value>
+  </data>
+  <data name="Details_LotPhotosHeader" xml:space="preserve">
+    <value>லாட் #{LotNumber}-க்கான புகைப்படங்கள்</value>
+  </data>
+  <data name="Details_MileLabel" xml:space="preserve">
+    <value>mi.</value>
+  </data>
+  <data name="Details_OdometerActualLabel" xml:space="preserve">
+    <value>உண்மையானது</value>
+  </data>
+  <data name="Details_SaleInformationTitle" xml:space="preserve">
+    <value>விற்பனைத் தகவல்</value>
+  </data>
+  <data name="Details_TimeLeftFormat" xml:space="preserve">
+    <value>{0:%d} நாள், {0:%h} மணி {0:mm} நிமிடம்</value>
+  </data>
+  <data name="Details_TitleTypeLabel" xml:space="preserve">
+    <value>தலைப்பு வகை:</value>
+  </data>
+  <data name="Details_ViewAllPhotos" xml:space="preserve">
+    <value>அனைத்து புகைப்படங்களையும் பார்க்கவும்</value>
+  </data>
+  <data name="Details_Offsite" xml:space="preserve">
+    <value>முன்னோட்ட நேரங்கள்</value>
+  </data>
+  <data name="Details_AsIs" xml:space="preserve">
+    <value>இந்த வாகனம் “உள்ளது உள்ளவாறே – இருக்கும் இடத்தில்” விற்கப்பட்டுள்ளது, விலைக்குறிப்புகள் அனைத்தும் பிணைக்கப்பட்டவை ஆகும் மற்றும் விற்பனைகள் அனைத்தும் இறுதியானவை ஆகும்.</value>
+  </data>
+  <data name="Details_Calendar" xml:space="preserve">
+    <value>நாட்குறிப்புடன் சேர்க்கவும்</value>
+  </data>
+  <data name="Details_Deliver" xml:space="preserve">
+    <value>விநியோகிக்க வேண்டிய முகவரி</value>
+  </data>
+  <data name="Details_Downloads" xml:space="preserve">
+    <value>தரவிறக்கங்கள்</value>
+  </data>
+  <data name="Details_Estimate" xml:space="preserve">
+    <value>மதிப்பீடு</value>
+  </data>
+  <data name="Details_Highlights" xml:space="preserve">
+    <value>சிறப்புக் கூறுகள்</value>
+  </data>
+  <data name="Details_Item" xml:space="preserve">
+    <value>வாகனம்</value>
+  </data>
+  <data name="Details_Lane" xml:space="preserve">
+    <value>லேன்</value>
+  </data>
+  <data name="Details_LaneItem" xml:space="preserve">
+    <value>லேன் / வாகனம் / கட்டம் / வரிசை</value>
+  </data>
+  <data name="Details_Live" xml:space="preserve">
+    <value>நேரடி ஏலம்</value>
+  </data>
+  <data name="Time_Left" xml:space="preserve">
+    <value>மீதமுள்ள நேரம்</value>
+  </data>
+  <data name="Details_Notes" xml:space="preserve">
+    <value>குறிப்புகள்</value>
+  </data>
+  <data name="Details_Photos" xml:space="preserve">
+    <value>புகைப்படங்கள் கிடைக்கின்றன</value>
+  </data>
+  <data name="Details_SaleDate" xml:space="preserve">
+    <value>விற்பனைத் தேதி</value>
+  </data>
+  <data name="Details_Seller" xml:space="preserve">
+    <value>விற்பனையாளர்</value>
+  </data>
+  <data name="Details_Starts" xml:space="preserve">
+    <value>தொடங்குகிறது</value>
+  </data>
+  <data name="Details_Watch" xml:space="preserve">
+    <value>பார்க்கவும்</value>
+  </data>
+  <data name="Offsite_Close" xml:space="preserve">
+    <value>மூடவும்</value>
+  </data>
+  <data name="Offsite_Friday" xml:space="preserve">
+    <value>வெள்ளிக்கிழமை</value>
+  </data>
+  <data name="Offsite_Location" xml:space="preserve">
+    <value>அமைவிடம்</value>
+  </data>
+  <data name="Offsite_Monday" xml:space="preserve">
+    <value>திங்கட்கிழமை</value>
+  </data>
+  <data name="Offsite_NotAvailable" xml:space="preserve">
+    <value>கிடைக்கவில்லை</value>
+  </data>
+  <data name="Offsite_Preview" xml:space="preserve">
+    <value>முன்னோட்டம்</value>
+  </data>
+  <data name="Offsite_PreviewTitle" xml:space="preserve">
+    <value>முன்னோட்ட அமைவிடங்கள் மற்றும் நேரம்</value>
+  </data>
+  <data name="Offsite_Saturday" xml:space="preserve">
+    <value>சனிக்கிழமை</value>
+  </data>
+  <data name="Offsite_Sunday" xml:space="preserve">
+    <value>ஞாயிற்றுக்கிழமை</value>
+  </data>
+  <data name="Offsite_Thursday" xml:space="preserve">
+    <value>வியாழக்கிழமை</value>
+  </data>
+  <data name="Offsite_Tuesday" xml:space="preserve">
+    <value>செவ்வாய்க்கிழமை</value>
+  </data>
+  <data name="Offsite_Wednesday" xml:space="preserve">
+    <value>புதன்கிழமை</value>
+  </data>
+  <data name="BidInformation_BidNowbtn" xml:space="preserve">
+    <value>இப்பொழுது விலைகுறிக்கவும்</value>
+  </data>
+  <data name="Bidinformation_BidNowLabel" xml:space="preserve">
+    <value>இப்பொழுது விலைகுறிக்கவும்</value>
+  </data>
+  <data name="BidInformation_BidStatus" xml:space="preserve">
+    <value>விலைக்குறிப்பு நிலை</value>
+  </data>
+  <data name="BidInformation_BuyItNowBtn" xml:space="preserve">
+    <value>இப்பொழுது வாங்குக</value>
+  </data>
+  <data name="BidInformation_CurrentBid" xml:space="preserve">
+    <value>தற்போதைய விலைக்குறிப்பு</value>
+  </data>
+  <data name="BidInformation_Header" xml:space="preserve">
+    <value>விலைக்குறிப்பு தகவல்</value>
+  </data>
+  <data name="BidInformation_NewMaxBid" xml:space="preserve">
+    <value>உங்களுடைய புதிய அதிகபட்ச விலைக்குறிப்பு</value>
+  </data>
+  <data name="BidInformation_SellerReserveNotMet" xml:space="preserve">
+    <value>விற்பனையாளர் ஒதுக்கீடு இன்னும் பூர்த்தி செய்யப்படவில்லை</value>
+  </data>
+  <data name="Details_BackToSearchResults" xml:space="preserve">
+    <value>திரும்பவும் தேடல் முடிவுகளுக்குச் செல்க</value>
+  </data>
+  <data name="Details_Calculate" xml:space="preserve">
+    <value>கணக்கிடுக</value>
+  </data>
+  <data name="Details_NextLot" xml:space="preserve">
+    <value>அடுத்த லாட்</value>
+  </data>
+  <data name="Details_PreviousLot" xml:space="preserve">
+    <value>முந்தைய லாட்</value>
+  </data>
+  <data name="SalesInformation_LocationLabel" xml:space="preserve">
+    <value>அமைவிடம்</value>
+  </data>
+  <data name="BidConfirmation_AcceptOfferTerms" xml:space="preserve">
+    <value>இந்தக் கோரிக்கையை உருவாக்குவதன் மூலம், அடுத்த வேலை நாள் முடியும் வரை இந்த விலைக்குறிப்புக்கு நீங்கள் பொறுப்பேற்கிறீர்கள் என்பதை நீங்கள் ஒப்புக்கொள்கிறீர்கள். விற்பனையாளர் உங்களுடைய கோரிக்கையை ஏற்று இந்தப் பரிவர்த்தனையை நீங்கள் முடிக்கத் தவறினால், நீங்கள் ஏதாவது அல்லது அனைத்து பொருந்தக்கூடிய மறுபட்டியல் கட்டணத்துக்கு நீங்கள் உட்படுவீர்கள்.</value>
+  </data>
+  <data name="BidConfirmation_Cancel" xml:space="preserve">
+    <value>ரத்து செய்க</value>
+  </data>
+  <data name="BidConfirmation_ContactInfoMsg" xml:space="preserve">
+    <value>தயவுசெய்து, கீழே காண்பிக்கப்பட்டுள்ள உங்கள் மின்னஞ்சல் முகவரி மற்றும் தொலைபேசி எண்(எண்கள்) சரியாக இருக்கின்றதா என்பதை உறுதிப்படுத்தவும், ஏனெனில் விற்பவர் உங்களுடைய கோரிக்கையை ஏற்றுக்கொள்ளும் பட்சத்தில் இந்தப் பரிவர்த்தனையை முடிப்பதற்காக நாங்கள் உங்களைத் தொடர்புகொள்வோம்.</value>
+  </data>
+  <data name="BidConfirmation_Edit" xml:space="preserve">
+    <value>திருத்துக</value>
+  </data>
+  <data name="BidConfirmation_EmailLabel" xml:space="preserve">
+    <value>மின்னஞ்சல்</value>
+  </data>
+  <data name="BidConfirmation_ImportantNotice" xml:space="preserve">
+    <value>முக்கியமான அறிவிப்பு</value>
+  </data>
+  <data name="BidConfirmation_PhoneNumber" xml:space="preserve">
+    <value>தொலைபேசி எண்</value>
+  </data>
+  <data name="BidConfirmation_SubmitOfferBtn" xml:space="preserve">
+    <value>கோரிக்கையைச் சமர்ப்பிக்கவும்</value>
+  </data>
+  <data name="BidConfirmation_YourContactInfo" xml:space="preserve">
+    <value>உங்களுடைய தொடர்புத் தகவல்</value>
+  </data>
+  <data name="BidConfirmation_YourOfferLabel" xml:space="preserve">
+    <value>உங்களுடைய கோரிக்கை</value>
+  </data>
+  <data name="PhotoModal_CurrentBid" xml:space="preserve">
+    <value>தற்போதைய விலைக்குறிப்பு</value>
+  </data>
+  <data name="PhotoModal_LiveAuctionStartsIn" xml:space="preserve">
+    <value>நேரடி ஏலம் தொடங்குகிறது</value>
+  </data>
+  <data name="BidInformation_IncreaseBid" xml:space="preserve">
+    <value>விலைக்குறிப்பை அதிகரிக்கவும்</value>
+  </data>
+  <data name="LocationDelivery_EnterZipCode_Placeholder" xml:space="preserve">
+    <value>ஜிப் குறியீட்டை உள்ளிடவும்</value>
+  </data>
+  <data name="BidInformation_SellerReserveMet" xml:space="preserve">
+    <value>விற்பனையாளர் ஒதுக்கீடு மீறியது</value>
+  </data>
+  <data name="BidInformation_SellerReserveToolTip" xml:space="preserve">
+    <value>விற்பனையாளர் ஒதுக்கீடு|இந்த லாட் மீது விற்பனையாளர் ஒரு ஒதுக்கீட்டு விலையை இடம் பெறச் செய்துள்ளார். ஏலத்தின்போது குறைந்தபட்ச விலைக்குறிப்பு மீறப்படவில்லை எனில், விற்பனைக்குப் பின்னர் அடுத்த வேலை நாளில் மாலை 5:00 மணி வரை விற்பனையாளர் விலைக்குறிப்பை ஏற்றுக்கொள்ளலாம் (அலுவலகம் அமைந்துள்ள இடத்தின் நேரத்தின்படி).</value>
+  </data>
+  <data name="BidInformation_BidSuccess" xml:space="preserve">
+    <value>வெற்றிபெற்றது! உங்களுடைய விலைக்குறிப்பு பதிவு செய்யப்பட்டுள்ளது</value>
+  </data>
+  <data name="BidInformation_BidSuccessDescription" xml:space="preserve">
+    <value>உங்கள் விலைக்குறிப்பு அதிகமான முன்–விலைக்குறிப்பாக இருந்தால், அது நேரடி ஏலத்தில் குறிப்பிடப்படும். முன்–விலைக்குறிப்பு மற்றும் நேரடி விலைக்குறிப்புத் தொகைகள் சமமாக இருந்தால், நேரடி ஏலத்தின்போது இடம்பெறச் செய்யப்படும் விலைக்குறிப்பு வெற்றிபெற்ற விலைக்குறிப்பாக கருதப்படும்.</value>
+  </data>
+  <data name="Details_ExpectedModalLabel" xml:space="preserve">
+    <value>எதிர்பார்க்கப்படும் விற்பனைத் தேதி பற்றி</value>
+  </data>
+  <data name="Details_Expected" xml:space="preserve">
+    <value>எதிர்பார்க்கப்பட்டது</value>
+  </data>
+  <data name="LotDetailsSpecialNote" xml:space="preserve">
+    <value>ஏலத்தில் விலை குறிப்பதற்குத் தயாராக இருக்கிறீர்களா?</value>
+  </data>
+  <data name="TBDText" xml:space="preserve">
+    <value>TBD</value>
+  </data>
+  <data name="CodeHeader" xml:space="preserve">
+    <value>குறியீடு</value>
+  </data>
+  <data name="DescriptionHeader" xml:space="preserve">
+    <value>விளக்கம்</value>
+  </data>
+  <data name="MileageTypesLabel" xml:space="preserve">
+    <value>மைலேஜ் வகைகள்</value>
+  </data>
+  <data name="MarketGuide_1stDMG" xml:space="preserve">
+    <value>1வது சேதம்</value>
+  </data>
+  <data name="MarketGuide_2ndDmg" xml:space="preserve">
+    <value>2வது சேதம்</value>
+  </data>
+  <data name="MarketGuide_AutoCheckFullReport" xml:space="preserve">
+    <value>ஆட்டோசெக் முழுமையான அறிக்கை</value>
+  </data>
+  <data name="MarketGuide_AverageTrade" xml:space="preserve">
+    <value>சராசரி வர்த்தகம்</value>
+  </data>
+  <data name="MarketGuide_BodyStyle" xml:space="preserve">
+    <value>பாடி ஸ்டைல்</value>
+  </data>
+  <data name="MarketGuide_ComparableSales" xml:space="preserve">
+    <value>ஒப்பிடத்தக்க விற்பனை</value>
+  </data>
+  <data name="MarketGuide_Copyright" xml:space="preserve">
+    <value>உரிமையுடைமை மற்றும் இரகசியமானது – பதிப்புரிமை © கோபார்ட் இன்க். 2013. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை</value>
+  </data>
+  <data name="MarketGuide_Cylinder" xml:space="preserve">
+    <value>சிலிண்டர்</value>
+  </data>
+  <data name="MarketGuide_Disclaimer" xml:space="preserve">
+    <value>சந்தை வழிகாட்டியில் இடம் பெற்றுள்ள ஏதேனும் தகவல்களைப் பயன்படுத்துவதால் அல்லது நம்பியிருப்பதால் ஏற்படுகின்ற இழப்பு அல்லது செலவுக்கு கோபார்ட் நிறுவனம் பொறுப்பேற்காது. ஆட்டோசெக் - எக்ஸ்பீரியன் மூலம் வழங்கப்படுகின்ற வாகன வரலாற்று அறிக்கையில் உள்ள தகவல்கள் (சேர்க்கப்பட்டிருந்தால்), மற்றும் வாகன வரலாற்று அறிக்கையில் இடம் பெற்றுள்ள உள்ளடக்கங்களுக்கு எக்ஸ்பீரியன் தனிப்பட்ட முறையில் பொறுப்பேற்க வேண்டும். வாகன வரலாற்று அறிக்கையில் உள்ள தகவல்களின் துல்லியத்தன்மைக்கு கோபார்ட் உத்தரவாதம் அளிப்பதில்லை. சந்தை வழிகாட்டி அறிக்கையில் வழங்கப்பட்டுள்ள புரோகோட் மதிப்புகள் இந்த வாகனம் ஏலத்தில் விற்கப்படலாம் என்பதற்கான விலை வரம்பு குறித்த கணக்கீடு மட்டுமே. இந்த மதிப்புகள் கோபார்ட் நிறுவனத்திடம் கோரும்போது பழைய மற்றும் தற்போதைய விற்பனையில் அடிப்படையிலமைந்த ஒரு உரிமையுடைமை சூத்திரத்தைப் பயன்படுத்தி கணக்கிடப்படுகின்றன மற்றும் அவை எந்த நேரத்திலும் மாறுதலுக்கு உட்பட்டவை ஆகும். புரோகோட் மதிப்புகள் ஒரு மதிப்பீடு அல்ல, அல்லது அவை விலை குறிக்கும் நடவடிக்கைக்கு உத்தரவாதம் அளிப்பதில்லை, மற்றும் ஒரு விலையைக் குறிக்கும்போது நீங்கள் அத்தகைய மதிப்புகளை நம்புவதால் ஏற்படும் விளைவுகளுக்கு நீங்களே பொறுப்பாவீர்கள். சந்தை வழிகாட்டியில் உள்ள சில உள்ளடக்கம் மூன்றாம் தரப்பினரால் வழங்கப்பட்டதாகும். அத்தகைய மூன்றாம் தரப்பினர் தகவல்களை கோபார்ட் தனிப்பட்ட முறையில் சரிபார்க்கவில்லை மற்றும் அத்தகைய தகவல்களின் துல்லியத்தன்மை அல்லது முழுமைக்கு கோபார்ட் உத்தரவாதமளிக்காது. சந்தை வழிகாட்டியில் இடம் பெற்றுள்ள ஏதேனும் தகவல்களைப் பயன்படுத்துவதால் அல்லது நம்பியிருப்பதால் ஏற்படுகின்ற இழப்பு, செலவுகள், கோரிக்கை அல்லது சேதங்களுக்கு கோபார்ட் நிறுவனம் பொறுப்பாகாது மற்றும் பொறுப்பேற்காது.</value>
+  </data>
+  <data name="MarketGuide_EngineSize" xml:space="preserve">
+    <value>எஞ்சின் அளவு</value>
+  </data>
+  <data name="MarketGuide_EstimatedValues" xml:space="preserve">
+    <value>கணக்கிடப்பட்ட மதிப்புகள்</value>
+  </data>
+  <data name="MarketGuide_Fuel" xml:space="preserve">
+    <value>எரிபொருள்</value>
+  </data>
+  <data name="MarketGuide_HideThumbnails" xml:space="preserve">
+    <value>தம்ப்நெய்ல்களை மறைக்கவும்</value>
+  </data>
+  <data name="MarketGuide_HighQuote" xml:space="preserve">
+    <value>அதிக விலைக்குறிப்பு</value>
+  </data>
+  <data name="MarketGuide_Image" xml:space="preserve">
+    <value>படம்</value>
+  </data>
+  <data name="MarketGuide_Keys" xml:space="preserve">
+    <value>சாவிகள்</value>
+  </data>
+  <data name="MarketGuide_Lot" xml:space="preserve">
+    <value>லாட்</value>
+  </data>
+  <data name="MarketGuide_LowQuote" xml:space="preserve">
+    <value>குறைவான விலைக்குறிப்பு</value>
+  </data>
+  <data name="MarketGuide_Make" xml:space="preserve">
+    <value>தயாரிப்பு</value>
+  </data>
+  <data name="MarketGuide_Model" xml:space="preserve">
+    <value>மாடல்</value>
+  </data>
+  <data name="MarketGuide_NotificationError" xml:space="preserve">
+    <value>NADA மதிப்புகளை மீட்டுப்பெறத் தவறிவிட்டது</value>
+  </data>
+  <data name="MarketGuide_Odometer" xml:space="preserve">
+    <value>ஓடோமீட்டர்</value>
+  </data>
+  <data name="MarketGuide_PhotosAvailable" xml:space="preserve">
+    <value>{Count} புகைப்படங்கள் உள்ளன</value>
+  </data>
+  <data name="MarketGuide_Proquote" xml:space="preserve">
+    <value>புரோகோட்</value>
+  </data>
+  <data name="MarketGuide_ProQuoteTableHeader" xml:space="preserve">
+    <value>புரோகோட்</value>
+  </data>
+  <data name="MarketGuide_Retail" xml:space="preserve">
+    <value>சில்லறை விற்பனை</value>
+  </data>
+  <data name="MarketGuide_Rough" xml:space="preserve">
+    <value>தோராயமாக</value>
+  </data>
+  <data name="MarketGuide_RunsDrives" xml:space="preserve">
+    <value>ஓடுகிறது இயங்குகிறது</value>
+  </data>
+  <data name="MarketGuide_SalePrice" xml:space="preserve">
+    <value>விற்பனை விலை</value>
+  </data>
+  <data name="MarketGuide_Title" xml:space="preserve">
+    <value>கோபார்ட் சந்தை வழிகாட்டி</value>
+  </data>
+  <data name="MarketGuide_TitleTableHeader" xml:space="preserve">
+    <value>தலைப்பு</value>
+  </data>
+  <data name="MarketGuide_Trade" xml:space="preserve">
+    <value>வர்த்தகம்</value>
+  </data>
+  <data name="MarketGuide_Transmission" xml:space="preserve">
+    <value>டிரான்ஸ்மிஷன்</value>
+  </data>
+  <data name="MarketGuide_VehicleInfo" xml:space="preserve">
+    <value>வாகனம் பற்றிய தகவல்</value>
+  </data>
+  <data name="MarketGuide_Vehicles" xml:space="preserve">
+    <value>வாகனங்கள்</value>
+  </data>
+  <data name="MarketGuide_VIN" xml:space="preserve">
+    <value>VIN</value>
+  </data>
+  <data name="MarketGuide_VinDecode" xml:space="preserve">
+    <value>VIN குறிநீக்கம் - செல்லத்தக்கது</value>
+  </data>
+  <data name="MarketGuide_Year" xml:space="preserve">
+    <value>ஆண்டு</value>
+  </data>
+  <data name="LotDetails_AutoCheck" xml:space="preserve">
+    <value>ஆட்டோசெக்</value>
+  </data>
+  <data name="LotDetails_CondtionReport" xml:space="preserve">
+    <value>நிலைமை அறிக்கை</value>
+  </data>
+  <data name="InvalidUSZipCode" xml:space="preserve">
+    <value>ஜிப் குறியீடு செல்லத்தக்க யுஎஸ் ஜிப் குறியீடாக இருக்க வேண்டும்.  விநியோகத்துக்கு, தயவுசெய்து எங்களுடைய {0}–ஐப் பார்க்கவும்.</value>
+  </data>
+  <data name="TransportationPage" xml:space="preserve">
+    <value>போக்குவரத்துப் பக்கம்</value>
+  </data>
+  <data name="MisTypedBid_ConfirmBid" xml:space="preserve">
+    <value>விலைக்குறிப்பை உறுதிப்படுத்தவும்</value>
+  </data>
+  <data name="MisTypedBid_CurrentBid" xml:space="preserve">
+    <value>தற்போதைய விலைக்குறிப்பு</value>
+  </data>
+  <data name="MisTypedBid_Disclaimer1" xml:space="preserve">
+    <value>உங்களுடைய அதிகபட்ச விலைக்குறிப்பை நீங்கள் தவறாக உள்ளிட்டுருந்தால், புதிய அதிகபட்ச விலைக்குறிப்பை உள்ளிட்ட பின் விலைக்குறிப்பை உறுதிப்படுத்துக என்பதை கிளிக் செய்யவும். உங்களுடைய புதிய அதிகபட்ச விலைக்குறிப்பு தற்போதைய விலைக்குறிப்பை விடக் குறைவாக இருக்க முடியாது. உங்களுடைய அதிகபட்ச விலைக்குறிப்பை, உள்ளிடப்பட்ட மதிப்பு அல்லது தற்போதைய விலைக்குறிப்பு இவற்றில் எது அதிகமோ அதற்கு நாங்கள் குறைத்துக்கொள்வோம்</value>
+  </data>
+  <data name="MisTypedBid_Disclaimer2" xml:space="preserve">
+    <value>உங்களுடைய தற்போதைய அதிகபட்ச விலைக்குறிப்பை தொடர்ந்து வைத்துக்கொள்ள அல்லது அதிகரிக்க நீங்கள் விரும்பினால், இந்த விண்டோவை மூடுவதற்கு கீழே உள்ள இரத்து செய் பட்டனை கிளிக் செய்யவும்</value>
+  </data>
+  <data name="MisTypedBid_Lot" xml:space="preserve">
+    <value>லாட்</value>
+  </data>
+  <data name="MisTypedBid_MistypedBid" xml:space="preserve">
+    <value>தவறாக உள்ளிட்ட விலைக்குறிப்பு</value>
+  </data>
+  <data name="MisTypedBid_YourMaximumBid" xml:space="preserve">
+    <value>உங்களுடைய அதிகபட்ச விலைக்குறிப்பு</value>
+  </data>
+  <data name="MisTypedBid_YourNewMaxBid" xml:space="preserve">
+    <value>உங்களுடைய புதிய அதிகபட்ச விலைக்குறிப்பு</value>
+  </data>
+  <data name="MisTypedBid_MistypedBidButtonText" xml:space="preserve">
+    <value>தவறாக உள்ளிட்ட விலைக்குறிப்பு</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage" xml:space="preserve">
+    <value>மன்னிக்கவும், ஏதோ தவறு நிகழ்ந்துவிட்டது</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessageMustBeNumeric" xml:space="preserve">
+    <value>அதிகபட்ச விலைக்குறிப்புத் தொகை காலியாக இருக்கக் கூடாது.</value>
+  </data>
+  <data name="MisTypeBid_Loading" xml:space="preserve">
+    <value>ஏற்றுகிறது...</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_ApplicationError" xml:space="preserve">
+    <value>பயன்பாட்டு பிழை</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_BidIncrements" xml:space="preserve">
+    <value>உங்களுடைய விலைக்குறிப்பு மதிப்பு விலைக்குறிப்பு அதிகரிப்புகளுக்குள் இல்லை.</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_BuyerNumberRequired" xml:space="preserve">
+    <value>செல்லத்தகாத உறுப்பினர் எண்</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_BuyerOutbid" xml:space="preserve">
+    <value>மன்னிக்கவும், நீங்கள் ஏற்கனவே அதிக விலை கூறியுள்ளீர்கள்.  தற்போதைக்கு அதிக தொகைக்கு ஏலம் கேட்டிருப்பவர் உங்களுடைய விலைக்குறிப்பை விட அதிகமாக அதிகபட்ச விலைக்குறிப்பைப் பெற்றுள்ளார்.</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_LotNotInCorrectStage" xml:space="preserve">
+    <value>லாட் சரியான நிலையில் இல்லை</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_LotNumberRequired" xml:space="preserve">
+    <value>லாட் கண்டறியப்படவில்லை</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_NewMaxLessThanOldMax" xml:space="preserve">
+    <value>தற்போதைய அதிகபட்ச விலைக்குறிப்பை விடக் குறைவான ஒரு விலைக்குறிப்பை உள்ளிடவும்.</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_NotHighBidder" xml:space="preserve">
+    <value>மன்னிக்கவும், நீங்கள் ஏற்கனவே அதிக விலை கூறியுள்ளீர்கள்.  தற்போது அதிக தொகைக்கு ஏலம் கேட்டுள்ளவர் நீங்கள் குறித்துள்ள விலையை விட அதிகமாக விலை குறித்துள்ளார்</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_NotVixLots" xml:space="preserve">
+    <value>VIX லாட்களுக்கு அல்ல</value>
+  </data>
+  <data name="MisTypeBid_ErrorMessage_PrelimnaryBiddingEnded" xml:space="preserve">
+    <value>பூர்வாங்க விலைக்குறிப்பு முடிந்துவிட்டது</value>
+  </data>
+  <data name="MisTypeBid_ErrorBidIncrementsValues" xml:space="preserve">
+    <value>உங்களுடைய அதிகபட்ச விலைக்குறிப்பானது விலைக்குறிப்பு அதிகரிப்புக்குள் இல்லை. செல்லத்தக்க விலைக்குறிப்புகள் ${0} மற்றும் ${1}–ஐ உள்ளடக்கியுள்ளன</value>
+  </data>
+  <data name="AjaxErrorMessage" xml:space="preserve">
+    <value>கோரப்பட்ட பக்கத்தில் பிழை:</value>
+  </data>
+  <data name="DataTruncationError" xml:space="preserve">
+    <value>தரவுக் குறைப்பு</value>
+  </data>
+  <data name="MarketGuide_NADA_Header" xml:space="preserve">
+    <value>NADA மதிப்புகள்</value>
+  </data>
+  <data name="Market_Guide_Proquote_Not_Available" xml:space="preserve">
+    <value>இந்த லாட்டுக்கு புரோகோட் கணக்கிட முடியாது</value>
+  </data>
+  <data name="MarketGuide_VinDecode_Invalid" xml:space="preserve">
+    <value>VIN குறிநீக்கம் - செல்லத்தகாதது</value>
+  </data>
+  <data name="SalesInformation_AfterSalePickUp" xml:space="preserve">
+    <value>விற்பனைக்குப் பிந்தைய அபிவிருத்தி</value>
+  </data>
+  <data name="SalesInformation_LocationAndHours" xml:space="preserve">
+    <value>அமைவிடம்/நேரம்</value>
+  </data>
+  <data name="SalesInformation_OffsiteSalesOnly" xml:space="preserve">
+    <value>(தளத்துக்கு வெளியில் மேற்கொள்ளப்படும் விற்பனை மட்டும்)</value>
+  </data>
+  <data name="SalesInformation_Preview" xml:space="preserve">
+    <value>முன்னோட்டம்</value>
+  </data>
+  <data name="Not_Applicable" xml:space="preserve">
+    <value>பொருந்தாது</value>
+  </data>
+  <data name="AboutSealedBid" xml:space="preserve">
+    <value>முத்திரையிடப்பட்ட விலைக்குறிப்பு பற்றி</value>
+  </data>
+  <data name="SealedBidDescription" xml:space="preserve">
+    <value>செயல்முறை முழுவதும் உங்கள் விலைக்குறிப்பு இரகசியமாக வைத்துக்கொள்ளப்படும், இதர விலைக்குறிப்பாளர்களுக்கு அது காண்பிக்கப்பட மாட்டாது. எனவே தொகுப்பை வெல்வதற்குத் தேவைப்படுவதாக நீங்கள் அதிகபட்சமாக நம்பும் தொகையை நீங்கள் குறிப்பிட வேண்டும். ஏலத்தின்போது எந்த நேரத்திலும் உங்களுடைய முந்தைய விலைக்குறிப்பை விட அதிகமான தொகையை நீங்கள் சமர்ப்பிக்கலாம். விற்பனை முடிந்தவுடன், எங்களது தன்னியக்கமாக்கப்பட்ட அமைப்பு அதிகபட்ச விலைக்குறிப்பை உறுதி செய்து, தொகுப்பை அந்த விலைக்குறிப்பாளருக்கு வழங்கும்.</value>
+  </data>
+  <data name="SealedBidTitle" xml:space="preserve">
+    <value>முத்திரையிடப்பட்ட விலைக்குறிப்பு</value>
+  </data>
+  <data name="AdditionalInfo" xml:space="preserve">
+    <value>கூடுதல் தகவல்</value>
+  </data>
+  <data name="V5Notes" xml:space="preserve">
+    <value>V5 குறிப்புகள்</value>
+  </data>
+  <data name="VATAddedToSale" xml:space="preserve">
+    <value>மதிப்புக் கூட்டப்பட்ட வரி தகுதியுடையது</value>
+  </data>
+  <data name="VATAddedNo" xml:space="preserve">
+    <value>இல்லை</value>
+  </data>
+  <data name="VATAddedYes" xml:space="preserve">
+    <value>ஆம்</value>
+  </data>
+  <data name="ContactsForDeliveryUnavilable" xml:space="preserve">
+    <value>கூடுதல் தகவல்களுக்கு &lt;a href={MemberServices}&gt;உறுப்பினர் சேவைகளை&lt;/a&gt; தொடர்புகொள்ளவும்</value>
+  </data>
+  <data name="DeliveryUnavailableSorryNote" xml:space="preserve">
+    <value>மன்னிக்கவும். இந்த ஜிப் குறியீட்டுக்கு நாங்கள் விநியோகிக்க முடியாது </value>
+  </data>
+  <data name="ThrirdPartyServiceAdviceForDeliveryUnavailable" xml:space="preserve">
+    <value>தயவுசெய்து, உங்களுக்கு விருப்பமான மூன்றாம் தரப்பு வழங்குநர் வாயிலாக போக்குவரத்துக்கு ஏற்பாடு செய்துகொள்ளவும்.</value>
+  </data>
+  <data name="OdometerCode_Actual" xml:space="preserve">
+    <value>ஓடோமீட்டர் அளவு உண்மையானது எனவும், லாட்டின் உண்மையான மைலேஜைக் குறிக்கிறது எனவும் நம்பப்படுகிறது.</value>
+  </data>
+  <data name="OdometerCode_ExceedsMechanicalLmt" xml:space="preserve">
+    <value>லாட்டின் உண்மையான மைலேஜைக் குறிப்பிட முடியாது, ஏனெனில் அது ஓடோமீட்டர் அளவிட முடிகின்ற வரம்பை மீறிவிட்டது.</value>
+  </data>
+  <data name="OdometerCode_Exempt" xml:space="preserve">
+    <value>ஃபெடரல் சட்டத்தின்படி, இந்த லாட்டுக்கு காண்பிப்பதற்கு ஓடோமீட்டர் குறியீடு எதுவும் தேவையில்லை.</value>
+  </data>
+  <data name="OdometerCode_NotActual" xml:space="preserve">
+    <value>ஓடோமீட்டர் அளவு லாட்டின் மைலேஜை சரியாகப் பிரதிபலிக்கவில்லை அல்லது அது தெரியவில்லை.</value>
+  </data>
+  <data name="TypeHeader" xml:space="preserve">
+    <value>வகை</value>
+  </data>
+  <data name="MarketGuide_HideAllThumbnails" xml:space="preserve">
+    <value>அனைத்து தம்ப்நெய்ல்களையும் மறைக்கவும்</value>
+  </data>
+  <data name="Details_DeliveryCostText" xml:space="preserve">
+    <value>விநியோகச் செலவு</value>
+  </data>
+  <data name="Details_EstimatedDeliveryCostLabel" xml:space="preserve">
+    <value>கணக்கிடப்பட்ட விநியோகச் செலவு</value>
+  </data>
+  <data name="DecimalsNotAllowed" xml:space="preserve">
+    <value>தசம எண்கள் அனுமதிக்கப்படுவதில்லை. தயவுசெய்து உங்களுடைய விலைக்குறிப்பை மதிப்பாய்வு செய்யவும்.</value>
+  </data>
+  <data name="NoBlanksForBidAmounts" xml:space="preserve">
+    <value>தொகை காலியாக இருக்கக் கூடாது.</value>
+  </data>
+  <data name="ShouldBeNumeric" xml:space="preserve">
+    <value>தொகை எண்ணாக இருக்க வேண்டும்.</value>
+  </data>
+  <data name="MisTyped_ErrorMessage_EnterOnlyDigits" xml:space="preserve">
+    <value>செல்லத்தகாத விலைக்குறிப்புத் தொகை. (0-9) வரையிலான இலக்கங்களை மட்டும் உள்ளிடவும்.</value>
+  </data>
+  <data name="VINDetails_DisclaimerNote1" xml:space="preserve">
+    <value>வாகன அடையாள எண்களின் (VIN) துல்லியத்தன்மையை கோபார்ட் வெளிப்படையாக மறுதலிக்கிறது. அத்தகைய தகவல் விலைக்குறிப்பு நோக்கங்களுக்காகவோ அல்லது வேறு ஏதேனும் காரணங்களுக்காகவோ பயன்படுத்தப்பட மாட்டாது அல்லது நம்பப்பட மாட்டாது.</value>
+  </data>
+  <data name="VINDetails_Disclaimer_Note2" xml:space="preserve">
+    <value>அனைத்து வாகனங்களும் உள்ளது உள்ளவாறே – இருக்கும் இடத்தில் விற்கப்படுகின்றன. பார்க்கவும் </value>
+  </data>
+  <data name="VINDetails_DisclaimerNote3" xml:space="preserve">
+    <value>வாகன மறுதலிப்பு.</value>
+  </data>
+  <data name="BidIncrementCheckBox_Label" xml:space="preserve">
+    <value>மேலும் ஒரு அதிகரிப்பு விலைக்குறிப்புக்கான தேர்வுப்பெட்டி</value>
+  </data>
+  <data name="BidGuidelines_Link" xml:space="preserve">
+    <value>கூடுதல் ஏலம் வழிகாட்டுதல்கள்</value>
+  </data>
+  <data name="BiddingGuidelines_Header" xml:space="preserve">
+    <value>கூடுதல் விலைக்குறிப்பு வழிகாட்டுதல்கள்</value>
+  </data>
+  <data name="BiddingGuidelines_NotesOne" xml:space="preserve">
+    <value>கூடுதல் விலைக்குறிப்பை ஏற்பதற்கு முன்னர் தயவுசெய்து இந்த ஆவணத்தை கவனமாகப் படிக்கவும்.</value>
+  </data>
+  <data name="BiddingGuidelines_NotesThree" xml:space="preserve">
+    <value>உதாரணம் 1: நீங்கள் அதிகரிப்பு விலைக்குறிப்புக்கான பெட்டியைத் தேர்ந்தெடுத்துள்ளீர்கள் மற்றும் விலைக்குறிப்பு {CurrencySymbol}15,000 ஆகும். நேரடி ஏலத்துக்கான விலைக்குறிப்பு தற்சமயம் {CurrencySymbol}15,000 ஆக உள்ளது (உங்களுடைய விலைக்குறிப்புடன் பிணைப்பு – துரதிருஷ்டவசமாக இது நிகழ்கிறது). உங்களுடைய இணையதள விலைக்குறிப்பு அடுத்து {CurrencySymbol}15,100-இல் இடம் பெற்றுள்ளது (ஏனெனில் நீங்கள் அதிகரிப்பு விலைக்குறிப்பு பெட்டியை தேர்ந்தெடுத்தீர்கள்). கார் உங்களுக்கு {CurrencySymbol}15,100 –க்கு மிகாமல் விற்கப்படுகிறது அல்லது நேரடி ஏலம் கேட்பவருக்கு {CurrencySymbol}15,200 அல்லது அதற்கு அதிகமாக விற்கப்படுகிறது.</value>
+  </data>
+  <data name="BiddingGuidelines_NotesTwo" xml:space="preserve">
+    <value>அதிகரிப்பு விலைக்குறிப்பு நீங்கள் உள்ளிட்ட விலைக்குறிப்பை ஒன்று அதிகரிப்பதற்கும், நீங்கள் உள்ளிட்ட விலைக்குறிப்பு நேரடி இணையதள ஏலம் கேட்பவருடன் இணைக்கப்பட்டிருக்கும் பட்சத்தில் ஒரே ஒரு அதிகரிப்பை மேற்கொள்வதற்கும் கோபார்ட் நிறுவனத்துக்கு அனுமதியளிக்கிறது. உங்களுடைய விலைக்குறிப்பு அனைத்தையும் விட அதிகமானது எனில், உங்களுடைய விலைக்குறிப்பை அதிகரிக்க முடியாது. எங்களுடைய அதிகரிப்புகள் பின்வரும் அட்டவணையின் அடிப்படையில் அமைந்திருக்கும்:</value>
+  </data>
+  <data name="BidInc_Range1" xml:space="preserve">
+    <value>0 - 10</value>
+  </data>
+  <data name="BidInc_Range1_IncValue" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BidInc_Range2" xml:space="preserve">
+    <value>10 - 100</value>
+  </data>
+  <data name="BidInc_Range2_IncValue" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="BidInc_Range3" xml:space="preserve">
+    <value>100 - 1,000</value>
+  </data>
+  <data name="BidInc_Range3_IncValue" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="BidInc_Range4" xml:space="preserve">
+    <value>1,000 - 5,000</value>
+  </data>
+  <data name="BidInc_Range4_IncValue" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="BidInc_Range5" xml:space="preserve">
+    <value>5,000 - 9,999,999.99</value>
+  </data>
+  <data name="BidInc_Range5_IncValue" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Bid_range_TableHeader" xml:space="preserve">
+    <value>விலைக்குறிப்பு வரம்பு ({CurrencySymbol})</value>
+  </data>
+  <data name="Increment_TableHeader" xml:space="preserve">
+    <value>அதிகரிப்பு ({CurrencySymbol})</value>
+  </data>
+  <data name="BidGuideline_Disclaimer1" xml:space="preserve">
+    <value>அதிகரிப்பு விலைக்குறிப்பு நீங்கள் உள்ளிட்ட விலைக்குறிப்பை ஒன்று அதிகரிப்பதற்கும், நீங்கள் உள்ளிட்ட விலைக்குறிப்பு நேரடி இணையதள ஏலம் கேட்பவருடன் இணைக்கப்பட்டிருக்கும் பட்சத்தில் ஒரே ஒரு அதிகரிப்பை மேற்கொள்வதற்கும் கோபார்ட் நிறுவனத்துக்கு அனுமதியளிக்கிறது. உங்களுடைய விலைக்குறிப்பு அனைத்தையும் விட அதிகமானது எனில், உங்களுடைய விலைக்குறிப்பை அதிகரிக்க முடியாது.</value>
+  </data>
+  <data name="BidGuideline_PleaseReview" xml:space="preserve">
+    <value>உங்களுடைய விலைக்குறிப்பானது விலைக்குறிப்பு அதிகரிப்புக்குள் இருக்க வேண்டும். தயவுசெய்து கீழே உள்ள அட்டவணையை மதிப்பாய்வு செய்யவும். பின்னர் உங்கள் விலைக்குறிப்பை மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="BidGuide_BidRange_TableHeader" xml:space="preserve">
+    <value>விலைக்குறிப்பு வரம்பு ($)</value>
+  </data>
+  <data name="BidGuide_Increment_TableHeader" xml:space="preserve">
+    <value>அதிகரிப்பு ($)</value>
+  </data>
+  <data name="RetryOrContactsMemberServices" xml:space="preserve">
+    <value>உதவிக்கு &lt;a href={MemberServices}&gt;உறுப்பினர் சேவைகளை&lt;/a&gt; தொடர்புகொள்ளவும்</value>
+  </data>
+  <data name="DeliveryQuote_InValidZip" xml:space="preserve">
+    <value>நீங்கள் உள்ளிட்ட ஜிப் குறியீடு செல்லத்தகாதது. தயவுசெய்து மீண்டும் முயற்சிக்கவும் அல்லது </value>
+  </data>
+  <data name="LotGlossaryTerms" xml:space="preserve">
+    <value>சொற்களஞ்சியம்</value>
+  </data>
+  <data name="Offsite_LocationAndPreview" xml:space="preserve">
+    <value>முன்னோட்ட அமைவிடங்கள் மற்றும் நேரம்</value>
+  </data>
+  <data name="Offsite_PreviewHours" xml:space="preserve">
+    <value>முன்னோட்ட நேரங்கள்:</value>
+  </data>
+  <data name="Offsite_PreviewLocation" xml:space="preserve">
+    <value>முன்னோட்ட அமைவிடம்:</value>
+  </data>
+  <data name="LotDetails_OdometerReading_Unrecorded" xml:space="preserve">
+    <value>பதிவு செய்யப்படாதது</value>
+  </data>
+  <data name="DeliveryUnavailableSorryNote2" xml:space="preserve">
+    <value>இந்த நேரத்தில்</value>
+  </data>
+  <data name="ShippingLocation" xml:space="preserve">
+    <value>அமெரிக்க கண்டத்துக்குள் மட்டுமே ஷிப்பிங் கிடைக்கிறது.</value>
+  </data>
+  <data name="Offsite_NoPreviewAvailable" xml:space="preserve">
+    <value>முன்னோட்டம் எதுவும் அனுமதிக்கப்படவில்லை</value>
+  </data>
+  <data name="Details_KilometersLabel" xml:space="preserve">
+    <value>கிமீ.</value>
+  </data>
+  <data name="Sold_BidInfoText" xml:space="preserve">
+    <value>எங்களுடைய தற்போதைய இருப்புப் பட்டியலை பிரவுஸ் செய்யவும்</value>
+  </data>
+  <data name="Sold_Inventory" xml:space="preserve">
+    <value>பொருள் இருப்புப்பட்டியலைப் பார்க்கவும்</value>
+  </data>
+  <data name="Note_text" xml:space="preserve">
+    <value>குறிப்பு</value>
+  </data>
+  <data name="Details_CrashedToys_Video" xml:space="preserve">
+    <value>வீடியோ</value>
+  </data>
+  <data name="PhotoList_BackTo" xml:space="preserve">
+    <value>பின்செல்</value>
+  </data>
+  <data name="BackTo_ResultsPage" xml:space="preserve">
+    <value>{PageName}-க்கு பின்செல்க</value>
+  </data>
+  <data name="Offsite_LocationAndPostSale" xml:space="preserve">
+    <value>விற்பனைக்குப் பிந்தைய பிக் அப் இடம் மற்றும் நேரம்</value>
+  </data>
+  <data name="LotNotesModal_Title" xml:space="preserve">
+    <value>லாட் # {LotNumber}-க்கான குறிப்புகள்</value>
+  </data>
+  <data name="Offsite_AfterSaleHours" xml:space="preserve">
+    <value>விற்பனைக்குப் பிந்தைய பிக் அப் நேரம்:</value>
+  </data>
+  <data name="Offsite_AfterSaleLocation" xml:space="preserve">
+    <value>விற்பனைக்குப் பிந்தைய பிக் அப் இடம்:</value>
+  </data>
+  <data name="BidInformation_SaleEnded" xml:space="preserve">
+    <value>இந்த விற்பனை முடிந்துள்ளது.</value>
+  </data>
+  <data name="CubicCapacityUOM" xml:space="preserve">
+    <value>cc</value>
+  </data>
+  <data name="BidInformation_SaleStatusMinimumBidToolTip" xml:space="preserve">
+    <value>ஒதுக்கீட்டில் உள்ளது|இந்த விற்பனையாளர் லாட் மீது ஒரு ஒதுக்கீட்டு விலை குறித்துள்ளார். இணைய ஏலத்தின்போது குறைந்தபட்ச விலைக்குறிப்பு மீறப்படவில்லை எனில், விலைக்குறிப்பை ஏற்பதற்கு விற்பனைக்கு அடுத்த வேலை நாளில் 17:00 IST வரை விற்பனையாளருக்கு வாய்ப்பு உள்ளது.</value>
+  </data>
+  <data name="BidInformation_SaleStatusOnApprovalToolTip" xml:space="preserve">
+    <value>ஒதுக்கீடு இல்லை|“ஒதுக்கீடு இல்லை” என்பதன் கீழ் விற்பனை செய்யப்படும் வாகனங்கள் அதிக விலைக்குறிப்பை கோபார்ட் ஏற்றுக்கொண்டதை விற்பனையாளர் குறிப்பிடாவிட்டால் மற்றும் குறிப்பிடும் வரை உறுப்பினர்களுக்குத் தெரிவிக்கப்பட மாட்டாது. சில நிகழ்வுகளில், அதிக விலைக்குறிப்பு ஏற்கப்பட்டதற்கான அறிவிப்பை விற்பனையாளர் கோபார்ட்டுக்குத் தெரிவிக்கும் பட்சத்தில், அதற்கு விற்பனை நாள் உள்பட மூன்று வேலை நாட்கள் எடுத்துக்கொள்ளலாம்.</value>
+  </data>
+  <data name="BidInformation_SaleStatusPureSaleToolTip" xml:space="preserve">
+    <value>ஒதுக்கீடு இல்லை|குறைந்தபட்ச விலைக்குறிப்பு அல்லது ஒதுக்கீட்டு விலை ஏதும் இல்லை. ஆன்லைன் ஏலத்தின்போது விலைக்குறிப்பின் முடிவில் அதிக தொகைக்கு ஏலம் கேட்டவருக்கு வாகனம் வழங்கப்படும்.</value>
+  </data>
+  <data name="BidInformation_SellerReserveMet1" xml:space="preserve">
+    <value>விற்பனையாளர் ஒதுக்கீடு மீறியது</value>
+  </data>
+  <data name="BidInformation_SellerReserveNotMet1" xml:space="preserve">
+    <value>விற்பனையாளர் ஒதுக்கீடு இன்னும் பூர்த்தி செய்யப்படவில்லை</value>
+  </data>
+  <data name="BidInformation_SellerReserveToolTip1" xml:space="preserve">
+    <value>விற்பனையாளர் ஒதுக்கீடு|இந்த லாட் மீது விற்பனையாளர் ஒரு ஒதுக்கீட்டு விலையை இடம் பெறச் செய்துள்ளார். ஏலத்தின்போது குறைந்தபட்ச விலைக்குறிப்பு மீறப்படவில்லை எனில், விற்பனைக்குப் பின்னர் அடுத்த வேலை நாளில் மாலை 5:00 மணி வரை விற்பனையாளர் விலைக்குறிப்பை ஏற்றுக்கொள்ளலாம் (அலுவலகம் அமைந்துள்ள இடத்தின் நேரத்தின்படி).</value>
+  </data>
+  <data name="Details_AsIs_what" xml:space="preserve">
+    <value>இதன் பொருள் என்ன</value>
+  </data>
+  <data name="Details_AsIs_Modal_Label" xml:space="preserve">
+    <value>”உள்ளது உள்ளவாறே – இருக்கும் இடத்தில்” – அனைத்து விலைக்குறிப்புகளும் இறுதியானவை</value>
+  </data>
+  <data name="DownloadPdf" xml:space="preserve">
+    <value>PDF-ஐ தரவிறக்கம் செய்யவும்</value>
+  </data>
+  <data name="Euronorm" xml:space="preserve">
+    <value>யூரோநார்ம்</value>
+  </data>
+  <data name="C02Emission" xml:space="preserve">
+    <value>CO2 வெளிப்பாடு</value>
+  </data>
+  <data name="DownloadPDF_Type" xml:space="preserve">
+    <value>லாட் விவரங்கள்</value>
+  </data>
+  <data name="VINHeader" xml:space="preserve">
+    <value>VIN விவரங்கள்</value>
+  </data>
+  <data name="LotDetailsLabel" xml:space="preserve">
+    <value>லாட் விவரங்கள்</value>
+  </data>
+  <data name="EngineOutput" xml:space="preserve">
+    <value>எஞ்சின் வெளியீடு</value>
+  </data>
+</root>

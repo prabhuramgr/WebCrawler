@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BidOffer_AmountShouldbeNumeric" xml:space="preserve">
+    <value>प्रस्ताव की राशि संख्यात्मक होनी चाहिए।</value>
+  </data>
+  <data name="BidOffer_ContactInfoConfirmation" xml:space="preserve">
+    <value>कृपया पुष्टि करें की आपका नीचे दिखाया गया ईमेल पता और फ़ोन नंबर सही हैं क्योंकि
+						विक्रेता द्वारा आपका प्रस्ताव स्वीकार करने पर आपसे यह ट्रांजेक्शन पूरी करने के लिए संपर्क किया
+						 जाएगा।</value>
+  </data>
+  <data name="BidOffer_Disclaimer" xml:space="preserve">
+    <value>यह प्रस्ताव करके, आप सहमत हैं कि आप अगले दिन के कारोबार की समाप्ति तक
+					इस बोली के लिए प्रतिबद्ध हैं। अगर विक्रेता आपका प्रस्ताव स्वीकार करता है और आप इस ट्रांजेक्शन को पूरा करने में विफल रहते हैं, तो आप किसी और सभी लागू पुनः सूची फ़ीस के अधीन होंगे।</value>
+  </data>
+  <data name="BidOffer_ErrorModalTitle" xml:space="preserve">
+    <value>बोली प्रस्ताव प्रस्तुत करने में त्रुटि</value>
+  </data>
+  <data name="BidOffer_OfferAmount" xml:space="preserve">
+    <value>प्रस्ताव की राशि</value>
+  </data>
+  <data name="BidOffer_OfferAmountValidationRegex" xml:space="preserve">
+    <value>दशमलव की अनुमति नहीं है। कृपया अपने प्रस्ताव की समीक्षा करें।</value>
+  </data>
+  <data name="BidOffer_OfferAmountValidationRequired" xml:space="preserve">
+    <value>प्रस्ताव राशि ज़रूरी है!</value>
+  </data>
+  <data name="BidOffer_SuccessModalNote" xml:space="preserve">
+    <value>यह ट्रांजेक्शन पूरी करने के लिए Copart आपसे संपर्क करेगी। Copart विक्रेता से संपर्क करेगी और फिर, आपकी मौजूदा खाता संपर्क जानकारी का इस्तेमाल करके, आगे की जानकारी के साथ आपको प्रत्युत्तर देगी।</value>
+  </data>
+  <data name="BidOffer_SuccessModalTitle" xml:space="preserve">
+    <value>सफल! आपका प्रस्ताव हो गया है!</value>
+  </data>
+  <data name="BuyItNow_AmountDue" xml:space="preserve">
+    <value>देय राशि</value>
+  </data>
+  <data name="BuyItNow_ModalError" xml:space="preserve">
+    <value>इसे अभी ख़रीदें की पुष्टि करने में त्रुटि</value>
+  </data>
+  <data name="BuyItNow_PayNow" xml:space="preserve">
+    <value>अभी भुगतान करें</value>
+  </data>
+  <data name="BuyItNow_PickUpCharges" xml:space="preserve">
+    <value>पिकअप के समय अन्य शुल्क लागू हो सकते हैं।</value>
+  </data>
+  <data name="BuyItNow_Success" xml:space="preserve">
+    <value>ख़रीद सफल!</value>
+  </data>
+  <data name="CounterBid_AcceptReserveButton" xml:space="preserve">
+    <value>रिज़र्व स्वीकार करें</value>
+  </data>
+  <data name="CounterBid_ConfirmModalCounterBid" xml:space="preserve">
+    <value>आपकी काउंटर बोली:</value>
+  </data>
+  <data name="CounterBid_ConfirmModalIncreasedBid" xml:space="preserve">
+    <value>आपकी बढ़ाई गई बोली</value>
+  </data>
+  <data name="CounterBid_ConfirmModalSellerBid" xml:space="preserve">
+    <value>विक्रेता की न्यूनतम बोली</value>
+  </data>
+  <data name="CounterBid_ConfirmModalSubmitButton" xml:space="preserve">
+    <value>अपनी बोली की पुष्टि करें</value>
+  </data>
+  <data name="CounterBid_ConfirmModalTitle" xml:space="preserve">
+    <value>अपनी काउंटर बोली की पुष्टि करें</value>
+  </data>
+  <data name="CounterBid_ConfirmModalYourBid" xml:space="preserve">
+    <value>आपकी मौजूदा बोली</value>
+  </data>
+  <data name="CounterBid_CounterBidInputLabel" xml:space="preserve">
+    <value>काउंटर बोली</value>
+  </data>
+  <data name="CounterBid_CounterBidNow_Button" xml:space="preserve">
+    <value>अभी काउंटर बोली लगाएँ</value>
+  </data>
+  <data name="CounterBid_CounterBidValidationRequired" xml:space="preserve">
+    <value>काउंटर बोली की राशि ज़रूरी है।</value>
+  </data>
+  <data name="CounterBid_ErrMsg_MustBeNumeric" xml:space="preserve">
+    <value>काउंटर बोली राशि संख्यात्मक होनी चाहिए।</value>
+  </data>
+  <data name="CounterBid_ErrMsg_MustNotBeBlank" xml:space="preserve">
+    <value>काउंटर बोली राशि रिक्त नहीं होनी चाहिए।</value>
+  </data>
+  <data name="CounterBid_KeepCurrentBidLabel" xml:space="preserve">
+    <value>मौजूदा बोली रखें</value>
+  </data>
+  <data name="CounterBid_NewMaxBid" xml:space="preserve">
+    <value>नई अधिकतम बोली</value>
+  </data>
+  <data name="CounterBid_SellersReserveLabel" xml:space="preserve">
+    <value>विक्रेता का रिज़र्व</value>
+  </data>
+  <data name="GenericErrorModal_Message" xml:space="preserve">
+    <value>जब आप बोली लगाने का प्रयास कर रहे थे, तो त्रुटि हुई है। त्रुटि लॉग की गई है और आपकी और से आगे कोई कार्रवाई ज़रूरी नहीं है।</value>
+  </data>
+  <data name="GenericErrorModal_Title" xml:space="preserve">
+    <value>त्रुटि</value>
+  </data>
+  <data name="LicenseRequired_AddLicense" xml:space="preserve">
+    <value>अपने खाते में लाइसेंस जोड़े</value>
+  </data>
+  <data name="LicenseRequired_AddLicenseLabel" xml:space="preserve">
+    <value>व्यापार लाइसेंस प्रस्तुत करके अपनी ख़रीद के विकल्पों का विस्तार करें। और जानें।</value>
+  </data>
+  <data name="LicenseRequired_FindMarkerMaker" xml:space="preserve">
+    <value>बाज़ार निर्माता खोजें</value>
+  </data>
+  <data name="LicenseRequired_FindMarkerMakerLabel" xml:space="preserve">
+    <value>ऐसे स्थान की विज़िट करें जहाँ अनुभवी बाज़ार निर्माता आपकी सहायता कर सके।</value>
+  </data>
+  <data name="LicenseRequired_Heading" xml:space="preserve">
+    <value>लाइसेंस प्रतिबंधों के कारण आप इस लॉट पर बोली करने में असमर्थ हैं। तथापि, लाइसेंस-हीन ख़रीदारों के लिए निम्नलिखित विकल्प उपलब्ध हैं:</value>
+  </data>
+  <data name="LicenseRequired_HireBroker" xml:space="preserve">
+    <value>ब्रोकर काम पर रखें</value>
+  </data>
+  <data name="LicenseRequired_HireBrokerLabel" xml:space="preserve">
+    <value>ख़रीद प्रक्रिया में ब्रोकर आपकी मदद कर सकता है। प्रारंभ करें।</value>
+  </data>
+  <data name="LicenseRequired_Title" xml:space="preserve">
+    <value>लाइसेंस या पंजीकृत ब्रोकर ज़रूरी है</value>
+  </data>
+  <data name="LotBid_AEDSymbol" xml:space="preserve">
+    <value>د.إ</value>
+  </data>
+  <data name="LotBid_BidIncreaseConfirmButton" xml:space="preserve">
+    <value>अपनी बोली की पुष्टि करें</value>
+  </data>
+  <data name="LotBid_BidInformation" xml:space="preserve">
+    <value>बोली की जानकारी</value>
+  </data>
+  <data name="LotBid_BuyItNowConfirmButton" xml:space="preserve">
+    <value>ख़रीद की पुष्टि करें</value>
+  </data>
+  <data name="LotBid_BuyItNowConfirm_Title" xml:space="preserve">
+    <value>इसे अभी ख़रीदें</value>
+  </data>
+  <data name="LotBid_BuyItNowPrice" xml:space="preserve">
+    <value>इसे अभी ख़रीदें मूल्य</value>
+  </data>
+  <data name="LotBid_BuyItNowToolTip" xml:space="preserve">
+    <value>&lt;b&gt;इसे अभी ख़रीदें&lt;/b&gt; से आप लॉट के लाइव नीलामी पर जाने से पहले, वाहन को निर्धारित मूल्य पर तुरंत ख़रीद सकते हैं। बटन क्लिक करने पर, आपको अपनी इसे अभी ख़रीदें बोली की पुष्टि करने के लिए पुष्टिकरण पृष्ठ पर ले जाया जाएगा। पुष्टि करने के बाद, आपको वाहन के लिए भुगतान करने पर निर्देशित किया जाएगा।</value>
+  </data>
+  <data name="LotBid_Cancel" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="LotBid_ConfirmMessage" xml:space="preserve">
+    <value>नीचे &quot;अपनी बोली की पुष्टि करें&quot; बटन पर क्लिक करके, आप जीतने वाला बोलीदाता होने पर यह वाहन ख़रीदने के लिए प्रतिबद्ध होते हैं। सभी बोलियाँ अंतिम होती हैं।</value>
+  </data>
+  <data name="LotBid_ConfirmPurchase" xml:space="preserve">
+    <value>नीचे &quot;ख़रीद की पुष्टि करें&quot; बटन पर क्लिक करके, आप जीतने वाला बोलीदाता होने पर यह वाहन ख़रीदने के लिए प्रतिबद्ध होते हैं। सभी बोलियाँ अंतिम होती हैं।</value>
+  </data>
+  <data name="LotBid_CongratulationsBanner" xml:space="preserve">
+    <value>बधाई! आपने लॉट जीत लिया है! अपना भुगतान करने के लिए सदस्य सेवाएँ को कॉल करें या यार्ड में विज़िट करें</value>
+  </data>
+  <data name="LotBid_ErrMsg_MaxBidMustBeGreater" xml:space="preserve">
+    <value>अधिकतम बोली प्रारंभिक बोली से अधिक होनी चाहिए।</value>
+  </data>
+  <data name="LotBid_GBPoundSymbol" xml:space="preserve">
+    <value>£</value>
+  </data>
+  <data name="LotBid_Header" xml:space="preserve">
+    <value>अपनी बोली की पुष्टि करें</value>
+  </data>
+  <data name="LotBid_HeaderIncrease" xml:space="preserve">
+    <value>अपनी वृद्धि बोली की पुष्टि करें</value>
+  </data>
+  <data name="LotBid_MakeOffer" xml:space="preserve">
+    <value>प्रस्ताव दें</value>
+  </data>
+  <data name="LotBid_MakeOfferToolTip" xml:space="preserve">
+    <value>&lt;b&gt;प्रस्ताव दें&lt;/b&gt; से आप आप लॉट के लाइव नीलामी पर जाने से पहले, वाहन पर प्रस्ताव दे सकते हैं। विक्रेता अपने विवेक का पर आपके प्रस्ताव की राशि की समीक्षा करेंगे और उसे स्वीकार, काउंटर या इंकार करेंगे।</value>
+  </data>
+  <data name="LotBid_StartingBid" xml:space="preserve">
+    <value>प्रारंभिक बोली</value>
+  </data>
+  <data name="LotBid_USDollarSymbol" xml:space="preserve">
+    <value>$</value>
+  </data>
+  <data name="LotBid_WantItTodayToolTipTitle" xml:space="preserve">
+    <value>&quot;इसे आज ही चाहते हैं?&quot; के बारे में</value>
+  </data>
+  <data name="LotBid_YourBid" xml:space="preserve">
+    <value>आपकी बोली</value>
+  </data>
+  <data name="LotBid_YourMaxBid" xml:space="preserve">
+    <value>अधिकतम बोली</value>
+  </data>
+</root>

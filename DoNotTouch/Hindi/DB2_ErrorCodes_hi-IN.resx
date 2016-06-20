@@ -1,0 +1,1839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="C210501" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C210502" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C210503" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C210504" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C210599" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C221101" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C221102" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C221199" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C225501" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C225502" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C225503" xml:space="preserve">
+    <value>ईमेल और पुष्टि ईमेल मेल नहीं खातीं</value>
+  </data>
+  <data name="C225504" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C225505" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C225506" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C225598" xml:space="preserve">
+    <value />
+  </data>
+  <data name="C225599" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C226003" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C226004" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C226005" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C226006" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C226007" xml:space="preserve">
+    <value>इस ईमेल पते के लिए एक सदस्य पहले ही मौजूद है। </value>
+  </data>
+  <data name="C226098" xml:space="preserve">
+    <value />
+  </data>
+  <data name="C226099" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C250201" xml:space="preserve">
+    <value>PCI सर्वर उपलब्ध नहीं है।</value>
+  </data>
+  <data name="C250202" xml:space="preserve">
+    <value>PCISERVER COMREFAI बहाल नहीं किया जा सका</value>
+  </data>
+  <data name="C250203" xml:space="preserve">
+    <value>CP010G कॉल करने में त्रुटि</value>
+  </data>
+  <data name="C250204" xml:space="preserve">
+    <value>वेब यार्ड बहाल नहीं किया जा सका</value>
+  </data>
+  <data name="C250205" xml:space="preserve">
+    <value>वेब यार्ड कार्ड प्रक्रिया के लिए पात्र नहीं है</value>
+  </data>
+  <data name="C250206" xml:space="preserve">
+    <value>ख़रीदार नंबर नहीं मिला</value>
+  </data>
+  <data name="C250299" xml:space="preserve">
+    <value>*PSSR त्रुटि C2502G</value>
+  </data>
+  <data name="C250501" xml:space="preserve">
+    <value>अमान्य भुगतान प्रकार</value>
+  </data>
+  <data name="C250502" xml:space="preserve">
+    <value>भुगतान के लिए इनवॉयस जोड़ते समय त्रुटि हुई है</value>
+  </data>
+  <data name="C250503" xml:space="preserve">
+    <value>ACH1006 को कॉल करते समय त्रुटि हुई है</value>
+  </data>
+  <data name="C250504" xml:space="preserve">
+    <value>ACH9033 को कॉल करते समय त्रुटि हुई है</value>
+  </data>
+  <data name="C250505" xml:space="preserve">
+    <value>ख़रीदार नहीं मिला</value>
+  </data>
+  <data name="C250506" xml:space="preserve">
+    <value>इनवॉयस नहीं मिली या अब भुगतान के लिए पात्र नहीं है</value>
+  </data>
+  <data name="C250507" xml:space="preserve">
+    <value>पुष्टि Rec लिखने में त्रुटि</value>
+  </data>
+  <data name="C250508" xml:space="preserve">
+    <value>अमान्य ख़रीदार/इनवॉयस संयोजन</value>
+  </data>
+  <data name="C250509" xml:space="preserve">
+    <value>अमान्य वित्तपोषक कोड</value>
+  </data>
+  <data name="C250510" xml:space="preserve">
+    <value>DS008G को कॉल करते समय त्रुटि हुई है</value>
+  </data>
+  <data name="C250599" xml:space="preserve">
+    <value>*PSSR त्रुटि C2505G</value>
+  </data>
+  <data name="C250601" xml:space="preserve">
+    <value>अमान्य भुगतान प्रकार</value>
+  </data>
+  <data name="C250602" xml:space="preserve">
+    <value>भुगतान के लिए बैच जमा करते समय त्रुटि हुई है</value>
+  </data>
+  <data name="C250603" xml:space="preserve">
+    <value>ACH1008 को कॉल करते समय त्रुटि हुई है</value>
+  </data>
+  <data name="C250604" xml:space="preserve">
+    <value>ACH9031 को कॉल करते समय त्रुटि हुई है</value>
+  </data>
+  <data name="C250605" xml:space="preserve">
+    <value>इनपुट पैरामीटर रिक्त नहीं हो सकता</value>
+  </data>
+  <data name="C250606" xml:space="preserve">
+    <value>BYPCNFBC फ़ाइल अद्यतित करते समय त्रुटि हुई है</value>
+  </data>
+  <data name="C250607" xml:space="preserve">
+    <value>ACH1004G को कॉल करते समय त्रुटि हुई है</value>
+  </data>
+  <data name="C250608" xml:space="preserve">
+    <value>नया बैच नंबर बहाल करते समय त्रुटि हुई है   </value>
+  </data>
+  <data name="C250699" xml:space="preserve">
+    <value>*PSSR त्रुटि C2506G</value>
+  </data>
+  <data name="C251101" xml:space="preserve">
+    <value>कोई इनवॉयस नहीं मिली                     </value>
+  </data>
+  <data name="C251102" xml:space="preserve">
+    <value>फ़ाइल तक पहुँचने में त्रुटि - कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C251103" xml:space="preserve">
+    <value>अनुरोध के कोड के लिए कोई विनिमय दर नहीं है  </value>
+  </data>
+  <data name="C251104" xml:space="preserve">
+    <value>अमान्य ख़रीदार नंबर                  </value>
+  </data>
+  <data name="C251105" xml:space="preserve">
+    <value>अमान्य इनवॉयस नंबर                </value>
+  </data>
+  <data name="C251301" xml:space="preserve">
+    <value>लेखन त्रुटि भुगतान हैडर</value>
+  </data>
+  <data name="C251302" xml:space="preserve">
+    <value>नया बैच नंबर बहाल करते समय त्रुटि हुई है</value>
+  </data>
+  <data name="C251399" xml:space="preserve">
+    <value>*PSSR विफलता C2513G</value>
+  </data>
+  <data name="C251501" xml:space="preserve">
+    <value>C2504 कॉल करने में त्रुटि</value>
+  </data>
+  <data name="C251599" xml:space="preserve">
+    <value>*PSSR त्रुटि C2515G</value>
+  </data>
+  <data name="C257901" xml:space="preserve">
+    <value>लॉट नहीं मिला</value>
+  </data>
+  <data name="C257902" xml:space="preserve">
+    <value>BY190G द्वारा त्रुटि का सामना हुआ है              </value>
+  </data>
+  <data name="C257903" xml:space="preserve">
+    <value>BY190G द्वारा फ़ाइलों का अद्यतन करने में त्रुटि           </value>
+  </data>
+  <data name="C257904" xml:space="preserve">
+    <value>LotBillB रिकॉर्ड का इस्तेमाल अन्य उपयोगकर्ता द्वारा किया जा रहा है</value>
+  </data>
+  <data name="C257999" xml:space="preserve">
+    <value>*PSSR त्रुटि C2505G</value>
+  </data>
+  <data name="C269101" xml:space="preserve">
+    <value>ईमेल पता ज़रूरी है</value>
+  </data>
+  <data name="C269102" xml:space="preserve">
+    <value>ईमेल पते की पुष्टि करना ज़रूरी है</value>
+  </data>
+  <data name="C269103" xml:space="preserve">
+    <value>ईमेल मान्य नहीं है</value>
+  </data>
+  <data name="C269104" xml:space="preserve">
+    <value>पुष्टि की ईमेल मान्य नहीं है</value>
+  </data>
+  <data name="C269105" xml:space="preserve">
+    <value>ईमेल और पुष्टि ईमेल मेल नहीं खातीं</value>
+  </data>
+  <data name="C269106" xml:space="preserve">
+    <value>ई-मेल पता पहले ही मौजूद है</value>
+  </data>
+  <data name="C269107" xml:space="preserve">
+    <value>प्रथम नाम ज़रूरी है</value>
+  </data>
+  <data name="C269108" xml:space="preserve">
+    <value>अंतिम नाम ज़रूरी है</value>
+  </data>
+  <data name="C269109" xml:space="preserve">
+    <value>भौतिक पता ज़रूरी है</value>
+  </data>
+  <data name="C269110" xml:space="preserve">
+    <value>भौतिक शहर ज़रूरी है</value>
+  </data>
+  <data name="C269111" xml:space="preserve">
+    <value>पूरा पोस्टल कोड ज़रूरी है</value>
+  </data>
+  <data name="C269112" xml:space="preserve">
+    <value>पूरा पोस्टल कोड ज़रूरी है</value>
+  </data>
+  <data name="C269113" xml:space="preserve">
+    <value>भौतिक पते के लिए पिनकोड मान्य नहीं है</value>
+  </data>
+  <data name="C269114" xml:space="preserve">
+    <value>भौतिक पते के लिए पिनकोड मान्य नहीं है</value>
+  </data>
+  <data name="C269115" xml:space="preserve">
+    <value>फ़ोन नंबर मान्य नहीं है</value>
+  </data>
+  <data name="C269116" xml:space="preserve">
+    <value>वैकल्पिक फ़ोन नंबर मान्य नहीं है</value>
+  </data>
+  <data name="C269117" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="C269118" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29002" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29003" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29004" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29005" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29007" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29009" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29010" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29011" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29012" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29013" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29014" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29017" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29018" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29019" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29020" xml:space="preserve">
+    <value>संपर्क प्रथम नाम दर्ज होना चाहिए।</value>
+  </data>
+  <data name="VB29021" xml:space="preserve">
+    <value>संपर्क अंतिम नाम दर्ज होना चाहिए।</value>
+  </data>
+  <data name="VB29022" xml:space="preserve">
+    <value>कंपनी नाम दर्ज होना चाहिए।</value>
+  </data>
+  <data name="VB29023" xml:space="preserve">
+    <value>ई-मेल पता दर्ज होना चाहिए।</value>
+  </data>
+  <data name="VB29024" xml:space="preserve">
+    <value>संपर्क फ़ोन# के दोनों घटक दर्ज होने चाहिए।</value>
+  </data>
+  <data name="VB29025" xml:space="preserve">
+    <value>संपर्क फ़ोन का प्रकार दर्ज होना चाहिए।</value>
+  </data>
+  <data name="VB29026" xml:space="preserve">
+    <value>अगर वैकल्पिक Phone1# चुना जाता है, तो नंबर के दोनों घटक दर्ज होने चाहिए।</value>
+  </data>
+  <data name="VB29028" xml:space="preserve">
+    <value>वैकल्पिक Phone1 फ़ोन का प्रकार दर्ज होना चाहिए।</value>
+  </data>
+  <data name="VB29029" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29030" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29031" xml:space="preserve">
+    <value>अगर वैकल्पिक Phone1# चुना जाता है, तो नंबर के दोनों घटक दर्ज होने चाहिए।</value>
+  </data>
+  <data name="VB29032" xml:space="preserve">
+    <value>संपर्क Phone2 का प्रकार दर्ज होना चाहिए।</value>
+  </data>
+  <data name="VB29033" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29035" xml:space="preserve">
+    <value>बिलिंग पता 1 दर्ज होना चाहिए।</value>
+  </data>
+  <data name="VB29036" xml:space="preserve">
+    <value>बिलिंग पता शहर दर्ज होना चाहिए।</value>
+  </data>
+  <data name="VB29037" xml:space="preserve">
+    <value>बिलिंग पता राज्य दर्ज होना चाहिए।</value>
+  </data>
+  <data name="VB29038" xml:space="preserve">
+    <value>शहर, राज्य और ज़िप संयोजन अमान्य है।</value>
+  </data>
+  <data name="VB29040" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29041" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29042" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29043" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29044" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29045" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29046" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29047" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29048" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29049" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29050" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29051" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29052" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29053" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29054" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29056" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29057" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29058" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29059" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29060" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29061" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29062" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29063" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29064" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29065" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29066" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29067" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29068" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29069" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29070" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29073" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29074" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="VB29082" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="WB07101" xml:space="preserve">
+    <value>अमान्य ख़रीदार नंबर</value>
+  </data>
+  <data name="WB07199" xml:space="preserve">
+    <value>*PSSR त्रुटि</value>
+  </data>
+  <data name="WB07201" xml:space="preserve">
+    <value>अमान्य ख़रीदार नंबर</value>
+  </data>
+  <data name="WB07299" xml:space="preserve">
+    <value>*PSSR त्रुटि</value>
+  </data>
+  <data name="WB88501" xml:space="preserve">
+    <value>ईमेल में &apos;@&apos; प्रतीक नहीं मिला</value>
+  </data>
+  <data name="WB88502" xml:space="preserve">
+    <value>ईमेल में &apos;@&apos; प्रतीक एक से ज़्यादा बार मिले हैं।</value>
+  </data>
+  <data name="WB88503" xml:space="preserve">
+    <value>ईमेल में @ के बाद एक पीरियड होना चाहिए।</value>
+  </data>
+  <data name="WB88504" xml:space="preserve">
+    <value>ईमेल में एंबेडेड स्थान की अनुमति नहीं है</value>
+  </data>
+  <data name="WB88505" xml:space="preserve">
+    <value>आखिरी पीरियड के बाद कम-से-कम दो वर्ण होने चाहिए</value>
+  </data>
+  <data name="WB88506" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="WB88507" xml:space="preserve">
+    <value>सिस्टम आपके ईमेल पते के डोमेन के लिए सेटअप नहीं है।</value>
+  </data>
+  <data name="WB88508" xml:space="preserve">
+    <value>विशेष वर्णों की अनुमति नहीं है</value>
+  </data>
+  <data name="WB88509" xml:space="preserve">
+    <value>हमारे सामने एप्लिकेशन त्रुटि आई है कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="WB88510" xml:space="preserve">
+    <value>ईमेल पता ज़रूरी है</value>
+  </data>
+  <data name="WB89901" xml:space="preserve">
+    <value>ईमेल ज़रूरी पैरामीटर है</value>
+  </data>
+  <data name="WB89902" xml:space="preserve">
+    <value>मान्य ई-मेल निर्धारित करने में असमर्थ</value>
+  </data>
+  <data name="WB89903" xml:space="preserve">
+    <value>आपका एक या अधिक अनुरोध विफल रहे हैं</value>
+  </data>
+  <data name="WB89999" xml:space="preserve">
+    <value>*PSSR त्रुटि WB899G</value>
+  </data>
+  <data name="C202701" xml:space="preserve">
+    <value>बोलीदाता खाता अद्यतित करने में असमर्थ</value>
+  </data>
+  <data name="C202702" xml:space="preserve">
+    <value>बोलीदाता खाता स्थिति अद्यतित करने में असमर्थ</value>
+  </data>
+  <data name="C202703" xml:space="preserve">
+    <value>आइटम चेक साफ़ करने में असमर्थ</value>
+  </data>
+  <data name="C202705" xml:space="preserve">
+    <value>बोलीदाता/मास्टर पुनर्विक्रेता संबंध निर्धारित करने में असमर्थ</value>
+  </data>
+  <data name="C202706" xml:space="preserve">
+    <value>अमान्य ख़रीदार/ पुनर्विक्रेता नंबर</value>
+  </data>
+  <data name="C202707" xml:space="preserve">
+    <value>अमान्य बोलीदाता</value>
+  </data>
+  <data name="C202708" xml:space="preserve">
+    <value>स्थिति बदलाव के लिए बोलीदाता के सत्यापन पर प्रक्रिया करने में असमर्थ</value>
+  </data>
+  <data name="C202709" xml:space="preserve">
+    <value>आप स्थिति नहीं बदल सकते; इसे कॉर्पोरेट कर्मचारी ने बदला है</value>
+  </data>
+  <data name="C202711" xml:space="preserve">
+    <value>अमान्य स्थिति कोड</value>
+  </data>
+  <data name="C202799" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="C202001" xml:space="preserve">
+    <value>पासवर्ड इसकी ID के समान नहीं हो सकता</value>
+  </data>
+  <data name="C202002" xml:space="preserve">
+    <value>पासवर्ड प्रतिबंधित में से है</value>
+  </data>
+  <data name="C202099" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="C202501" xml:space="preserve">
+    <value>अमान्य बोलीदाता नंबर</value>
+  </data>
+  <data name="C202502" xml:space="preserve">
+    <value>बोलीदाता खाते तक पहुँच करने में असमर्थ</value>
+  </data>
+  <data name="C202504" xml:space="preserve">
+    <value>बोलीदाता के पास स्वीकृति के लिए कम-से-कम 1 बोली है</value>
+  </data>
+  <data name="C202505" xml:space="preserve">
+    <value>बोलीदाता के पास कम-से-कम 1 इनवॉयस देय है</value>
+  </data>
+  <data name="C202506" xml:space="preserve">
+    <value>बोलीदाता के पास कम-से-कम 1 मौजूदा प्रारंभिक बोली है</value>
+  </data>
+  <data name="C202507" xml:space="preserve">
+    <value>बोलीदाता के पास 1 से अधिक बोली सीमा रिकॉर्ड है</value>
+  </data>
+  <data name="C202508" xml:space="preserve">
+    <value>बोलीदाता के पास COPART बोली रिकॉर्ड नहीं है</value>
+  </data>
+  <data name="C202509" xml:space="preserve">
+    <value>बोलीदाता के पास लागू न की गईं निधियाँ हैं</value>
+  </data>
+  <data name="C202510" xml:space="preserve">
+    <value>बोलीदाता के पास कम-से-कम 1 बकाया शेष है</value>
+  </data>
+  <data name="C202511" xml:space="preserve">
+    <value>बोलीदाता के पास कम-से-कम 1 आइटम है जो यार्ड से नहीं निकला है</value>
+  </data>
+  <data name="C202512" xml:space="preserve">
+    <value>बोलीदाता के पास कम-से-कम 1 लॉट है जो बंद नहीं हुआ</value>
+  </data>
+  <data name="C202513" xml:space="preserve">
+    <value>बोलीदाता/मास्टर पुनर्विक्रेता संबंध निर्धारित करने में असमर्थ</value>
+  </data>
+  <data name="C202515" xml:space="preserve">
+    <value>बोलीदाता इस पुनर्विक्रेता/MasterBuyer से संबंधित नहीं है</value>
+  </data>
+  <data name="C202516" xml:space="preserve">
+    <value>बोलीदाता खाता तक पहुँच नहीं हो सकती</value>
+  </data>
+  <data name="C202517" xml:space="preserve">
+    <value>अमान्य बोलीदाता नंबर</value>
+  </data>
+  <data name="C202599" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="C203101" xml:space="preserve">
+    <value>अमान्य ख़रीदार/पुनर्विक्रेता नंबर।</value>
+  </data>
+  <data name="C203102" xml:space="preserve">
+    <value>बोलीदाता नंबर इस ख़रीदार/पुनर्विक्रेता से संबंधित नहीं है</value>
+  </data>
+  <data name="C203103" xml:space="preserve">
+    <value>यह पुनर्विक्रेता नंबर नहीं है।</value>
+  </data>
+  <data name="C203104" xml:space="preserve">
+    <value>बोलीदाता सही ढंग से सेटअप नहीं है।</value>
+  </data>
+  <data name="C236001" xml:space="preserve">
+    <value>शहर अमान्य है।</value>
+  </data>
+  <data name="C236002" xml:space="preserve">
+    <value>राज्य अमान्य है।</value>
+  </data>
+  <data name="C236003" xml:space="preserve">
+    <value>ज़िप कोड अमान्य है।</value>
+  </data>
+  <data name="C236004" xml:space="preserve">
+    <value>देश अमान्य है</value>
+  </data>
+  <data name="C236005" xml:space="preserve">
+    <value>बिना पकड़ी गई त्रुटि</value>
+  </data>
+  <data name="C236006" xml:space="preserve">
+    <value>संपर्क क्षेत्र कोड मान्य नहीं है</value>
+  </data>
+  <data name="C236007" xml:space="preserve">
+    <value>संपर्क फ़ोन नंबर मान्य नहीं है</value>
+  </data>
+  <data name="C236009" xml:space="preserve">
+    <value>वैकल्पिक फ़ोन क्षेत्र कोड मान्य नहीं है</value>
+  </data>
+  <data name="C236010" xml:space="preserve">
+    <value>वैकल्पिक फ़ोन नंबर मान्य नहीं है</value>
+  </data>
+  <data name="C236011" xml:space="preserve">
+    <value>वैकल्पिक फ़ोन प्रकार मान्य नहीं है</value>
+  </data>
+  <data name="C236012" xml:space="preserve">
+    <value>बिना पकड़ी गई त्रुटि</value>
+  </data>
+  <data name="C236013" xml:space="preserve">
+    <value>संपर्क जानकारी अद्यतित करने में असमर्थ</value>
+  </data>
+  <data name="C236014" xml:space="preserve">
+    <value>अमान्य ख़रीदार</value>
+  </data>
+  <data name="C236015" xml:space="preserve">
+    <value>ख़रीदार मास्टर या ब्रोकर होना चाहिए</value>
+  </data>
+  <data name="C236016" xml:space="preserve">
+    <value>अमान्य फ़ोन नंबर</value>
+  </data>
+  <data name="C236017" xml:space="preserve">
+    <value>अमान्य वैकल्पिक फ़ोन नंबर</value>
+  </data>
+  <data name="C236099" xml:space="preserve">
+    <value>बिना पकड़ी गई त्रुटि</value>
+  </data>
+  <data name="WB94604" xml:space="preserve">
+    <value>ई-मेल पता पहले ही मौजूद है</value>
+  </data>
+  <data name="C219710" xml:space="preserve">
+    <value>बोली, बोली वृद्धि के भीतर नहीं है</value>
+  </data>
+  <data name="WB97704" xml:space="preserve">
+    <value>दर्ज की गई गणना सीमा कैप से अधिक नहीं होनी चाहिए।</value>
+  </data>
+  <data name="WB97801" xml:space="preserve">
+    <value>बोलीदाता के लिए बोली सीमा स्थापित नहीं की गई</value>
+  </data>
+  <data name="WB97802" xml:space="preserve">
+    <value>इस समय बोली सीमा तक पहुँच करने में असमर्थ।</value>
+  </data>
+  <data name="WB97803" xml:space="preserve">
+    <value>बोली सीमा अद्यतित करने में असमर्थ।</value>
+  </data>
+  <data name="WB97804" xml:space="preserve">
+    <value>बोली सीमाएँ सत्यापित करने में असमर्थ।</value>
+  </data>
+  <data name="WB97805" xml:space="preserve">
+    <value>WB468G कॉल करने में त्रुटि।</value>
+  </data>
+  <data name="WB97806" xml:space="preserve">
+    <value>ख़रीदार बोलीदाता के लिए अधिकृत नहीं है।</value>
+  </data>
+  <data name="WB97899" xml:space="preserve">
+    <value>*PSSR त्रुटि WB978G.</value>
+  </data>
+  <data name="WB97701" xml:space="preserve">
+    <value>बोलीदाता बोली सीमाओं तक पहुँच करने में असमर्थ।</value>
+  </data>
+  <data name="WB97703" xml:space="preserve">
+    <value>दर्ज की गई राशि सीमाएँ कैप से अधिक नहीं होनी चाहिए।</value>
+  </data>
+  <data name="WB97705" xml:space="preserve">
+    <value>इनपुट मात्रा और गणना दोनों शून्य से अधिक होनी चाहिए।</value>
+  </data>
+  <data name="WB97706" xml:space="preserve">
+    <value>दर्ज की गई गणना सीमा मास्टर ख़रीदार की गणना सीमाओं से अधिक नहीं होनी चाहिए।</value>
+  </data>
+  <data name="WB97707" xml:space="preserve">
+    <value>दर्ज की गईं राशि सीमाएँ मास्टर ख़रीदार की राशि सीमाओं से अधिक नहीं होनी चाहिए।</value>
+  </data>
+  <data name="WB97708" xml:space="preserve">
+    <value>दर्ज की गईं गणना सीमाएँ मौजूदा गणना राशि से कम नहीं होनी चाहिए।</value>
+  </data>
+  <data name="WB97709" xml:space="preserve">
+    <value>दर्ज की गईं राशि सीमाएँ दर्ज की गई राशि से कम नहीं होनी चाहिए।</value>
+  </data>
+  <data name="WB97799" xml:space="preserve">
+    <value>*PSSR त्रुटि WB977G.</value>
+  </data>
+  <data name="WB46801" xml:space="preserve">
+    <value>VB2 xref फ़ाइल में ख़रीदार और बोलीदाता संयोजन नहीं मिला।</value>
+  </data>
+  <data name="WB46899" xml:space="preserve">
+    <value>*PSSR त्रुटि WB468G.</value>
+  </data>
+  <data name="C201701" xml:space="preserve">
+    <value>बोलीदाता के लिए बोली सीमा स्थापित नहीं की गई।</value>
+  </data>
+  <data name="C201702" xml:space="preserve">
+    <value>इस समय बोली सीमा तक पहुँच करने में असमर्थ।</value>
+  </data>
+  <data name="C201703" xml:space="preserve">
+    <value>बोली सीमा अद्यतित करने में असमर्थ।</value>
+  </data>
+  <data name="C201704" xml:space="preserve">
+    <value>बोली सीमाएँ सत्यापित करने में असमर्थ।</value>
+  </data>
+  <data name="C201705" xml:space="preserve">
+    <value>बोलीदाता/मास्टर पुनर्विक्रेता संबंध निर्धारित करने में असमर्थ।</value>
+  </data>
+  <data name="C201799" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि।</value>
+  </data>
+  <data name="C202901" xml:space="preserve">
+    <value>बोलीदाता बोली सीमाओं तक पहुँच करने में असमर्थ।</value>
+  </data>
+  <data name="C202902" xml:space="preserve">
+    <value>बोलीदाता नंबर मौजूद नहीं है।</value>
+  </data>
+  <data name="C202903" xml:space="preserve">
+    <value>इनपुट मात्रा और गणना दोनों शून्य से अधिक होनी चाहिए।</value>
+  </data>
+  <data name="C202904" xml:space="preserve">
+    <value>दर्ज की गई गणना सीमा कैप से अधिक नहीं होनी चाहिए। </value>
+  </data>
+  <data name="C202905" xml:space="preserve">
+    <value>दर्ज की गई राशि सीमाएँ कैप से अधिक नहीं होनी चाहिए।</value>
+  </data>
+  <data name="C202906" xml:space="preserve">
+    <value>दर्ज की गई गणना सीमा पुनर्विक्रेताओं की गणना सीमाओं से अधिक नहीं होनी चाहिए। </value>
+  </data>
+  <data name="C202907" xml:space="preserve">
+    <value>दर्ज की गईं राशि सीमाएँ पुनर्विक्रेताओं की राशि सीमाओं से अधिक नहीं होनी चाहिए।</value>
+  </data>
+  <data name="C202908" xml:space="preserve">
+    <value>दर्ज की गईं गणना सीमाएँ मौजूदा गणना से कम नहीं होनी चाहिए।</value>
+  </data>
+  <data name="C202909" xml:space="preserve">
+    <value>दर्ज की गईं राशि सीमाएँ मौजूदा राशि से कम नहीं होनी चाहिए।</value>
+  </data>
+  <data name="C202999" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि।</value>
+  </data>
+  <data name="WB97601" xml:space="preserve">
+    <value>बोलीदाता खाता अद्यतित करने में असमर्थ</value>
+  </data>
+  <data name="WB97602" xml:space="preserve">
+    <value>बोलीदाता खाता स्थिति अद्यतित करने में असमर्थ</value>
+  </data>
+  <data name="WB97603" xml:space="preserve">
+    <value>आइटम चेक साफ़ करने में असमर्थ</value>
+  </data>
+  <data name="WB97605" xml:space="preserve">
+    <value>WB468G कॉल करने में त्रुटि</value>
+  </data>
+  <data name="WB97606" xml:space="preserve">
+    <value>अमान्य ख़रीदार</value>
+  </data>
+  <data name="WB97607" xml:space="preserve">
+    <value>अमान्य बोलीदाता</value>
+  </data>
+  <data name="WB97609" xml:space="preserve">
+    <value>आप स्थिति नहीं बदल सकते; इसे कॉर्पोरेट कर्मचारी ने बदला है</value>
+  </data>
+  <data name="WB97699" xml:space="preserve">
+    <value>*PSSR त्रुटि WB976G</value>
+  </data>
+  <data name="C218503" xml:space="preserve">
+    <value>यह लॉट बोली स्वीकार करने के लिए पात्र नहीं है</value>
+  </data>
+  <data name="C219004" xml:space="preserve">
+    <value>आपकी शुरुआती बोली, बोली वृद्धि के भीतर नहीं है। मान्य बोलियों में {0} और {1} शामिल होते हैं</value>
+  </data>
+  <data name="C219005" xml:space="preserve">
+    <value>आपकी अधिकतम बोली, बोली वृद्धि के भीतर नहीं है। मान्य बोलियों में {0} और {1} शामिल होते हैं</value>
+  </data>
+  <data name="VB32405" xml:space="preserve">
+    <value>इस समय बोली की अनुमति नहीं है</value>
+  </data>
+  <data name="VB32406" xml:space="preserve">
+    <value>यह लॉट पहले ही बिक चुका है।</value>
+  </data>
+  <data name="VB32407" xml:space="preserve">
+    <value>आप इस लॉट पर बोली के लिए पात्र नहीं हैं। अधिक जानकारी के लिए कृपया अपने ब्रोकर से संपर्क करें</value>
+  </data>
+  <data name="VB32409" xml:space="preserve">
+    <value>आप इस लॉट पर बोली के लिए पात्र नहीं हैं। अधिक जानकारी के लिए कृपया अपने ब्रोकर से संपर्क करें</value>
+  </data>
+  <data name="VB64613" xml:space="preserve">
+    <value>आपकी बोली आपकी पूर्व की अधिकतम बोली से अधिक होनी चाहिए</value>
+  </data>
+  <data name="VB64603" xml:space="preserve">
+    <value>क्षमा करें, आपकी बोली मौजूदा अधिकतम बोली से टाई हो गई है</value>
+  </data>
+  <data name="VB64604" xml:space="preserve">
+    <value>क्षमा करें, आप पहले ही आउटबिड हो चुके हैं। मौजूदा उच्च बोलीदाता की अधिकतम बोली आपकी बोली की तुलना में उच्चतर है</value>
+  </data>
+  <data name="WB84003" xml:space="preserve">
+    <value>आपके पास इस लॉट पर काउंटर बोली लगाने की अनुमति नहीं हैं। आप उच्चतम बोलीदाता नहीं हैं।</value>
+  </data>
+  <data name="C201001" xml:space="preserve">
+    <value>अमान्य उपयोगकर्ता Id</value>
+  </data>
+  <data name="C201002" xml:space="preserve">
+    <value>पुनर्विक्रेता खाते तक पहुँच करने में असमर्थ</value>
+  </data>
+  <data name="C201003" xml:space="preserve">
+    <value>परिणाम अधिकतम अनुमति से बड़ा सेट किया गया है</value>
+  </data>
+  <data name="C201004" xml:space="preserve">
+    <value>अमान्य पुनर्विक्रेता ID</value>
+  </data>
+  <data name="C201099" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="C201301" xml:space="preserve">
+    <value>अमान्य उपयोगकर्ता</value>
+  </data>
+  <data name="C201302" xml:space="preserve">
+    <value>सेवाएँ अभी तक सेटअप नहीं हुईं</value>
+  </data>
+  <data name="C201303" xml:space="preserve">
+    <value>पुनर्विक्रेता सेवाओं तक पहुँच करने में असमर्थ</value>
+  </data>
+  <data name="C201304" xml:space="preserve">
+    <value>परिणाम अधिकतम से बड़ा सेट किया गया है</value>
+  </data>
+  <data name="C201305" xml:space="preserve">
+    <value>यह पुनर्विक्रेता कोई सेवा पेश नहीं करता</value>
+  </data>
+  <data name="C201399" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="C201401" xml:space="preserve">
+    <value>अमान्य उपयोगकर्ता ID</value>
+  </data>
+  <data name="C201402" xml:space="preserve">
+    <value>भुगतान विधियाँ अभी तक सेटअप नहीं की गईं</value>
+  </data>
+  <data name="C201403" xml:space="preserve">
+    <value>मौजूदा भुगतान विधियों तक पहुँचने में असमर्थ</value>
+  </data>
+  <data name="C201404" xml:space="preserve">
+    <value>परिणाम अधिकतम से बड़ा सेट किया गया है</value>
+  </data>
+  <data name="C201405" xml:space="preserve">
+    <value>इस पुनर्विक्रेता के लिए कोई भुगतान विधि मौजूद नहीं है</value>
+  </data>
+  <data name="C201499" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="C201501" xml:space="preserve">
+    <value>अमान्य उपयोगकर्ता ID</value>
+  </data>
+  <data name="C201599" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="C201601" xml:space="preserve">
+    <value>बोलीदाता के लिए बोली सीमा स्थापित नहीं की गई</value>
+  </data>
+  <data name="C201602" xml:space="preserve">
+    <value>इस समय बोली सीमा तक पहुँच करने में असमर्थ</value>
+  </data>
+  <data name="C201603" xml:space="preserve">
+    <value>परिणाम अधिकतम अनुमति से बड़ा सेट किया गया है</value>
+  </data>
+  <data name="C201604" xml:space="preserve">
+    <value>बोलीदाता/मास्टर पुनर्विक्रेता संबंध निर्धारित करने में असमर्थ</value>
+  </data>
+  <data name="C201699" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="C201801" xml:space="preserve">
+    <value>परिणाम अधिकतम से बड़ा सेट किया गया है</value>
+  </data>
+  <data name="C201802" xml:space="preserve">
+    <value>बोलीदाता के लिए खुले आइटम की संख्या निर्धारित करने में असमर्थ</value>
+  </data>
+  <data name="C201803" xml:space="preserve">
+    <value>बोलीदाता के लिए बोली की संख्या निर्धारित करने में असमर्थ</value>
+  </data>
+  <data name="C201804" xml:space="preserve">
+    <value>बोलीदाता द्वारा जीते लॉट की संख्या निर्धारित करने में असमर्थ</value>
+  </data>
+  <data name="C201805" xml:space="preserve">
+    <value>बोलीदाता के लिए खुले आइटम की गणना नहीं हो सकती</value>
+  </data>
+  <data name="C201806" xml:space="preserve">
+    <value>बोलीदाता के लिए बोली की संख्या की गणना नहीं हो सकती</value>
+  </data>
+  <data name="C201807" xml:space="preserve">
+    <value>बोलीदाता द्वारा जीते गए लॉट की संख्या की गणना नहीं हो सकती</value>
+  </data>
+  <data name="C201808" xml:space="preserve">
+    <value>बोलीदाता/मास्टर पुनर्विक्रेता संबंध निर्धारित करने में असमर्थ</value>
+  </data>
+  <data name="C201899" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="C201999" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="C203601" xml:space="preserve">
+    <value>अमान्य उपयोगकर्ता ID</value>
+  </data>
+  <data name="C203602" xml:space="preserve">
+    <value>पुनर्विक्रेता खाते तक पहुँच करने में असमर्थ</value>
+  </data>
+  <data name="C203603" xml:space="preserve">
+    <value>परिणाम अधिकतम अनुमति से बड़ा सेट किया गया है</value>
+  </data>
+  <data name="C203604" xml:space="preserve">
+    <value>पुनर्विक्रेता सूची प्राप्त करने में असमर्थ</value>
+  </data>
+  <data name="C203605" xml:space="preserve">
+    <value>कोई पुनर्विक्रेता नहीं मिला।</value>
+  </data>
+  <data name="C203606" xml:space="preserve">
+    <value>लॉट नंबर ज़रूरी पैरामीटर है</value>
+  </data>
+  <data name="C203607" xml:space="preserve">
+    <value>राज्य ज़रूरी पैरामीटर है</value>
+  </data>
+  <data name="C203608" xml:space="preserve">
+    <value>लॉट नंबर मौजूद नहीं है</value>
+  </data>
+  <data name="C203609" xml:space="preserve">
+    <value>राज्य व देश सेटअप नहीं हैं</value>
+  </data>
+  <data name="C203610" xml:space="preserve">
+    <value>देश ज़रूरी पैरामीटर है</value>
+  </data>
+  <data name="C203699" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="C204701" xml:space="preserve">
+    <value>अमान्य उपयोगकर्ता</value>
+  </data>
+  <data name="C204702" xml:space="preserve">
+    <value>फ़ाइल पर त्रुटि: BUYERBY01</value>
+  </data>
+  <data name="C204703" xml:space="preserve">
+    <value>परिणाम अधिकतम से बड़ा सेट किया गया है</value>
+  </data>
+  <data name="C204704" xml:space="preserve">
+    <value>फ़ाइल पढ़ने में त्रुटि : BUYDFTBD01</value>
+  </data>
+  <data name="C204799" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="C208901" xml:space="preserve">
+    <value>ख़रीदार नंबर ज़रूरी पैरामीटर है</value>
+  </data>
+  <data name="C208902" xml:space="preserve">
+    <value>अमान्य वर्ष चयन</value>
+  </data>
+  <data name="C208999" xml:space="preserve">
+    <value>आंतरिक त्रुटि C2089</value>
+  </data>
+  <data name="C212001" xml:space="preserve">
+    <value>उपयोगकर्ता फ़क्शन के लिए अधिकृत नहीं है।</value>
+  </data>
+  <data name="C212002" xml:space="preserve">
+    <value>अमान्य लॉट नंबर</value>
+  </data>
+  <data name="C212003" xml:space="preserve">
+    <value>उपयोगकर्ता इस लॉट के लिए अधिकृत नहीं है</value>
+  </data>
+  <data name="C212099" xml:space="preserve">
+    <value>*PSSR त्रुटि C2120G.</value>
+  </data>
+  <data name="C214901" xml:space="preserve">
+    <value>अमान्य उपयोगकर्ता या उपयोगकर्ता फ़क्शन के लिए अधिकृत नहीं है</value>
+  </data>
+  <data name="C214999" xml:space="preserve">
+    <value>*WB899 में GPSSR त्रुटि</value>
+  </data>
+  <data name="C215001" xml:space="preserve">
+    <value>अमान्य लिंक उपयोगकर्ता या विक्रेता ID</value>
+  </data>
+  <data name="C215099" xml:space="preserve">
+    <value>*PSSR विफलता C2150G</value>
+  </data>
+  <data name="C217401" xml:space="preserve">
+    <value>अमान्य ख़रीदार नंबर</value>
+  </data>
+  <data name="C217402" xml:space="preserve">
+    <value>COMREF ऑटोचेक/सदस्यता नहीं मिली</value>
+  </data>
+  <data name="C217403" xml:space="preserve">
+    <value>COMREF ऑटोचेक/समाप्ति तिथि नहीं मिली</value>
+  </data>
+  <data name="C217499" xml:space="preserve">
+    <value>*PSSR त्रुटि C2174G</value>
+  </data>
+  <data name="C218001" xml:space="preserve">
+    <value>YD390G ने जानकारी प्राप्त करने में त्रुटि लौटाई है</value>
+  </data>
+  <data name="C218002" xml:space="preserve">
+    <value>ख़रीदार अपनी बोली गणना में वृद्धि नहीं कर सकता</value>
+  </data>
+  <data name="C218099" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="C218201" xml:space="preserve">
+    <value>अमान्य ख़रीदार नंबर</value>
+  </data>
+  <data name="C218202" xml:space="preserve">
+    <value>कोई बोली सीमा रिकॉर्ड नहीं मिला</value>
+  </data>
+  <data name="C218299" xml:space="preserve">
+    <value>*PSSR त्रुटि C2182G</value>
+  </data>
+  <data name="C219301" xml:space="preserve">
+    <value>परिणाम सेट अतिप्रवाह</value>
+  </data>
+  <data name="C219399" xml:space="preserve">
+    <value>*PSSR त्रुटि C2193G</value>
+  </data>
+  <data name="C222199" xml:space="preserve">
+    <value>*PSSR त्रुटि</value>
+  </data>
+  <data name="C224001" xml:space="preserve">
+    <value>रिक्त परिणाम सेट</value>
+  </data>
+  <data name="C224099" xml:space="preserve">
+    <value>*PSSR त्रुटि C2240G</value>
+  </data>
+  <data name="C227601" xml:space="preserve">
+    <value>अमान्य सदस्य नंबर</value>
+  </data>
+  <data name="C227699" xml:space="preserve">
+    <value>*PSSR विफलता C2276G</value>
+  </data>
+  <data name="C227701" xml:space="preserve">
+    <value>अमान्य सदस्य नंबर</value>
+  </data>
+  <data name="C227799" xml:space="preserve">
+    <value>*PSSR त्रुटि C2277G</value>
+  </data>
+  <data name="C228101" xml:space="preserve">
+    <value>ज़रूरी पैरामीटर गायब हैं</value>
+  </data>
+  <data name="C228102" xml:space="preserve">
+    <value>TokenID पहले से मौजूद है</value>
+  </data>
+  <data name="C228103" xml:space="preserve">
+    <value>UMREC लिखने में असमर्थ</value>
+  </data>
+  <data name="C228199" xml:space="preserve">
+    <value>*PSSR त्रुटि C2281G</value>
+  </data>
+  <data name="C228201" xml:space="preserve">
+    <value>नहीं मिला या अवधि समाप्त हो गई</value>
+  </data>
+  <data name="C228299" xml:space="preserve">
+    <value>*PSSR त्रुटि C2282G</value>
+  </data>
+  <data name="C235001" xml:space="preserve">
+    <value>ख़रीदार नहीं मिला</value>
+  </data>
+  <data name="C235801" xml:space="preserve">
+    <value>ख़रीदार नंबर ज़रूरी है</value>
+  </data>
+  <data name="C235802" xml:space="preserve">
+    <value>लॉट ख़रीदार से संबंधित नहीं है</value>
+  </data>
+  <data name="C235899" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि C2358</value>
+  </data>
+  <data name="C245001" xml:space="preserve">
+    <value>परिणाम सेट बहुत बड़ा है</value>
+  </data>
+  <data name="C245099" xml:space="preserve">
+    <value>*PSSR त्रुटि C2450G</value>
+  </data>
+  <data name="C246101" xml:space="preserve">
+    <value>उपयोगकर्ता विक्रेता के लिए अधिकृत नहीं है</value>
+  </data>
+  <data name="C246102" xml:space="preserve">
+    <value>अमान्य अनन्य कुंजी नंबर</value>
+  </data>
+  <data name="C248201" xml:space="preserve">
+    <value>परिणाम सेट अधिकतम रिकॉर्ड से बड़ा है - केवल अधिकतम लौटाया है।</value>
+  </data>
+  <data name="C248202" xml:space="preserve">
+    <value>परिणाम सेट में कोई रिकॉर्ड नहीं है - कम-से-कम 1 रिकॉर्ड की उम्मीद होती है।</value>
+  </data>
+  <data name="C248203" xml:space="preserve">
+    <value>फ़ाइल में उपयोगकर्ता नहीं मिला। (SLDINTSI)</value>
+  </data>
+  <data name="C248204" xml:space="preserve">
+    <value>WB957G कॉल करने में त्रुटि</value>
+  </data>
+  <data name="C248299" xml:space="preserve">
+    <value>*PSSR विफलता WB972G</value>
+  </data>
+  <data name="C250302" xml:space="preserve">
+    <value>ख़रीदार नहीं मिला</value>
+  </data>
+  <data name="C250303" xml:space="preserve">
+    <value>परिणाम सेट अतिप्रवाह</value>
+  </data>
+  <data name="C250399" xml:space="preserve">
+    <value>*PSSR विफलता C2503G</value>
+  </data>
+  <data name="C250401" xml:space="preserve">
+    <value>ख़रीदार मान्य नहीं है</value>
+  </data>
+  <data name="C250402" xml:space="preserve">
+    <value>ख़रीदार नहीं मिला</value>
+  </data>
+  <data name="C250701" xml:space="preserve">
+    <value>परिणाम सेट अतिप्रवाह</value>
+  </data>
+  <data name="C250799" xml:space="preserve">
+    <value>*PSSR त्रुटि C2507G</value>
+  </data>
+  <data name="C251801" xml:space="preserve">
+    <value>ख़रीदार नंबर नहीं मिला</value>
+  </data>
+  <data name="C251802" xml:space="preserve">
+    <value>ख़रीदार नंबर ज़रूरी है</value>
+  </data>
+  <data name="C251899" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="C255201" xml:space="preserve">
+    <value>ख़रीदार नंबर ज़रूरी है, और यह नकारात्मक नहीं हो सकता</value>
+  </data>
+  <data name="C255202" xml:space="preserve">
+    <value>अमान्य ख़रीदार नंबर</value>
+  </data>
+  <data name="C255203" xml:space="preserve">
+    <value>अमान्य अनन्य कुंजी</value>
+  </data>
+  <data name="C255299" xml:space="preserve">
+    <value>*PSSR त्रुटि</value>
+  </data>
+  <data name="C255501" xml:space="preserve">
+    <value>अमान्य लॉट</value>
+  </data>
+  <data name="C255502" xml:space="preserve">
+    <value>लॉट वर्ष मौजूदा+1 की तुलना में बड़ा है</value>
+  </data>
+  <data name="C255503" xml:space="preserve">
+    <value>VIN (वर्ष) में 10वाँ स्थान COMREF (वर्ग: NHTSAVINYR) में नहीं है</value>
+  </data>
+  <data name="C255504" xml:space="preserve">
+    <value>अमान्य VIN</value>
+  </data>
+  <data name="C255599" xml:space="preserve">
+    <value>C2555SQL प्रोग्राम विफलता</value>
+  </data>
+  <data name="C255703" xml:space="preserve">
+    <value>कोई MKTGUIDE/ख़रीद comref नहीं है</value>
+  </data>
+  <data name="C255799" xml:space="preserve">
+    <value>C2557SQL विफलता</value>
+  </data>
+  <data name="C256101" xml:space="preserve">
+    <value>लॉट नंबर GT शून्य होना चाहिए</value>
+  </data>
+  <data name="C256102" xml:space="preserve">
+    <value>ख़रीदार नंबर नहीं मिला</value>
+  </data>
+  <data name="C256199" xml:space="preserve">
+    <value>आंतरिक त्रुटि C2561</value>
+  </data>
+  <data name="C256201" xml:space="preserve">
+    <value>पैरामीटर में अमान्य मान</value>
+  </data>
+  <data name="C256202" xml:space="preserve">
+    <value>VIN डिकोड करने में असमर्थ</value>
+  </data>
+  <data name="C256299" xml:space="preserve">
+    <value>आंतरिक त्रुटि C2562</value>
+  </data>
+  <data name="C261699" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="C261799" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="C261899" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="C261999" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="C278001" xml:space="preserve">
+    <value>नज़रअंदाज़ किया गया। भुगतान देय पृष्ठ लोड किया गया।</value>
+  </data>
+  <data name="C278099" xml:space="preserve">
+    <value>नज़रअंदाज़ किया गया। भुगतान देय पृष्ठ लोड किया गया।</value>
+  </data>
+  <data name="C282003" xml:space="preserve">
+    <value>लॉट {0} नहीं मिला</value>
+  </data>
+  <data name="C282099" xml:space="preserve">
+    <value>*PSSR त्रुटि C2820G</value>
+  </data>
+  <data name="C284001" xml:space="preserve">
+    <value>ख़रीदार मान्य नहीं है</value>
+  </data>
+  <data name="C284002" xml:space="preserve">
+    <value>ख़रीदार नहीं मिला</value>
+  </data>
+  <data name="C284801" xml:space="preserve">
+    <value>कंपनी कोड ज़रूरी है</value>
+  </data>
+  <data name="C284802" xml:space="preserve">
+    <value>मेनू ID ज़रूरी है</value>
+  </data>
+  <data name="C284803" xml:space="preserve">
+    <value>उपयोगकर्ता सुरक्षा स्तर ज़रूरी है</value>
+  </data>
+  <data name="C284804" xml:space="preserve">
+    <value>मेनू ID ज़रूरी है</value>
+  </data>
+  <data name="C284805" xml:space="preserve">
+    <value>स्थिति ज़रूरी है</value>
+  </data>
+  <data name="C292102" xml:space="preserve">
+    <value>ख़रीदार नहीं मिला</value>
+  </data>
+  <data name="C292103" xml:space="preserve">
+    <value>परिणाम सेट अतिप्रवाह</value>
+  </data>
+  <data name="C292199" xml:space="preserve">
+    <value>*PSSR विफलता C2921G</value>
+  </data>
+  <data name="CP07101" xml:space="preserve">
+    <value>CCLIST बहाल करने में त्रुटि उत्पन्न हुई है</value>
+  </data>
+  <data name="CP07199" xml:space="preserve">
+    <value>*PSSR त्रुटि CP071G</value>
+  </data>
+  <data name="FM25001" xml:space="preserve">
+    <value>केवल मास्टर ख़रीदार पात्र है</value>
+  </data>
+  <data name="FM25002" xml:space="preserve">
+    <value>परिणाम सेट अतिप्रवाह</value>
+  </data>
+  <data name="FM25099" xml:space="preserve">
+    <value>*PSSR त्रुटि FM250G</value>
+  </data>
+  <data name="UK62801" xml:space="preserve">
+    <value>SQL स्थिति त्रुटि</value>
+  </data>
+  <data name="UP21701" xml:space="preserve">
+    <value>अमान्य पोस्टल कोड</value>
+  </data>
+  <data name="VB40603" xml:space="preserve">
+    <value>परिणाम अधिकतम रिकॉर्ड से बड़ा सेट किया गया है</value>
+  </data>
+  <data name="VB40699" xml:space="preserve">
+    <value>*PSSR त्रुटि VB406G</value>
+  </data>
+  <data name="WB05601" xml:space="preserve">
+    <value>अमान्य श्रेणी या यह अभी तक सेटअप नहीं की गई</value>
+  </data>
+  <data name="WB05602" xml:space="preserve">
+    <value>परिणाम आकार अतिप्रवाह</value>
+  </data>
+  <data name="WB05603" xml:space="preserve">
+    <value>{0} फ़ाइल तक पहुँचने में त्रुटि - कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="WB05699" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="WB07301" xml:space="preserve">
+    <value>अमान्य ख़रीदार नंबर</value>
+  </data>
+  <data name="WB07399" xml:space="preserve">
+    <value>*PSSR त्रुटि</value>
+  </data>
+  <data name="WB07601" xml:space="preserve">
+    <value>लॉगइन करने में असमर्थ</value>
+  </data>
+  <data name="WB07602" xml:space="preserve">
+    <value>अमान्य पासवर्ड</value>
+  </data>
+  <data name="WB07603" xml:space="preserve">
+    <value>अमान्य उपयोगकर्ता</value>
+  </data>
+  <data name="WB07605" xml:space="preserve">
+    <value>पासवर्ड ज़रूरी है</value>
+  </data>
+  <data name="WB08801" xml:space="preserve">
+    <value>ख़रीदार नहीं मिला</value>
+  </data>
+  <data name="WB08899" xml:space="preserve">
+    <value>*PSSR त्रुटि WB088G</value>
+  </data>
+  <data name="WB08901" xml:space="preserve">
+    <value>ख़रीदार नहीं मिला</value>
+  </data>
+  <data name="WB08999" xml:space="preserve">
+    <value>*PSSR त्रुटि WB089G</value>
+  </data>
+  <data name="WB09601" xml:space="preserve">
+    <value>परिणाम प्राप्त करते समय त्रुटि का सामना हुआ है</value>
+  </data>
+  <data name="WB09602" xml:space="preserve">
+    <value>परिणाम अधिकतम रिकॉर्ड से बड़ा सेट किया गया है</value>
+  </data>
+  <data name="WB09699" xml:space="preserve">
+    <value>*PSSR त्रुटि WB096G</value>
+  </data>
+  <data name="WB36901" xml:space="preserve">
+    <value>अमान्य लॉट नंबर</value>
+  </data>
+  <data name="WB38901" xml:space="preserve">
+    <value>अमान्य ख़रीदार नंबर</value>
+  </data>
+  <data name="WB38902" xml:space="preserve">
+    <value>अमान्य से तिथि</value>
+  </data>
+  <data name="WB38903" xml:space="preserve">
+    <value>अमान्य तक तिथि</value>
+  </data>
+  <data name="WB39001" xml:space="preserve">
+    <value>अमान्य कंपनी कोड</value>
+  </data>
+  <data name="WB39002" xml:space="preserve">
+    <value>इस चयन के लिए कोई रिकॉर्ड मिला</value>
+  </data>
+  <data name="WB39201" xml:space="preserve">
+    <value>अमान्य ख़रीदार नंबर</value>
+  </data>
+  <data name="WB39202" xml:space="preserve">
+    <value>अमान्य से तिथि</value>
+  </data>
+  <data name="WB39203" xml:space="preserve">
+    <value>अमान्य तक तिथि</value>
+  </data>
+  <data name="WB39299" xml:space="preserve">
+    <value>*PSSR त्रुटि</value>
+  </data>
+  <data name="WB39601" xml:space="preserve">
+    <value>परिणाम सेट में कोई रिकॉर्ड नहीं है।</value>
+  </data>
+  <data name="WB39901" xml:space="preserve">
+    <value>अमान्य ख़रीदार नंबर</value>
+  </data>
+  <data name="WB39902" xml:space="preserve">
+    <value>अमान्य ख़रीदार/बोलीदाता संयोजन</value>
+  </data>
+  <data name="WB39903" xml:space="preserve">
+    <value>अमान्य मुद्रा कोड</value>
+  </data>
+  <data name="WB39909" xml:space="preserve">
+    <value>*PSSR विफलता WB399</value>
+  </data>
+  <data name="WB46201" xml:space="preserve">
+    <value>ख़रीदार नंबर नहीं मिला</value>
+  </data>
+  <data name="WB46299" xml:space="preserve">
+    <value>*PSSR त्रुटि C2451G</value>
+  </data>
+  <data name="WB80301" xml:space="preserve">
+    <value>ख़रीदार नंबर ज़रूरी पैरामीटर है</value>
+  </data>
+  <data name="WB80303" xml:space="preserve">
+    <value>WB802G कॉल करने में त्रुटि</value>
+  </data>
+  <data name="WB80304" xml:space="preserve">
+    <value>परिणाम अधिकतम रिकॉर्ड से बड़ा सेट किया गया है</value>
+  </data>
+  <data name="WB80399" xml:space="preserve">
+    <value>*PSSR त्रुटि</value>
+  </data>
+  <data name="WB87002" xml:space="preserve">
+    <value>ख़रीदार {0} नहीं मिला</value>
+  </data>
+  <data name="WB87003" xml:space="preserve">
+    <value>लॉट {0} नहीं मिला</value>
+  </data>
+  <data name="WB88400" xml:space="preserve">
+    <value>रिक्त ईमेल पता या VB2 ID त्रुटि</value>
+  </data>
+  <data name="WB88401" xml:space="preserve">
+    <value>रिक्त पासवर्ड त्रुटि</value>
+  </data>
+  <data name="WB88402" xml:space="preserve">
+    <value>अमान्य उपयोगकर्ता प्रकार, रिक्त, BUY या SLR होना चाहिए</value>
+  </data>
+  <data name="WB88403" xml:space="preserve">
+    <value>रिक्त कंपनी कोड त्रुटि</value>
+  </data>
+  <data name="WB88404" xml:space="preserve">
+    <value>रिक्त सत्र ID त्रुटि</value>
+  </data>
+  <data name="WB88405" xml:space="preserve">
+    <value>ईमेल पता नहीं मिला या पासवर्ड मिलान में नही है</value>
+  </data>
+  <data name="WB88406" xml:space="preserve">
+    <value>ख़रीदार/विक्रेता नंबर नहीं मिला</value>
+  </data>
+  <data name="WB88407" xml:space="preserve">
+    <value>आपके पास इस ईमेल पते के अंतर्गत अनेक खाते हैं। साइन इन करने के लिए अपने ख़रीदार/विक्रेता नंबर का इस्तेमाल करें</value>
+  </data>
+  <data name="WB88408" xml:space="preserve">
+    <value>आपका खाता सक्रिय नहीं है। कृपया अपने स्थानीय परिसर से संपर्क करें।</value>
+  </data>
+  <data name="WB88409" xml:space="preserve">
+    <value>आपका लॉगइन और/या पासवर्ड अमान्य है। कृपया अपना लॉगइन फिर से दर्ज करें।</value>
+  </data>
+  <data name="WB88411" xml:space="preserve">
+    <value>लॉगइन करने में असमर्थ। कृपया पुनः प्रयास करें।</value>
+  </data>
+  <data name="WB88412" xml:space="preserve">
+    <value>ख़रीदार/विक्रेता फ़ाइल पर नहीं है</value>
+  </data>
+  <data name="WB88413" xml:space="preserve">
+    <value>आवेदन के लिए अधिकृत नहीं है</value>
+  </data>
+  <data name="WB88499" xml:space="preserve">
+    <value>*PSSR त्रुटि WB884G</value>
+  </data>
+  <data name="WB88699" xml:space="preserve">
+    <value>*PSSR त्रुटि WB886G</value>
+  </data>
+  <data name="WB89199" xml:space="preserve">
+    <value>*PSSR त्रुटि WB891G</value>
+  </data>
+  <data name="WB89301" xml:space="preserve">
+    <value>परिणाम सेट अधिकतम रिकॉर्ड से बड़ा है - केवल अधिकतम लौटाया है</value>
+  </data>
+  <data name="WB89302" xml:space="preserve">
+    <value>परिणाम सेट में कोई रिकॉर्ड नहीं है - कम-से-कम 1 रिकॉर्ड की उम्मीद होती है</value>
+  </data>
+  <data name="WB89399" xml:space="preserve">
+    <value>*PSSR त्रुटि WB89399</value>
+  </data>
+  <data name="WB89599" xml:space="preserve">
+    <value>*PSSR त्रुटि WB895G</value>
+  </data>
+  <data name="WB92503" xml:space="preserve">
+    <value>ख़रीदार {0} नंबर ज़रूरी है</value>
+  </data>
+  <data name="WB92504" xml:space="preserve">
+    <value>ख़रीदार {0} नहीं मिला</value>
+  </data>
+  <data name="WB92599" xml:space="preserve">
+    <value>*PSSR विफलता</value>
+  </data>
+  <data name="WB95499" xml:space="preserve">
+    <value>*PSSR त्रुटि WB954G</value>
+  </data>
+  <data name="WB96801" xml:space="preserve">
+    <value>ख़रीदार बोलीदाता के लिए अधिकृत नहीं है</value>
+  </data>
+  <data name="WB96802" xml:space="preserve">
+    <value>WB874G कॉल करने में त्रुटि</value>
+  </data>
+  <data name="WB96803" xml:space="preserve">
+    <value>WB875G कॉल करने में त्रुटि</value>
+  </data>
+  <data name="WB96804" xml:space="preserve">
+    <value>WB802G कॉल करने में त्रुटि</value>
+  </data>
+  <data name="WB96805" xml:space="preserve">
+    <value>WB468G कॉल करने में त्रुटि।</value>
+  </data>
+  <data name="WB96899" xml:space="preserve">
+    <value>*PSSR त्रुटि WB968G</value>
+  </data>
+  <data name="WB97101" xml:space="preserve">
+    <value>परिणाम अधिकतम से बड़ा सेट किया गया है</value>
+  </data>
+  <data name="WB97102" xml:space="preserve">
+    <value>परिणाम सेट में कोई रिकॉर्ड नहीं है।</value>
+  </data>
+  <data name="WB97103" xml:space="preserve">
+    <value>Lynk उपयोगकर्ता मान्य होना चाहिए</value>
+  </data>
+  <data name="WB97199" xml:space="preserve">
+    <value>एप्लिकेशन त्रुटि</value>
+  </data>
+  <data name="WB98401" xml:space="preserve">
+    <value>मान्य ख़रीदार नंबर ज़रूरी है</value>
+  </data>
+  <data name="WB98499" xml:space="preserve">
+    <value>*PSSR त्रुटि WB984G</value>
+  </data>
+  <data name="WB98601" xml:space="preserve">
+    <value>मान्य ख़रीदार नंबर ज़रूरी है</value>
+  </data>
+  <data name="WB98602" xml:space="preserve">
+    <value>मान्य पासवर्ड ज़रूरी है</value>
+  </data>
+  <data name="WB98603" xml:space="preserve">
+    <value>प्रोग्राम के लिए कॉल पर त्रुटि</value>
+  </data>
+  <data name="WB98604" xml:space="preserve">
+    <value>काउंटरमेन रिकॉर्ड जोड़ने/अद्यतन करते समय त्रुटि</value>
+  </data>
+  <data name="WB98699" xml:space="preserve">
+    <value>*PSSR त्रुटि WB986G</value>
+  </data>
+  <data name="UK63201" xml:space="preserve">
+    <value>VIN# {0} के लिए VIN जानकारी उपलब्ध नहीं है</value>
+  </data>
+  <data name="C218506" xml:space="preserve">
+    <value>Your Account Status is currently Inactive. Please contact Copart for assistance.</value>
+  </data>
+  <data name="C219012" xml:space="preserve">
+    <value>आपकी बोली आपकी पूर्व की अधिकतम बोली से अधिक होनी चाहिए</value>
+  </data>
+  <data name="C242401" xml:space="preserve">
+    <value>आपका प्रस्ताव शुरू की बोली के बराबर या अधिक होना चाहिए</value>
+  </data>
+  <data name="C241905" xml:space="preserve">
+    <value>त्रुटि प्रक्रिया अनुरोध</value>
+  </data>
+  <data name="C241906" xml:space="preserve">
+    <value>प्रस्ताव का मूल्य मौजूदा बोली से अधिक होना चाहिए</value>
+  </data>
+  <data name="C218502" xml:space="preserve">
+    <value>आपकी मौजूदा स्थिति वाहनों पर बोली की अनुमति नहीं देती। इन वाहनों पर बोली ज़रूरतों पर चर्चा करने के लिए कृपया अपने स्थानीय परिसर से संपर्क करें</value>
+  </data>
+  <data name="C219014" xml:space="preserve">
+    <value>त्रुटि प्रक्रिया अनुरोध</value>
+  </data>
+  <data name="WB87022" xml:space="preserve">
+    <value>आपकी मौजूदा स्थिति वर्ग B वाहनों पर बोली की अनुमति नहीं देती।  इन वाहनों पर बोली ज़रूरतों पर चर्चा करने के लिए कृपया अपने स्थानीय परिसर से संपर्क करें।</value>
+  </data>
+  <data name="WB87023" xml:space="preserve">
+    <value>इस प्रतिबंधित बिक्री लॉट है। कृपया देखें &lt;a href=&apos;{TermsLink}&apos;&gt;सदस्य नियम और शर्तें&lt;/a&gt; - वाहन केवल ब्रेकर के रूप में वर्गीकृत हैं।</value>
+  </data>
+  <data name="SR65104" xml:space="preserve">
+    <value>आप सहेजी गई खोज की अनुमति की अधिकतम संख्या तक पहुँच गए हैं। नई खोज सहेजने के लिए, अपनी मौजूदा खोजों में से एक हटा दें।</value>
+  </data>
+  <data name="WB94806" xml:space="preserve">
+    <value>वाचलिस्ट में जोड़ने में असमर्थ। लॉट नंबर उच्च बोली सेट की गई है</value>
+  </data>
+  <data name="C219013" xml:space="preserve">
+    <value>अमान्य बोली। बोली मौजूदा उच्च बोली से उच्चतर होनी चाहिए।</value>
+  </data>
+  <data name="VB64703" xml:space="preserve">
+    <value>क्षमा करें, आप पहले ही आउटबिड हो चुके हैं।  मौजूदा उच्च बोलीदाता की अधिकतम बोली आपकी बोली की तुलना में उच्चतर है।</value>
+  </data>
+  <data name="VB64713" xml:space="preserve">
+    <value>Your Bid must be higher than your prior Maximum Bid.</value>
+  </data>
+  <data name="VB64728" xml:space="preserve">
+    <value>अवार्ड नंबर सीमा पार हो गई</value>
+  </data>
+  <data name="VB64729" xml:space="preserve">
+    <value>This bid cannot be accepted because it exceeds your bid limits</value>
+  </data>
+  <data name="VB64730" xml:space="preserve">
+    <value>अवार्ड राशि सीमा पार हो गई</value>
+  </data>
+  <data name="VB64731" xml:space="preserve">
+    <value>This bid cannot be accepted because it exceeds your bid limits</value>
+  </data>
+  <data name="WB94802" xml:space="preserve">
+    <value>ख़रीदार नहीं मिला</value>
+  </data>
+  <data name="WB94804" xml:space="preserve">
+    <value>ख़रीदार नंबर नहीं मिला</value>
+  </data>
+  <data name="WB94805" xml:space="preserve">
+    <value>लॉट वाचलिस्ट में जोड़ने में असमर्थ। आप अपनी सीमा तक पहुँच चुके हैं</value>
+  </data>
+  <data name="WB94807" xml:space="preserve">
+    <value>वाचलिस्ट में जोड़ने में असमर्थ। लॉट अब पात्र नहीं है</value>
+  </data>
+  <data name="WB94891" xml:space="preserve">
+    <value>कंपनी कोड गायब है</value>
+  </data>
+  <data name="WB94892" xml:space="preserve">
+    <value>कंपनी कोड मान्य नहीं है/PROFIT_CENTER_GROUPS में कोई पंक्ति नहीं मिली</value>
+  </data>
+  <data name="WB88415" xml:space="preserve">
+    <value>आपका खाता निलंबित है। कृपया अपने स्थानीय परिसर से संपर्क करें।</value>
+  </data>
+  <data name="WB88416" xml:space="preserve">
+    <value>आपका खाता शून्य हो गया है। कृपया अपने स्थानीय परिसर से संपर्क करें।</value>
+  </data>
+  <data name="WB88417" xml:space="preserve">
+    <value>आपका खाता स्थानभ्रष्ट है। कृपया अपने स्थानीय परिसर से संपर्क करें।</value>
+  </data>
+  <data name="C2190131" xml:space="preserve">
+    <value>अमान्य बोली। बोली मौजूदा उच्च बोली से उच्चतर होनी चाहिए।</value>
+  </data>
+  <data name="VB647031" xml:space="preserve">
+    <value>आपकी अधिकतम बोली मौजूदा उच्चतम बोली से कम है।</value>
+  </data>
+  <data name="C241804" xml:space="preserve">
+    <value>आपकी बोली सीमा(एँ) पार हो गई हैं</value>
+  </data>
+  <data name="VB64704" xml:space="preserve">
+    <value>Sorry, your bid tied the current maximum bid.</value>
+  </data>
+  <data name="BUYITNOW_BID01" xml:space="preserve">
+    <value>अमान्य ख़रीदार नंबर</value>
+  </data>
+  <data name="BUYITNOW_BID02" xml:space="preserve">
+    <value>अमान्य लॉट नंबर</value>
+  </data>
+  <data name="BUYITNOW_BID03" xml:space="preserve">
+    <value>बोली राशि शून्य या कम नहीं हो सकती</value>
+  </data>
+  <data name="BUYITNOW_BID04" xml:space="preserve">
+    <value>This bid exceeds your bid limits.</value>
+  </data>
+  <data name="BUYITNOW_BID05" xml:space="preserve">
+    <value>Sorry, we were unable to accept your bid. Please contact Copart for additional details.</value>
+  </data>
+  <data name="MEMBER_LOT_ELIG01" xml:space="preserve">
+    <value>ख़रीदार नहीं मिला</value>
+  </data>
+  <data name="MEMBER_LOT_ELIG02" xml:space="preserve">
+    <value>लॉट नहीं मिला</value>
+  </data>
+  <data name="MEMBER_LOT_ELIG03" xml:space="preserve">
+    <value>सदस्य को इस लॉट पर बोली के लिए पात्र नहीं हैं</value>
+  </data>
+  <data name="MEMBER_LOT_ELIG04" xml:space="preserve">
+    <value>आपकी शुरुआती बोली, बोली वृद्धि के भीतर नहीं है। मान्य बोलियों में {0} और {1} शामिल होते हैं </value>
+  </data>
+  <data name="MEMBER_LOT_ELIG05" xml:space="preserve">
+    <value>प्रारंभिक बोली बंद हो गई है</value>
+  </data>
+  <data name="MEMBER_LOT_ELIG06" xml:space="preserve">
+    <value>आपकी अधिकतम बोली, बोली वृद्धि के भीतर नहीं है। मान्य बोलियों में {0} और {1} शामिल होते हैं  </value>
+  </data>
+  <data name="MEMBER_LOT_ELIG07" xml:space="preserve">
+    <value>बोलियाँ उपलब्ध बोली सीमाओं से अधिक नहीं होनी चाहिए </value>
+  </data>
+  <data name="MEMBER_LOT_ELIG08" xml:space="preserve">
+    <value>कृपया ऐसी बोली दर्ज करें जो कम-से-कम {0} {{currency_code}} हो</value>
+  </data>
+  <data name="MEMBER_LOT_ELIG09" xml:space="preserve">
+    <value>कृपया ऐसी बोली दर्ज करें जो कम-से-कम {0} {{currency_code}} हो</value>
+  </data>
+  <data name="MEMBER_LOT_ELIG10" xml:space="preserve">
+    <value>अमान्य बोली। बोली मौजूदा उच्च बोली से उच्चतर होनी चाहिए।</value>
+  </data>
+  <data name="MEMBER_LOT_ELIG11" xml:space="preserve">
+    <value>आपकी बोली आपकी पूर्व की अधिकतम बोली से अधिक होनी चाहिए</value>
+  </data>
+  <data name="MEMBER_LOT_ELIG12" xml:space="preserve">
+    <value>अमान्य बोली प्रकार भेजा गया</value>
+  </data>
+  <data name="PRELIM_BID10" xml:space="preserve">
+    <value>आपकी शुरुआती बोली राशि सही बोली वृद्धि नहीं है</value>
+  </data>
+  <data name="PRELIM_BID02" xml:space="preserve">
+    <value>प्रारंभिक बोली अब सक्रिय नहीं है</value>
+  </data>
+  <data name="PRELIM_BID03" xml:space="preserve">
+    <value>क्षमा करें, आप पहले ही आउटबिड हो चुके हैं।  मौजूदा उच्च बोलीदाता की अधिकतम बोली आपकी बोली की तुलना में उच्चतर है।</value>
+  </data>
+  <data name="PRELIM_BID04" xml:space="preserve">
+    <value>क्षमा करें, आपकी बोली मौजूदा अधिकतम बोली से टाई हो गई है</value>
+  </data>
+  <data name="PRELIM_BID05" xml:space="preserve">
+    <value>This bid cannot be accepted because it exceeds your bid limits</value>
+  </data>
+  <data name="PRELIM_BID01" xml:space="preserve">
+    <value>Bids must be within valid bid increments.</value>
+  </data>
+  <data name="PRELIM_BID13" xml:space="preserve">
+    <value>Your Bid must be higher than your prior Maximum Bid</value>
+  </data>
+  <data name="PRELIM_BID14" xml:space="preserve">
+    <value>आपने डिफ़ॉल्ट बोली को पार नहीं किया</value>
+  </data>
+  <data name="PRELIM_BID21" xml:space="preserve">
+    <value>अमान्य यार्ड</value>
+  </data>
+  <data name="PRELIM_BID22" xml:space="preserve">
+    <value>अमान्य ख़रीदार</value>
+  </data>
+  <data name="PRELIM_BID23" xml:space="preserve">
+    <value>अमान्य लॉट नंबर</value>
+  </data>
+  <data name="PRELIM_BID24" xml:space="preserve">
+    <value>आपके पास पर्याप्त निधियों नहीं है</value>
+  </data>
+  <data name="PRELIM_BID25" xml:space="preserve">
+    <value>आप इस लॉट पर बोली नहीं लगा सकते</value>
+  </data>
+  <data name="PRELIM_BID27" xml:space="preserve">
+    <value>अमान्य कियॉस्क IP पता</value>
+  </data>
+  <data name="PRELIM_BID28" xml:space="preserve">
+    <value>अवार्ड नंबर सीमा पार हो गई</value>
+  </data>
+  <data name="PRELIM_BID29" xml:space="preserve">
+    <value>This bid cannot be accepted because it exceeds your bid limits</value>
+  </data>
+  <data name="PRELIM_BID30" xml:space="preserve">
+    <value>अवार्ड राशि सीमा पार हो गई</value>
+  </data>
+  <data name="PRELIM_BID31" xml:space="preserve">
+    <value>This bid cannot be accepted because it exceeds your bid limits</value>
+  </data>
+  <data name="PRELIM_BID40" xml:space="preserve">
+    <value>अमान्य बोली</value>
+  </data>
+  <data name="PRELIM_BID41" xml:space="preserve">
+    <value>अमान्य बोली</value>
+  </data>
+</root>
