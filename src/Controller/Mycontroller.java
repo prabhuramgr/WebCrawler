@@ -70,6 +70,7 @@ import javafx.scene.control.ToggleGroup;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
+import javafx.stage.DirectoryChooser;
 import javafx.stage.Stage;
 
 public class Mycontroller implements Initializable {
@@ -81,7 +82,7 @@ public class Mycontroller implements Initializable {
 	Label status;
 
 	@FXML
-	Button fetch;
+	Button fetch, btnOpenDirectoryChooser;
 
 	@FXML
 	ProgressBar progressBar;
@@ -95,13 +96,38 @@ public class Mycontroller implements Initializable {
 	@FXML
 	TextArea wordsFromWeb, wordsNotInJSON;
 
+	@FXML
+	RadioButton rd1, rd2;
+
 	String tweet;
 
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		userName.setText("spain45@mailinator.com");
 		password.setText("copart123");
-		url.setText("https://g-mmember-qa1.copart.de/");
+		url.setText("https://g-member-qa2.copart.in/");
+
+		ToggleGroup group = new ToggleGroup();
+
+		rd1.setToggleGroup(group);
+		rd1.setSelected(true);
+
+		rd2.setToggleGroup(group);
+
+		btnOpenDirectoryChooser.setOnAction(new EventHandler<ActionEvent>() {
+			@Override
+			public void handle(ActionEvent event) {
+				DirectoryChooser directoryChooser = new DirectoryChooser();
+				File selectedDirectory = directoryChooser.showDialog(Main.root.getScene().getWindow());
+
+				if (selectedDirectory == null) {
+					dirLocation.setText("No Directory selected");
+				} else {
+					dirLocation.setText(selectedDirectory.getAbsolutePath());
+				}
+			}
+		});
+
 		// progressBar.setProgress(.1);
 		// progressIndicator.setProgress(.1);
 
@@ -142,7 +168,13 @@ public class Mycontroller implements Initializable {
 				return new Task<Void>() {
 					@Override
 					protected Void call() throws Exception {
-
+						String language = "";
+						if (rd1.isSelected()) {
+							language = rd1.getText();
+						}
+						if (rd2.isSelected()) {
+							language = rd2.getText();
+						}
 						// update ProgressIndicator on FX thread
 						Platform.runLater(new Runnable() {
 
@@ -194,7 +226,7 @@ public class Mycontroller implements Initializable {
 							progressBar.setProgress(.7);
 							status.setText("Parsing Smart Link");
 						});
-						we.smartLinkParsing(dirLocation.getText());
+						we.smartLinkParsing(dirLocation.getText(),language);
 
 						Platform.runLater(new Runnable() {
 
@@ -209,7 +241,7 @@ public class Mycontroller implements Initializable {
 							}
 						});
 						wordsNotInJSON.setText(we.getWebContent(url.getText(), dirLocation.getText(),
-								userName.getText(), password.getText()).replaceAll(",", "\n"));
+								userName.getText(), password.getText(),language).replaceAll(",", "\n"));
 						wordsFromWeb.setText(we.webWords.toString().replaceAll(",", "\n"));
 						// progressBar.setProgress(1);
 						// we.smartLinkParsing(dirLocation.getText());
@@ -251,7 +283,7 @@ public class Mycontroller implements Initializable {
 						WebExtract.osValidator();
 						WebExtract.getDropDown(url.getText());
 
-						we.smartLinkParsing(dirLocation.getText());
+						we.smartLinkParsing(dirLocation.getText(),"");
 
 						Platform.runLater(() -> {
 							// update UI here....
@@ -259,8 +291,13 @@ public class Mycontroller implements Initializable {
 							progressBar.setProgress(.7);
 						});
 
-						wordsNotInJSON.setText(we.getWebContent(url.getText(), dirLocation.getText(),
-								userName.getText(), password.getText()).replaceAll(",", "\n"));
+						try {
+							wordsNotInJSON.setText(we.getWebContent(url.getText(), dirLocation.getText(),
+									userName.getText(), password.getText(),"").replaceAll(",", "\n"));
+						} catch (InterruptedException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
 						wordsFromWeb.setText(we.webWords.toString().replaceAll(",", "\n"));
 						// progressBar.setProgress(1);
 						// we.smartLinkParsing(dirLocation.getText());

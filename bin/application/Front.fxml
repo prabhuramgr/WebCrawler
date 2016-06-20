@@ -16,10 +16,13 @@
             <TextArea fx:id="wordsNotInJSON" layoutX="347.0" layoutY="114.0" prefHeight="445.0" prefWidth="638.0" />
             <Label layoutX="14.0" layoutY="91.0" text="Words From the Web" />
             <Label layoutX="353.0" layoutY="91.0" text="Words Not in JSON" />
-            <TextField fx:id="dirLocation" layoutX="220.0" layoutY="56.0" prefHeight="27.0" prefWidth="489.0" />
+            <TextField fx:id="dirLocation" layoutX="220.0" layoutY="56.0" prefHeight="27.0" prefWidth="376.0" />
             <Label layoutX="12.0" layoutY="59.0" text="Enter JSON directory Location" />
             <TextField fx:id="userName" layoutX="734.0" layoutY="19.0" prefHeight="27.0" prefWidth="234.0" promptText="User Name" />
             <TextField fx:id="password" layoutX="734.0" layoutY="56.0" prefHeight="27.0" prefWidth="234.0" promptText="Password" />
+            <Button fx:id="btnOpenDirectoryChooser" layoutX="607.0" layoutY="56.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="102.0" text="Choose Directory" />
+            <RadioButton fx:id="rd1" layoutX="734.0" layoutY="91.0" mnemonicParsing="false" text="தமிழ்" />
+            <RadioButton fx:id="rd2" layoutX="799.0" layoutY="91.0" mnemonicParsing="false" text="हिंदी" />
          </children>
       </Pane>
       <ProgressBar fx:id="progressBar" layoutX="230.0" layoutY="24.0" prefHeight="20.0" prefWidth="791.0" progress="0.0" />
