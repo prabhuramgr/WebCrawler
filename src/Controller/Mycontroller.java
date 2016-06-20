@@ -1,13 +1,6 @@
 /*
  * @author Prabhu Ram
- * @Date   September 19, 2014.
- * Purpose : Assignment 
- * Class : CS6301.022
- 
- * Module Explanation :
- * Mycontroller.java is the main controller class for the Contact Manager Application
- * This program works by gathering the contents from a text file , and converting it into objects of a class contactlist with each object for a record.
- * the contactlist object has all the form details in its corresponding class variables and operations are performed on those variables.
+ * @Date   June 2016
  */
 package Controller;
 
